@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>本地设置</title>
+		  <laHeadTitle>本地设置</laHeadTitle>
+		  <laPCTitle>本地设置</laPCTitle>
+		  <laBitrate>码流选择</laBitrate>
+		  <opBitrate1>主码流</opBitrate1>
+		  <opBitrate2>次码流</opBitrate2>
+		  <laDecPriority>预览模式</laDecPriority>
+		  <opDecPriority1>实时优先</opDecPriority1>
+		  <opDecPriority2>流畅优先</opDecPriority2>
+		  <laBlank>消除闪烁</laBlank>
+		  <laPCStorage>PC录像存储设置</laPCStorage>
+		  <laRecordPackTime>录像文件打包时间</laRecordPackTime>
+		  <laRecordPackTimeUnit>分</laRecordPackTimeUnit>
+		  <laRecordPackPath>录像/抓拍文件存储目录</laRecordPackPath>
+		  <laRecordPackPathAlert> </laRecordPackPathAlert>
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Local Config</title>
+		  <laHeadTitle>Local Config</laHeadTitle>
+		  <laPCTitle>Local Config</laPCTitle>
+		  <laBitrate>Code Stream</laBitrate>
+		  <opBitrate1>Preferred Stream</opBitrate1>
+		  <opBitrate2>Alternate Stream</opBitrate2>
+		  <laDecPriority>Preview Mode</laDecPriority>
+		  <opDecPriority1>Real Time</opDecPriority1>
+		  <opDecPriority2>Fluency</opDecPriority2>
+		  <laBlank>Reset Mosaic</laBlank>
+		  <laPCStorage>PC Storage parameter</laPCStorage>
+		  <laRecordPackTime>Record file packing time</laRecordPackTime>
+		  <laRecordPackTimeUnit>M</laRecordPackTimeUnit>
+		  <laRecordPackPath>Record File Path</laRecordPackPath>
+		  <laRecordPackPathAlert> </laRecordPackPathAlert>
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

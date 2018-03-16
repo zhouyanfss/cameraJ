@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<items>
+	<b_txtj>图像调节</b_txtj>
+	<b_reset>重置</b_reset>
+	<t_bb>变倍</t_bb>
+	<t_bj>变焦</t_bj>
+	<t_gq>光圈</t_gq>
+	<t_value>值(1-255)</t_value>
+	<b_yzws>预置设置</b_yzws>
+	<b_yzwc>预置调用</b_yzwc>
+	<b_light>灯光</b_light>
+	<b_brush>雨刷</b_brush>
+	<laMSNO>预置号：</laMSNO>
+	<opPresetNon>未设置</opPresetNon>
+	<opPresetYes>已设置</opPresetYes>
+	<laTitleD>标  题:</laTitleD>
+	<b_yzc>调用</b_yzc>
+	<b_yzs>设置</b_yzs>
+	<b_yzd>删除</b_yzd>
+	<laScan>花样扫描</laScan>
+	<ctrl41>开始</ctrl41>
+	<ctrl42>结束</ctrl42>
+	<ctrl43>运行</ctrl43>
+	<b_pt1>水平翻转</b_pt1>
+	<b_pt2>零位检测</b_pt2>
+	<b_pt3>左限位</b_pt3>
+	<b_pt4>右限位</b_pt4>
+	<b_pt5>上限位</b_pt5>
+	<b_pt6>下限位</b_pt6>
+	<b_pt7>预置位巡视1</b_pt7>
+	<b_pt8>预置位巡视2</b_pt8>
+	<b_pt9>削苹果扫描</b_pt9>
+	<b_pt10>停止控制</b_pt10>
+	<img_ld>亮度</img_ld>
+	<img_db>对比度</img_db>
+	<img_tm>色调</img_tm>
+	<img_sc>饱和度</img_sc>
+</items>

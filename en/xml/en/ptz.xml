@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<items>
+	<b_txtj>Images Color</b_txtj>
+	<b_reset>Default</b_reset>
+	<t_bb>Zoom</t_bb>
+	<t_bj>Focus</t_bj>
+	<t_gq>Iris</t_gq>
+	<t_value>Value(1-255)</t_value>
+	<b_yzws>Preset</b_yzws>
+	<b_yzwc>Call</b_yzwc>
+	<b_light>Lighting</b_light>
+	<b_brush>Wiper</b_brush>
+	<laMSNO>No.</laMSNO>
+	<opPresetNon>Not Defined</opPresetNon>
+	<opPresetYes>Defined</opPresetYes>
+	<laTitleD>Title</laTitleD>
+	<b_yzc>Call</b_yzc>
+	<b_yzs>Set</b_yzs>
+	<b_yzd>Clear</b_yzd>
+	<laScan>Figure Scan</laScan>
+	<ctrl41>Start</ctrl41>
+	<ctrl42>Finish</ctrl42>
+	<ctrl43>Run</ctrl43>
+	<b_pt1>PAN Flip</b_pt1>
+	<b_pt2>Zero Detection</b_pt2>
+	<b_pt3>Left Limit</b_pt3>
+	<b_pt4>Right Limit</b_pt4>
+	<b_pt5>Up Limit</b_pt5>
+	<b_pt6>Down Limit</b_pt6>
+	<b_pt7>Preset Tour 1</b_pt7>
+	<b_pt8>Preset Tour 2</b_pt8>
+	<b_pt9>P&amp;T SCAN</b_pt9>
+	<b_pt10>Stop</b_pt10>
+</items>

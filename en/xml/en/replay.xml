@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<items>
+	<laReplayTitle>Replay</laReplayTitle>
+	<laAVShowTitle>Image:</laAVShowTitle>
+	<opAVWH>Full</opAVWH>
+	<laStorageTitle>Storage:</laStorageTitle>
+	<opStorage1>SD Card</opStorage1>
+	<opStorage2>PC</opStorage2>
+	<laChannelTitle>Chan：</laChannelTitle>
+	<opChannel1>Channel 1</opChannel1>
+	<opChannel2>Channel 2</opChannel2>
+	<opChannel3>Channel 3</opChannel3>
+	<opChannel4>Channel 4</opChannel4>
+	<opChannel5>Channel 5</opChannel5>
+	<opChannel6>Channel 6</opChannel6>
+	<opChannel7>Channel 7</opChannel7>
+	<opChannel8>Channel 8</opChannel8>
+	<laTypeTitle>Type:</laTypeTitle>
+	<opType1>All Record</opType1>
+	<opType2>Alarm Record</opType2>
+	<opType3>Manual Record</opType3>
+	<opType4>Schedule Record</opType4>
+	<opType5>Picture</opType5>
+	<laDateTitle>Date:</laDateTitle>
+	<btnSearchRecord>Search</btnSearchRecord>
+	<laPlayListTitle>File List</laPlayListTitle>
+	<btnPlay>Play</btnPlay>
+	<btnDown>Down</btnDown>
+	<btnInfo>Info</btnInfo>
+</items>

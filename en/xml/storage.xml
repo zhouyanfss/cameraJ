@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>设备管理</title>
+		  <laHeadTitle>设备管理</laHeadTitle>
+		  <laStorageDeviceInfo>设备端存储器信息</laStorageDeviceInfo>
+		  <laSelect>选择</laSelect>
+		  <laNo>No.</laNo>
+		  <laTotalSize>总容量(M)</laTotalSize>
+		  <laFreeSize>剩余容量(M)</laFreeSize>
+		  <laStatus>状态</laStatus>
+		  <btnCheck>检查</btnCheck>
+		  <btnFormatSD>格式化</btnFormatSD>
+		  <btnRefresh>刷新</btnRefresh>
+		  <btnReboot>重启设备并只启动硬盘管理模块</btnReboot>
+		  <laFormatAlert>当硬盘不能正常格式化时使用(内存不足)</laFormatAlert>
+		  <laRecordParameters>设备端录像参数</laRecordParameters>
+		  <laBitrate>码流选择</laBitrate>
+		  <opBitrate1>主码流</opBitrate1>
+		  <opBitrate2>次码流</opBitrate2>
+		  <laPacketTime>录像文件打包时间</laPacketTime>
+		  <laPacketTimeUnit>分</laPacketTimeUnit>
+		  <laOther>其他参数</laOther>
+		  <laAutoDelete>存储设备满时,自动覆盖旧文件</laAutoDelete>
+		  
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Storage Device Setting</title>
+		  <laHeadTitle>Storage Device Setting</laHeadTitle>
+		  <laStorageDeviceInfo>Storage Device Infomation</laStorageDeviceInfo>
+		  <laSelect>Choose</laSelect>
+		  <laNo>No.</laNo>
+		  <laTotalSize>TotalSize(M)</laTotalSize>
+		  <laFreeSize>FreeSize(M)</laFreeSize>
+		  <laStatus>Status</laStatus>
+		  <btnCheck>Detect</btnCheck>
+		  <btnFormatSD>Format</btnFormatSD>
+		  <btnRefresh>Refresh</btnRefresh>
+		  <btnReboot>Reboot the device and start the drive management moduel only</btnReboot>
+		  <laFormatAlert>Use it when the hard disk can not be properly formatted(Out of Memory)</laFormatAlert>
+		  <laRecordParameters>Storage Device Record Parameters</laRecordParameters>
+		  <laBitrate>Code stream</laBitrate>
+		  <opBitrate1>Main Stream</opBitrate1>
+		  <opBitrate2>Sub Stream</opBitrate2>
+		  <laPacketTime>Record file packing time</laPacketTime>
+		  <laPacketTimeUnit>M</laPacketTimeUnit>
+		  <laOther>Other</laOther>
+		  <laAutoDelete>Overwrite old files when disk is full</laAutoDelete>
+
+		  
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

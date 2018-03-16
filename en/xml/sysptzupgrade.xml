@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>云台协议升级</title>
+		  <laHeadTitle>云台协议升级</laHeadTitle>
+		  <laChannel>通道:</laChannel>
+		  <laChannelSync>复制到所有通道</laChannelSync>
+		  <laPTZAddr>云台解码器地址</laPTZAddr>
+		  <laPTZProtocol>云台解码器协议</laPTZProtocol>
+		  <laProtocolName>协议文件名</laProtocolName>
+		  <laFilePath>选择升级文件</laFilePath>
+		  <btnSaveSumbit>升级</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Protocol Upgrade</title>
+		  <laHeadTitle>Protocol Upgrade</laHeadTitle>
+		  <laChannel>Chan:</laChannel>
+		  <laChannelSync>Copy to all channels</laChannelSync>
+		  <laPTZAddr>PTZ Address</laPTZAddr>
+		  <laPTZProtocol>PTZ Protocol</laPTZProtocol>
+		  <laProtocolName>Protocol File</laProtocolName>
+		  <laFilePath>Choose Upgrade File</laFilePath>
+		  <btnSaveSumbit>Upgrade</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

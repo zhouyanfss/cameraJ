@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>EMail 设置</title>
+		  <laHeadTitle>EMail 设置</laHeadTitle>
+		  <laSMTPServer>SMTP 服务器</laSMTPServer>
+		  <laPOP3Server>POP3 服务器</laPOP3Server>
+		  <laMailFrom>邮件发送地址</laMailFrom>
+		  <laMailTo>邮件接收地址</laMailTo>
+		  <laMailCC>邮件抄送地址</laMailCC>
+		  <laSMTPUserName>SMTP 用户名</laSMTPUserName>
+		  <laSMTPPassword>SMTP 密码</laSMTPPassword>
+		  <laPOP3UserName>POP3 用户名</laPOP3UserName>
+		  <laPOP3Password>POP3 密码</laPOP3Password>
+		  <laMailTitle>邮件标题</laMailTitle>
+		  <laMailContent>邮件内容</laMailContent>
+		  <laSMTPPort>SMTP 端口</laSMTPPort>
+		  <laSSL>SSL</laSSL>
+		  <laPOP3Port>POP3  端口</laPOP3Port>
+		  <laPOP3SSL>POP3 SSL</laPOP3SSL>
+		  
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>EMail Setting</title>
+		  <laHeadTitle>EMail Setting</laHeadTitle>
+		  <laSMTPServer>SMTP server</laSMTPServer>
+		  <laPOP3Server>POP3 server</laPOP3Server>
+		  <laMailFrom>From</laMailFrom>
+		  <laMailTo>To</laMailTo>
+		  <laMailCC>CC</laMailCC>
+		  <laSMTPUserName>SMTP UserName</laSMTPUserName>
+		  <laSMTPPassword>SMTP Password</laSMTPPassword>
+		  <laPOP3UserName>POP3 UserName</laPOP3UserName>
+		  <laPOP3Password>POP3 Password</laPOP3Password>
+		  <laMailTitle>MAIL Title</laMailTitle>
+		  <laMailContent>MAIL Content</laMailContent>
+		  <laSMTPPort>SMTP Port</laSMTPPort>
+		  <laSSL>SSL</laSSL>
+		  <laPOP3Port>POP3  Port</laPOP3Port>
+		  <laPOP3SSL>POP3 SSL</laPOP3SSL>
+		  
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

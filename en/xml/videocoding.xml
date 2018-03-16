@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>视频编码</title>
+		  <laHeadTitle>视频编码</laHeadTitle>
+		  <laChannel>通道:</laChannel>
+		  <laChannelSync>复制到所有通道</laChannelSync>
+		  <laMainStream>主码流</laMainStream>
+		  <laLevel>编码等级</laLevel>
+		  <laEncoder>编码算法</laEncoder>
+		  <laResolution>分辨率</laResolution>
+		  <laQuality>视频效果</laQuality>
+		  <opQuality1>最好</opQuality1>
+		  <opQuality2>好</opQuality2>
+		  <opQuality3>一般</opQuality3>
+		  <laAdvanced>高级设置</laAdvanced>
+		  <laRateControl>码率控制</laRateControl>
+		  <opRateControl1>变码率</opRateControl1>
+		  <opRateControl2>定码率</opRateControl2>
+		  <laImageQuality>图像质量</laImageQuality>
+		  <opIQ1>最好</opIQ1>
+		  <opIQ2>更好</opIQ2>
+		  <opIQ3>好</opIQ3>
+		  <opIQ4>差</opIQ4>
+		  <opIQ5>更差</opIQ5>
+		  <opIQ6>最差</opIQ6>
+		  <laRateC>码率波动范围</laRateC>
+		  <opRC1>自适应</opRC1>
+		  <laFirst>编码模式</laFirst>
+		  <opFirst1>质量优先</opFirst1>
+		  <opFirst2>帧率优先</opFirst2>
+		  <laBirateFCT>码率范围</laBirateFCT>
+		  <laBirate>码率(Kb/S)</laBirate>
+		  <laGOP>I 帧间隔(F)</laGOP>
+		  <laFrameRate>帧率(F/S)</laFrameRate>
+		  <btnLANSubmit>LAN默认</btnLANSubmit>
+		  <btnWANSubmit>WAN默认</btnWANSubmit>
+		  
+		  <laSubStream>次码流</laSubStream>
+		  <laLevel2>编码等级</laLevel2>
+		  <laEncoder2>编码算法</laEncoder2>
+		  <laResolution2>分辨率</laResolution2>
+		  <laQuality2>视频效果</laQuality2>
+		  <opQuality4>最好</opQuality4>
+		  <opQuality5>好</opQuality5>
+		  <opQuality6>一般</opQuality6>
+		  <laAdvanced2>高级设置</laAdvanced2>
+		  <laRateControl2>码率控制</laRateControl2>
+		  <opRateControl3>变码率</opRateControl3>
+		  <opRateControl4>定码率</opRateControl4>
+		  <laImageQuality2>图像质量</laImageQuality2>
+		  <opIQ21>最好</opIQ21>
+		  <opIQ22>更好</opIQ22>
+		  <opIQ23>好</opIQ23>
+		  <opIQ24>差</opIQ24>
+		  <opIQ25>更差</opIQ25>
+		  <opIQ26>最差</opIQ26>
+		  <laRateC2>码率波动范围</laRateC2>
+		  <opRC21>自适应</opRC21>
+		  <laFirst2>编码模式</laFirst2>
+		  <opFirst3>质量优先</opFirst3>
+		  <opFirst4>帧率优先</opFirst4>
+		  <laBirateFCT2>码率范围</laBirateFCT2>
+		  <laBirate2>码率(Kb/S)</laBirate2>
+		  <laGOP2>I 帧间隔(F)</laGOP2>
+		  <laFrameRate2>帧率(F/S)</laFrameRate2>
+		  <btnLANSubmit2>LAN默认</btnLANSubmit2>
+		  <btnWANSubmit2>WAN默认</btnWANSubmit2>
+		  <btnLANSubmitDefault>局域网默认值</btnLANSubmitDefault>
+		  <btnWANSubmitDefault>广域网默认值</btnWANSubmitDefault>
+		  <laLANAlert>LAN:局域网.</laLANAlert>
+		  <laWANAlert>WAN:广域网.</laWANAlert>
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Video Coding</title>
+		  <laHeadTitle>Video Coding</laHeadTitle>
+		  <laChannel>Chan:</laChannel>
+		  <laChannelSync>Copy to all channels</laChannelSync>
+		  <laMainStream>Main Stream</laMainStream>
+		  <laLevel>Coding Level</laLevel>
+		  <laEncoder>Coding</laEncoder>
+		  <laResolution>Resolution</laResolution>
+		  <laQuality>Quality</laQuality>
+		  <opQuality1>Fine</opQuality1>
+		  <opQuality2>Normal</opQuality2>
+		  <opQuality3>Basic</opQuality3>
+		  <laAdvanced>Advanced</laAdvanced>
+		  <laRateControl>Rate control</laRateControl>
+		  <opRateControl1>VBR</opRateControl1>
+		  <opRateControl2>CBR</opRateControl2>
+		  <laImageQuality>Quality</laImageQuality>
+		  <opIQ1>Best</opIQ1>
+		  <opIQ2>Better</opIQ2>
+		  <opIQ3>Good</opIQ3>
+		  <opIQ4>Bad</opIQ4>
+		  <opIQ5>Worse</opIQ5>
+		  <opIQ6>Worst</opIQ6>
+		  <laRateC>Bitrate fluctuate</laRateC>
+		  <opRC1>Self-adaption</opRC1>
+		  <laFirst>Mode</laFirst>
+		  <opFirst1>Quality first</opFirst1>
+		  <opFirst2>Frame rate first</opFirst2>
+		  <laBirateFCT>Bitrate limits</laBirateFCT>
+		  <laBirate>Bitrate(Kb/S)</laBirate>
+		  <laGOP>GOP(F)</laGOP>
+		  <laFrameRate>Frame rate(F/S)</laFrameRate>
+		  <btnLANSubmit>LAN...</btnLANSubmit>
+		  <btnWANSubmit>WAN...</btnWANSubmit>
+		  		  
+		  <laSubStream>Sub Stream</laSubStream>
+		  <laLevel2>Coding Level</laLevel2>
+		  <laEncoder2>Coding</laEncoder2>
+		  <laResolution2>Resolution</laResolution2>
+		  <laQuality2>Quality</laQuality2>
+		  <opQuality4>Fine</opQuality4>
+		  <opQuality5>Normal</opQuality5>
+		  <opQuality6>Basic</opQuality6>
+		  <laAdvanced2>Advanced</laAdvanced2>
+		  <laRateControl2>Rate control</laRateControl2>
+		  <opRateControl3>VBR</opRateControl3>
+		  <opRateControl4>CBR</opRateControl4>
+		  <laImageQuality2>Quality</laImageQuality2>
+		  <opIQ21>Best</opIQ21>
+		  <opIQ22>Better</opIQ22>
+		  <opIQ23>Good</opIQ23>
+		  <opIQ24>Bad</opIQ24>
+		  <opIQ25>Worse</opIQ25>
+		  <opIQ26>Worst</opIQ26>
+		  <laRateC2>Bitrate fluctuate</laRateC2>
+		  <opRC21>Self-adaption</opRC21>
+		  <laFirst2>Mode</laFirst2>
+		  <opFirst3>Quality first</opFirst3>
+		  <opFirst4>Frame rate first</opFirst4>
+		  <laBirateFCT2>Bitrate limits</laBirateFCT2>
+		  <laBirate2>Bitrate(Kb/S)</laBirate2>
+		  <laGOP2>GOP(F)</laGOP2>
+		  <laFrameRate2>Frame rate(F/S)</laFrameRate2>
+		  <btnLANSubmit2>LAN...</btnLANSubmit2>
+		  <btnWANSubmit2>WAN...</btnWANSubmit2>
+		  
+		  <btnLANSubmitDefault>LAN Default</btnLANSubmitDefault>
+		  <btnWANSubmitDefault>WAN Default</btnWANSubmitDefault>
+		  <laLANAlert>LAN...:LAN Default.</laLANAlert>
+		  <laWANAlert>WAN...:WAN Default.</laWANAlert>
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

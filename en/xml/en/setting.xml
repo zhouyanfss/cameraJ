@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<items>
+	<local>Local Config</local>
+	<la_local>Local Config</la_local>
+	<audio>Audio Settings</audio>
+	<la_audio>Audio Parameter</la_audio>
+	<video>Video Settings</video>
+	<la_videoosd>OSD Settings</la_videoosd>
+	<la_videocoding>Video Coding</la_videocoding>
+	<la_videomask>Video Mask</la_videomask>
+	<la_videolens>Video Parameter</la_videolens>
+	<la_picture>Picture Parameter</la_picture>
+	<network>Network Settings</network>
+	<la_netbasic>Basic</la_netbasic>
+	<la_netlan>LAN</la_netlan>
+	<la_netwifi>Wireless</la_netwifi>
+	<la_netpppoe>PPPOE</la_netpppoe>
+	<la_3gcfg>3G Setting</la_3gcfg>
+	<la_netupnp>UPNP</la_netupnp>
+	<la_netemail>EMail</la_netemail>
+	<la_netftp>FTP</la_netftp>
+	<la_netddns>DDNS</la_netddns>
+	<la_netvpn>VPN</la_netvpn>
+	<la_netrtsp>RTSP</la_netrtsp>
+	<la_netipemail>IP EMail</la_netipemail>
+	<la_netntp>NTP</la_netntp>
+	<la_netping>Ping</la_netping>
+	<la_netcenter>Connecting</la_netcenter>
+	<la_netdirective>Directive Sending</la_netdirective>
+	<la_mobilecfg>Mobile</la_mobilecfg>
+	<la_gpscfg>GPS</la_gpscfg>
+	<la_netsnmp>SNMP</la_netsnmp>
+	<la_httpscfg>HTTPS</la_httpscfg>
+	<storage>Storage Settings</storage>
+	<la_storage>Device Setting</la_storage>
+	<la_record>Record Setting</la_record>
+	<la_snap>Snap Setting</la_snap>
+	<alarm>Alarm Settings</alarm>
+	<la_motion>Motion Detection</la_motion>
+	<la_sensor>Sensor Detection</la_sensor>
+	<la_failure>Network Detection</la_failure>
+	<la_wireless>Wireless Setting</la_wireless>
+	<la_videolose>Video Lose</la_videolose>
+	<terminal>COM Setting</terminal>
+	<la_terminal>COM Setting</la_terminal>
+	<camera>Dome Camera</camera>
+	<la_hscamera>Camera Setting</la_hscamera>
+	<la_hsptz>PTZ Setting</la_hsptz>
+	<system>System</system>
+	<la_sysinfo>System Info</la_sysinfo>
+	<la_systime>System Time</la_systime>
+	<la_umanage>User Manage</la_umanage>
+	<la_sysupgrade>Upgrade</la_sysupgrade>
+	<la_ptzupgrade>PTZ Upgrade</la_ptzupgrade>
+	<la_sysrestore>Restore</la_sysrestore>
+	<la_sysreboot>Reboot</la_sysreboot>
+	<la_syslog>System Log</la_syslog>
+	<extensions>Expansion Settings</extensions>
+	<la_zxlwcfg>Access Setting</la_zxlwcfg>
+	<la_hxhtcfg>Access Setting</la_hxhtcfg>
+	<la_xdtxcfg>Access Setting</la_xdtxcfg>
+	<la_accesscfg>Access Setting</la_accesscfg>
+	<la_smcfg>Access Setting</la_smcfg>
+	<la_gb28181>GB28181</la_gb28181>
+</items>

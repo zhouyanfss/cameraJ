@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>DDNS 设置</title>
+		  <laHeadTitle>DDNS 设置</laHeadTitle>
+		  <laEnable>开关</laEnable>
+		  <laLinking>链接</laLinking>
+		  <laServiceProvider>服务提供者</laServiceProvider>
+		  <laUserName>注册名</laUserName>
+		  <laPassword>密  码</laPassword>
+		  <laDomain>域名</laDomain>
+		  <laServerURL>服务器地址</laServerURL>
+		  <laServerPort>服务器端口</laServerPort>
+		  <laDataPort>数据映射端口</laDataPort>
+		  <laWebPort>Web 映射端口</laWebPort>
+		  <laUpdateInterval>更新间隔</laUpdateInterval>
+		  <opInterval1>2分钟</opInterval1>
+		  <opInterval2>5分钟</opInterval2>
+		  <opInterval3>30分钟</opInterval3>
+		  <opInterval4>1小时</opInterval4>
+		  <opInterval5>2小时</opInterval5>
+		  <opInterval6>1天</opInterval6>
+		  <opInterval7>IP更新时</opInterval7>
+		  <laDomaineg>域名例如</laDomaineg>
+		  
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>DDNS Setting</title>
+		  <laHeadTitle>DDNS Setting</laHeadTitle>
+		  <laEnable>Enable</laEnable>
+		  <laLinking>URL</laLinking>
+		  <laServiceProvider>Service Provider</laServiceProvider>
+		  <laUserName>UserName</laUserName>
+		  <laPassword>Password</laPassword>
+		  <laDomain>Domain</laDomain>
+		  <laServerURL>Server URL</laServerURL>
+		  <laServerPort>Server Port</laServerPort>
+		  <laDataPort>Data port map No.</laDataPort>
+		  <laWebPort>Web port map No.</laWebPort>
+		  <laUpdateInterval>Update Interval</laUpdateInterval>
+		  <opInterval1>2 minutes</opInterval1>
+		  <opInterval2>5 minutes</opInterval2>
+		  <opInterval3>30 minutes</opInterval3>
+		  <opInterval4>1 hour</opInterval4>
+		  <opInterval5>2 hours</opInterval5>
+		  <opInterval6>1 day</opInterval6>
+		  <opInterval7>IP Update</opInterval7>
+		  <laDomaineg>Domain e.g.:</laDomaineg>
+		  
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

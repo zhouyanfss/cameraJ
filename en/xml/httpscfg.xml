@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>HTTPS 设置</title>
+		  <laHeadTitle>HTTPS 设置</laHeadTitle>
+		  <laCreate>创建和安装</laCreate>
+		  <btnCreateSelf>创建自签名证书</btnCreateSelf>
+		  <btnCreate>创建证书请求</btnCreate>
+		  <btnInstall>安装签名证书</btnInstall>
+		  <laRequest>创建请求</laRequest>
+		  <laSubject>主题名称</laSubject>
+		  <divCertRequest>没有创建证书请求。</divCertRequest>
+		  <laCreated>创建</laCreated>
+		  <btnReProperties>属性</btnReProperties>
+		  <btnReRemove>移除</btnReRemove>
+		  <laCertificate>安装证书</laCertificate>
+		  <laCerSubject>主题名称</laCerSubject>
+		  <divCertInfo>没有证书信息。</divCertInfo>
+		  <laState>状态</laState>
+		  <btnCerpProperties>属性</btnCerpProperties>
+		  <btnCerRemove>移除</btnCerRemove>
+		  <laPolicy>HTTPS连接模式</laPolicy>
+		  <laEnable>开启模式</laEnable>
+		  <laPRETitle>创建自签名证书</laPRETitle>
+		  <laCountry>国家: </laCountry>
+		  <laProvince>州或省: </laProvince>
+		  <laLocality>位置: </laLocality>
+		  <laOrganization>组织: </laOrganization>
+		  <laUnit>组织单位: </laUnit>
+		  <laCommon>名称: </laCommon>
+		  <laKey>密钥: </laKey>
+		  <laValidity>有效性: </laValidity>
+		  <laDays>天[1..9999]</laDays>
+		  <btnSubmit>提交</btnSubmit>
+		  <btnCancel>取消</btnCancel>
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>HTTPS Setting</title>
+		  <laHeadTitle>HTTPS Setting</laHeadTitle>
+		  <laCreate>Create &amp; Install</laCreate>
+		  <btnCreateSelf>Create Self-Signed Certificate</btnCreateSelf>
+		  <btnCreate>Create Certificate Request</btnCreate>
+		  <btnInstall>Install Signed Certificate</btnInstall>
+		  <laRequest>Created Request</laRequest>
+		  <laSubject>Subject Name</laSubject>
+		  <divCertRequest>No certificate request created.</divCertRequest>
+		  <laCreated>Created</laCreated>
+		  <btnReProperties>Properties</btnReProperties>
+		  <btnReRemove>Remove</btnReRemove>
+		  <laCertificate>Installed Certificate</laCertificate>
+		  <laCerSubject>Subject Name</laCerSubject>
+		  <divCertInfo>No certificate configured.</divCertInfo>
+		  <laState>State</laState>
+		  <btnCerpProperties>Properties</btnCerpProperties>
+		  <btnCerRemove>Remove</btnCerRemove>
+		  <laPolicy>HTTPS Connection Policy</laPolicy>
+		  <laEnable>Enable</laEnable>
+		  <laPRETitle>Create Self-Signed Certificate</laPRETitle>
+		  <laCountry>Country: </laCountry>
+		  <laProvince>State or province: </laProvince>
+		  <laLocality>Locality: </laLocality>
+		  <laOrganization>Organization: </laOrganization>
+		  <laUnit>Organization Unit: </laUnit>
+		  <laCommon>Common: </laCommon>
+		  <laKey>Key: </laKey>
+		  <laValidity>Validity: </laValidity>
+		  <laDays>Days[1..9999]</laDays>
+		  <btnSubmit>Submit</btnSubmit>
+		  <btnCancel>Cancel</btnCancel>
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

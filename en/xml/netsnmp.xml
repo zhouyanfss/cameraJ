@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>SNMP 设置</title>
+		  <laHeadTitle>SNMP 设置</laHeadTitle>
+		  <laSNMPV1V2>SNMP v1/v2</laSNMPV1V2>
+		  <laSNMPV1V2Enable>SNMP v1/v2开关</laSNMPV1V2Enable>
+		  <laCommunityRO>团体名(只读)</laCommunityRO>
+		  <laCommunityRW>团体名(读写)</laCommunityRW>
+		  <laTraps>SNMP v1/v2 陷阱</laTraps>
+		  <laTrapsEnable>陷阱开关</laTrapsEnable>
+		  <laTrapsAddress>陷阱管理端地址</laTrapsAddress>
+		  <laTrapsCommunity>陷阱团体名</laTrapsCommunity>
+		  <laSNMPV3>SNMP v3</laSNMPV3>
+		  <laSNMPV3Enable>SNMP v3开关</laSNMPV3Enable>
+		  <laSNMPV3MD5UserName>MD5用户名</laSNMPV3MD5UserName>
+		  <laSNMPV3MD5Password>MD5密码</laSNMPV3MD5Password>
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>SNMP Setting</title>
+		  <laHeadTitle>SNMP Setting</laHeadTitle>
+		  <laSNMPV1V2>SNMP v1/v2</laSNMPV1V2>
+		  <laSNMPV1V2Enable>Enable SNMP v1/v2</laSNMPV1V2Enable>
+		  <laCommunityRO>Community(RO)</laCommunityRO>
+		  <laCommunityRW>Community(RW)</laCommunityRW>
+		  <laTraps>Traps for SNMP v1/v2</laTraps>
+		  <laTrapsEnable>Enable Traps</laTrapsEnable>
+		  <laTrapsAddress>Traps Address</laTrapsAddress>
+		  <laTrapsCommunity>Traps Community</laTrapsCommunity>
+		  <laSNMPV3>SNMP v3</laSNMPV3>
+		  <laSNMPV3Enable>Enable SNMP v3</laSNMPV3Enable>
+		  <laSNMPV3MD5UserName>MD5 Username</laSNMPV3MD5UserName>
+		  <laSNMPV3MD5Password>MD5 Password</laSNMPV3MD5Password>
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

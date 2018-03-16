@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>视频参数</title>
+		  <laHeadTitle>视频镜头控制</laHeadTitle>
+		  <laChannel>通道:</laChannel>
+		  <laChannelSync>复制到所有通道</laChannelSync>
+		  <laColorSet>亮色调节</laColorSet>
+		  <btnStandardDefault>标准默认</btnStandardDefault>
+		  <laStandard>标准</laStandard>
+		  <btnColorfulDefault>鲜艳默认</btnColorfulDefault>
+		  <laColorful>鲜艳</laColorful>
+		  <imgBrightnessDefault>亮度默认</imgBrightnessDefault>
+		  <laBrightness>亮度</laBrightness>
+		  <laBrightnessDefault>亮度默认</laBrightnessDefault>
+		  <imgContrastDefault>对比度默认</imgContrastDefault>
+		  <laContrast>对比度</laContrast>
+		  <laContrastDefault>对比度默认</laContrastDefault>
+		  <imgHueDefault>色调默认</imgHueDefault>
+		  <laHue>色调</laHue>
+		  <laHueDefault>色调默认</laHueDefault>
+		  <imgSaturationDefault>饱和度默认</imgSaturationDefault>
+		  <laSaturation>饱和度</laSaturation>
+		  <laSaturationDefault>饱和度默认</laSaturationDefault>
+		  <imgAcutanceDefault>锐度默认</imgAcutanceDefault>
+		  <laAcutance>锐度</laAcutance>
+		  <laAcutanceDefault>锐度默认</laAcutanceDefault>
+		  <imgRedDefault>红色默认</imgRedDefault>
+		  <laRed>红色</laRed>
+		  <laRedDefault>红色默认</laRedDefault>
+		  <imgGreenDefault>绿色默认</imgGreenDefault>
+		  <laGreen>绿色</laGreen>
+		  <laGreenDefault>绿色默认</laGreenDefault>
+		  <imgBlueDefault>蓝色默认</imgBlueDefault>
+		  <laBlue>蓝色</laBlue>
+		  <laBlueDefault>蓝色默认</laBlueDefault>
+		  <imgGammaDefault>Gamma默认</imgGammaDefault>
+		  <laGamma>Gamma</laGamma>
+		  <laGammaDefault>Gamma默认</laGammaDefault>
+		  <imgSceneDefault>场景默认</imgSceneDefault>
+		  <laScene>场景</laScene>
+		  <laSceneDefault>场景默认</laSceneDefault>
+		  <laWBTitle>白平衡</laWBTitle>
+		  <btnAWB>自动白平衡</btnAWB>
+		  <laWBRed>白平衡 红</laWBRed>
+		  <laWBGreen>白平衡 绿</laWBGreen>
+		  <laWBBlue>白平衡 蓝</laWBBlue>
+		  <btnAWBredB>手动白平衡 红</btnAWBredB>
+		  <btnAWBgreenB>手动白平衡 绿</btnAWBgreenB>
+		  <btnAWBblueB>手动白平衡 蓝</btnAWBblueB>
+		  <laGainTitle>增益</laGainTitle>
+		  <btnAGC>手动增益</btnAGC>
+		  <laGainValue>增益值</laGainValue>
+  		  <laBLCTitle>背光补偿</laBLCTitle>
+		  <btnBLC>背光补偿</btnBLC>
+  		  <laBLCValue>背光补偿</laBLCValue>
+  		  <laALCTitle>自动电平控制</laALCTitle>
+  		  <btnALC>自动电平控制</btnALC>
+  		  <laLCValue>电平控制值</laLCValue>
+  		  <laExposureTitle>曝光</laExposureTitle>
+  		  <btnAutoExp>自动曝光</btnAutoExp>
+  		  <opAutoExposure1>自动曝光</opAutoExposure1>
+  		  <opAutoExposure2>自动曝光+彩转黑+高灵敏度</opAutoExposure2>
+  		  <opAutoExposure3>自动曝光+彩转黑+中灵敏度</opAutoExposure3>
+  		  <opAutoExposure4>自动曝光带慢快门</opAutoExposure4>
+  		  <opAutoExposure5>自动曝光带慢快门+彩转黑+高灵敏度</opAutoExposure5>
+  		  <opAutoExposure6>自动曝光带慢快门+彩转黑+中灵敏度</opAutoExposure6>
+  		  <opAutoExposure7>自动曝光带慢快门+彩转黑+低灵敏度</opAutoExposure7>
+  		  <laShutterTitle>快门</laShutterTitle>
+  		  <btnAutoShutter>自动快门</btnAutoShutter>
+  		  <btnShutterFirst>快门/曝光优先</btnShutterFirst>
+  		  <btnSlowShutter>慢快门</btnSlowShutter>
+  		  <laSlowShutter>慢快调节</laSlowShutter>
+  		  <laIRTitle>红外</laIRTitle>
+  		  <btnIRCFMode0>彩色</btnIRCFMode0>
+  		  <btnIRCFMode1>黑白</btnIRCFMode1>
+  		  <btnIRLightType0>正常光</btnIRLightType0>
+  		  <btnIRLightType1>850mm</btnIRLightType1>
+  		  <btnIRLightType2>950mm</btnIRLightType2>
+  		  <btnIRCFLevelvt>灵敏度</btnIRCFLevelvt>
+  		  <laTimeFirst>时间优先</laTimeFirst>
+  		  <laToDay>转白天</laToDay>
+  		  <laToNight>转夜晚</laToNight>
+  		  <laIRLinkage>光敏联动</laIRLinkage>
+  		  <laShutterValue>快门值:</laShutterValue>
+  		  <laOtherTitle>其他</laOtherTitle>
+  		  <btnMirror>镜像</btnMirror>
+  		  <btnFlip>翻转</btnFlip>
+  		  <btnAutoFlip>自动翻转</btnAutoFlip>
+  		  <btnPwdFreq4>户外</btnPwdFreq4>
+  		  <btnCTB>彩转黑</btnCTB>
+  		  <btnWDR>宽动态</btnWDR>
+  		  <laWDRValue>宽动态调节</laWDRValue>
+  		  <btnWDR1>宽动态-低</btnWDR1>
+  		  <btnWDR2>宽动态-中</btnWDR2>
+  		  <btnWDR3>宽动态-高</btnWDR3>
+  		  <laAutoFocusMode>低照度点光源环境自动聚焦功能优化开关</laAutoFocusMode>
+		  <opAutoFocusMode1>默认AF</opAutoFocusMode1>
+		  <opAutoFocusMode2>低照度AF优化开启</opAutoFocusMode2>
+		  <opAutoFocusMode3>低照度点光源AF优化开启</opAutoFocusMode3>
+  		  <btnImageMode0>图像模式 1</btnImageMode0>
+  		  <btnImageMode1>图像模式 2</btnImageMode1>
+  		  <btnLSC>镜头矫正</btnLSC>
+  		  <btn2DNR>2D降噪</btn2DNR>
+  		  <btn3DNR>3D降噪</btn3DNR>
+  		  <btn3DNR1>低</btn3DNR1>
+  		  <btn3DNR2>中</btn3DNR2>
+  		  <btn3DNR3>高</btn3DNR3>
+  		  <btnSmartNR>智能降噪</btnSmartNR>
+  		  <laSmartNRValue>阀值调节</laSmartNRValue>
+  		  <btnAntiFogging>去雾</btnAntiFogging>
+  		  <laAntiFalseColor>去伪彩</laAntiFalseColor>
+  		  <laAntiFalseColorValue>阀值调节</laAntiFalseColorValue>
+  		  <btnAntiTrembling>数字防抖</btnAntiTrembling>
+  		  <laRotationTitle>旋转控制(修改此设置，设备立即自动重启)</laRotationTitle>
+  		  <opRotation1>不旋转</opRotation1>
+  		  <opRotation2>90度旋转</opRotation2>
+  		  <opRotation3>270度旋转</opRotation3>
+  		  <laIrisTitle>光圈镜头</laIrisTitle>
+  		  <btnIris0>非自动光圈</btnIris0>
+  		  <btnIris1>DC自动光圈</btnIris1>
+  		  <laIrisValue>光圈电平</laIrisValue>
+  		  <btnIris2>自动光圈矫正</btnIris2>
+  		  <btnLensShading>镜头矫正</btnLensShading>
+  		  <laFocusTitle>聚焦</laFocusTitle>
+  		  <btnFocus>自动聚焦</btnFocus>
+  		  <laFocusLength>焦距</laFocusLength>
+  		  <laZoomTitle>变倍</laZoomTitle>
+  		  <btnZoomSpeed0>高速</btnZoomSpeed0>
+  		  <btnZoomSpeed1>正常速度</btnZoomSpeed1>
+  		  <btnAutoPTZSpeed>长焦限速</btnAutoPTZSpeed>
+  		  <laAEMaxShutterTitle>自动曝光快门最大值</laAEMaxShutterTitle>
+  		  <btnAEMax>开关</btnAEMax>
+  		  <laAEMaxValue>调节值</laAEMaxValue>
+  		  <laAutoMaxTimeTitle>自动曝光最大曝光时间</laAutoMaxTimeTitle>
+  		  <laAutoGCTitle>自动增益限制</laAutoGCTitle>
+  		  <btnAutoAGC>开关</btnAutoAGC>
+  		  <laAutoAGCValue>调节值</laAutoAGCValue>
+		  <laNotice>点击对应的图标或标题,设置默认值.</laNotice>
+  		  <laIRDetectionModeTitle>红外检测模式</laIRDetectionModeTitle>
+  		  <opIRDetectionMode0>视频检测</opIRDetectionMode0>
+  		  <opIRDetectionMode1>时间控制</opIRDetectionMode1>
+  		  <opIRDetectionMode2>光敏电阻检测</opIRDetectionMode2>
+  		  <opIRDetection0>低电平有效</opIRDetection0>
+  		  <opIRDetection1>高电平有效</opIRDetection1>
+   		  <opIRDetection2>自动检测</opIRDetection2>
+ 		  <laIRIOTitle>红外机器输出控制</laIRIOTitle>
+  		  <laIRIOICR>ICR控制</laIRIOICR>
+  		  <laIRIOIR>红外灯控制</laIRIOIR>
+  		  <opIRIOICR0>低电平有效</opIRIOICR0>
+  		  <opIRIOICR1>高电平有效</opIRIOICR1>
+  		  <opIRIOIR0>低电平有效</opIRIOIR0>
+  		  <opIRIOIR1>高电平有效</opIRIOIR1>
+  		  <opAutoDetection0>高</opAutoDetection0>
+  		  <opAutoDetection1>中</opAutoDetection1>
+  		  <opAutoDetection2>低</opAutoDetection2>
+  		  <laIRToDay>转白天</laIRToDay>
+  		  <laIRToNight>转夜晚</laIRToNight>
+  		  <btnPwdFreq2>室内</btnPwdFreq2>
+  		  <btnPwdFreq3>室外</btnPwdFreq3>
+  		  <t_irdetime>转换时间</t_irdetime>
+  		  <t_irdetimeuint>秒</t_irdetimeuint>
+  		  <t_Iris>光圈电平</t_Iris>
+		  
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Video Parameter</title>
+		  <laHeadTitle>Video Parameter</laHeadTitle>
+		  <laChannel>Chan:</laChannel>
+		  <laChannelSync>Copy to all channels</laChannelSync>
+		  <laColorSet>Images Color</laColorSet>
+		  <btnStandardDefault>Standard </btnStandardDefault>
+		  <laStandard>Standard</laStandard>
+		  <btnColorfulDefault>Colorful Default</btnColorfulDefault>
+		  <laColorful>Colorful</laColorful>
+		  <imgBrightnessDefault>Brightness Default</imgBrightnessDefault>
+		  <laBrightness>Bri.</laBrightness>
+		  <laBrightnessDefault>Brightness Default</laBrightnessDefault>
+		  <imgContrastDefault>Contrast Default</imgContrastDefault>
+		  <laContrast>Con.</laContrast>
+		  <laContrastDefault>Contrast Default</laContrastDefault>
+		  <imgHueDefault>Hue Default</imgHueDefault>
+		  <laHue>Hue</laHue>
+		  <laHueDefault>Hue Default</laHueDefault>
+		  <imgSaturationDefault>Saturation Default</imgSaturationDefault>
+		  <laSaturation>Sat.</laSaturation>
+		  <laSaturationDefault>Saturation Default</laSaturationDefault>
+		  <imgAcutanceDefault>Acutance Default</imgAcutanceDefault>
+		  <laAcutance>Acu.</laAcutance>
+		  <laAcutanceDefault>Acutance Default</laAcutanceDefault>
+		  <imgRedDefault>Red Default</imgRedDefault>
+		  <laRed>Red</laRed>
+		  <laRedDefault>Red Default</laRedDefault>
+		  <imgGreenDefault>Green Default</imgGreenDefault>
+		  <laGreen>Green</laGreen>
+		  <laGreenDefault>Green Default</laGreenDefault>
+		  <imgBlueDefault>Blue Default</imgBlueDefault>
+		  <laBlue>Blue</laBlue>
+		  <laBlueDefault>Blue Default</laBlueDefault>
+		  <imgGammaDefault>Gamma Default</imgGammaDefault>
+		  <laGamma>Gamma</laGamma>
+		  <laGammaDefault>Gamma Default</laGammaDefault>
+		  <imgSceneDefault>Scene Default</imgSceneDefault>
+		  <laScene>Scene</laScene>
+		  <laSceneDefault>Scene Default</laSceneDefault>
+		  <laWBTitle>WB</laWBTitle>
+		  <btnAWB>Auto WB</btnAWB>
+		  <laWBRed>WB Red</laWBRed>
+		  <laWBGreen>WB Green</laWBGreen>
+		  <laWBBlue>WB Blue</laWBBlue>
+		  <btnAWBredB>AWB Red</btnAWBredB>
+		  <btnAWBgreenB>AWB Green</btnAWBgreenB>
+		  <btnAWBblueB>AWB Blue</btnAWBblueB>
+		  <laGainTitle>Gain</laGainTitle>
+		  <btnAGC>Manual Gain</btnAGC>
+		  <laGainValue>Gain Value</laGainValue>
+  		  <laBLCTitle>BLC</laBLCTitle>
+		  <btnBLC>BLC</btnBLC>
+  		  <laBLCValue>BLC</laBLCValue>
+  		  <laALCTitle>ALC</laALCTitle>
+  		  <btnALC>ALC</btnALC>
+  		  <laLCValue>ALC Value</laLCValue>
+  		  <laExposureTitle>Exposure</laExposureTitle>
+  		  <btnAutoExp>Auto Exposure</btnAutoExp>
+  		  <opAutoExposure1>AE</opAutoExposure1>
+  		  <opAutoExposure2>AE+Ircf +Hi sensitivity</opAutoExposure2>
+  		  <opAutoExposure3>AE+Ircf +Mid sensitivity</opAutoExposure3>
+  		  <opAutoExposure4>AE with slow shutter</opAutoExposure4>
+  		  <opAutoExposure5>AE with slow shutter+Ircf +Hi sensitivity</opAutoExposure5>
+  		  <opAutoExposure6>AE with slow shutter+Ircf +Mid sensitivity</opAutoExposure6>
+  		  <opAutoExposure7>AE with slow shutter+Ircf +Low sensitivity</opAutoExposure7>
+  		  <laShutterTitle>Shutter</laShutterTitle>
+  		  <btnAutoShutter>Auto Shutter</btnAutoShutter>
+  		  <btnShutterFirst>Shutter First</btnShutterFirst>
+  		  <btnSlowShutter>Slow/Exposure Shutter</btnSlowShutter>
+  		  <laSlowShutter>Value</laSlowShutter>
+  		  <laIRTitle>IR</laIRTitle>
+  		  <btnIRCFMode0>Color</btnIRCFMode0>
+  		  <btnIRCFMode1>BW</btnIRCFMode1>
+  		  <btnIRLightType0>Normal light</btnIRLightType0>
+  		  <btnIRLightType1>850mm</btnIRLightType1>
+  		  <btnIRLightType2>950mm</btnIRLightType2>
+  		  <btnIRCFLevelvt>Active IR</btnIRCFLevelvt>
+  		  <laTimeFirst>Time First</laTimeFirst>
+  		  <laToDay>To Day</laToDay>
+  		  <laToNight>To Night</laToNight>
+  		  <laIRLinkage>IR Linkage</laIRLinkage>
+  		  <laShutterValue>Shutter Value:</laShutterValue>
+  		  <laOtherTitle>Other</laOtherTitle>
+  		  <btnMirror>Mirror</btnMirror>
+  		  <btnFlip>Flip</btnFlip>
+  		  <btnAutoFlip>Auto Flip</btnAutoFlip>
+  		  <btnPwdFreq4>Out Door</btnPwdFreq4>
+  		  <btnCTB>CTB</btnCTB>
+  		  <btnWDR>WDR</btnWDR>
+  		  <laWDRValue>WDR Value</laWDRValue>
+  		  <btnWDR1>WDR-Low</btnWDR1>
+  		  <btnWDR2>WDR-Normal</btnWDR2>
+  		  <btnWDR3>WDR-High</btnWDR3>
+  		  <laAutoFocusMode>Under Point Low Lighting Sources Auto Zooming</laAutoFocusMode>
+		  <opAutoFocusMode1>Default AF</opAutoFocusMode1>
+		  <opAutoFocusMode2>Low lighting AF</opAutoFocusMode2>
+		  <opAutoFocusMode3>Under point low lighting sources zooming</opAutoFocusMode3>
+  		  <btnImageMode0>Image Mode 1</btnImageMode0>
+  		  <btnImageMode1>Image Mode 2</btnImageMode1>
+  		  <btnLSC>LSC</btnLSC>
+  		  <btn2DNR>2D-DNR</btn2DNR>
+  		  <btn3DNR>3D-DNR</btn3DNR>
+  		  <btn3DNR1>Low</btn3DNR1>
+  		  <btn3DNR2>Normal</btn3DNR2>
+  		  <btn3DNR3>High</btn3DNR3>
+  		  <btnSmartNR>Smart DNR</btnSmartNR>
+  		  <laSmartNRValue>Value</laSmartNRValue>
+  		  <btnAntiFogging>AntiFogging</btnAntiFogging>
+  		  <laAntiFalseColor>AntiFalseColor</laAntiFalseColor>
+  		  <laAntiFalseColorValue>Value</laAntiFalseColorValue>
+  		  <btnAntiTrembling>AntiTrembling</btnAntiTrembling>
+  		  <laRotationTitle>Rotation(Modify the Setting,restart immediately)</laRotationTitle>
+  		  <opRotation1>Non-Rotation</opRotation1>
+  		  <opRotation2>90 Rotation</opRotation2>
+  		  <opRotation3>270 Rotation</opRotation3>
+  		  <laIrisTitle>Iris</laIrisTitle>
+  		  <btnIris0>Non-Auto Iris</btnIris0>
+  		  <btnIris1>DC Auto Iris</btnIris1>
+  		  <laIrisValue>Iris Value</laIrisValue>
+  		  <btnIris2>Auto Iris Shading</btnIris2>
+  		  <btnLensShading>Lens Shading</btnLensShading>
+  		  <laFocusTitle>Focus</laFocusTitle>
+  		  <btnFocus>Auto Focus</btnFocus>
+  		  <laFocusLength>Focus Length</laFocusLength>
+  		  <laZoomTitle>Zoom</laZoomTitle>
+  		  <btnZoomSpeed0>High Speed</btnZoomSpeed0>
+  		  <btnZoomSpeed1>Normal Speed</btnZoomSpeed1>
+  		  <btnAutoPTZSpeed>Long-focus speed limit</btnAutoPTZSpeed>
+  		  <laAEMaxShutterTitle>AE Max Shutter Value</laAEMaxShutterTitle>
+  		  <btnAEMax>Enable</btnAEMax>
+  		  <laAEMaxValue>Value</laAEMaxValue>
+  		  <laAutoMaxTimeTitle>AE Max Time</laAutoMaxTimeTitle>
+  		  <laAutoGCTitle>Maximum AGC</laAutoGCTitle>
+  		  <btnAutoAGC>Enable</btnAutoAGC>
+  		  <laAutoAGCValue>Value</laAutoAGCValue>
+		  <laNotice>Click the corresponding icon or title, set the default value.</laNotice>
+  		  <laIRDetectionModeTitle>IR Detection Mode</laIRDetectionModeTitle>
+  		  <opIRDetectionMode0>Video Detection</opIRDetectionMode0>
+  		  <opIRDetectionMode1>Time Detection</opIRDetectionMode1>
+  		  <opIRDetectionMode2>IR Detection</opIRDetectionMode2>
+  		  <opIRDetection0>Low Level</opIRDetection0>
+  		  <opIRDetection1>High Level</opIRDetection1>
+  		  <opIRDetection2>Auto Detection</opIRDetection2>
+  		  <laIRIOTitle>IR IO</laIRIOTitle>
+  		  <laIRIOICR>ICR</laIRIOICR>
+  		  <laIRIOIR>IR</laIRIOIR>
+  		  <opIRIOICR0>Low Level</opIRIOICR0>
+  		  <opIRIOICR1>High Level</opIRIOICR1>
+  		  <opIRIOIR0>Low Level</opIRIOIR0>
+  		  <opIRIOIR1>High Level</opIRIOIR1>
+  		  <opAutoDetection0>High</opAutoDetection0>
+  		  <opAutoDetection1>Normal</opAutoDetection1>
+  		  <opAutoDetection2>Low</opAutoDetection2>
+  		  <laIRToDay>To Day</laIRToDay>
+  		  <laIRToNight>To Night</laIRToNight>
+  		  <btnPwdFreq2>In Door</btnPwdFreq2>
+  		  <btnPwdFreq3>Out Door</btnPwdFreq3>
+  		  <t_irdetime>Switching</t_irdetime>
+  		  <t_irdetimeuint>S</t_irdetimeuint>
+  		  <t_Iris>Level</t_Iris>
+		  
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

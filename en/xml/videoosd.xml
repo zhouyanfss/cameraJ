@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>字符叠加</title>
+		  <laHeadTitle>字符叠加</laHeadTitle>
+		  <laChannel>通道:</laChannel>
+		  <laChannelSync>复制到所有通道</laChannelSync>
+		  <laTitle> 标题</laTitle>
+		  <laOSDTitle>标题</laOSDTitle>
+		  <laOSDColor>颜色</laOSDColor>
+		  <opOSDColor1>白色</opOSDColor1>
+		  <opOSDColor2>黑色</opOSDColor2>
+		  <opOSDColor3>黄色</opOSDColor3>
+		  <opOSDColor4>红色</opOSDColor4>
+		  <opOSDColor5>蓝色</opOSDColor5>
+		  <laOSDPosition>字符叠加</laOSDPosition>
+		  <laPosition>位置</laPosition>
+		  <laPositionTitle>标题</laPositionTitle>
+		  <imgTitleUp>上</imgTitleUp>
+		  <imgTitleDown>下</imgTitleDown>
+		  <imgTitleLeft>左</imgTitleLeft>
+		  <imgTitleRight>右</imgTitleRight>
+		  <laPositionDate>日期</laPositionDate>
+		  <laPositionTime>时间</laPositionTime>
+		  <laPositionWeek>星期</laPositionWeek>
+		  <imgDateUp>上</imgDateUp>
+		  <imgDateDown>下</imgDateDown>
+		  <imgDateLeft>左</imgDateLeft>
+		  <imgDateRight>右</imgDateRight>
+		  <laDateFormat>日期格式</laDateFormat>
+		  <laBitrate>帧率/码率</laBitrate>
+		  <laUser>用户连接数</laUser>
+		  <laAutoLoad>自动更新参数</laAutoLoad>
+		  <laAutoLoadText>自动更新文件</laAutoLoadText>
+		  <laAutoLoadTextAddr>文本地址</laAutoLoadTextAddr>
+		  <laAutoLoadPic>自动更新图片</laAutoLoadPic>
+		  <laAutoLoadPicAddr>图片地址</laAutoLoadPicAddr>
+		  <laAutoLoadInterval>更新间隔</laAutoLoadInterval>
+		  <laAlert>    文字信息要放在左下角的位置，文字信息包括两行，最大字符不超过50个，支持txt格式。&lt;br /&gt;    横幅图片的位置放在右下角，图片最大不超过320px *150px，支持BMP 24格式。&lt;br /&gt;    更新间隔要求大于等于60秒。</laAlert>
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>OSD Settings</title>
+		  <laHeadTitle>OSD Settings</laHeadTitle>
+		  <laChannel>Chan:</laChannel>
+		  <laChannelSync>Copy to all channels</laChannelSync>
+		  <laTitle> Title</laTitle>
+		  <laOSDTitle>Title</laOSDTitle>
+		  <laOSDColor>Color</laOSDColor>
+		  <opOSDColor1>White</opOSDColor1>
+		  <opOSDColor2>Black</opOSDColor2>
+		  <opOSDColor3>Yellow</opOSDColor3>
+		  <opOSDColor4>Red</opOSDColor4>
+		  <opOSDColor5>Blue</opOSDColor5>
+		  <laOSDPosition>OSD</laOSDPosition>
+		  <laPosition>Position</laPosition>
+		  <laPositionTitle>Title</laPositionTitle>
+		  <imgTitleUp>Up</imgTitleUp>
+		  <imgTitleDown>Down</imgTitleDown>
+		  <imgTitleLeft>Left</imgTitleLeft>
+		  <imgTitleRight>Right</imgTitleRight>
+		  <laPositionDate>Date</laPositionDate>
+		  <laPositionTime>Time</laPositionTime>
+		  <laPositionWeek>Week</laPositionWeek>
+		  <imgDateUp>Up</imgDateUp>
+		  <imgDateDown>Down</imgDateDown>
+		  <imgDateLeft>Left</imgDateLeft>
+		  <imgDateRight>Right</imgDateRight>
+		  <laDateFormat>Date Format</laDateFormat>
+		  <laBitrate>Frame/Bitrate</laBitrate>
+		  <laUser>Connecting No.</laUser>
+		  <laAutoLoad>OSD file information data</laAutoLoad>
+		  <laAutoLoadText>Auto Load Text</laAutoLoadText>
+		  <laAutoLoadTextAddr>Text Path</laAutoLoadTextAddr>
+		  <laAutoLoadPic>Auto Load Image</laAutoLoadPic>
+		  <laAutoLoadPicAddr>Image Path</laAutoLoadPicAddr>
+		  <laAutoLoadInterval>Load Interval</laAutoLoadInterval>
+		  <laAlert>    The Text information contained in the data file will be positioned at the bottom left of the image.The data file can contain two lines of max 50 characters each including spaces.Supported Text types are txt.&lt;br /&gt;    The banner will be the place in the bottom right of the image.Max picture dimension 320px * 150px.Supported image types are BMP 24.&lt;br /&gt;    Auto load data file timing >=60 seconds.</laAlert>
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

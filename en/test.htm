@@ -1,0 +1,341 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="VI60_defaultClientScript" content="VBScript">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>控件对象升级处理</title>
+
+<style type="text/css">
+<!--
+input {
+width:86px;}
+body{
+font: "宋体"; Arial, Verdana, Helvetica, sans-serif;
+font-size:14px;
+color:#333333;
+}
+td{
+font: "宋体"; Arial, Verdana, Helvetica, sans-serif;
+font-size:14px;
+color:#333333;
+}
+.STYLE1 {
+	color: #FF0000;
+	font-size: 16px;
+	font-weight: bold;
+}
+.STYLE2 {color: #FF0000}
+.STYLE4 {color: #FF0000; font-size: 12px; font-weight: bold; }
+.STYLE6 {color: #0000FF; font-size: 12px; font-weight: bold; }
+-->
+</style>
+<script language="javascript">
+<!--
+var Strview;	//设置全局变量,控制控件的相对控件ID,默认值.
+var Strdiv;
+Strview 	= "XDView1";
+Strdiv 		= "view1";
+//登录方式1
+function Login(){
+    $(Strview).m_szUrl       = document.form1.url.value;		//'DVS地址
+    $(Strview).m_dwDataPort  = document.form1.port.value;		//'通讯端口
+    $(Strview).m_szUserName  = document.form1.uname.value; 	//用户名
+    $(Strview).m_szPassword  = document.form1.psw.value;		//密码
+	$(Strview).m_ProtocolType	= 0;
+	$(Strview).SetLoginMode(1);	//设置登录方式
+	$(Strview).Login();
+}
+
+//注销
+function logout(){
+	updateflag = true;
+	$("View").Value="0";
+	$("OnChannelView").style.background="#D4D0C8";
+	$(Strview).StopPreview();	//停止预览
+	$(Strview).Logout();
+
+}
+
+//启动预览
+function channelview(){
+	updateflag = true;
+ 	if(document.form1.View.Value=="0"){
+		$("View").Value="1";
+		$("OnChannelView").style.background="#88A797";
+		$(Strview).m_szUrl       = document.form1.url.value;		//'DVS地址
+		$(Strview).m_dwDataPort  = document.form1.port.value;		//'通讯端口
+		$(Strview).m_szUserName  = document.form1.uname.value; 	//用户名
+		$(Strview).m_szPassword  = document.form1.psw.value;		//密码
+		$(Strview).StartPreview();		//启动预览
+	}else{
+		$("View").Value="0";
+		$("OnChannelView").style.background="#D4D0C8";
+		$(Strview).StopPreview();	//停止预览
+	}    
+}
+
+//设置DVS
+function setNVS() {
+	//$(Strview).SetNVS(1);
+}
+
+function SelectObj(StrObj) {
+	window.status = StrObj;
+	Strview = StrObj;
+	$(StrObj).blur;
+}
+
+function chgsize(sz){
+    if(sz == 1){
+	    $(Strview).width  = 310;
+	    $(Strview).height = 270;
+	    $(Strdiv).style.left  =  "0px";
+	    $(Strdiv).style.top  =  "0px";
+		$(Strdiv).style.position = "static";
+	}else{
+	    $(Strview).width  = document.body.clientWidth; //clientHeight offsetWidth
+	    $(Strview).height = document.body.clientHeight + 18;
+	    $(Strdiv).style.left  =  "0px";
+	    $(Strdiv).style.top  =  "0px";
+		$(Strdiv).style.position = "absolute";
+	}
+	//$(Strview).ControlImageSize(1);
+}
+function $(){
+  var elements = new Array();
+  for (var i = 0; i < arguments.length; i++) {
+    var element = arguments[i];
+    if (typeof element == 'string')
+      element = document.getElementById(element);
+
+    if (arguments.length == 1)
+      return element;
+
+    elements.push(element);
+  }
+
+  return elements;
+}
+function RefreshCtrl(){
+	var fullsize = false;
+}
+
+	var FilePath,Filetype,updateflag = true;
+function FunUpdate(){
+	if(updateflag==true){
+		alert("请先登录设备!");
+		return false;
+	}
+	FilePath = $("filepath").value;
+	if(FilePath == ""){
+		alert("请选择升级文件!");
+		return false;
+	}
+	var DFilePath 	= FilePath.substr(FilePath.lastIndexOf(".")+1)
+	DFilePath = DFilePath.toLowerCase();
+	var Filetype;
+	if(DFilePath=="uot"){
+		$("up_type").value	= 32;	//0x10
+		Filetype = 32;
+	}else if(DFilePath=="ufw"){
+		$("up_type").value	= 32;		
+		Filetype = 32;
+	}else if(DFilePath=="ptz"){
+		$("up_type").value	= 33;	//0x11
+		Filetype = 33;
+	}else if(DFilePath=="bin"){
+		$("up_type").value	= 32;	//ں
+		Filetype = 32;
+	}else{
+		$("up_type").value	= 32;	//0x10
+		Filetype = 32;
+	}
+	//Filetype = $("up_type").value;
+	if(updateflag){
+		$(Strview).m_szUrl       = document.form1.url.value;		//'DVS地址
+		$(Strview).m_dwDataPort  = document.form1.port.value;		//'通讯端口
+		$(Strview).m_szUserName  = document.form1.uname.value; 	//用户名
+		$(Strview).m_szPassword  = document.form1.psw.value;		//密码
+		$(Strview).m_ProtocolType	= 32;
+		$(Strview).SetLoginMode(1);	//设置登录方式
+		$(Strview).Login();
+	}else{
+		alert("Filetype:" + Filetype + " FilePath=" + FilePath);
+		$(Strview).UpdateKernel(Filetype, FilePath);
+	}
+	return true;
+}
+-->
+</script>
+<script language="javascript" for="XDView1" event="CBK_UpdateSendPercent(nPer)">
+$("upAlert").innerHTML = " CBK_UpdateSendPercent: " + nPer;
+UpdatePer(nPer,"0");
+</script>
+<script language="javascript" for="XDView1" event="CBK_UpdateSavePercent(nPer)">
+$("upAlert").innerHTML = " CBK_UpdateSendPercent: " + nPer;
+UpdatePer(nPer,"1");
+</script>
+
+<SCRIPT LANGUAGE="javascript" FOR="XDView1" EVENT="CBK_LoginResult(nResult)"> 
+<!-- 
+//登录状态判断及相应处理。 如：预览视频
+if(nResult>=2){
+	var StartViewflag;
+	updateflag = false;
+	StartViewflag = $("XDView1").StartPreview();
+	if(StartViewflag==true){
+		$("View").Value="1";
+		$("OnChannelView").style.background="#88A797";
+	}
+}else{
+	updateflag = true;
+   alert("登录失败!");
+}
+//--> 
+</SCRIPT> 
+
+
+</head>
+<title>控件对象升级处理</title>
+<body topmargin="8" leftmargin="0" onLoad="RefreshCtrl()">
+<div style="z-index: 0; position:absolute; margin:0px; padding:0px; top:0px; left: 0px;width:340px; height: 50px; display:none; background-color:#CCCCCC; text-align:center; list-style:130%;" id="DivUpdatePer">
+  <TABLE borderColor=#669900 cellSpacing=3 cellPadding=5 width=350 align=center 
+bgColor=#ffffe7 border=1>
+  <TBODY>
+  <TR>
+  <TD align=middle height=56 >
+<form name=loading id="loading" style="margin:0px; padding:0px;">
+ <p align=center> <div style="font-size:14px; color:#0066ff; margin:0px; padding:0px; font-weight:500; text-align:center; height:25px; padding-top:8px;" id="Divtext" size="2" face="Arial">载入中，请稍等...</div>
+ <input type=text name=chart id="chart" size=46 style="font-family:Arial; font-weight:bolder; color:#0066ff; background-color:#fef4d9; padding:0px; border-style:none;">
+ <input type=text name=percent id="percent" size=38 style="color:#0066ff; text-align:center; border-width:medium; border-style:none; background-color:#ffffe7;">
+ </p>
+</form>
+  </TD></TR>
+  </TBODY></TABLE></div>
+ <script> 
+ <!--
+var bar=1; 
+var line="||" ;
+var amount="||" ; 
+var CloseTimeout;
+function UpdatePer(nPer,nNun){ 
+ 	var Objtext=eval(document.all("Divtext"));
+	if(nNun == "0")
+	{
+		Objtext.innerHTML="文件下载中,请等待...";
+		window.status = "文件下载中,请等待..." + nPer + "%";
+	}
+	else
+	{
+		window.clearTimeout(CloseTimeout);
+		Objtext.innerHTML="安装中,请等待...";
+		window.status = "安装中,请等待..." + nPer + "%";
+	}
+bar=nPer;
+amount="";
+for(i=1;i<=nPer;i++)
+{
+	amount =amount + "|" ;
+}
+
+document.loading.chart.value = amount; 
+document.loading.percent.value = bar+"%" ;
+  var ObjD,ObjTL,STop,SLeft;
+  ObjD=eval(document.all("DivUpdatePer"));
+  ObjTL = eval(document.all("pertopleft"));
+  STop = ObjD.offsetTop;
+  SLeft = ObjTL.offsetLeft;
+ 
+	if (bar<100) 
+	{
+		ObjD.style.top = 300;
+		ObjD.style.left = SLeft;
+		ObjD.style.display="block";
+	} 
+	else 
+	{
+		CloseTimeout = setTimeout("CloseUpdatePer()",1000);
+	}
+}
+function CloseUpdatePer()
+{
+    var ObjD=eval(document.all("DivUpdatePer"));
+	ObjD.style.display="none";
+	window.status = "";
+	var Filetype = document.file_frm.up_type.value;
+	//location.href="login.asp";
+}
+-->
+</script>
+
+<table width="560" border="0" cellspacing="1" cellpadding="3">
+  <tr>
+    <td colspan="2" align="center"> 
+	<DIV id=view1 style="WIDTH: 310px; POSITION:static ; HEIGHT: 270px; z-index:1;">
+  <object name="XDView1" ID="XDView1" width="310" height="270" CLASSID="CLSID:8DA9A0A7-AC21-4EA9-BB7E-43AEF89688A6" CODEBASE="/WebCMS.exe#Version=2,0,0,0">
+    </object>
+</DIV></td>
+  </tr>
+    <form name="form1" method="post" action="" style="padding:0px; margin:0px;">
+  <tr>
+    <td width="53%" align="right"><table width="210" border="0" cellpadding="2" cellspacing="1" bgcolor="#CCCCCC">
+    <tr>
+      <td height="33" colspan="2" align="left" bgcolor="#FFFFFF"><span class="STYLE2">先填写登录参数</span></td>
+      </tr>
+    <tr>
+      <td height="21" colspan="2" align="left" bgcolor="#FFFFFF">&nbsp;URL:
+        <input name="url" type="text" id="url" style="width:110px;" value="192.168.1.231"></td>
+      </tr>
+    <tr>
+      <td height="21" colspan="2" align="left" bgcolor="#FFFFFF">端口:
+        <input name="port" type="text" id="port" style="width:110px;" value="5000"></td>
+      </tr>
+    <tr>
+      <td height="21" colspan="2" align="left" bgcolor="#FFFFFF">用户:        
+        <input name="uname" type="text" id="uname" style="width:110px;" value="admin"></td>
+      </tr>
+    <tr>
+      <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF">密码:
+        <input name="psw" type="text" id="psw" style="width:110px;" value="admin"></td>
+      </tr>
+    <tr>
+      <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF"><div id="pertopleft" style="position:relative;z-index:2;margin:0px; padding:0px; width:186px;" class="font12">通道: <input name="Channel" type="text" id="Channel" style="width:110px;" value="0"></div>
+       </td>
+    </tr>
+			</table></td>
+    <td width="47%">
+	<input name="Login_1" type="button" id="Login_1" tabindex="1" value="登录方式1" onClick="Login()"><br />
+	<input name="Logout" type="button" id="Logout" tabindex="3" value="注销" onClick="logout()"><br />
+	<input type="button" value="预览/停止" name="OnChannelView" onClick="channelview()">
+	<input name="View" type="hidden" id="View" value="0" />
+	<br />
+	<input name="SetNVS" type="button" id="SetNVS" value="设置NVS" onClick="setNVS()">	</td>
+	</tr>
+  	</form>
+  <tr>
+    <td colspan="2">
+<form action="/webs/sysUpdate" method="post" enctype="multipart/form-data" name="file_frm" id="file_frm">
+						<table width="100%" border="0" cellpadding="0" cellspacing="1">
+                            <tr style="display:none;">
+                              <td height="22" colspan="2" align="center" class="btd" >
+							    <select name="up_type" id="up_type" class="select1"  style="width:192px;">
+                           		<option value="0" selected="selected">应用程序(*.uke)</option>
+                                 <option value="1">OCX 控件(*.uoc)</option>
+                                <option value="2">页面文件(*.uwe)</option>
+                                <option value="3">其他(*.uot)</option>
+                                </select></td>
+                            </tr>
+                            <tr>
+                              <td width="100" height="32" align="right" valign="bottom" class="btd"><input name="filepath" type="file" id="filepath" title="" style="width:320px;"/></td>
+                              <td width="895" valign="bottom" class="btd"><input name="Submit" type="button" class="button" id="Submit" value="升级" onClick="FunUpdate();" /> </td>
+                            </tr>
+                            <tr>
+                              <td id="upAlert" height="32" colspan="2" valign="bottom" class="btd">&nbsp;</td>
+                            </tr>
+                        </table>
+</form>	</td>
+  </tr>
+</table>
+</body>
+</html>

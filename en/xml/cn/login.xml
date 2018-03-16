@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<items>
+	<liUserName>用户名</liUserName>
+	<liPassword>密  码</liPassword>
+	<b_login>登 录</b_login>
+	<b_cancel_l>取 消</b_cancel_l>
+	<liOCX> &lt;a href='WebCMS.exe'&gt;点击此处下载控件，安装时请关闭浏览器&lt;/a&gt;</liOCX>
+</items>

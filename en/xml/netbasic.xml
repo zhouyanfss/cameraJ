@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>基本参数</title>
+		  <laHeadTitle>基本参数</laHeadTitle>
+		  <laDataPort>数据端口</laDataPort>
+		  <laWebPort>Web 端口</laWebPort>
+		  <laONVIFPort>ONVIF 端口</laONVIFPort>
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Basic Setting</title>
+		  <laHeadTitle>Basic Setting</laHeadTitle>
+		  <laDataPort>Data Port</laDataPort>
+		  <laWebPort>Web Port</laWebPort>
+		  <laONVIFPort>ONVIF Port</laONVIFPort>
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

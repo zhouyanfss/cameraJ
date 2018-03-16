@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>公网IP邮件通知</title>
+		  <laHeadTitle>公网IP邮件通知(设备启动或公网IP改变时,发送邮件通知)</laHeadTitle>
+		  <laEnable>开关</laEnable>
+		  <laInterval>更新间隔</laInterval>
+		  <opInterval1>默认</opInterval1>
+		  <opInterval2>1 小时</opInterval2>
+		  <opInterval3>2 小时</opInterval3>
+		  <opInterval4>1 天</opInterval4>
+		  <opInterval5>2 天</opInterval5>
+		  <opInterval6>7 天</opInterval6>
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Public IP noticed by email</title>
+		  <laHeadTitle>Public IP noticed by email</laHeadTitle>
+		  <laEnable>Enable</laEnable>
+		  <laInterval>Update Interval</laInterval>
+		  <opInterval1>Default</opInterval1>
+		  <opInterval2>1 Hour</opInterval2>
+		  <opInterval3>2 Hours</opInterval3>
+		  <opInterval4>1 Day</opInterval4>
+		  <opInterval5>2 Days</opInterval5>
+		  <opInterval6>7 Days</opInterval6>
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

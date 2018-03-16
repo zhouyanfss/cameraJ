@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>串口设置</title>
+		  <laHeadTitle>串口设置</laHeadTitle>
+		  <laCOMRS485Title>串口 RS485</laCOMRS485Title>
+		  <laRS485BaudRate>波特率</laRS485BaudRate>
+		  <laRS485DataBits>数据位</laRS485DataBits>
+		  <laRS485StopBits>停止位</laRS485StopBits>
+		  <laRS485CheckType>检验位</laRS485CheckType>
+		  <opRS485CheckType1>无</opRS485CheckType1>
+		  <opRS485CheckType2>奇校验</opRS485CheckType2>
+		  <opRS485CheckType3>偶校验</opRS485CheckType3>
+		  <opRS485CheckType4>标记</opRS485CheckType4>
+		  <opRS485CheckType5>空格</opRS485CheckType5>
+		  <laRS485FlowCtrl>流控制</laRS485FlowCtrl>
+		  <opRS485FlowCtrl1>无</opRS485FlowCtrl1>
+		  <opRS485FlowCtrl2>硬件</opRS485FlowCtrl2>
+		  <opRS485FlowCtrl3>Xon/Xoff</opRS485FlowCtrl3>
+		  
+		  <laCOMRS232Title>串口 RS232</laCOMRS232Title>
+		  <laRS232BaudRate>波特率</laRS232BaudRate>
+		  <laRS232DataBits>数据位</laRS232DataBits>
+		  <laRS232StopBits>停止位</laRS232StopBits>
+		  <laRS232CheckType>检验位</laRS232CheckType>
+		  <opRS232CheckType1>无</opRS232CheckType1>
+		  <opRS232CheckType2>奇校验</opRS232CheckType2>
+		  <opRS232CheckType3>偶校验</opRS232CheckType3>
+		  <opRS232CheckType4>标记</opRS232CheckType4>
+		  <opRS232CheckType5>空格</opRS232CheckType5>
+		  <laRS232FlowCtrl>流控制</laRS232FlowCtrl>
+		  <opRS232FlowCtrl1>无</opRS232FlowCtrl1>
+		  <opRS232FlowCtrl2>硬件</opRS232FlowCtrl2>
+		  <opRS232FlowCtrl3>Xon/Xoff</opRS232FlowCtrl3>
+		  
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>COM Setting</title>
+		  <laHeadTitle>COM Setting</laHeadTitle>
+		  <laCOMRS485Title>COM RS485</laCOMRS485Title>
+		  <laRS485BaudRate>Baud Rate</laRS485BaudRate>
+		  <laRS485DataBits>Data Bits</laRS485DataBits>
+		  <laRS485StopBits>Stop Bits</laRS485StopBits>
+		  <laRS485CheckType>Check Type</laRS485CheckType>
+		  <opRS485CheckType1>None</opRS485CheckType1>
+		  <opRS485CheckType2>Odd</opRS485CheckType2>
+		  <opRS485CheckType3>Even</opRS485CheckType3>
+		  <opRS485CheckType4>Mark</opRS485CheckType4>
+		  <opRS485CheckType5>Space</opRS485CheckType5>
+		  <laRS485FlowCtrl>Flow Ctrl</laRS485FlowCtrl>
+		  <opRS485FlowCtrl1>None</opRS485FlowCtrl1>
+		  <opRS485FlowCtrl2>Hardware</opRS485FlowCtrl2>
+		  <opRS485FlowCtrl2>Software</opRS485FlowCtrl2>
+		  
+		  <laCOMRS232Title>COM RS232</laCOMRS232Title>
+		  <laRS232BaudRate>Baud Rate</laRS232BaudRate>
+		  <laRS232DataBits>Data Bits</laRS232DataBits>
+		  <laRS232StopBits>Stop Bits</laRS232StopBits>
+		  <laRS232CheckType>Check Type</laRS232CheckType>
+		  <opRS232CheckType1>None</opRS232CheckType1>
+		  <opRS232CheckType2>Odd</opRS232CheckType2>
+		  <opRS232CheckType3>Even</opRS232CheckType3>
+		  <opRS232CheckType4>Mark</opRS232CheckType4>
+		  <opRS232CheckType5>Space</opRS232CheckType5>
+		  <laRS232FlowCtrl>Flow Ctrl</laRS232FlowCtrl>
+		  <opRS232FlowCtrl1>None</opRS232FlowCtrl1>
+		  <opRS232FlowCtrl2>Hardware</opRS232FlowCtrl2>
+		  <opRS232FlowCtrl2>Software</opRS232FlowCtrl2>
+
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

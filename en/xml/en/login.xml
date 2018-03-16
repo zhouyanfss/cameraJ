@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<items>
+	<liUserName>User Name</liUserName>
+	<liPassword>Password</liPassword>
+	<b_login>Login</b_login>
+	<b_cancel_l>Cancel</b_cancel_l>
+	<liOCX>&lt;a href='WebCMS.exe'&gt;please download and install the ActiveX.&lt;/a&gt;</liOCX>
+</items>

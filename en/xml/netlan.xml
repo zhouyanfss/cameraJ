@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>有线网络参数</title>
+		  <laHeadTitle>有线网络参数</laHeadTitle>
+		  <laDHCPEnable>DHCP 开关</laDHCPEnable>
+		  <laIP>IP 地址</laIP>
+		  <laSubnetMask>子网掩码</laSubnetMask>
+		  <laGateway>网关</laGateway>
+		  <laMAC>物理地址</laMAC>
+		  <laMulticastIP>多播 IP</laMulticastIP>
+		  <laMulticastPort>多播端口</laMulticastPort>
+		  <laMainDNS>首选 DNS 地址</laMainDNS>
+		  <laSubDNS>备用 DNS 地址</laSubDNS>
+		  <laIPVersion>IP版本</laIPVersion>
+		  <laDHCPEnable6>DHCP 开关</laDHCPEnable6>
+		  <laLinkAddr6>链接地址</laLinkAddr6>
+		  <laIP6>IP 地址</laIP6>
+		  <laGateway6>网关</laGateway6>
+		  <laMainDNS6>首选 DNS 地址</laMainDNS6>
+		  <laSubDNS6>备用 DNS 地址</laSubDNS6>
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>LAN Setting</title>
+		  <laHeadTitle>LAN Setting</laHeadTitle>
+		  <laDHCPEnable>DHCP Enable</laDHCPEnable>
+		  <laIP>IP</laIP>
+		  <laSubnetMask>Subnet Mask</laSubnetMask>
+		  <laGateway>Gateway</laGateway>
+		  <laMAC>MAC</laMAC>
+		  <laMulticastIP>Multicast IP</laMulticastIP>
+		  <laMulticastPort>Multicast Port</laMulticastPort>
+		  <laMainDNS>Preferred DNS</laMainDNS>
+		  <laSubDNS>Alternate DNS</laSubDNS>
+		  <laIPVersion>IP Version</laIPVersion>
+		  <laDHCPEnable6>DHCP Enable</laDHCPEnable6>
+		  <laLinkAddr6>Link Address</laLinkAddr6>
+		  <laIP6>IP</laIP6>
+		  <laGateway6>Gateway</laGateway6>
+		  <laMainDNS6>Main DNS</laMainDNS6>
+		  <laSubDNS6>Sub DNS</laSubDNS6>
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

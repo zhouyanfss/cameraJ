@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<items>
+	<b_preview>Liveview</b_preview>
+	<b_playback>Replay</b_playback>
+	<b_ptzctrl>PTZ</b_ptzctrl>
+	<b_config>Config</b_config>
+	<b_alarm>Alarm</b_alarm>
+	<b_quit>Log out</b_quit>
+	<b_Stream1>Main Stream</b_Stream1>
+	<b_Stream2>Sub Stream</b_Stream2>
+	<b_snap>Snap</b_snap>
+	<b_record>Record</b_record>
+	<b_talk>Call</b_talk>
+	<b_voice>Listen</b_voice>
+	<b_almout0>Alarm</b_almout0>
+	<b_zoom>Zoom</b_zoom>
+	<b_full>Full</b_full>
+	<b_scale>W:H</b_scale>
+	<b_original>Original</b_original>
+	<b_image>Images</b_image>
+	<b_ptz>PTZ</b_ptz>
+</items>

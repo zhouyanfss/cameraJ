@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>定时抓拍</title>
+		  <laHeadTitle>定时抓拍</laHeadTitle>
+		  <laChannel>通道:</laChannel>
+		  <laChannelSync>复制到所有通道</laChannelSync>
+		  <laSnapParameter>图片抓拍参数</laSnapParameter>
+		  <laSnapInterval>抓拍时间间隔</laSnapInterval>
+		  <laIntervalUnit>秒</laIntervalUnit>
+		  <laScheduleSnap>抓拍时间</laScheduleSnap>
+		  <laSnapTime1>布防时间段 1</laSnapTime1>
+		  <laSnapTime2>布防时间段 2</laSnapTime2>
+		  <laStorageMode>定时抓拍文件存储方式</laStorageMode>
+		  <laSnapPC>PC存储</laSnapPC>
+		  <laSnapDevice>设备存储</laSnapDevice>
+		  <laSnapEmail>发送E-mail</laSnapEmail>
+		  <laSnapFtp>Ftp上传</laSnapFtp>
+		  <laSnapAlert>默认只保存在设备端的存储设备里</laSnapAlert>
+		  
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Schedule Snap</title>
+		  <laHeadTitle>Schedule Snap</laHeadTitle>
+		  <laChannel>Chan:</laChannel>
+		  <laChannelSync>Copy to all channels</laChannelSync>
+		  <laSnapParameter>Snap Parameter</laSnapParameter>
+		  <laSnapInterval>Snap Interval</laSnapInterval>
+		  <laIntervalUnit>S</laIntervalUnit>
+		  <laScheduleSnap>Schedule snap on device</laScheduleSnap>
+		  <laSnapTime1>Time 1</laSnapTime1>
+		  <laSnapTime2>Time 2</laSnapTime2>
+		  <laStorageMode>File storage mode</laStorageMode>
+		  <laSnapLocal>Local</laSnapLocal>
+		  <laSnapDevice>Device</laSnapDevice>
+		  <laSnapEmail>E-mail</laSnapEmail>
+		  <laSnapFtp>Ftp</laSnapFtp>
+		  <laSnapAlert>The default save only in the storage device in the device</laSnapAlert>
+
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

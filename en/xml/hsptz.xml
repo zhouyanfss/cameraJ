@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>云台设置</title>
+		  <laHeadTitle>云台设置</laHeadTitle>
+		  <laChannel>通道:</laChannel>
+		  <laChannelSync>复制到所有通道</laChannelSync>
+		  <laAutoFlip>自动翻转</laAutoFlip>
+  		  <ctrl2>开</ctrl2>
+		  <ctrl1>关</ctrl1>
+		  <laLongFocusSpeedLimit>长焦限速</laLongFocusSpeedLimit>
+  		  <ctrl4>开</ctrl4>
+		  <ctrl3>关</ctrl3>
+		  <laVirtualZero>虚拟零位设置</laVirtualZero>
+  		  <ctrl5>设置</ctrl5>
+		  <laOK>确认</laOK>
+		  <laCancel>取消</laCancel>
+		  <laManualLimitSwitch>手动限位</laManualLimitSwitch>
+  		  <ctrl8>开</ctrl8>
+		  <ctrl7>关</ctrl7>
+		  <laScanLimitSwitch>扫描限位</laScanLimitSwitch>
+  		  <ctrl10>开</ctrl10>
+		  <ctrl9>关</ctrl9>
+		  <laScanSpeed>扫描速度设置</laScanSpeed>
+		  <laPanScanSpeed>水平扫描速度</laPanScanSpeed>
+		  <laTiltScanSpeed>俯仰扫描速度</laTiltScanSpeed>
+		  <laPark>看守位</laPark>
+		  <laParkMode>看守位模式</laParkMode>
+		  <laParkTime>看守位起动时间</laParkTime>
+		  <laParkTimeUnit>分</laParkTimeUnit>
+		  <laPowerOnModeT>上电模式设置</laPowerOnModeT>
+		  <laPowerOnMode>上电模式选项</laPowerOnMode>
+		  <laPowerOnTime>上电模式时间</laPowerOnTime>
+		  <laPowerOnTimeUnit>分</laPowerOnTimeUnit>
+		  <laPresetTour1>预置位巡视 1</laPresetTour1>
+		  <laPresetTour2>预置位巡视 2</laPresetTour2>
+		  <laTourPoint1>巡视点</laTourPoint1>
+		  <laPresetNO1>预置位号</laPresetNO1>
+		  <laTime1>时间(秒)</laTime1>
+		  <laTourPoint2>巡视点</laTourPoint2>
+		  <laPresetNO2>预置位号</laPresetNO2>
+		  <laTime2>时间(秒)</laTime2>
+		  <laSchedule>定时设置</laSchedule>
+		  <laEnable>开关</laEnable>
+		  <laTask>任务</laTask>
+		  <laStart>开始时间</laStart>
+		  <laClose>结束时间</laClose>
+		  <laScheduleAlert>注意:五个任务之间时间不能重叠</laScheduleAlert>
+		  <laPTZDefault>球机云台默认设置</laPTZDefault>
+		  <laPTZReset>球机云台复位</laPTZReset>
+		  <jsArrayPtion>new Array('无', '预置位 1', '预置位 2', '预置位 3', '预置位 4', '预置位 5', '预置位 6', '预置位 7', '预置位 8', '自动扫描', '削苹果扫描', '预置位巡视 1', '预置位巡视 2','花样扫描 1','花样扫描 2');</jsArrayPtion>
+
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Camera Setting</title>
+		  <laHeadTitle>Camera Setting</laHeadTitle>
+		  <laChannel>Chan:</laChannel>
+		  <laChannelSync>Copy to all channels</laChannelSync>
+		  <laAutoFlip>Auto Flip</laAutoFlip>
+  		  <ctrl2>ON</ctrl2>
+		  <ctrl1>OFF</ctrl1>
+		  <laLongFocusSpeedLimit>Long-focus speed limit</laLongFocusSpeedLimit>
+  		  <ctrl4>ON</ctrl4>
+		  <ctrl3>OFF</ctrl3>
+		  <laVirtualZero>Azimuth Zero</laVirtualZero>
+  		  <ctrl5>Set</ctrl5>
+		  <laOK>OK</laOK>
+		  <laCancel>Cancel</laCancel>
+		  <laManualLimitSwitch>Manual Limit Switch</laManualLimitSwitch>
+  		  <ctrl8>ON</ctrl8>
+		  <ctrl7>OFF</ctrl7>
+		  <laScanLimitSwitch>Scan Limit Switch</laScanLimitSwitch>
+  		  <ctrl10>ON</ctrl10>
+		  <ctrl9>OFF</ctrl9>
+		  <laScanSpeed>Scan Speed Setting</laScanSpeed>
+		  <laPanScanSpeed>Pan Scan Speed</laPanScanSpeed>
+		  <laTiltScanSpeed>Tilt Scan Speed</laTiltScanSpeed>
+		  <laPark>Park</laPark>
+		  <laParkMode>Park Mode</laParkMode>
+		  <laParkTime>Park Time</laParkTime>
+		  <laParkTimeUnit>M</laParkTimeUnit>
+		  <laPowerOnModeT>PowerOn Mode Setting</laPowerOnModeT>
+		  <laPowerOnMode>PowerOn Mode</laPowerOnMode>
+		  <laPowerOnTime>PowerOn Time</laPowerOnTime>
+		  <laPowerOnTimeUnit>M</laPowerOnTimeUnit>
+		  <laPresetTour1>Preset Tour 1</laPresetTour1>
+		  <laPresetTour2>Preset Tour 2</laPresetTour2>
+		  <laTourPoint1>NO.</laTourPoint1>
+		  <laPresetNO1>Preset NO</laPresetNO1>
+		  <laTime1>Time(S)</laTime1>
+		  <laTourPoint2>NO.</laTourPoint2>
+		  <laPresetNO2>Preset NO</laPresetNO2>
+		  <laTime2>Time(S)</laTime2>
+		  <laSchedule>Schedule</laSchedule>
+		  <laEnable>on-off</laEnable>
+		  <laTask>Task</laTask>
+		  <laStart>Start</laStart>
+		  <laClose>Close</laClose>
+		  <laScheduleAlert>Note: The time can not overlap between the five tasks.</laScheduleAlert>
+		  <laPTZDefault>Dome Camera PTZ default setting</laPTZDefault>
+		  <laPTZReset>Dome Camera Reset</laPTZReset>
+		  <jsArrayPtion>new Array('NO', 'Preset 1', 'Preset 2', 'Preset 3', 'Preset 4', 'Preset 5', 'Preset 6', 'Preset 7', 'Preset 8', 'Auto Scan', 'P&amp;T Scan', 'Preset Tour 1', 'Preset Tour 2', 'Figure Scan 1', 'Figure Scan 2');</jsArrayPtion>
+
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

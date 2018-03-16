@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>实时监控</title>
+		  <laPTZTitle>云镜控制</laPTZTitle>
+		  <laPTZZoom>变倍</laPTZZoom>
+		  <laPTZFocus>聚焦</laPTZFocus>
+		  <laPTZApe>光圈</laPTZApe>
+		  <laPTZPreset>预置位</laPTZPreset>
+		  <btnHSDome>球机控制</btnHSDome>
+		  <btnSubmit>提交</btnSubmit>
+		  <laLiMenus2>本地配置</laLiMenus2>
+		  <laLiMenus3>远程配置</laLiMenus3>
+		  <laLiMenuLens7>系统参数</laLiMenuLens7>
+		  <laLiMenuLensSub70>系统信息</laLiMenuLensSub70>
+		  <laLiMenuLensSub71>时间设置</laLiMenuLensSub71>
+		  <laLiMenuLensSub72>用户管理</laLiMenuLensSub72>
+		  <laLiMenuLensSub73>软件升级</laLiMenuLensSub73>
+		  <laLiMenuLensSub74>云台协议升级</laLiMenuLensSub74>
+		  <laLiMenuLensSub75>恢复出厂</laLiMenuLensSub75>
+		  <laLiMenuLensSub76>重启设备</laLiMenuLensSub76>
+		  <laLiMenuLens1>视频设置</laLiMenuLens1>
+		  <laLiMenuLensSub10>字符叠加</laLiMenuLensSub10>
+		  <laLiMenuLensSub11>视频编码</laLiMenuLensSub11>
+		  <laLiMenuLensSub12>视频屏蔽</laLiMenuLensSub12>
+		  <laLiMenuLensSub13>视频参数</laLiMenuLensSub13>
+		  <laLiMenuLensSub14>图片参数</laLiMenuLensSub14>
+		  <laLiMenuLens0>音频属性</laLiMenuLens0>
+		  <laLiMenuLens2>网络设置</laLiMenuLens2>
+		  <laLiMenuLensSub20>基本参数</laLiMenuLensSub20>
+		  <laLiMenuLensSub21>有线网络参数</laLiMenuLensSub21>
+		  <laLiMenuLensSub22>无线网络参数</laLiMenuLensSub22>
+		  <laLiMenuLensSub23>PPPOE 参数</laLiMenuLensSub23>
+		  <laLiMenuLensSub24>3G 参数</laLiMenuLensSub24>
+		  <laLiMenuLensSub25>UPNP 参数</laLiMenuLensSub25>
+		  <laLiMenuLensSub26>EMail 参数</laLiMenuLensSub26>
+		  <laLiMenuLensSub27>FTP 参数</laLiMenuLensSub27>
+		  <laLiMenuLensSub28>DDNS 参数</laLiMenuLensSub28>
+		  <laLiMenuLensSub29>VPN 参数</laLiMenuLensSub29>
+		  <laLiMenuLensSub210>RTSP 参数</laLiMenuLensSub210>
+		  <laLiMenuLensSub211>外网IP通知</laLiMenuLensSub211>
+		  <laLiMenuLensSub212>NTP 参数</laLiMenuLensSub212>
+		  <laLiMenuLensSub213>Ping 参数</laLiMenuLensSub213>
+		  <laLiMenuLensSub214>中心连接</laLiMenuLensSub214>
+		  <laLiMenuLensSub215>目的服务器</laLiMenuLensSub215>
+		  <laLiMenuLensSub216>手机监控</laLiMenuLensSub216>
+		  <laLiMenuLensSub217>GPS 参数</laLiMenuLensSub217>
+		  <laLiMenuLensSub218>SNMP 参数</laLiMenuLensSub218>
+		  <laLiMenuLensSub219>HTTPS 参数</laLiMenuLensSub219>
+		  <laLiMenuLens3>存储设置</laLiMenuLens3>
+		  <laLiMenuLensSub30>存储设备</laLiMenuLensSub30>
+		  <laLiMenuLensSub31>录像计划</laLiMenuLensSub31>
+		  <laLiMenuLensSub32>抓拍计划</laLiMenuLensSub32>
+		  <laLiMenuLens4>报警设置</laLiMenuLens4>
+		  <laLiMenuLensSub40>移动报警</laLiMenuLensSub40>
+		  <laLiMenuLensSub41>探头报警</laLiMenuLensSub41>
+		  <laLiMenuLensSub42>网络故障</laLiMenuLensSub42>
+		  <laLiMenuLensSub43>无线探头</laLiMenuLensSub43>
+		  <laLiMenuLensSub44>视频丢失</laLiMenuLensSub44>
+		  <laLiMenuLens5>串口设置</laLiMenuLens5>
+		  <laLiMenuLens6>球机设置</laLiMenuLens6>
+		  <laLiMenuLensSub60>摄像机设置</laLiMenuLensSub60>
+		  <laLiMenuLensSub61>云台设置</laLiMenuLensSub61>
+		  <laLiMenuLens8>扩展功能</laLiMenuLens8>
+		  <laLiMenuLensSub83>参数配置</laLiMenuLensSub83>
+		  <laLiMenuLensSub84>参数配置</laLiMenuLensSub84>
+		  <laLiMenuLensSub85>参数配置</laLiMenuLensSub85>
+		  <laLiMenuLensSub86>参数配置</laLiMenuLensSub86>
+		  <laLiMenuLensSub87>参数配置</laLiMenuLensSub87>
+		  <laLiMenuLensSub88>快速抓拍</laLiMenuLensSub88>
+		  <laLiMenuLensSub89>海能汇流通</laLiMenuLensSub89>
+		  <laLiMenuLensSub810>金钟接入</laLiMenuLensSub810>
+		  <laLiMenuLensSub811>中兴通信</laLiMenuLensSub811>
+		  <laLiMenuLensSub812>UT接入</laLiMenuLensSub812>
+		  <laLiMenuLensSub813>上海贝尔</laLiMenuLensSub813>
+		  <laLiMenuLensSub814>神州数码</laLiMenuLensSub814>
+		  <laLiMenuLensSub815>matt接入</laLiMenuLensSub815>
+		  <laLiMenuLensSub816>小神童接入</laLiMenuLensSub816>
+		  <laLiMenuLensSub817>佳信接入</laLiMenuLensSub817>
+		  <laLiMenuLensSub818>定流发送</laLiMenuLensSub818>
+		  <laLiMenuLensSub819>华三接入</laLiMenuLensSub819>
+		  <laLiMenuLensSub820>浪涛接入</laLiMenuLensSub820>
+		  <laLiMenuLensSub821>新网接入</laLiMenuLensSub821>
+		  <laLiMenuLensSub822>华睿接入</laLiMenuLensSub822>
+		  <laLiMenuLensSub823>大视野接入</laLiMenuLensSub823>
+		  <laLiMenuLensSub824>DO59接入</laLiMenuLensSub824>
+		  <laLiMenuLensSub825>停车场接入</laLiMenuLensSub825>
+		  <laLiMenuLensSub826>ANV接入</laLiMenuLensSub826>
+		  <laLiMenuLensSub827>华数眼接入</laLiMenuLensSub827>
+		  <laLiMenuLensSub828>易看接入</laLiMenuLensSub828>
+		  <laLiMenuLensSub829>聚晖接入</laLiMenuLensSub829>
+		  <laLiMenuLensSub830>创佳接入</laLiMenuLensSub830>
+		  <laLiMenuLensSub831>天诚接入</laLiMenuLensSub831>
+		  <laLiMenuLensSub832>先进视讯</laLiMenuLensSub832>
+		  <laLiMenuLensSub833>远见平台</laLiMenuLensSub833>
+		  <laLiMenuLensSub834>参数配置</laLiMenuLensSub834>
+		  <laLiMenuLensSub835>交通抓拍</laLiMenuLensSub835>
+		  <laLiMenuLensSub836>场景切换</laLiMenuLensSub836>
+		  <laLiMenuLensSub837>电网接入</laLiMenuLensSub837>
+		  <laLiMenuLensSub838>GB28181</laLiMenuLensSub838>
+		  <laLiMenuLensSub839>GSTC</laLiMenuLensSub839>
+		  <laLiMenuLensSub840>3G Control</laLiMenuLensSub840>
+		  <laLiMenuLensSub841>DigiFort</laLiMenuLensSub841>
+		  <laLiMenuLensSub899>接入配置</laLiMenuLensSub899>
+		  <laPRETitle>球机控制</laPRETitle>
+		  <laPRENO>预置号：</laPRENO>
+		  <btnPreset>设置</btnPreset>
+		  <btnPresetCall>调用</btnPresetCall>
+		  <laMSTitle>球机控制</laMSTitle>
+		  <laMSNO>预置号：</laMSNO>
+		  <opPresetNon>未设置</opPresetNon>
+		  <opPresetYes>已设置</opPresetYes>
+		  <laTitleD>标  题</laTitleD>
+ 		  <ctrl31>调用</ctrl31>
+		  <ctrl32>设置</ctrl32>
+		  <ctrl33>删除</ctrl33>
+		  <laScan>花样扫描</laScan>
+  		  <ctrl41>开始</ctrl41>
+ 		  <ctrl42>结束</ctrl42>
+ 		  <ctrl43>运行</ctrl43>
+ 		  <ctrl64>水平翻转</ctrl64>
+ 		  <ctrl65>零位检测</ctrl65>
+ 		  <ctrl51>左限位</ctrl51>
+ 		  <ctrl52>右限位</ctrl52>
+ 		  <ctrl53>上限位</ctrl53>
+ 		  <ctrl54>下限位</ctrl54>
+ 		  <ctrl61>预置位巡视1</ctrl61>
+ 		  <ctrl610>预置位巡视2</ctrl610>
+ 		  <ctrl62>削苹果扫描</ctrl62>
+ 		  <ctrl63>停止控制</ctrl63>
+ 		  <laOutputTitle>输出控制</laOutputTitle>
+		  
+		  <laAttentionContext>提示：第一次登录，请下载安装控件。 &lt;a href='WebCMS.exe'&gt;&lt;font color='#0000FF'&gt;下载地址&lt;/font&gt;&lt;/a&gt;&lt;br /&gt;</laAttentionContext>
+		  
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Liveview</title>
+		  <laPTZTitle>PTZ Control</laPTZTitle>
+		  <laPTZZoom>Zoom</laPTZZoom>
+		  <laPTZFocus>Focus</laPTZFocus>
+		  <laPTZApe>Iris</laPTZApe>
+		  <laPTZPreset>Preset</laPTZPreset>
+		  <btnHSDome>Dome</btnHSDome>
+		  <btnSubmit>Submit</btnSubmit>
+		  <laLiMenus2>Local Config</laLiMenus2>
+		  <laLiMenus3>Remote Config</laLiMenus3>
+		  <laLiMenuLens7>System</laLiMenuLens7>
+		  <laLiMenuLensSub70>System Info</laLiMenuLensSub70>
+		  <laLiMenuLensSub71>System Time</laLiMenuLensSub71>
+		  <laLiMenuLensSub72>User Manage</laLiMenuLensSub72>
+		  <laLiMenuLensSub73>Upgrade</laLiMenuLensSub73>
+		  <laLiMenuLensSub74>PTZ Upgrade</laLiMenuLensSub74>
+		  <laLiMenuLensSub75>Restore</laLiMenuLensSub75>
+		  <laLiMenuLensSub76>Reboot</laLiMenuLensSub76>
+		  <laLiMenuLens1>Video Settings</laLiMenuLens1>
+		  <laLiMenuLensSub10>OSD Settings</laLiMenuLensSub10>
+		  <laLiMenuLensSub11>Video Coding</laLiMenuLensSub11>
+		  <laLiMenuLensSub12>Video Mask</laLiMenuLensSub12>
+		  <laLiMenuLensSub13>Video Parameter</laLiMenuLensSub13>
+		  <laLiMenuLensSub14>Picture Parameter</laLiMenuLensSub14>
+		  <laLiMenuLens0>Audio</laLiMenuLens0>
+		  <laLiMenuLens2>Network Settings</laLiMenuLens2>
+		  <laLiMenuLensSub20>Basic</laLiMenuLensSub20>
+		  <laLiMenuLensSub21>LAN</laLiMenuLensSub21>
+		  <laLiMenuLensSub22>Wireless</laLiMenuLensSub22>
+		  <laLiMenuLensSub23>PPPOE</laLiMenuLensSub23>
+		  <laLiMenuLensSub24>3G Setting</laLiMenuLensSub24>
+		  <laLiMenuLensSub25>UPNP</laLiMenuLensSub25>
+		  <laLiMenuLensSub26>EMail</laLiMenuLensSub26>
+		  <laLiMenuLensSub27>FTP</laLiMenuLensSub27>
+		  <laLiMenuLensSub28>DDNS</laLiMenuLensSub28>
+		  <laLiMenuLensSub29>VPN</laLiMenuLensSub29>
+		  <laLiMenuLensSub210>RTSP</laLiMenuLensSub210>
+		  <laLiMenuLensSub211>IP EMail</laLiMenuLensSub211>
+		  <laLiMenuLensSub212>NTP</laLiMenuLensSub212>
+		  <laLiMenuLensSub213>Ping</laLiMenuLensSub213>
+		  <laLiMenuLensSub214>Connecting</laLiMenuLensSub214>
+		  <laLiMenuLensSub215>Directive Sending</laLiMenuLensSub215>
+		  <laLiMenuLensSub216>Mobile</laLiMenuLensSub216>
+		  <laLiMenuLensSub217>GPS</laLiMenuLensSub217>
+		  <laLiMenuLensSub218>SNMP</laLiMenuLensSub218>
+		  <laLiMenuLensSub219>HTTPS</laLiMenuLensSub219>
+		  <laLiMenuLens3>Storage Settings</laLiMenuLens3>
+		  <laLiMenuLensSub30>Device Setting</laLiMenuLensSub30>
+		  <laLiMenuLensSub31>Record Setting</laLiMenuLensSub31>
+		  <laLiMenuLensSub32>Snap Setting</laLiMenuLensSub32>
+		  <laLiMenuLens4>Alarm Settings</laLiMenuLens4>
+		  <laLiMenuLensSub40>Motion Detection</laLiMenuLensSub40>
+		  <laLiMenuLensSub41>Sensor Detection</laLiMenuLensSub41>
+		  <laLiMenuLensSub42>Network Detection</laLiMenuLensSub42>
+		  <laLiMenuLensSub43>Wireless Setting</laLiMenuLensSub43>
+		  <laLiMenuLensSub44>Video Lose</laLiMenuLensSub44>
+		  <laLiMenuLens5>COM Setting</laLiMenuLens5>
+		  <laLiMenuLens6>Dome Camera</laLiMenuLens6>
+		  <laLiMenuLensSub60>Camera Setting</laLiMenuLensSub60>
+		  <laLiMenuLensSub61>PTZ Setting</laLiMenuLensSub61>
+		  <laLiMenuLens8>Expansion Settings</laLiMenuLens8>
+		  <laLiMenuLensSub83>Access Setting</laLiMenuLensSub83>
+		  <laLiMenuLensSub84>Access Setting</laLiMenuLensSub84>
+		  <laLiMenuLensSub85>Access Setting</laLiMenuLensSub85>
+		  <laLiMenuLensSub86>Access Setting</laLiMenuLensSub86>
+		  <laLiMenuLensSub87>Access Setting</laLiMenuLensSub87>
+		  <laLiMenuLensSub88>Access Setting</laLiMenuLensSub88>
+		  <laLiMenuLensSub89>Access Setting</laLiMenuLensSub89>
+		  <laLiMenuLensSub810>Access Setting</laLiMenuLensSub810>
+		  <laLiMenuLensSub811>Access Setting</laLiMenuLensSub811>
+		  <laLiMenuLensSub812>Access Setting</laLiMenuLensSub812>
+		  <laLiMenuLensSub813>Access Setting</laLiMenuLensSub813>
+		  <laLiMenuLensSub814>Access Setting</laLiMenuLensSub814>
+		  <laLiMenuLensSub815>Access Setting</laLiMenuLensSub815>
+		  <laLiMenuLensSub816>Access Setting</laLiMenuLensSub816>
+		  <laLiMenuLensSub817>Access Setting</laLiMenuLensSub817>
+		  <laLiMenuLensSub818>Access Setting</laLiMenuLensSub818>
+		  <laLiMenuLensSub819>Access Setting</laLiMenuLensSub819>
+		  <laLiMenuLensSub820>Access Setting</laLiMenuLensSub820>
+		  <laLiMenuLensSub821>Access Setting</laLiMenuLensSub821>
+		  <laLiMenuLensSub822>Access Setting</laLiMenuLensSub822>
+		  <laLiMenuLensSub823>Access Setting</laLiMenuLensSub823>
+		  <laLiMenuLensSub824>Access Setting</laLiMenuLensSub824>
+		  <laLiMenuLensSub825>Access Setting</laLiMenuLensSub825>
+		  <laLiMenuLensSub826>Access Setting</laLiMenuLensSub826>
+		  <laLiMenuLensSub827>Access Setting</laLiMenuLensSub827>
+		  <laLiMenuLensSub828>Access Setting</laLiMenuLensSub828>
+		  <laLiMenuLensSub829>Access Setting</laLiMenuLensSub829>
+		  <laLiMenuLensSub830>Access Setting</laLiMenuLensSub830>
+		  <laLiMenuLensSub831>Access Setting</laLiMenuLensSub831>
+		  <laLiMenuLensSub832>Access Setting</laLiMenuLensSub832>
+		  <laLiMenuLensSub833>Access Setting</laLiMenuLensSub833>
+		  <laLiMenuLensSub834>Access Setting</laLiMenuLensSub834>
+		  <laLiMenuLensSub835>Access Setting</laLiMenuLensSub835>
+		  <laLiMenuLensSub836>Access Setting</laLiMenuLensSub836>
+		  <laLiMenuLensSub837>Access Setting</laLiMenuLensSub837>
+		  <laLiMenuLensSub838>GB28181</laLiMenuLensSub838>
+		  <laLiMenuLensSub839>GSTC</laLiMenuLensSub839>
+		  <laLiMenuLensSub840>3G Control</laLiMenuLensSub840>
+		  <laLiMenuLensSub841>DigiFort</laLiMenuLensSub841>
+		  <laLiMenuLensSub899>Access Setting</laLiMenuLensSub899>
+		  <laPRETitle>Dome Control</laPRETitle>
+		  <laPRENO>No.</laPRENO>
+		  <btnPreset>Call</btnPreset>
+		  <btnPresetCall>Set</btnPresetCall>
+		  <laMSTitle>Dome Control</laMSTitle>
+		  <laMSNO>No.</laMSNO>
+		  <opPresetNon>Not Defined</opPresetNon>
+		  <opPresetYes>Defined</opPresetYes>
+		  <laTitleD>Title</laTitleD>
+ 		  <ctrl31>Call</ctrl31>
+		  <ctrl32>Set</ctrl32>
+		  <ctrl33>Clear</ctrl33>
+		  <laScan>Figure Scan</laScan>
+  		  <ctrl41>Start</ctrl41>
+ 		  <ctrl42>Finish</ctrl42>
+ 		  <ctrl43>Run</ctrl43>
+ 		  <ctrl64>PAN Flip</ctrl64>
+ 		  <ctrl65>Zero Detection</ctrl65>
+ 		  <ctrl51>Left Limit</ctrl51>
+ 		  <ctrl52>Right Limit</ctrl52>
+ 		  <ctrl53>Up Limit</ctrl53>
+ 		  <ctrl54>Down Limit</ctrl54>
+ 		  <ctrl61>Preset Tour 1</ctrl61>
+ 		  <ctrl610>Preset Tour 2</ctrl610>
+ 		  <ctrl62>P&amp;T SCAN</ctrl62>
+ 		  <ctrl63>Stop</ctrl63>
+ 		  <laOutputTitle>Output</laOutputTitle>
+	  
+		  <laAttentionContext>Tip:please download and install the control. &lt;a href='WebCMS.exe'&gt;&lt;font color='#0000FF'&gt;File&lt;/font&gt;&lt;/a&gt;&lt;br /&gt;</laAttentionContext>
+	  </Page>
+	</Resources>
+</html>

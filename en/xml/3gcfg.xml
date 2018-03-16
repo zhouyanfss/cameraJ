@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>3G 设置</title>
+		  <laHeadTitle>3G 设置</laHeadTitle>
+		  <laEnable>开关</laEnable>
+		  <laSignalIntensity>信号强度</laSignalIntensity>
+		  <opSignal1>未知</opSignal1>
+		  <opSignal2>较弱</opSignal2>
+		  <opSignal3>弱</opSignal3>
+		  <opSignal4>一般</opSignal4>
+		  <opSignal5>强</opSignal5>
+		  <opSignal6>较强</opSignal6>
+		  <btnRefresh>刷新</btnRefresh>
+		  <btnATCommand>AT 命令</btnATCommand>
+		  <la3GType>3G类型</la3GType>
+		  <laPIN>PIN码</laPIN>
+		  <la3GStatus>3G状态</la3GStatus>
+		  <laSIMCardStatus>sim卡状态</laSIMCardStatus>
+		  <laServiceStatus>服务状态</laServiceStatus>
+		  <laNetworkMode>网络模式</laNetworkMode>
+		  <laSoftwareVersion>软件版本</laSoftwareVersion>
+		  <laHardwareVersion>硬件版本</laHardwareVersion>
+		  <laAdvanced>高级设置</laAdvanced>
+		  <laDIALNumber>拨号号码</laDIALNumber>
+		  <laAPN>APN</laAPN>
+		  <laUserName>用户名</laUserName>
+		  <laPassword>密码</laPassword>
+		  <laAuthenticationType>验证类型</laAuthenticationType>
+		  <laDialControl>拔号控制</laDialControl>
+		  <laDialTime1>拔号时间 1</laDialTime1>
+		  <laDialTime2>拔号时间 2</laDialTime2>
+		  <laDialTime3>拔号时间 3</laDialTime3>
+		  <laDialTime4>拔号时间 4</laDialTime4>
+		  <laMonthlyTime>每月限时</laMonthlyTime>
+		  <laMonthlyTimeAlert>(小时,0时没时长限制)</laMonthlyTimeAlert>
+		  <laTimeUsed>已用时长</laTimeUsed>
+		  <laTimeLeft>剩余时长</laTimeLeft>
+		  <laErasingDate>已用时间清零日期</laErasingDate>
+		  
+		  <btnATCommandTitle>AT 命令</btnATCommandTitle>
+		  <laATCMD>AT 命令:</laATCMD>
+		  <laATReturn>返回值:</laATReturn>
+		  <btnATSubmit>确认</btnATSubmit>
+		  
+		  <laPINTitle>PIN 设置</laPINTitle>
+		  <laPINEnable>PIN码开关：</laPINEnable>
+		  <laPINPassword>密码：</laPINPassword>
+		  <laPINNotice>提示：</laPINNotice>
+		  <btnPINSubmit>确认</btnPINSubmit>
+		  
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>3G Setting</title>
+		  <laHeadTitle>3G Setting</laHeadTitle>
+		  <laEnable>Enable</laEnable>
+		  <laSignalIntensity>Signal Intensity</laSignalIntensity>
+		  <opSignal1>unknown</opSignal1>
+		  <opSignal2>weaker</opSignal2>
+		  <opSignal3>weak</opSignal3>
+		  <opSignal4>average</opSignal4>
+		  <opSignal5>strong</opSignal5>
+		  <opSignal6>stronger</opSignal6>
+		  <btnRefresh>Refresh</btnRefresh>
+		  <btnATCommand>AT CMD</btnATCommand>
+		  <la3GType>3G Type</la3GType>
+		  <laPIN>PIN</laPIN>
+		  <la3GStatus>3G Status</la3GStatus>
+		  <laSIMCardStatus>SIM Card Status</laSIMCardStatus>
+		  <laServiceStatus>Service Status</laServiceStatus>
+		  <laNetworkMode>Network Mode</laNetworkMode>
+		  <laSoftwareVersion>Software Version</laSoftwareVersion>
+		  <laHardwareVersion>Hardware Version</laHardwareVersion>
+		  <laAdvanced>Advanced</laAdvanced>
+		  <laDIALNumber>DIAL Number</laDIALNumber>
+		  <laAPN>APN</laAPN>
+		  <laUserName>UserName</laUserName>
+		  <laPassword>Password</laPassword>
+		  <laAuthenticationType>Authentication Type</laAuthenticationType>
+		  <laDialControl>Dial Control</laDialControl>
+		  <laDialTime1>Dial Time 1</laDialTime1>
+		  <laDialTime2>Dial Time 2</laDialTime2>
+		  <laDialTime3>Dial Time 3</laDialTime3>
+		  <laDialTime4>Dial Time 4</laDialTime4>
+		  <laMonthlyTime>Monthly Time limited</laMonthlyTime>
+		  <laMonthlyTimeAlert>(H,There is no time limitation when '0')</laMonthlyTimeAlert>
+		  <laTimeUsed>Time Used</laTimeUsed>
+		  <laTimeLeft>Time Left</laTimeLeft>
+		  <laErasingDate>Date of erasing used time</laErasingDate>
+		  
+		  <btnATCommandTitle>AT Command</btnATCommandTitle>
+		  <laATCMD>AT Command:</laATCMD>
+		  <laATReturn>Return:</laATReturn>
+		  <btnATSubmit>Submit</btnATSubmit>
+		  
+		  <laPINTitle>PIN Setting</laPINTitle>
+		  <laPINEnable>PIN Enable：</laPINEnable>
+		  <laPINPassword>Password：</laPINPassword>
+		  <laPINNotice>Notice：</laPINNotice>
+		  <btnPINSubmit>Submit</btnPINSubmit>
+		  
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

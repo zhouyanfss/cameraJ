@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>定时录像</title>
+		  <laHeadTitle>定时录像</laHeadTitle>
+		  <laChannel>通道:</laChannel>
+		  <laChannelSync>复制到所有通道</laChannelSync>
+		  <laScheduleRecord>录像时间</laScheduleRecord>
+		  <laRecordTime1>布防时间段 1</laRecordTime1>
+		  <laRecordTime2>布防时间段 2</laRecordTime2>
+		  <laStorageMode>定时录像文件存储方式</laStorageMode>
+		  <laRecordPC>PC存储</laRecordPC>
+		  <laRecordDevice>设备存储</laRecordDevice>
+		  <laRecordEmail>发送E-mail</laRecordEmail>
+		  <laRecordFtp>Ftp上传</laRecordFtp>
+		  <laRecordAlert>默认只保存在设备端的存储设备里</laRecordAlert>
+		  
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Schedule Record</title>
+		  <laHeadTitle>Schedule Record</laHeadTitle>
+		  <laChannel>Chan:</laChannel>
+		  <laChannelSync>Copy to all channels</laChannelSync>
+		  <laScheduleRecord>Schedule record on device</laScheduleRecord>
+		  <laRecordTime1>Time 1</laRecordTime1>
+		  <laRecordTime2>Time 2</laRecordTime2>
+		  <laStorageMode>File storage mode</laStorageMode>
+		  <laRecordLocal>Local</laRecordLocal>
+		  <laRecordDevice>Device</laRecordDevice>
+		  <laRecordEmail>E-mail</laRecordEmail>
+		  <laRecordFtp>Ftp</laRecordFtp>
+		  <laRecordAlert>The default save only in the storage device in the device</laRecordAlert>
+
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<items>
+	<laReplayTitle>录像回放</laReplayTitle>
+	<laAVShowTitle>分辨率:</laAVShowTitle>
+	<opAVWH>最合适</opAVWH>
+	<laStorageTitle>存储:</laStorageTitle>
+	<opStorage1>前端设备</opStorage1>
+	<opStorage2>本地 PC</opStorage2>
+	<laChannelTitle>通道：</laChannelTitle>
+	<opChannel1>通道 1</opChannel1>
+	<opChannel2>通道 2</opChannel2>
+	<opChannel3>通道 3</opChannel3>
+	<opChannel4>通道 4</opChannel4>
+	<opChannel5>通道 5</opChannel5>
+	<opChannel6>通道 6</opChannel6>
+	<opChannel7>通道 7</opChannel7>
+	<opChannel8>通道 8</opChannel8>
+	<laTypeTitle>类型:</laTypeTitle>
+	<opType1>所有录像</opType1>
+	<opType2>报警录像</opType2>
+	<opType3>手动录像</opType3>
+	<opType4>定时录像</opType4>
+	<opType5>图片文件</opType5>
+	<laDateTitle>日期:</laDateTitle>
+	<btnSearchRecord>搜索</btnSearchRecord>
+	<laPlayListTitle>文件列表</laPlayListTitle>
+	<btnPlay>播放</btnPlay>
+	<btnDown>下载</btnDown>
+	<btnInfo>信息</btnInfo>
+</items>

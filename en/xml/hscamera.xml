@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>摄像机设置</title>
+		  <laHeadTitle>摄像机设置</laHeadTitle>
+		  <laChannel>通道:</laChannel>
+		  <laChannelSync>复制到所有通道</laChannelSync>
+		  <laColorSet>亮色调节</laColorSet>
+		  <btnStandardDefault>标准默认</btnStandardDefault>
+		  <laStandard>标准</laStandard>
+		  <btnColorfulDefault>鲜艳默认</btnColorfulDefault>
+		  <laColorful>鲜艳</laColorful>
+		  <imgBrightnessDefault>亮度默认</imgBrightnessDefault>
+		  <laBrightness>亮度</laBrightness>
+		  <laBrightnessDefault>亮度默认</laBrightnessDefault>
+		  <imgContrastDefault>对比度默认</imgContrastDefault>
+		  <laContrast>对比度</laContrast>
+		  <laContrastDefault>对比度默认</laContrastDefault>
+		  <imgHueDefault>色调默认</imgHueDefault>
+		  <laHue>色调</laHue>
+		  <laHueDefault>色调默认</laHueDefault>
+		  <imgSaturationDefault>饱和度默认</imgSaturationDefault>
+		  <laSaturation>饱和度</laSaturation>
+		  <laSaturationDefault>饱和度默认</laSaturationDefault>
+		  <imgAcutanceDefault>锐度默认</imgAcutanceDefault>
+		  <laAcutance>锐度</laAcutance>
+		  <laAcutanceDefault>锐度默认</laAcutanceDefault>
+		  <imgRedDefault>红色默认</imgRedDefault>
+		  <laRed>红色</laRed>
+		  <laRedDefault>红色默认</laRedDefault>
+		  <imgGreenDefault>绿色默认</imgGreenDefault>
+		  <laGreen>绿色</laGreen>
+		  <laGreenDefault>绿色默认</laGreenDefault>
+		  <imgBlueDefault>蓝色默认</imgBlueDefault>
+		  <laBlue>蓝色</laBlue>
+		  <laBlueDefault>蓝色默认</laBlueDefault>
+		  <imgGammaDefault>Gamma默认</imgGammaDefault>
+		  <laGamma>Gamma</laGamma>
+		  <laGammaDefault>Gamma默认</laGammaDefault>
+		  <imgSceneDefault>场景默认</imgSceneDefault>
+		  <laScene>场景</laScene>
+		  <laSceneDefault>场景默认</laSceneDefault>
+		  <laParametersTitle>参数设置</laParametersTitle>
+		  <laZoomingSpeed>变倍速度控制</laZoomingSpeed>
+		  <ctrl1>高速</ctrl1>
+		  <ctrl2>正常速度</ctrl2>
+		  <laFocus>焦距控制</laFocus>
+		  <ctrl3>自动</ctrl3>
+		  <ctrl4>手动</ctrl4>
+		  <laIris>光圈控制</laIris>
+		  <ctrl5>自动</ctrl5>
+		  <ctrl6>手动</ctrl6>
+		  <laWB>白平衡控制</laWB>
+		  <ctrl7>自动</ctrl7>
+		  <ctrl8>手动</ctrl8>
+		  <opWBMode1>正常模式</opWBMode1>
+		  <opWBMode2>钠气灯模式</opWBMode2>
+		  <opWBMode3>汞蒸气灯模式</opWBMode3>
+		  <laWBRed>白平衡 红</laWBRed>
+		  <laWBGreen>白平衡 绿</laWBGreen>
+		  <laWBBlue>白平衡 蓝</laWBBlue>
+		  <btnWDR>宽动态</btnWDR>
+  		  <ctrl12>开</ctrl12>
+		  <ctrl11>关</ctrl11>
+		  <opWDRMode1>一般宽动态</opWDRMode1>
+		  <opWDRMode2>高级宽动态</opWDRMode2>
+		  <opWDRMode3>一般对比偏移宽动态</opWDRMode3>
+		  <opWDRMode4>高级对比偏移宽动态</opWDRMode4>
+		  <opWDRMode5>对比偏移宽动态</opWDRMode5>
+  		  <laBLC>背光补偿</laBLC>
+  		  <ctrl10>开</ctrl10>
+		  <ctrl9>关</ctrl9>
+  		  <laBLCValue>补偿值</laBLCValue>
+  		  <laMirror>镜像</laMirror>
+  		  <ctrl14>开</ctrl14>
+		  <ctrl13>关</ctrl13>
+		  <opMirrorMode1>翻转镜像</opMirrorMode1>
+		  <opMirrorMode2>水平镜像</opMirrorMode2>
+		  <opMirrorMode3>颠倒镜像</opMirrorMode3>
+  		  <laImageFrozen>视频冻结</laImageFrozen>
+  		  <ctrl16>开</ctrl16>
+		  <ctrl15>关</ctrl15>
+  		  <laInstantBlank>瞬间黑屏</laInstantBlank>
+  		  <ctrl18>开</ctrl18>
+		  <ctrl17>关</ctrl17>
+  		  <laImageMode>图像模式</laImageMode>
+  		  <ctrl19>图像模式一</ctrl19>
+		  <ctrl20>图像模式二</ctrl20>
+  		  <laRestraint>噪声抑制</laRestraint>
+  		  <ctrl22>开</ctrl22>
+		  <ctrl21>关</ctrl21>
+  		  <laRestraintValue>抑制值</laRestraintValue>
+  		  <laResolusiont>高解析度</laResolusiont>
+  		  <ctrl24>开</ctrl24>
+		  <ctrl23>关</ctrl23>
+  		  <laManualIRcfTitle>手动彩转黑(滤光片控制)</laManualIRcfTitle>
+  		  <ctrl31>彩色</ctrl31>
+		  <ctrl32>黑白</ctrl32>
+  		  <laAutoIRcfTitle>自动彩转黑阀值(滤光片控制)</laAutoIRcfTitle>
+  		  <laAutoIRcfValue>彩转黑阀值</laAutoIRcfValue>
+  		  <laIRcf6300Title>彩转黑(滤光片控制)</laIRcf6300Title>
+  		  <laManualIRcf6300>手动彩转黑</laManualIRcf6300>
+  		  <laAutoIRcf6300>自动彩转黑</laAutoIRcf6300>
+  		  <ctrl39>开</ctrl39>
+		  <ctrl38>关</ctrl38>
+  		  <laAutoIRcf6300Value>自动彩转黑阀值</laAutoIRcf6300Value>
+  		  <laIRTitle>红外灯</laIRTitle>
+  		  <ctrl33>正常光</ctrl33>
+  		  <ctrl34>850mm</ctrl34>
+  		  <ctrl35>950mm</ctrl35>
+  		  <laAETitle>可编程自动曝光控制模式</laAETitle>
+  		  <ctrl47>自动曝光</ctrl47>
+  		  <opAutoExposure1>自动曝光</opAutoExposure1>
+  		  <opAutoExposure2>自动曝光+彩转黑+高灵敏度</opAutoExposure2>
+  		  <opAutoExposure3>自动曝光+彩转黑+中灵敏度</opAutoExposure3>
+  		  <opAutoExposure4>自动曝光带慢快门</opAutoExposure4>
+  		  <opAutoExposure5>自动曝光带慢快门+彩转黑+高灵敏度</opAutoExposure5>
+  		  <opAutoExposure6>自动曝光带慢快门+彩转黑+中灵敏度</opAutoExposure6>
+  		  <opAutoExposure7>自动曝光带慢快门+彩转黑+低灵敏度</opAutoExposure7>
+  		  <ctrl48>快门优先</ctrl48>
+  		  <ctrl49>光圈优先</ctrl49>
+  		  <ctrl50>自动增益控制</ctrl50>
+		  <laGainValue>增益值</laGainValue>
+  		  <ctrl51>亮度优先</ctrl51>
+  		  <ctrl52>慢速自动</ctrl52>
+		  <laSlowValue>调节值</laSlowValue>
+  		  <ctrl53>慢速快门</ctrl53>
+		  <laMaxGainTitle>最大增益值设置</laMaxGainTitle>
+		  <laMaxGainValue>最大增益值</laMaxGainValue>
+  		  <laIrisTitle>光圈镜头</laIrisTitle>
+  		  <btnIris0>非自动光圈</btnIris0>
+  		  <btnIris1>DC自动光圈</btnIris1>
+  		  <laIrisValue>光圈电平</laIrisValue>
+  		  <laLighteningFrequencyTitle>照明频率</laLighteningFrequencyTitle>
+  		  <laAutoFocusMode>低照度点光源环境自动聚焦功能优化开关</laAutoFocusMode>
+		  <opAutoFocusMode1>默认AF</opAutoFocusMode1>
+		  <opAutoFocusMode2>低照度AF优化开启</opAutoFocusMode2>
+		  <opAutoFocusMode3>低照度点光源AF优化开启</opAutoFocusMode3>
+   		  <t_irdetime>转换时间</t_irdetime>
+  		  <t_irdetimeuint>秒</t_irdetimeuint>
+ 		  <t_Iris>光圈电平</t_Iris>
+
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+		  <btnResetSumbit>恢复默认值</btnResetSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Camera Setting</title>
+		  <laHeadTitle>Camera Setting</laHeadTitle>
+		  <laChannel>Chan:</laChannel>
+		  <laChannelSync>Copy to all channels</laChannelSync>
+		  <laColorSet>Images Color</laColorSet>
+		  <btnStandardDefault>Standard </btnStandardDefault>
+		  <laStandard>Standard</laStandard>
+		  <btnColorfulDefault>Colorful Default</btnColorfulDefault>
+		  <laColorful>Colorful</laColorful>
+		  <imgBrightnessDefault>Brightness Default</imgBrightnessDefault>
+		  <laBrightness>Bri.</laBrightness>
+		  <laBrightnessDefault>Brightness Default</laBrightnessDefault>
+		  <imgContrastDefault>Contrast Default</imgContrastDefault>
+		  <laContrast>Con.</laContrast>
+		  <laContrastDefault>Contrast Default</laContrastDefault>
+		  <imgHueDefault>Hue Default</imgHueDefault>
+		  <laHue>Hue</laHue>
+		  <laHueDefault>Hue Default</laHueDefault>
+		  <imgSaturationDefault>Saturation Default</imgSaturationDefault>
+		  <laSaturation>Sat.</laSaturation>
+		  <laSaturationDefault>Saturation Default</laSaturationDefault>
+		  <imgAcutanceDefault>Acutance Default</imgAcutanceDefault>
+		  <laAcutance>Acu.</laAcutance>
+		  <laAcutanceDefault>Acutance Default</laAcutanceDefault>
+		  <imgRedDefault>Red Default</imgRedDefault>
+		  <laRed>Red</laRed>
+		  <laRedDefault>Red Default</laRedDefault>
+		  <imgGreenDefault>Green Default</imgGreenDefault>
+		  <laGreen>Green</laGreen>
+		  <laGreenDefault>Green Default</laGreenDefault>
+		  <imgBlueDefault>Blue Default</imgBlueDefault>
+		  <laBlue>Blue</laBlue>
+		  <laBlueDefault>Blue Default</laBlueDefault>
+		  <imgGammaDefault>Gamma Default</imgGammaDefault>
+		  <laGamma>Gamma</laGamma>
+		  <laGammaDefault>Gamma Default</laGammaDefault>
+		  <imgSceneDefault>Scene Default</imgSceneDefault>
+		  <laScene>Scene</laScene>
+		  <laSceneDefault>Scene Default</laSceneDefault>
+		  <laParametersTitle>Parameters Setting</laParametersTitle>
+		  <laZoomingSpeed>Zooming Speed</laZoomingSpeed>
+		  <ctrl1>High Speed</ctrl1>
+		  <ctrl2>Normal Speed</ctrl2>
+		  <laFocus>Focus</laFocus>
+		  <ctrl3>Auto</ctrl3>
+		  <ctrl4>Manual</ctrl4>
+		  <laIris>Iris Control</laIris>
+		  <ctrl5>Auto</ctrl5>
+		  <ctrl6>Manual</ctrl6>
+		  <laWB>WB Control</laWB>
+		  <ctrl7>Auto</ctrl7>
+		  <ctrl8>Manual</ctrl8>
+		  <opWBMode1>Normal Mode</opWBMode1>
+		  <opWBMode2>Sodium Vapor Light Mode</opWBMode2>
+		  <opWBMode3>Mercury Vapor Light Mode</opWBMode3>
+		  <laWBRed>WB Red</laWBRed>
+		  <laWBGreen>WB Green</laWBGreen>
+		  <laWBBlue>WB Blue</laWBBlue>
+		  <btnWDR>WDR</btnWDR>
+  		  <ctrl12>ON</ctrl12>
+		  <ctrl11>OFF</ctrl11>
+		  <opWDRMode1>WDR</opWDRMode1>
+		  <opWDRMode2>AD_WDR</opWDRMode2>
+		  <opWDRMode3>WDR + Contrast Offset</opWDRMode3>
+		  <opWDRMode4>AD_WDR + Contrast Offset</opWDRMode4>
+		  <opWDRMode5>Contrast Offset</opWDRMode5>
+  		  <laBLC>BLC</laBLC>
+  		  <ctrl10>ON</ctrl10>
+		  <ctrl9>OFF</ctrl9>
+  		  <laBLCValue>BLC Value</laBLCValue>
+  		  <laMirror>Mirror</laMirror>
+  		  <ctrl14>ON</ctrl14>
+		  <ctrl13>OFF</ctrl13>
+		  <opMirrorMode1>Flip Mirror Mode</opMirrorMode1>
+		  <opMirrorMode2>Horizontal Mirror Mode</opMirrorMode2>
+		  <opMirrorMode3>Mirror Reversal</opMirrorMode3>
+  		  <laImageFrozen>Image Frozen</laImageFrozen>
+  		  <ctrl16>ON</ctrl16>
+		  <ctrl15>OFF</ctrl15>
+  		  <laInstantBlank>Instant Blank</laInstantBlank>
+  		  <ctrl18>ON</ctrl18>
+		  <ctrl17>OFF</ctrl17>
+  		  <laImageMode>Image Mode</laImageMode>
+  		  <ctrl19>Image Mode 1</ctrl19>
+		  <ctrl20>Image Mode 2</ctrl20>
+  		  <laRestraint>Restraint</laRestraint>
+  		  <ctrl22>ON</ctrl22>
+		  <ctrl21>OFF</ctrl21>
+  		  <laRestraintValue>Restraint</laRestraintValue>
+  		  <laResolusiont>Resolusiont</laResolusiont>
+  		  <ctrl24>ON</ctrl24>
+		  <ctrl23>OFF</ctrl23>
+  		  <laManualIRcfTitle>Manual IRcf Control</laManualIRcfTitle>
+  		  <ctrl31>Color</ctrl31>
+		  <ctrl32>BW</ctrl32>
+  		  <laAutoIRcfTitle>Auto IRcf Control</laAutoIRcfTitle>
+  		  <laAutoIRcfValue>Value</laAutoIRcfValue>
+  		  <laIRcf6300Title>IRcf Control</laIRcf6300Title>
+  		  <laManualIRcf6300>Manual Ircf Control</laManualIRcf6300>
+  		  <laAutoIRcf6300>Auto Control</laAutoIRcf6300>
+  		  <ctrl39>ON</ctrl39>
+		  <ctrl38>OFF</ctrl38>
+  		  <laAutoIRcf6300Value>Auto Ircf</laAutoIRcf6300Value>
+  		  <laIRTitle>IR</laIRTitle>
+  		  <ctrl33>Normal</ctrl33>
+  		  <ctrl34>850mm</ctrl34>
+  		  <ctrl35>950mm</ctrl35>
+  		  <laAETitle>AE mode</laAETitle>
+  		  <ctrl47>Full Auto</ctrl47>
+  		  <opAutoExposure1>Full Auto</opAutoExposure1>
+  		  <opAutoExposure2>AE+Ircf +Hi sensitivity</opAutoExposure2>
+  		  <opAutoExposure3>AE+Ircf +Mid sensitivity</opAutoExposure3>
+  		  <opAutoExposure4>AE with slow shutter</opAutoExposure4>
+  		  <opAutoExposure5>AE with slow shutter+Ircf +Hi sensitivity</opAutoExposure5>
+  		  <opAutoExposure6>AE with slow shutter+Ircf +Mid sensitivity</opAutoExposure6>
+  		  <opAutoExposure7>AE with slow shutter+Ircf +Low sensitivity</opAutoExposure7>
+  		  <ctrl48>Shutter Priority</ctrl48>
+  		  <ctrl49>Iris Priority</ctrl49>
+  		  <ctrl50>Gain Priority</ctrl50>
+		  <laGainValue>Gain Value</laGainValue>
+  		  <ctrl51>Bright priority</ctrl51>
+  		  <ctrl52>Slow auto</ctrl52>
+		  <laSlowValue>Restrain</laSlowValue>
+  		  <ctrl53>Slow shutter</ctrl53>
+		  <laMaxGainTitle>Maximum AGC gain</laMaxGainTitle>
+		  <laMaxGainValue>gain Value</laMaxGainValue>
+  		  <laIrisTitle>Iris</laIrisTitle>
+  		  <btnIris0>Non-Auto Iris</btnIris0>
+  		  <btnIris1>DC Auto Iris</btnIris1>
+  		  <laIrisValue>Iris Value</laIrisValue>
+  		  <laLighteningFrequencyTitle>Lightening Frequency</laLighteningFrequencyTitle>
+  		  <laAutoFocusMode>Optimise the auto-focusing function under the point lighting source in low light</laAutoFocusMode>
+		  <opAutoFocusMode1>Default AF</opAutoFocusMode1>
+		  <opAutoFocusMode2>AF Optimization under weak lighting</opAutoFocusMode2>
+		  <opAutoFocusMode3>AF Optimization under the point lighting source with weak lighting</opAutoFocusMode3>
+   		  <t_irdetime>Switching</t_irdetime>
+  		  <t_irdetimeuint>S</t_irdetimeuint>
+ 		  <t_Iris>Level</t_Iris>
+
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+		  <btnResetSumbit>Restore Defaults</btnResetSumbit>
+	  </Page>
+	</Resources>
+</html>

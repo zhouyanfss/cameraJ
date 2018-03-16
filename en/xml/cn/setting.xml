@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<items>
+	<local>本地配置</local>
+	<la_local>本地配置</la_local>
+	<audio>音频属性</audio>
+	<la_audio>音频属性</la_audio>
+	<video>视频设置</video>
+	<la_videoosd>字符叠加</la_videoosd>
+	<la_videocoding>视频编码</la_videocoding>
+	<la_videomask>视频屏蔽</la_videomask>
+	<la_videolens>视频参数</la_videolens>
+	<la_picture>图片参数</la_picture>
+	<network>网络设置</network>
+	<la_netbasic>基本参数</la_netbasic>
+	<la_netlan>有线网络参数</la_netlan>
+	<la_netwifi>无线网络参数</la_netwifi>
+	<la_netpppoe>PPPOE 参数</la_netpppoe>
+	<la_3gcfg>3G 参数</la_3gcfg>
+	<la_netupnp>UPNP 参数</la_netupnp>
+	<la_netemail>EMail 参数</la_netemail>
+	<la_netftp>FTP 参数</la_netftp>
+	<la_netddns>DDNS 参数</la_netddns>
+	<la_netvpn>VPN 参数</la_netvpn>
+	<la_netrtsp>RTSP 参数</la_netrtsp>
+	<la_netipemail>外网IP 参数</la_netipemail>
+	<la_netntp>NTP 参数</la_netntp>
+	<la_netping>Ping 参数</la_netping>
+	<la_netcenter>中心连接</la_netcenter>
+	<la_netdirective>目的服务器</la_netdirective>
+	<la_mobilecfg>手机监控</la_mobilecfg>
+	<la_gpscfg>GPS 参数</la_gpscfg>
+	<la_netsnmp>SNMP 参数</la_netsnmp>
+	<la_httpscfg>HTTPS 参数</la_httpscfg>
+	<storage>存储设置</storage>
+	<la_storage>存储设备</la_storage>
+	<la_record>录像计划</la_record>
+	<la_snap>抓拍计划</la_snap>
+	<alarm>报警设置</alarm>
+	<la_motion>移动报警</la_motion>
+	<la_sensor>探头报警</la_sensor>
+	<la_failure>网络故障</la_failure>
+	<la_wireless>无线探头</la_wireless>
+	<la_videolose>视频丢失</la_videolose>
+	<terminal>串口设置</terminal>
+	<la_terminal>串口设置</la_terminal>
+	<camera>球机设置</camera>
+	<la_hscamera>摄像机设置</la_hscamera>
+	<la_hsptz>云台设置</la_hsptz>
+	<system>系统参数</system>
+	<la_sysinfo>系统信息</la_sysinfo>
+	<la_systime>时间设置</la_systime>
+	<la_umanage>用户管理</la_umanage>
+	<la_sysupgrade>软件升级</la_sysupgrade>
+	<la_ptzupgrade>云台协议升级</la_ptzupgrade>
+	<la_sysrestore>恢复出厂</la_sysrestore>
+	<la_sysreboot>重启设备</la_sysreboot>
+	<la_syslog>系统日志</la_syslog>
+	<extensions>扩展功能</extensions>
+	<la_zxlwcfg>中兴力维</la_zxlwcfg>
+	<la_hxhtcfg>互信互通</la_hxhtcfg>
+	<la_xdtxcfg>现代通讯</la_xdtxcfg>
+	<la_accesscfg>中兴通信</la_accesscfg>
+	<la_smcfg>神州数码</la_smcfg>
+	<la_gb28181>GB28181</la_gb28181>
+</items>

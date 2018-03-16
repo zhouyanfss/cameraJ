@@ -1,0 +1,84 @@
+<div id="pev_top"></div>
+<div id="pev_cot" style="_position:relative">
+	<div id="yt">
+		<a id="yt1" href="javascript:;"></a>
+		<a id="yt2" href="javascript:;"></a>
+		<a id="yt3" href="javascript:;"></a>
+		<a id="yt4" href="javascript:;"></a>
+		<a id="yt5" href="javascript:;" class="yt5"></a>
+		<a id="yt6" href="javascript:;"></a>
+		<a id="yt7" href="javascript:;"></a>
+		<a id="yt8" href="javascript:;"></a>
+		<a id="yt9" href="javascript:;"></a>
+	</div>
+	<div id="bc" class="imgfix">
+		<a style="float:left;width:8px;height:16px;display:inline-block;cursor:default;margin:0px;padding:0px;"></a>
+		<div id='bcx' class="sax">
+			<div id='bck' class="skx"></div>
+		</div>
+		<span id="t_bcn" class="num" style="margin-top:5px;">0</span>
+	</div>	
+	<div id="tiaojie">
+		<a  id="b_bb1" href="javascript:;"></a>
+		<a  id="t_bb" >变倍</a>
+		<a  id="b_bb2" href="javascript:;"></a>
+		<a  id="b_bj1" href="javascript:;"></a>
+		<a  id="t_bj">变焦</a>
+		<a  id="b_bj2" href="javascript:;"></a>
+		<a  id="b_gq1" href="javascript:;"></a>
+		<a  id="t_gq">光圈</a>
+		<a  id="b_gq2" href="javascript:;"></a>
+	</div>
+	<div id="yzw" class="ptzcs">
+		<div>
+			<span id="t_value">值(0-255):</span><input type="text" id="pv" value="1" style="width:45px;" onkeyup="limitMax(this,255)" onblur="limitMax(this,255);limitMin(this,1);" onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))"/>
+		</div>
+		<div>
+		  <a  id="b_yzws" href="javascript:;">预</a>
+		  <a  id="b_yzwc" href="javascript:;">预</a>
+		</div>
+	</div>
+	<div id="lb" class="ptzcs">
+		<a  id="b_light" href="javascript:;">灯</a>
+		<a  id="b_brush" href="javascript:;">雨</a>
+	</div>
+	<div id="gjxx">
+		<div class="gjhe">
+			<span id="laMSNO" style="width:50px;text-align:right;">预:</span><select name="presetnum" id="presetnum" style="width:44px;" onChange="btnsettinghsEx(6000,6104,this.value,'');"></select>
+			<select name="presetstatus" id="presetstatus" style="width:50px;" disabled="disabled">
+			<option id="opPresetNon" value="0">未</option>
+			<option id="opPresetYes" value="1">已</option>
+			</select>
+		</div>
+		<div class="gjtr">
+			<span id="laTitleD" style="width:50px;text-align:right;">标:</span><input name="presettitle" type="text" disabled="disabled" class="text distext" id="presettitle" style="width:72px;" maxlength="32"><input name="ckpreset" type="checkbox" id="ckpreset" value="checkbox" onClick="enablepreset()" style="width:21px;"/>
+		</div>
+		<div class="gjtd">
+			<a  id="b_yzc" class="a5 a5ac" onClick="hsvctrl('b_yzc',0,0,5,6102,0);" href="javascript:;" style="width:45px;">调</a>
+			<a  id="b_yzs" class="a5 a5ac" onClick="hsvctrl('b_yzs',0,0,5,6101,0);" href="javascript:;" style="width:45px;" disabled="disabled">设</a>
+			<a  id="b_yzd" class="a5 a5ac" onClick="hsvctrl('b_yzd',0,0,5,6103,0);" href="javascript:;" style="width:45px;" disabled="disabled">删</a>
+		</div>
+		<div class="gjhe">
+			<span id="laScan" style="width:50px;text-align:right;">花:</span><select name="scantype" id="scantype" style="width:76px;"><option value="1">1</option><option value="2">2</option></select>
+		</div>
+		<div class="gjtd">
+			<a  id="ctrl41"  class="a5 a5ac" onClick="hsvctrl('ctrl41',42,43,3,6201,0);" href="javascript:;" style="width:45px;">开</a>
+			<a  id="ctrl42"  class="a5 a5ac" onClick="hsvctrl('ctrl42',41,43,6,6202,0);" href="javascript:;" style="width:45px;">结</a>
+			<a  id="ctrl43"  class="a5 a5ac" onClick="hsvctrl('ctrl43',41,42,6,6203,0);" href="javascript:;" style="width:45px;">运</a>
+		</div>
+		<div class="gjtd" style="border-top:1px solid #434343; margin-top:6px;">
+			  <a  id="b_pt1"   class="a5 a5ac" onClick="hsvctrl('b_pt1',1,1,16,6501,0);" href="javascript:;">水</a>
+			  <a  id="b_pt2"   class="a5 a5ac" onClick="hsvctrl('b_pt2',2,2,16,6502,0);" href="javascript:;">零</a>
+			  <a  id="b_pt3"   class="a5 a5ac" onClick="hsvctrl('b_pt3',3,3,16,6301,0);" href="javascript:;">左</a>
+			  <a  id="b_pt4"   class="a5 a5ac" onClick="hsvctrl('b_pt4',4,4,16,6302,0);" href="javascript:;">右</a>
+			  <a  id="b_pt5"   class="a5 a5ac" onClick="hsvctrl('b_pt5',5,5,16,6303,0);" href="javascript:;">上</a>
+			  <a  id="b_pt6"   class="a5 a5ac" onClick="hsvctrl('b_pt6',6,6,16,6304,0);" href="javascript:;">下</a>
+			  <a  id="b_pt7"   class="a5 a5ac" onClick="hsvctrl('b_pt7',7,7,16,6401,1);" href="javascript:;">预</a>
+			  <a  id="b_pt8"   class="a5 a5ac" onClick="hsvctrl('b_pt8',8,8,16,6401,2);" href="javascript:;">预</a>
+			  <a  id="b_pt9"   class="a5 a5ac" onClick="hsvctrl('b_pt9',9,9,16,6402,0);" href="javascript:;">削</a>
+			  <a  id="b_pt10"  class="a5 a5ac" onClick="hsvctrl('b_pt10',10,10,16,6403,0);" href="javascript:;">制</a>
+		</div>			               	  
+	</div>
+	<div id="pev_btm" style="display:none;"><a  id="b_xl" class="b_down" href="javascript:;" hidefocus="true"></a></div>
+</div>
+<div id="pev_xbtm" class="bjscbj"></div>

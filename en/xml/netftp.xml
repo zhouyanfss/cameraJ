@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>FTP 设置</title>
+		  <laHeadTitle>FTP 设置</laHeadTitle>
+		  <laEnable>开关</laEnable>
+		  <laMainServer>首选服务器</laMainServer>
+		  <laSubServer>备用服务器</laSubServer>
+		  <laServerURL>服务器地址</laServerURL>
+		  <laServerPort>服务器端口</laServerPort>
+		  <laFTPCatalog>远程路径</laFTPCatalog>
+		  <laUserName>用户名</laUserName>
+		  <laPassword>密  码</laPassword>
+		  <laStartPort>主动起始端口</laStartPort>
+		  <laEndPort>主动结束端口</laEndPort>
+		  <laPictureName>图片名称</laPictureName>
+		  <laAutoCreateName>自动生成图片名称</laAutoCreateName>
+		  
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>FTP Setting</title>
+		  <laHeadTitle>FTP Setting</laHeadTitle>
+		  <laEnable>Enable</laEnable>
+		  <laMainServer>Main Server</laMainServer>
+		  <laSubServer>Sub Server</laSubServer>
+		  <laServerURL>Server URL</laServerURL>
+		  <laServerPort>Server Port</laServerPort>
+		  <laFTPCatalog>FTP Catalog</laFTPCatalog>
+		  <laUserName>UserName</laUserName>
+		  <laPassword>Password</laPassword>
+		  <laStartPort>Start Port</laStartPort>
+		  <laEndPort>End Port</laEndPort>
+		  <laPictureName>Picture Name</laPictureName>
+		  <laAutoCreateName>Auto Create Name</laAutoCreateName>
+		  
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

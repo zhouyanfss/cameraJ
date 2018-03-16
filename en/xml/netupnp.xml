@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>UPNP 设置</title>
+		  <laHeadTitle>UPNP 设置(端口自动映射)</laHeadTitle>
+		  <laEnable>开关</laEnable>
+		  <laNetworkCard>网卡</laNetworkCard>
+		  <opNetworkCard1>有线</opNetworkCard1>
+		  <opNetworkCard2>无线</opNetworkCard2>
+		  <laUPNPMode>使用模式</laUPNPMode>
+		  <opUPNPMode1>指定</opUPNPMode1>
+		  <opUPNPMode2>自动</opUPNPMode2>
+		  <laServerURL>服务器地址</laServerURL>
+		  <laDataPortMap>数据映射端口</laDataPortMap>
+		  <laWebPortMap>Web 映射端口</laWebPortMap>
+		  <laDataMappingStatus>数据端口映射状态</laDataMappingStatus>
+		  <laWebMappingStatus>Web 端口映射状态</laWebMappingStatus>
+		  
+		  <laNotice1>数据映射端口:指设备的数据服务端口映射到外网的端口.</laNotice1>
+		  <laNotice2>Web映射端口:指设备的Web服务端口映射到外网的端口.</laNotice2>
+		  <laNotice3>在指定模式下,只映射到指定的端口,如果端口被占用,则映射失败.</laNotice3>
+		  <laNotice4>在自动模式下,会优先映射到指定端口,如果指定端口被占用,则自动递增映射端口,直到映射成功.</laNotice4>
+		  
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>UPNP Setting</title>
+		  <laHeadTitle>UPNP Setting</laHeadTitle>
+		  <laEnable>Enable</laEnable>
+		  <laNetworkCard>Network Card</laNetworkCard>
+		  <opNetworkCard1>Lineate</opNetworkCard1>
+		  <opNetworkCard2>WiFi</opNetworkCard2>
+		  <laUPNPMode>Mode</laUPNPMode>
+		  <opUPNPMode1>Designate</opUPNPMode1>
+		  <opUPNPMode2>Auto</opUPNPMode2>
+		  <laServerURL>Server URL</laServerURL>
+		  <laDataPortMap>Data Port Map No.</laDataPortMap>
+		  <laWebPortMap>Web Port Map No.</laWebPortMap>
+		  <laDataMappingStatus>Data Mapping Status</laDataMappingStatus>
+		  <laWebMappingStatus>Web Mapping Status</laWebMappingStatus>
+		  
+		  <laNotice1>Data port map No.:device data port forwards to external network port.</laNotice1>
+		  <laNotice2>Web port map No.:device web port forwards to external network port.</laNotice2>
+		  <laNotice3>In specified mode, only can mapping to the appointed port, if port was occupied then mapping failed.</laNotice3>
+		  <laNotice4>In automatic mode, will mapping to the appointed port in priority; if appointed port was occupied, the mapping port will auto-increment till map successful.</laNotice4>
+		  
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

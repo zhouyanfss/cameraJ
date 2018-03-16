@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>基本参数</title>
+		  <laHeadTitle>基本参数</laHeadTitle>
+		  <laSystemName>设备名称</laSystemName>
+		  <laSystemPal>VO环出制式</laSystemPal>
+		  <laSystemLanguage>设备语言</laSystemLanguage>
+		  <opLanguage1>英文</opLanguage1>
+		  <opLanguage2>简体中文</opLanguage2>
+		  <laChannel>路  数</laChannel>
+		  <laDeviceID>设备编号</laDeviceID>
+		  <laVersion>内核版本</laVersion>
+		  <laState>状态信息</laState>
+		  <laWebVersion>WEB版本</laWebVersion>
+		  <laNotice>修改完设备语言,请关闭浏览器重新登录.</laNotice>
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>System Infomation</title>
+		  <laHeadTitle>System Infomation</laHeadTitle>
+		  <laSystemName>Device Name</laSystemName>
+		  <laSystemPal>VO Standard</laSystemPal>
+		  <laSystemLanguage>Language</laSystemLanguage>
+		  <opLanguage1>English</opLanguage1>
+		  <opLanguage2>Simplified Chinese</opLanguage2>
+		  <laChannel>Channel</laChannel>
+		  <laDeviceID>Device ID</laDeviceID>
+		  <laVersion>Version</laVersion>
+		  <laState>System State</laState>
+		  <laWebVersion>WEB Version</laWebVersion>
+		  <laNotice>Modifying the device language, please close the browser to login.</laNotice>
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

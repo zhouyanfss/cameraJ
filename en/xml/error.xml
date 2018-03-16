@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>请重新登录</title>
+		  <laHeadTitle>温馨提示</laHeadTitle>
+		  <laLoginError>登录失败,请重新登录! </laLoginError>
+		  <laLogin>登录</laLogin>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Login</title>
+		  <laHeadTitle>Information</laHeadTitle>
+		  <laLoginError>Login failing,Please login again! </laLoginError>
+		  <laLogin>Login</laLogin>
+	  </Page>
+	</Resources>
+</html>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>音频属性</title>
+		  <laHeadTitle>音频属性</laHeadTitle>
+		  <laChannel>通道:</laChannel>
+		  <laChannelSync>复制到所有通道</laChannelSync>
+		  <laAudioEnable>音频开关</laAudioEnable>
+		  <laAudioInput>音频输入</laAudioInput>
+		  <laCompressionType>压缩格式</laCompressionType>
+		  <laAudioBitrate>音频码率</laAudioBitrate>
+		  <laSamplingRate>采样率</laSamplingRate>
+		  <laInputVolume>输入音量</laInputVolume>
+		  <laOutputVolume>输出音量</laOutputVolume>
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Audio Parameter</title>
+		  <laHeadTitle>Audio Parameter</laHeadTitle>
+		  <laChannel>Chan:</laChannel>
+		  <laChannelSync>Copy to all channels</laChannelSync>
+		  <laAudioEnable>Enable</laAudioEnable>
+		  <laAudioInput>Audio Input</laAudioInput>
+		  <laCompressionType>Compression Type</laCompressionType>
+		  <laAudioBitrate>Audio Bitrate</laAudioBitrate>
+		  <laSamplingRate>Sampling Rate</laSamplingRate>
+		  <laInputVolume>Input Volume</laInputVolume>
+		  <laOutputVolume>Output Volume</laOutputVolume>
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

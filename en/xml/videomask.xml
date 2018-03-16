@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>视频屏蔽</title>
+		  <laHeadTitle>视频屏蔽</laHeadTitle>
+		  <laDateSubmitWaittin>数据提交中，请稍等......</laDateSubmitWaittin>
+		  <laChannel>通道:</laChannel>
+		  <laChannelSync>复制到所有通道</laChannelSync>
+		  <laVideoMask>视频屏蔽开关</laVideoMask>
+		  <laSet>屏蔽区域设置</laSet>
+		  <laAll>全部</laAll>
+		  <laCls>清除</laCls>
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Privacy Mask</title>
+		  <laHeadTitle>Privacy Mask</laHeadTitle>
+		  <laDateSubmitWaittin>Data processing, please wait … …</laDateSubmitWaittin>
+		  <laChannel>Chan:</laChannel>
+		  <laChannelSync>Copy to all channels</laChannelSync>
+		  <laVideoMask>Enable Mask</laVideoMask>
+		  <laSet>Mask area set</laSet>
+		  <laAll>All</laAll>
+		  <laCls>Cls</laCls>
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

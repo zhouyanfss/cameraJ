@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>VPN 设置</title>
+		  <laHeadTitle>VPN 设置</laHeadTitle>
+		  <laEnable>开关</laEnable>
+		  <laServerURL>服务器地址</laServerURL>
+		  <laUserName>用户名</laUserName>
+		  <laPassword>密  码</laPassword>
+		  <laIP>IP</laIP>
+		  <laStatus>状态</laStatus>
+		  
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>VPN Setting</title>
+		  <laHeadTitle>VPN Setting</laHeadTitle>
+		  <laEnable>Enable</laEnable>
+		  <laServerURL>Server URL</laServerURL>
+		  <laUserName>UserName</laUserName>
+		  <laPassword>Password</laPassword>
+		  <laIP>IP</laIP>
+		  <laStatus>Status</laStatus>
+		  
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

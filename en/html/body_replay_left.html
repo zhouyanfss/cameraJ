@@ -1,0 +1,95 @@
+<div id="retx" class="retx">
+	<span  id="laReplayTitle">录像回放</span>
+</div>
+<div id="rev">
+	<ul>
+	<li><div class="revlt" id="laAVShowTitle">分辨率：</div>
+		<div class="revlv">
+		<select name="avshow" id="avshow" onChange="funChangeWindow(this)">
+			<option value="10" id="opAVWH" selected>最合适</option>
+			<option value="0" >4:3</option>
+			<option value="1">16:9</option>
+			<option value="2">11:9</option>
+		</select>
+		</div>
+	</li>
+	<form id="Frmsel" name="Frmsel" method="post" action="" style="padding:0px; margin:0px;">      
+	<li id="liStorage">
+		<div class="revlt" id="laStorageTitle">存储：</div>
+		<div class="revlv">
+		<select name="storagetype" id="storagetype" onChange="changeStorage();">
+			<option id="opStorage1" value="0" selected>前端设备</option>
+			<option id="opStorage2" value="1">本地 PC</option>
+		</select>
+		</div>
+	</li>
+	<li id="liChannel">
+		<div class="revlt" id="laChannelTitle">通道：</div>
+		<div class="revlv">
+		<select name="selchannel" id="selchannel">
+			<!--<option value="0">所有通道</option>//-->
+			<option id="opChannel1" value="1" selected="selected">通道 1</option>
+			<option id="opChannel2" value="2">通道 2</option>
+			<option id="opChannel3" value="3">通道 3</option>
+			<option id="opChannel4" value="4">通道 4</option>
+			<option id="opChannel5" value="5">通道 5</option>
+			<option id="opChannel6" value="6">通道 6</option>
+			<option id="opChannel7" value="7">通道 7</option>
+			<option id="opChannel8" value="8">通道 8</option>
+		</select>
+		</div>
+	</li>
+	<li id="liType">
+		<div class="revlt" id="laTypeTitle">类型：</div>
+		<div class="revlv">
+		<select name="seltype" id="seltype">
+			<option id="opType1" value="0">所有录像</option>
+			<option id="opType2" value="1">报警录像</option>
+			<option id="opType4" value="2">定时录像</option>
+			<option id="opType5" value="3">图片文件</option>
+		</select>
+		</div>
+	</li>
+	<li>
+		<div class="revlt" id="laDateTitle">日期：</div>
+		<div class="revlv">
+    		<span class="timeBox"> 
+			<input type="text" id="bdt0" maxlength=4 name="textfield" class="intyear"/>- 
+			<input type="text" id="bdt1" maxlength=2 name="textfield" class="intime"/>- 
+			<input type="text" id="bdt2" maxlength=2 name="textfield" class="intime"/>
+			</span>
+			<span class="timeBox" style="display:none;">
+				<input type="text" id="btm0" maxlength=2 name="textfield" class="intime"/>:
+				<input type="text" id="btm1" maxlength=2 name="textfield" class="intime"/>:
+				<input type="text" id="btm2" maxlength=2 name="textfield" class="intime"/>
+			</span> 
+		</div>
+	</li>
+	<li class="licenter"><a id="btnSearchRecord" hidefocus="true" href="javascript:;">搜索</a></li>
+	</form>
+	<form id="Frmlist" name="Frmlist" method="post" action="" style="margin:0px; padding:0px;">
+	<li class="licenter" id="laPlayListTitle" style="padding-top:12px;">文件列表</li>
+	<li class="licenter" id="lilist" style="padding:0px;">
+          <select name="sellist" size="15" class="text" id="sellist" style="width:180px;" onDblClick="funReplayFile(this.value);">
+          </select>
+	</li>
+	</form>
+	<li class="licenter" id="liShowDonwload">
+		<a id="btnPlay" class="playbtn" hidefocus="true" href="javascript:;"style="display:none2;">播放</a>
+		<a id="btnDown" class="playbtn" hidefocus="true" href="javascript:;">下载</a>
+		<a id="btnInfo" class="playbtn" hidefocus="true" href="javascript:;">信息</a>
+	</li>
+	</ul>
+</div>
+<form action="" id="FrmTime" name="FrmTime" style="margin:0px; padding:0px;">
+<input name="bSearch" type="hidden" id="bSearch" value="0">
+<!---未整理//--->
+<input id="PTime" name="PTime" type="hidden" value="300" />
+<input id="PTime2" name="PTime2" type="hidden" value="300" />
+<input id="PTime3" name="PTime3" type="hidden" value="300" />
+<input id="PTime4" name="PTime4" type="hidden" value="300" />
+<input id="storagelist" name="storagelist" type="hidden" value="0" /><!--列表中文件类型PC(0)或SD(1)//-->
+<input id="nwindows" name="nwindows" type="hidden" value="0" />
+<input id="winstor" name="winstor" type="hidden" value="4" /><!--播放的文件类型PC(4) SD(2) //-->
+<input id="winflag" name="winflag" type="hidden" value="0" />
+</form>

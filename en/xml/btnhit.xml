@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>btnHit OK</title>
+		  <laHeadTitle>页面正在加载，请稍候……</laHeadTitle>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>btnHit OK</title>
+		  <laHeadTitle>Please wait while the page is loading……</laHeadTitle>
+	  </Page>
+	</Resources>
+</html>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>手机监看设置</title>
+		  <laHeadTitle>手机监看设置</laHeadTitle>
+		  <laMode>模式</laMode>
+		  <opMode1>P2P 模式</opMode1>
+		  <opMode2>CS 模式</opMode2>
+		  <laServerURL>服务器地址</laServerURL>
+		  <laServerPort>服务器端口</laServerPort>
+		  <laDeviceID>设备接入ID</laDeviceID>
+		  <laRealTime>实时性</laRealTime>
+		  <opRealTime1>好</opRealTime1>
+		  <opRealTime2>中</opRealTime2>
+		  <opRealTime3>差</opRealTime3>
+		  <laInterval>重连间隔</laInterval>
+		  <laChannel>连接通道</laChannel>
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Mobile Setting</title>
+		  <laHeadTitle>Mobile Setting</laHeadTitle>
+		  <laMode>Mode</laMode>
+		  <opMode1>P2P Mode</opMode1>
+		  <opMode2>CS Mode</opMode2>
+		  <laServerURL>Server URL</laServerURL>
+		  <laServerPort>Server Port</laServerPort>
+		  <laDeviceID>Device ID</laDeviceID>
+		  <laRealTime>Real Time</laRealTime>
+		  <opRealTime1>Fine</opRealTime1>
+		  <opRealTime2>Normal</opRealTime2>
+		  <opRealTime3>Basic</opRealTime3>
+		  <laInterval>ReConnect</laInterval>
+		  <laChannel>Channel</laChannel>
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>RTSP 设置</title>
+		  <laHeadTitle>RTSP 设置</laHeadTitle>
+		  <laEnable>开关</laEnable>
+		  <laMode>模式</laMode>
+		  <opMode1>主动</opMode1>
+		  <opMode2>被动</opMode2>
+		  <laAuthentication>是否认证</laAuthentication>
+		  <laPacketSize>打包大小</laPacketSize>
+		  <laServer>地址</laServer>
+		  <laPort>端口</laPort>
+		  <laCommunicate>通信模式</laCommunicate>
+		  <opCommunicate1>单播</opCommunicate1>
+		  <opCommunicate2>多播</opCommunicate2>
+		  <laMulticastServer>多播地址</laMulticastServer>
+		  <laMulticastMainVideoPort>主码流多播视频端口</laMulticastMainVideoPort>
+		  <laMulticastMainAudioPort>主码流多播音频端口</laMulticastMainAudioPort>
+		  <laMulticastSubVideoPort>次码流多播视频端口</laMulticastSubVideoPort>
+		  <laMulticastSubAudioPort>次码流多播音频端口</laMulticastSubAudioPort>
+		  
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>RTSP Setting</title>
+		  <laHeadTitle>RTSP Setting</laHeadTitle>
+		  <laEnable>Enable</laEnable>
+		  <laMode>Mode</laMode>
+		  <opMode1>Active</opMode1>
+		  <opMode2>Passivie</opMode2>
+		  <laAuthentication>Enable Authentication</laAuthentication>
+		  <laPacketSize>Packet Size</laPacketSize>
+		  <laServer>Server</laServer>
+		  <laPort>Port</laPort>
+		  <laCommunicate>Communicate</laCommunicate>
+		  <opCommunicate1>Unicast</opCommunicate1>
+		  <opCommunicate2>Multicast</opCommunicate2>
+		  <laMulticastServer>Multicast Server Address</laMulticastServer>
+		  <laMulticastMainVideoPort>Main Stream Multicast Video Port</laMulticastMainVideoPort>
+		  <laMulticastMainAudioPort>Main Stream Multicast Audio Port</laMulticastMainAudioPort>
+		  <laMulticastSubVideoPort>Sub Stream Multicast Video Port</laMulticastSubVideoPort>
+		  <laMulticastSubAudioPort>Sub Stream Multicast Audio Port</laMulticastSubAudioPort>
+		  
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

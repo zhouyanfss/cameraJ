@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>PPPOE 设置</title>
+		  <laHeadTitle>PPPOE 设置</laHeadTitle>
+		  <laEnable>开关</laEnable>
+		  <laIP>IP</laIP>
+		  <laName>用户名</laName>
+		  <laPassword>密码</laPassword>
+		  <laOnlineTime>在线时间</laOnlineTime>
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>PPPOE Setting</title>
+		  <laHeadTitle>PPPOE Setting</laHeadTitle>
+		  <laEnable>Enable</laEnable>
+		  <laIP>IP</laIP>
+		  <laName>UserName</laName>
+		  <laPassword>Password</laPassword>
+		  <laOnlineTime>Online Time</laOnlineTime>
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>请重新登录</title>
+		  <laHeadTitle>温馨提示</laHeadTitle>
+		  <laLoginError>你不是管理员或登录超时或设备重启,请重新登录! </laLoginError>
+		  <laLogin>登录</laLogin>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Login</title>
+		  <laHeadTitle>Information</laHeadTitle>
+		  <laLoginError>You aren't administrators or Timeout or Device restarted,Please login again! </laLoginError>
+		  <laLogin>Login</laLogin>
+	  </Page>
+	</Resources>
+</html>

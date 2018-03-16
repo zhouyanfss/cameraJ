@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>重启设备</title>
+		  <laHeadTitle>重启设备</laHeadTitle>
+		  <laAlert> 单击此按钮将使设备重新启动。</laAlert>
+		  <btnSaveSumbit>重启设备</btnSaveSumbit>
+		  <laPasswordTitle>请输入你的登录密码</laPasswordTitle>
+		  <laPassword>密码：</laPassword>
+		  <btnSubmit>确认</btnSubmit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Reboot</title>
+		  <laHeadTitle>Reboot</laHeadTitle>
+		  <laAlert> Click this button will make the Device to restart.</laAlert>
+		  <btnSaveSumbit>Reboot</btnSaveSumbit>
+		  <laPasswordTitle>Please enter your password!</laPasswordTitle>
+		  <laPassword>Password：</laPassword>
+		  <btnSubmit>Submit</btnSubmit>
+	  </Page>
+	</Resources>
+</html>

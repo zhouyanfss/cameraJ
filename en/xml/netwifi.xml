@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>无线网络参数</title>
+		  <laHeadTitle>无线网络参数</laHeadTitle>
+		  <laWiFiEnable>无线网络开关</laWiFiEnable>
+		  <laDHCPEnable>DHCP 开关</laDHCPEnable>
+		  <laIP>IP 地址</laIP>
+		  <laSubnetMask>子网掩码</laSubnetMask>
+		  <laGateway>网关</laGateway>
+		  <laSSID>SSID</laSSID>
+		  <btnScanning>扫描</btnScanning>
+		  <laPassword>密码</laPassword>
+		  <laEncryptionType>主认证加密类型</laEncryptionType>
+		  <laEncryptionAuxiliary>辅助认证加密</laEncryptionAuxiliary>
+		  <laKeyFormat>密钥格式</laKeyFormat>
+		  <opKeyFormat1>16 进制</opKeyFormat1>
+		  <opKeyFormat2>ASCII码</opKeyFormat2>
+		  <laFrequencyBand>频段</laFrequencyBand>
+		  <opFrequencyBand>自动</opFrequencyBand>
+		  <laMode>模式</laMode>
+		  <opMode>自动</opMode>
+		  <btnScan>扫描</btnScan>
+		  <btnSelect>选择</btnSelect>
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>WiFi Setting</title>
+		  <laHeadTitle>WiFi Setting</laHeadTitle>
+		  <laWiFiEnable>WiFi Enable</laWiFiEnable>
+		  <laDHCPEnable>DHCP Enable</laDHCPEnable>
+		  <laIP>IP</laIP>
+		  <laSubnetMask>Subnet Mask</laSubnetMask>
+		  <laGateway>Gateway</laGateway>
+		  <laSSID>SSID</laSSID>
+		  <btnScanning>Scanning</btnScanning>
+		  <laPassword>Password</laPassword>
+		  <laEncryptionType>Type of Encryption</laEncryptionType>
+		  <laEncryptionAuxiliary>Auxiliary Encryption</laEncryptionAuxiliary>
+		  <laKeyFormat>Key Format</laKeyFormat>
+		  <opKeyFormat1>Hexadecimal</opKeyFormat1>
+		  <opKeyFormat2>ASCII</opKeyFormat2>
+		  <laFrequencyBand>Frequency band</laFrequencyBand>
+		  <opFrequencyBand>Auto</opFrequencyBand>
+		  <laMode>Mode</laMode>
+		  <opMode>Auto</opMode>
+		  <laWiFiScan>WiFi Network Scan</laWiFiScan>
+		  <btnScan>Scan</btnScan>
+		  <btnSelect>Select</btnSelect>
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

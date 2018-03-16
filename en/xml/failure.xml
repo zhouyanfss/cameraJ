@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>网络故障报警设置</title>
+		  <laHeadTitle>网络故障报警设置</laHeadTitle>
+		  <laChannel>通道:</laChannel>
+		  <laChannelSync>复制到所有通道</laChannelSync>
+		  <btnEnable>检测开关</btnEnable>
+		  <laLinkageAlarm>报警联动</laLinkageAlarm>
+		  <laIOOutput>IO输出</laIOOutput>
+		  <laOutputDuration>报警输出持续时间</laOutputDuration>
+		  <laDurationUnit>秒</laDurationUnit>
+		  <laSnapshot>联动抓拍</laSnapshot>
+		  <laSnapshotUnit>张</laSnapshotUnit>
+		  <laInterval>*抓拍间隔</laInterval>
+		  <laIntervalUnit>秒</laIntervalUnit>
+		  <laSnapDevice>设备存储</laSnapDevice>
+		  <laRecord>联动录像</laRecord>
+		  <laRecordTime>*录像时间</laRecordTime>
+		  <laRecordUnit>秒</laRecordUnit>
+		  <laRecordDevice>设备存储</laRecordDevice>
+		  <laRecordPC>PC端录像</laRecordPC>
+		  <laAlert1>抓拍时间间隔可以为小数,如:0.5秒,1.5秒等等.</laAlert1>
+		  <laAlert2>当设备上有挂存储器(硬盘、SD卡、U盘)时，联动抓拍、联动录像文件首先存储到存储器，同时根据文件存储方式再做相应的处理。否则会暂存在内存中，然后根据文件存储方式再做相应的处理.</laAlert2>
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Network Failure Detection Setting</title>
+		  <laHeadTitle>Network Failure Detection Setting</laHeadTitle>
+		  <laChannel>Chan:</laChannel>
+		  <laChannelSync>Copy to all channels</laChannelSync>
+		  <btnEnable>Enable</btnEnable>
+		  <laLinkageAlarm>Linkage Alarm Output</laLinkageAlarm>
+		  <laIOOutput>IO Output</laIOOutput>
+		  <laOutputDuration>Alarm output duration</laOutputDuration>
+		  <laDurationUnit>S</laDurationUnit>
+		  <laSnapshot>Snapshot</laSnapshot>
+		  <laSnapshotUnit>.</laSnapshotUnit>
+		  <laInterval>*Snap interval</laInterval>
+		  <laIntervalUnit>S</laIntervalUnit>
+		  <laSnapDevice>Device</laSnapDevice>
+		  <laRecord>Record</laRecord>
+		  <laRecordTime>*Record time</laRecordTime>
+		  <laRecordUnit>S</laRecordUnit>
+		  <laRecordDevice>Device</laRecordDevice>
+		  <laRecordPC>Local Record</laRecordPC>
+		  <laAlert1>The number of snap interval can be a decimal, such as: 0.5 seconds, 1.5 seconds, etc.</laAlert1>
+		  <laAlert2>If the device has an external storage (hard disk, SD card, USB disk), the linkage Snap and linkage Record document will be saved to the external storage first and processed based on file storage mode. Or it will be saved to memory temporarily and then processed based on file storage mode.</laAlert2>
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

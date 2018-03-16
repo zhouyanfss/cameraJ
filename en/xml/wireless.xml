@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>无线探头报警</title>
+		  <laHeadTitle>无线探头报警</laHeadTitle>
+		  <laChannel>通道:</laChannel>
+		  <laChannelSync>复制到所有通道</laChannelSync>
+		  <laSensorDetection>无线探头检测</laSensorDetection>
+		  <btnEnable>检测开关</btnEnable>
+		  <btnSensorType>探头类型</btnSensorType>
+		  <opSensorType1>常开</opSensorType1>
+		  <opSensorType2>常闭</opSensorType2>
+		  <laDetection>联合移动侦测</laDetection>
+		  <laDeploymentTime>布防时间</laDeploymentTime>
+		  <laTime1>布防时间段1</laTime1>
+		  <laTime2>布防时间段2</laTime2>
+		  <laLinkageAlarm>报警联动</laLinkageAlarm>
+		  <laEmail>发送E-mail</laEmail>
+		  <laIOOutput>IO输出</laIOOutput>
+		  <laOutputDuration>报警输出持续时间</laOutputDuration>
+		  <laDurationUnit>秒</laDurationUnit>
+		  <laSnapshot>联动抓拍</laSnapshot>
+		  <laSnapshotUnit>张</laSnapshotUnit>
+		  <laInterval>*抓拍间隔</laInterval>
+		  <laIntervalUnit>秒</laIntervalUnit>
+		  <laSnapDevice>设备存储</laSnapDevice>
+		  <laSnapEmail>发送E-mail</laSnapEmail>
+		  <laSnapFtp>Ftp上传</laSnapFtp>
+		  <laRecord>联动录像</laRecord>
+		  <laRecordTime>*录像时间</laRecordTime>
+		  <laRecordUnit>秒</laRecordUnit>
+		  <laRecordDevice>设备存储</laRecordDevice>
+		  <laRecordEmail>发送E-mail</laRecordEmail>
+		  <laRecordFtp>Ftp上传</laRecordFtp>
+		  <laRecordPC>PC端录像</laRecordPC>
+		  <laAlert1>抓拍时间间隔可以为小数,如:0.5秒,1.5秒等等.</laAlert1>
+		  <laAlert2>当设备上有挂存储器(硬盘、SD卡、U盘)时，联动抓拍、联动录像文件首先存储到存储器，同时根据文件存储方式再做相应的处理。否则会暂存在内存中，然后根据文件存储方式再做相应的处理.</laAlert2>
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Wireless Detection Setting</title>
+		  <laHeadTitle>Wireless Detection Setting</laHeadTitle>
+		  <laChannel>Chan:</laChannel>
+		  <laChannelSync>Copy to all channels</laChannelSync>
+		  <laSensorDetection>Wireless Detection</laSensorDetection>
+		  <btnEnable>Enable</btnEnable>
+		  <btnSensorType>Type</btnSensorType>
+		  <opSensorType1>NO</opSensorType1>
+		  <opSensorType2>NC</opSensorType2>
+		  <laDetection>The joint motion</laDetection>
+		  <laDeploymentTime>Deployment Time</laDeploymentTime>
+		  <laTime1>Time 1</laTime1>
+		  <laTime2>Time 2</laTime2>
+		  <laLinkageAlarm>Linkage Alarm Output</laLinkageAlarm>
+		  <laEmail>E-mail</laEmail>
+		  <laIOOutput>IO Output</laIOOutput>
+		  <laOutputDuration>Alarm output duration</laOutputDuration>
+		  <laDurationUnit>S</laDurationUnit>
+		  <laSnapshot>Snapshot</laSnapshot>
+		  <laSnapshotUnit>.</laSnapshotUnit>
+		  <laInterval>*Snap interval</laInterval>
+		  <laIntervalUnit>S</laIntervalUnit>
+		  <laSnapDevice>Device</laSnapDevice>
+		  <laSnapEmail>E-mail</laSnapEmail>
+		  <laSnapFtp>Ftp</laSnapFtp>
+		  <laRecord>Record</laRecord>
+		  <laRecordTime>*Record time</laRecordTime>
+		  <laRecordUnit>S</laRecordUnit>
+		  <laRecordDevice>Device</laRecordDevice>
+		  <laRecordEmail>E-mail</laRecordEmail>
+		  <laRecordFtp>Ftp</laRecordFtp>
+		  <laRecordPC>Local Record</laRecordPC>
+		  <laAlert1>The number of snap interval can be a decimal, such as: 0.5 seconds, 1.5 seconds, etc.</laAlert1>
+		  <laAlert2>If the device has an external storage (hard disk, SD card, USB disk), the linkage Snap and linkage Record document will be saved to the external storage first and processed based on file storage mode. Or it will be saved to memory temporarily and then processed based on file storage mode.</laAlert2>
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

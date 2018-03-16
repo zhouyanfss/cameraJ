@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>抓拍图片参数设置</title>
+		  <laHeadTitle>抓拍图片参数设置</laHeadTitle>
+		  <laChannel>通道:</laChannel>
+		  <laChannelSync>复制到所有通道</laChannelSync>
+		  <laPictureFormat>图片格式</laPictureFormat>
+		  <laResolution>分辨率</laResolution>
+		  <laQuality>图片质量</laQuality>
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Snap Picture Parameter Setting</title>
+		  <laHeadTitle>Snap Picture Parameter Setting</laHeadTitle>
+		  <laChannel>Chan:</laChannel>
+		  <laChannelSync>Copy to all channels</laChannelSync>
+		  <laPictureFormat>Picture Format</laPictureFormat>
+		  <laResolution>Resolution</laResolution>
+		  <laQuality>Quality</laQuality>
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

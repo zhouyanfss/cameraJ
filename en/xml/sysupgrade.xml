@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>软件升级</title>
+		  <laHeadTitle>软件升级</laHeadTitle>
+		  <laVersion>当前内核版本</laVersion>
+		  <laType>选择升级类型</laType>
+		  <opType1>应用程序(*.uke)</opType1>
+		  <opType2>OCX 控件(*.uoc)</opType2>
+		  <opType3>页面文件(*.uwe)</opType3>
+		  <opType4>其他(*.uot)</opType4>
+		  <opType5>云台协议(*.cod)</opType5>
+		  <laFilePath>选择升级文件</laFilePath>
+		  <btnSaveSumbit>升级</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Upgrade</title>
+		  <laHeadTitle>Upgrade</laHeadTitle>
+		  <laVersion>Application version</laVersion>
+		  <laType>Type</laType>
+		  <opType1>Application(*.uke)</opType1>
+		  <opType2>OCX(*.uoc)</opType2>
+		  <opType3>Web Page(*.uwe)</opType3>
+		  <opType4>Other(*.uot)</opType4>
+		  <opType5>PTZ protocol(*.cod)</opType5>
+		  <laFilePath>Choose Upgrade File</laFilePath>
+		  <btnSaveSumbit>Upgrade</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

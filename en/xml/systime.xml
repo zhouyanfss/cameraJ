@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>系统时间</title>
+		  <laHeadTitle>系统时间</laHeadTitle>
+		  <laSystemTime>设备当前时间</laSystemTime>
+		  <laDate>日期</laDate>
+		  <laTime>时间</laTime>
+		  <laSetSystemTime>设置系统时间</laSetSystemTime>
+		  <laTimeZone>时区</laTimeZone>
+		  <laUpdateNtp>通过时间服务器更新</laUpdateNtp>
+		  <laNtpHost>服务器:</laNtpHost>
+		  <laNtpPort>端口:</laNtpPort>
+		  <laUpdatePC>与本地电脑同步</laUpdatePC>
+		  <laUpdateManual>手动设置</laUpdateManual>
+		  <laUpdateMode>保存当前时间日期</laUpdateMode>
+		<opTimeZone0>(GMT-12:00)安尼威吐克,瓜加林岛</opTimeZone0>
+		<opTimeZone1>(GMT-11:00)美国的中西部,萨摩亚</opTimeZone1>
+		<opTimeZone2>(GMT-10:00)夏威夷</opTimeZone2>
+		<opTimeZone3>(GMT-09:00)阿拉斯加</opTimeZone3>
+		<opTimeZone4>(GMT-08:00)太平洋标准时间 (美国 &amp;加拿大)</opTimeZone4>
+		<opTimeZone5>(GMT-07:00)亚利桑那州, 山脉标准时间 (美国 &amp; 加拿大)</opTimeZone5>
+		<opTimeZone6>(GMT-06:00)中元标准时间 (美国 &amp;加拿大),墨西哥,德古斯加巴(洪都拉斯首都)</opTimeZone6>
+		<opTimeZone7>(GMT-05:00)波哥大, 利玛(秘鲁首都),基多(厄瓜多尔首都)</opTimeZone7>
+		<opTimeZone8>(GMT-05:00)东方标准时间(美国 &amp;加拿大), 印第安纳州 (东边)</opTimeZone8>
+		<opTimeZone9>(GMT-04:00)大西洋标准时间(美国 &amp;加拿大), 卡拉卡斯(委内瑞拉首都), 拉巴斯</opTimeZone9>
+		<opTimeZone10>(GMT-03:30)纽芬兰</opTimeZone10>
+		<opTimeZone11>(GMT-03:00)布宜诺斯艾利斯(阿根廷首都), 乔治城, 巴西利亚</opTimeZone11>
+		<opTimeZone12>(GMT-02:00)中部-阿根廷</opTimeZone12>
+		<opTimeZone13>(GMT-01:00)亚速尔群岛, 德总角.</opTimeZone13>
+		<opTimeZone14>(GMT) 卡萨布兰卡市,蒙罗维亚,都柏林,爱丁堡,里斯本(葡萄牙首都),伦敦</opTimeZone14>
+		<opTimeZone15>(GMT+01:00)阿姆斯特丹, 柏林, 伯恩, 罗马, 斯德哥尔摩, 维也纳</opTimeZone15>
+		<opTimeZone16>(GMT+01:00)贝尔格来德, 布拉迪斯拉发, 布达佩斯, 炉布尔雅那, 布拉格</opTimeZone16>
+		<opTimeZone17>(GMT+01:00)布鲁塞尔, 哥本哈根, 马德里, 巴黎, 维尔纽斯</opTimeZone17>
+		<opTimeZone18>(GMT+01:00)萨拉热窝, 斯科普里, 索非亚, 华沙, 札格拉布</opTimeZone18>
+		<opTimeZone19>(GMT+02:00)雅典, 布加勒斯特, 开罗, 伊斯坦布尔, 明斯克</opTimeZone19>
+		<opTimeZone20>(GMT+02:00)哈拉雷, 赫尔辛基, 耶路撒冷, 普利托里亚, 里加, 塔林</opTimeZone20>
+		<opTimeZone21>(GMT+03:00)莫斯科,圣彼得堡,窝瓦河,巴格达,科威特,利雅德</opTimeZone21>
+		<opTimeZone22>(GMT+03:30)德黑兰</opTimeZone22>
+		<opTimeZone23>(GMT+04:00)阿布达比, 巴库, 马斯喀特, 第比利斯</opTimeZone23>
+		<opTimeZone24>(GMT+04:30)喀布尔</opTimeZone24>
+		<opTimeZone25>(GMT+05:00)凯撒琳镇, 伊斯兰马巴德, 克拉啻港市, 塔什干</opTimeZone25>
+		<opTimeZone26>(GMT+05:30)新德里</opTimeZone26>
+		<opTimeZone27>(GMT+06:00)亚斯塔蒂, 阿曼蒂, 可伦波, 狄哈卡</opTimeZone27>
+		<opTimeZone28>(GMT+07:00)曼谷, 河内, 雅加达</opTimeZone28>
+		<opTimeZone29>(GMT+08:00)北京, 香港, 新加坡, 台北</opTimeZone29>
+		<opTimeZone30>(GMT+09:00)汉城, 东京, 亚库次客</opTimeZone30>
+		<opTimeZone31>(GMT+09:30)爱得莱德, 达尔文</opTimeZone31>
+		<opTimeZone32>(GMT+10:00)坎培拉, 关岛, 摩尔斯比港, 海蔘威</opTimeZone32>
+		<opTimeZone33>(GMT+11:00)麦哲伦, 所罗门岛</opTimeZone33>
+		<opTimeZone34>(GMT+12:00)斐济, 勘查加半岛, 马绍尔群岛, 威尔尼顿</opTimeZone34>		  
+			  
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>System Time</title>
+		  <laHeadTitle>System Time</laHeadTitle>
+		  <laSystemTime>System time</laSystemTime>
+		  <laDate>Date</laDate>
+		  <laTime>Time</laTime>
+		  <laSetSystemTime>System Time Setting</laSetSystemTime>
+		  <laTimeZone>Time Zone</laTimeZone>
+		  <laUpdateNtp>NTP Server</laUpdateNtp>
+		  <laNtpHost>URL:</laNtpHost>
+		  <laNtpPort>Port:</laNtpPort>
+		  <laUpdatePC>Synchronize with Local Computer</laUpdatePC>
+		  <laUpdateManual>Set the Time Manually</laUpdateManual>
+		  <laUpdateMode>Keep Current Date and Time</laUpdateMode>
+		<opTimeZone0>(GMT-12:00) Eniwetok, Kwajalein</opTimeZone0>
+		<opTimeZone1>(GMT-11:00) Mideast America, Samoa</opTimeZone1>
+		<opTimeZone2>(GMT-10:00) Hawaii</opTimeZone2>
+		<opTimeZone3>(GMT-09:00) Alaska</opTimeZone3>
+		<opTimeZone4>(GMT-08:00) PST (America &amp;Canada)</opTimeZone4>
+		<opTimeZone5>(GMT-07:00) Arizona, MST (America &amp; Canada)</opTimeZone5>
+		<opTimeZone6>(GMT-06:00) CST (America &amp;Canada), Mexico,Tegucigalpa(Capital of Honduras)</opTimeZone6>
+		<opTimeZone7>(GMT-05:00) Bogota,Lima(Capital of Peru),Quito(Capital of Ecuador)</opTimeZone7>
+		<opTimeZone8>(GMT-05:00) EST(America &amp;Canada), Indiana (East)</opTimeZone8>
+		<opTimeZone9>(GMT-04:00) AST(America &amp;Canada), Caracas(Capital of Venezuela), La Paz</opTimeZone9>
+		<opTimeZone10>(GMT-03:30) Newfoundland</opTimeZone10>
+		<opTimeZone11>(GMT-03:00) Buenos Aires(Capital of Argentina),Georgetown, Brasilia</opTimeZone11>
+		<opTimeZone12>(GMT-02:00)  Mid-Argentina</opTimeZone12>
+		<opTimeZone13>(GMT-01:00) Azores Islands, cape verde islands</opTimeZone13>
+		<opTimeZone14>(GMT) Casablanca,Monrovia,Dublin,Edinburgh,Lisbon (Capitalk of Portugal),London</opTimeZone14>
+		<opTimeZone15>(GMT+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</opTimeZone15>
+		<opTimeZone16>(GMT+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague</opTimeZone16>
+		<opTimeZone17>(GMT+01:00)  Brussels, Copenhagen, Madrid, Paris, Vilnius</opTimeZone17>
+		<opTimeZone18>(GMT+01:00) Sarajevo, Skopje, Sofia, Warsaw, Zagreb</opTimeZone18>
+		<opTimeZone19>(GMT+02:00) Athens, Bucharest, Cairo, Istanbul, Minsk</opTimeZone19>
+		<opTimeZone20>(GMT+02:00) Harare, Helsinki, Jerusalem, Pretoria, Riga, Tallinn</opTimeZone20>
+		<opTimeZone21>(GMT+03:00) Moscow, St.Petersburg, Volga,Bagdad,Koweit, Riyadh</opTimeZone21>
+		<opTimeZone22>(GMT+03:30) Teheran</opTimeZone22>
+		<opTimeZone23>(GMT+04:00) Abu Dhabi, Baku, Muscat, Tbilisi</opTimeZone23>
+		<opTimeZone24>(GMT+04:30) Kabul</opTimeZone24>
+		<opTimeZone25>(GMT+05:00) St. Katharinen Town, Islamabad, Karachi, Tashkent</opTimeZone25>
+		<opTimeZone26>(GMT+05:30) New Delhi</opTimeZone26>
+		<opTimeZone27>(GMT+06:00) Astarte, Diamantina, Columbus, Dhaka</opTimeZone27>
+		<opTimeZone28>(GMT+07:00) Bangkok, Hanoi, Jakarta</opTimeZone28>
+		<opTimeZone29>(GMT+08:00) Beijing, Hongkong, Singapore, Taipei</opTimeZone29>
+		<opTimeZone30>(GMT+09:00) Seoul, Tokyo, Yakutsk</opTimeZone30>
+		<opTimeZone31>(GMT+09:30) Adelaide, Darwin</opTimeZone31>
+		<opTimeZone32>(GMT+10:00) Canberra, Guam, Port Moresby, Vladivostok </opTimeZone32>
+		<opTimeZone33>(GMT+11:00) Magellan, Solomon Islands</opTimeZone33>
+		<opTimeZone34>(GMT+12:00) Fiji, Kamchatka Peninsula, Marshall Islands, Wellington</opTimeZone34>		  
+
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>恢复出厂设置</title>
+		  <laHeadTitle>恢复出厂设置</laHeadTitle>
+		  <laAlert> 单击此按钮将使设备的所有设置恢复到出厂时的默认状态。</laAlert>
+		  <btnSaveSumbit>恢复出厂设置</btnSaveSumbit>
+		  <laPasswordTitle>请输入你的登录密码</laPasswordTitle>
+		  <laRestore>复位：</laRestore>
+		  <laNetwork>网络参数</laNetwork>
+		  <laOther>其他参数</laOther>
+		  <laPassword>密码：</laPassword>
+		  <btnSubmit>确认</btnSubmit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Restore</title>
+		  <laHeadTitle>Restore</laHeadTitle>
+		  <laAlert> Click this button will make the Device to recover all set the default state.</laAlert>
+		  <btnSaveSumbit>Restore factory settings</btnSaveSumbit>
+		  <laPasswordTitle>Please enter your password!</laPasswordTitle>
+		  <laRestore>Restore：</laRestore>
+		  <laNetwork>Network</laNetwork>
+		  <laOther>Other</laOther>
+		  <laPassword>Password：</laPassword>
+		  <btnSubmit>Submit</btnSubmit>
+	  </Page>
+	</Resources>
+</html>

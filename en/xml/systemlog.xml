@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>日志查询</title>
+		  <laHeadTitle>日志查询</laHeadTitle>
+		  <laHeadTitle2>报警查询</laHeadTitle2>
+		  <laSearchConditions>查询条件</laSearchConditions>
+		  <laSearchTime>查询时间</laSearchTime>
+		  <laConditionsTo>至</laConditionsTo>
+		  <laType>日志类型</laType>
+		  <opType1>所有录像</opType1>
+		  <opType2>运动侦测</opType2>
+		  <opType3>视频丢失</opType3>
+		  <opType4>探头报警</opType4>
+		  <opType5>网络故障</opType5>
+		  <opType6>无线报警</opType6>
+		  <opType7>定时策略</opType7>
+		  <laPageItem>每页显示</laPageItem>
+		  <btnSearchLog> 查 询 </btnSearchLog>
+		  <laInfoDate>日期</laInfoDate>
+		  <laInfoTime>时间</laInfoTime>
+		  <laInfoText>内容</laInfoText>
+		  <laInfoExplain>说明</laInfoExplain>
+		  <btnSaveSumbit> 保 存 </btnSaveSumbit>
+		  <laPopUpload>数据在处理中，请稍候……</laPopUpload>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Log search</title>
+		  <laHeadTitle>Log search</laHeadTitle>
+		  <laHeadTitle2>Alarm search</laHeadTitle2>
+		  <laSearchConditions>Conditions</laSearchConditions>
+		  <laSearchTime>Date</laSearchTime>
+		  <laConditionsTo>-</laConditionsTo>
+		  <laType>Type</laType>
+		  <opType1>All Record</opType1>
+		  <opType2>Motion</opType2>
+		  <opType3>Video Loss</opType3>
+		  <opType4>Sensor</opType4>
+		  <opType5>Network Failure</opType5>
+		  <opType6>WiFi Sensor</opType6>
+		  <opType7>Schedule</opType7>
+		  <laPageItem>Per page</laPageItem>
+		  <btnSearchLog> Search </btnSearchLog>
+		  <laInfoDate>Date</laInfoDate>
+		  <laInfoTime>Time</laInfoTime>
+		  <laInfoText>Content</laInfoText>
+		  <laInfoExplain>Explain</laInfoExplain>
+		  <btnSaveSumbit> Save </btnSaveSumbit>
+		  <laPopUpload>In the data processing, please wait……</laPopUpload>
+	  </Page>
+	</Resources>
+</html>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>用户管理</title>
+		  <laHeadTitle>用户管理</laHeadTitle>
+		  <laValidate>认证方式</laValidate>
+		  <laType>选择用户</laType>
+		  <laName>用户名</laName>
+		  <laPassword>用户密码</laPassword>
+		  <laPassword2>确认密码</laPassword2>
+		  <laNotice>&lt;span style='color:#FF0000; font-weight:700;'&gt;注意:&lt;/span>用户名、密码必须是字母、数字、下划线或点(.)组成的一个1至15 个字符的字符串，请注意大小写。&lt;br&gt;  修改用户名或密码，请重新登录。</laNotice>
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>User Management</title>
+		  <laHeadTitle>User Management</laHeadTitle>
+		  <laValidate>Validate Mode</laValidate>
+		  <laType>Select User</laType>
+		  <laName>User Name</laName>
+		  <laPassword>Password</laPassword>
+		  <laPassword2>Confirm Password</laPassword2>
+		  <laNotice>&lt;span style='color:#FF0000; font-weight:700;'&gt;Notice:&lt;/span>User name,Password may consist of a-z, 0-9, underscores, and a single dot (.), 1 to 15 characters;capitalization matters.&lt;br&gt;  Modify User name or Password,please login again.</laNotice>
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>
