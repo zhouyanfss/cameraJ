@@ -182,7 +182,8 @@
 				<div id="videoH" class="videoCon">
 				  <div id="videoCon"  class="vedioNew">
 					<div id="video1" class="video1"><!---实时视频区域--->
-						<object name="WebCMS" ID="WebCMS" style="width:100%;" CLASSID="CLSID:8DA9A0A7-AC21-4EA9-BB7E-43AEF89688A6" codebase="/WebCMS.exe#Version=2,0,0,0"></object>
+						<!--<object name="WebCMS" ID="WebCMS" style="width:100%;" CLASSID="CLSID:8DA9A0A7-AC21-4EA9-BB7E-43AEF89688A6" codebase="/WebCMS.exe#Version=2,0,0,0"></object>-->
+						<object name="WebCMS" ID="WebCMS" style="width:100%;" CLASSID="CLSID:8DA9A0A7-AC21-4EA9-BB7E-43AEF89688A6" codebase=""></object>
 					</div>
 					<!--此处开始是 图像调节 内容-->
 					<div id="image_adjust" class="preview_rt"></div>

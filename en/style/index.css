@@ -1,7 +1,7 @@
 @charset "utf-8";
 body,dl,dt,dd,ul,ol,li,pre,form,fieldset,input,p,blockquote,th,td{margin:0;padding:0;font-weight:400;}
 h1,h2,h3,h4,h4,h5{margin:0;padding:0;}
-body{padding:0; background-color:#aaaaaa; font-family: Arial, Helvetica, sans-serif,"宋体"; font-size:12px;color:#3c3c3c;margin:0; padding:0;background:#FFF;}
+body{padding:0;  font-family: Arial, Helvetica, sans-serif,"宋体"; font-size:12px;color:#3c3c3c;margin:0; padding:0;}
 html{ overflow:auto;}
 div{margin-left:auto;margin-right:auto;}
 select{font-size:12px;}
@@ -35,16 +35,17 @@ a{cursor:pointer;outline:none;text-decoration:none;}
 #main{height:100%; width:100%; position:absolute; top:-10000px;left:0px; background-color:#A7A7A7;}
 
 /*主菜单顶部样式*/	
-.header{ width:100%; min-width:1000px; height:56px; background:url(../image/headerbg.png) repeat-x #9A9A9A; border-bottom:#716F64 solid 1px; position:relative; }
+.header{ width:100%; min-width:1000px;background-color:#cfcece; height:56px;  border-bottom:#716F64 solid 1px; position:relative; }
 #logo{ position:absolute; left:40px;top:5px; width:260px; cursor:auto; overflow:hidden;}
 #logo a{ cursor:default;}
 #logo img { float:left;}
 #divType{position:absolute;top:18px; _top:18px;left:260px; width:380px; height:32px; text-align:left;color:#EDEDED; font-size:18px; padding:0; overflow:hidden;}
-.nav{ height:30px; position:absolute; left:259px; bottom:0; _top:26px;}
-.nav ul li{ width:190px; height:47px;  float: left;background-color:#1c1c1c;}
-.nav_btn{line-height: 47px;font-size:24px;color:#fff;text-align: center;font-family:黑体;vertical-align: middle;}
+.nav{ position:absolute; left:259px; bottom:0; _top:26px;}
+.nav ul li{float: left;}
+.nav ul li a{line-height: 47px;width:190px;height:47px; font-size:24px; font-weight:bold; display:block;text-align: center;font-family:黑体;vertical-align: middle;}
+.nav_btn{color:#000; background-color:#ccc;}
 /* .nav_btn:hover{ background-position:0 0;} */
-/* .nav_btn1{width:116px; height:30px; background:url(../image/btn3.png) no-repeat; display: block; line-height:30px; color:#373737; font-size:14px; text-decoration:none; margin-left:1px; text-align:center;font-weight:bold;} */
+.nav_btn1{color:white;background-color:#505050;}
 .nav .alarmtip{ position:relative; top:-27px; left:47px;background:url(../image/alert.gif) no-repeat; width:36px; height:26px;text-align:center; cursor:hand;}
 
 /*视频预览样式*/	

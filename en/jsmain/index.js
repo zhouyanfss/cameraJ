@@ -78,8 +78,8 @@ function login(username,password){
 	return  true;
 }
 function gotoLogin(){
-	initMainPage();	 initMenus(); goMain(0);
-	setTimeout("loginNVS();",  350);
+	initMainPage();	 initMenus(); //goMain(0);
+	//setTimeout("loginNVS();",  350);
 }
 function initMainPage(){
 	$("lg_out").style.display = "none";
@@ -145,7 +145,6 @@ function goPreview(a){
 	if(!b_INIT_MENUS_LIVEVIEW){
 		g_xmlhttp.open("get", "html/body_menus_bar.html", false);
 		SafeHttpSend(g_xmlhttp, null);
-		//g_xmlhttp.onreadystatechange = function()
 		{
 			if (g_xmlhttp.readyState != 4){return false;}
 			document.getElementById("mb_btn_bar").innerHTML = g_xmlhttp.responseText;
@@ -384,7 +383,7 @@ function resize(){
 	}
 	onReTOS	= 0; b_INIT_ONRESIZE	= 1;
 	clearInterval(timeProcess);
-	timeProcess = setInterval('setTimeProcess(10)', 1000);
+	//timeProcess = setInterval('setTimeProcess(10)', 1000);
 	return  true;
 }
 function btnLiveCtrl(CTRL_OBJ, CTRL_CMD){
