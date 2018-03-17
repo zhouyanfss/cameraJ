@@ -245,6 +245,16 @@ function goSysConfig(a){
 			configData = g_xmlhttp.responseText;
 			document.getElementById("mb0_setting_bar").innerHTML = configData;
 		}
+		
+		
+//加载子菜单 by zhouyan
+		g_xmlhttp.open("get", "html/body_menus_setting_subbar.html", false);
+		SafeHttpSend(g_xmlhttp, null);
+		if (g_xmlhttp.readyState != 4){return;}
+		
+		var subConfigData;
+		subConfigData = g_xmlhttp.responseText;
+		document.getElementById("mb0_setting_subbar").innerHTML = subConfigData;
 //加载脚本
 		if(document.getElementById("setting_bar_js") == null){
 			g_xmlhttp.open("get", "jsmain/set.js", false);
@@ -353,8 +363,8 @@ function resize(){
 			$("mb0").setStyle("min-width", a + "px");
 			$("mb0").setStyle("width", a + "px");
 			$("mb0").setStyle("height", (b-78) + "px");
-			$("divSetting").setStyle("width", (a-30) + "px");
-			$("divSetting").setStyle("height", (b-78) + "px");
+			// $("divSetting").setStyle("width", (a-30) + "px");
+			// $("divSetting").setStyle("height", (b-78) + "px");
 			$("mb0_setting").setStyle("width", (a-208) + "px");
 			$("mb0_setting").setStyle("height", (b-78) + "px");
 			if(myos.version==6){

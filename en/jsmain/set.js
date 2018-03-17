@@ -5,11 +5,23 @@ function initConfigPage(nCMD){
 	$("set").getElements("div").each(
 		 function(a){
 			 a.getElement("a").addEvent("click",
-				function(){var b=a.getElement("ul");if(b.style.display=="none"){
-					$("set").getElements("ul").each(function(a){a.style.display="none"});
-					if($("set").getElement("a[class=set_1]"))$("set").getElement("a[class=set_1]").className="set_2";
-					b.style.display="";this.className="set_1";
-				}else b.style.display="none",this.className="set_2"}
+				function(){
+					//var b=a.getElement("ul");
+					var b= $(a.getAttribute("id") + "_sub");
+					if(b.style.display=="none"){
+						$("subbarset").getElements("div").each(
+							function(a){
+								a.style.display="none"
+							});
+						if($("set").getElement("a[class=set_1]"))
+							$("set").getElement("a[class=set_1]").className="set_2";
+						b.style.display="";
+						b.getElements("a")[0].click();
+						this.className="set_1";
+					}
+					else 
+						b.style.display="none",this.className="set_2"
+				}
 			)
 		}
 	);

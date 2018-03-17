@@ -183,7 +183,7 @@
 				  <div id="videoCon"  class="vedioNew">
 					<div id="video1" class="video1"><!---实时视频区域--->
 						<!--<object name="WebCMS" ID="WebCMS" style="width:100%;" CLASSID="CLSID:8DA9A0A7-AC21-4EA9-BB7E-43AEF89688A6" codebase="/WebCMS.exe#Version=2,0,0,0"></object>-->
-						<object name="WebCMS" ID="WebCMS" style="width:100%;" CLASSID="CLSID:8DA9A0A7-AC21-4EA9-BB7E-43AEF89688A6" codebase=""></object>
+						<object name="WebCMS" ID="WebCMS" style="width:100%;" CLASSID="CLSID:8DA9A0A7-AC21-4EA9-BB7E-43AEF89688A6" codebase="/WebCMS.exe#Version=2,0,0,0"></object>
 					</div>
 					<!--此处开始是 图像调节 内容-->
 					<div id="image_adjust" class="preview_rt"></div>
@@ -201,7 +201,7 @@
 		  <div class="settingDiv" id="divSetting">
 		  	<div id="mb0_setting_bar" class="settingleft"></div>
 			<div style=" display:block;overflow:hidden;">
-				<div id="mb0_setting_subbar" class="settingsubtitle">123</div>
+				<div id="mb0_setting_subbar" class="settingsubtitle"></div>
 				<div id="mb0_setting" class="settingright">
 					<iframe id="set_fm" src="" width="100%" height="100%" frameborder="0" style="min-width:760px;min-height:510px;_height:510px;y-overflow:auto;x-overflow:hidden;"></iframe>
 				</div>

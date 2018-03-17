@@ -18,3 +18,19 @@ input.text {
 	HEIGHT: 18px; LINE-HEIGHT: normal; width:150px;
 }
 input.distext {background-color:#EEE;}
+
+#subbarset{ height:29px;background-color:#999; margin-left:1px;}
+#subbarset div{}
+#subbarset li a{
+	width: 90px;
+	/* height: 28px; */
+	overflow:hidden;
+	margin: 0;
+	text-align: center;
+	line-height: 30px;
+	list-style: none;
+	float: left;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 0;
+}
