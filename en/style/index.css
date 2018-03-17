@@ -49,7 +49,7 @@ a{cursor:pointer;outline:none;text-decoration:none;}
 .nav .alarmtip{ position:relative; top:-27px; left:47px;background:url(../image/alert.gif) no-repeat; width:36px; height:26px;text-align:center; cursor:hand;}
 
 /*视频预览样式*/	
-.content{ position:relative; _zoom:1; width:100%; min-width:1000px; margin:0; padding:0; margin-top:13px;}
+.content{ position:relative; _zoom:1; width:100%; min-width:1000px; margin:0; padding:0; margin-top:5px;}
 /*预览原始大小添加样式*/
 .preview_ct{ clear:both; text-align:left;}
 .videoCon{width:100%;overflow:auto; float:left; *position:relative; text-align:center; overflow:hidden; margin-bottom:8px;}
@@ -238,9 +238,10 @@ a{cursor:pointer;outline:none;text-decoration:none;}
 /*.clearF:after{content:"";display:block;clear:both;height:0;}*/
 
 /*参数设置样式*/
-.settingDiv{_width:1000px;min-width:1000px;height:100%;margin-left:15px;margin-right:15px;_margin-left:15px;_margin-right:15px;overflow:hidden; }
-.settingleft{float:left;width:162px;min-width:162px;height:100%;margin-left:15px;_margin-left:7px;overflow-y:auto;overflow-x:hidden;}
+.settingDiv{_width:1000px;min-width:1000px;height:100%; margin-left:0px;margin-right:0px;_margin-left:0px;_margin-right:0px;overflow:hidden; }
+.settingleft{float:left;width:162px;min-width:162px;height:100%; border:1px solid #555;margin-left:15px;_margin-left:7px;overflow-y:auto;overflow-x:hidden;}
 .settingright{float:left;height:100%;margin-left:0px;_margin-left:0px; }
+.settingsubtitle{width:100%;height:50px;float:left; text-align:center;}
 
 .estopAll{position:absolute;top:0;left:0;background:#fff;opacity:0;}
 

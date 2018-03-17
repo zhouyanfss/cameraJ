@@ -80,8 +80,8 @@ function reAutoFullWH(){
 	if(b < 600) b = 600;
 	$("mb0").setStyle("width", a);
 	$("mb0").setStyle("height", (b-20));
-	$("divSetting").setStyle("width", (a-20));
-	$("divSetting").setStyle("height", (b-78));
+	//$("divSetting").setStyle("width", (a-20));
+	//$("divSetting").setStyle("height", (b-78));
 	$("mb0_setting").setStyle("width", (a-207));
 	$("mb0_setting").setStyle("height", "100%");
 	return  true;
