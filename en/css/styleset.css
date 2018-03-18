@@ -1,7 +1,7 @@
 @charset "utf-8";
 body,dl,dt,dd,ul,ol,li,pre,form,fieldset,p,blockquote,th,td{margin:0;padding:0 8px 0 0;font-family:Verdana, Arial, Helvetica, sans-serif, "宋体", "Courier New", Courier, monospace, Georgia, "Times New Roman", Geneva; font-size:12px; font-weight:normal; color:#373737;}
 h1,h2,h3,h4,h4,h5{margin:0;padding:0;}
-body{text-align:center; background:#A7A7A7;display:inline-block;overflow-y:auto;overflow-x:hidden;}
+body{text-align:center; background:#F9F6F6;display:inline-block;overflow-y:auto;overflow-x:hidden;}
 *body{font-family:Arial, Helvetica, sans-serif; margin:0; padding:0;}
 select{font-size:12px; height:20px; min-width:150px;}
 html{ overflow:auto!important;}
@@ -12,7 +12,7 @@ ol,ul{list-style:none;}
 .f_none{ width:0; height:0; border:0; float:none; margin:0; padding:0; y-overflow:scroll;x-overflow:hidden;}	
 input{margin:0px;padding:0px;font-family:Verdana, Arial, Helvetica, sans-serif, "宋体", "Courier New", Courier, monospace, Georgia, "Times New Roman", Geneva; font-size:12px; font-weight:normal; color:#373737;vertical-align:middle;}
 em{font-style:normal}
-#divMain{ width:100%; padding-bottom:12px!important; background-color:#FFF;position:relative;_position:relative;display:inline-block;}
+#divMain{ width:100%; padding-bottom:12px!important;position:relative;_position:relative;display:inline-block;}
 
 .timeBox{padding:0px;width:106px;height:16px;text-align:center;border:1px solid #b6b6b6;background:#fff;padding-bottom:4px;color:#000;}
 .intime{ width:20px; border:0; margin:0; *margin:0; _margin:0; padding:0; text-align:center; clear:both; background:none;}

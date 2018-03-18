@@ -52,12 +52,6 @@ function chgbirtate(){
 <body onLoad="parentinit(0,0,0);init();">
 <form id="outcfg_frm" name="outcfg_frm" method="post" action="/webs/audioCfgEx"  style="margin:0px; padding:0px;">
 <div id="divMain">
-	<div class="subtab">
-		<ul>
-			<li class="linow"><LABEL id="laHeadTitle">音频属性</LABEL></li>
-			<li class="laHelp" style="display:none;"></a></li> 
-		</ul>
-	</div>
 	<div class="maintab">
         <div id="div_set" class="div_set">
 			<ul id="show_Chan">

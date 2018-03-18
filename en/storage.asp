@@ -169,12 +169,6 @@ function CloseUpdatePer(){
 
 <form id="outcfg_frm" name="outcfg_frm" method="post" action="/webs/storageCfgEx"  style="margin:0px; padding:0px;">
 <div id="divMain">
-	<div class="subtab">
-		<ul>
-			<li class="linow"><LABEL id="laHeadTitle">存储设备</LABEL></li>
-			<li class="laHelp" style="display:none;"></li> 
-		</ul>
-	</div>
 	<div class="maintab">
         <div id="div_set" class="div_set" style="width:660px;">
 			<ul id="show_Main">

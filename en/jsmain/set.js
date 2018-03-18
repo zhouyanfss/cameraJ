@@ -91,7 +91,13 @@ function initConfigPage(nCMD){
 	//isEnable("show_auto_register")?$("m_autoreg").style.display="":$("m_autoreg").style.display="none";
 }
 function clkMenuStyle(a){
-	$("set").getElement("a[class=linow]")&&$("set").getElement("a[class=linow]").removeClass("linow");a.className="linow";
+	if($("subbarset").getElements("a[class=linow]"))
+	{
+		$("subbarset").getElements("a[class=linow]").each(function(_this){
+			_this.removeClass("linow");
+		});
+	}
+	a.className="linow";
 }
 function goFrameURL(a){
 	var nRanstr	= ranString(8);

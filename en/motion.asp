@@ -80,12 +80,6 @@ bgColor=#ffffe7 border=1>
   </TBODY></TABLE></div>
 <form id="outcfg_frm" name="outcfg_frm" method="post" action="/webs/motionCfgEx"  style="margin:0px; padding:0px;">
 <div id="divMain">
-	<div class="subtab">
-		<ul>
-			<li class="linow"><LABEL id="laHeadTitle">移动报警</LABEL></li>
-			<li class="laHelp" style="display:none;"></li> 
-		</ul>
-	</div>
 	<div class="maintab">
 		<ul id="show_Chan" style="padding-top:32px;">
 			<li id="laChan">

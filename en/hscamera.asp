@@ -105,12 +105,6 @@ function init(){
 </script>
 <form id="outcfg_frm" name="outcfg_frm" method="post" action="/webs/hscameraCfgEx"  style="margin:0px; padding:0px;">
 <div id="divMain">
-	<div class="subtab">
-		<ul>
-			<li class="linow"><LABEL id="laHeadTitle">摄像机设置</LABEL></li>
-			<li class="laHelp" style="display:none;"></li> 
-		</ul>
-	</div>
 	<div class="maintab">
 		<div id="div_video" class="div_video">
 		<object name="WebCMS" ID="WebCMS" width="320" height="262" CLASSID="CLSID:8DA9A0A7-AC21-4EA9-BB7E-43AEF89688A6" codebase="/WebCMS.exe#Version=2,0,0,0"></object>

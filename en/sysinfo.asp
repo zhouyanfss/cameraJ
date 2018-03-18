@@ -49,12 +49,6 @@ function init(){
 <body onLoad="parentinit(0,0,0);init();">
 <form id="outcfg_frm" name="outcfg_frm" method="post" action="/webs/sysInfoCfgEx"  style="margin:0px; padding:0px;">
 <div id="divMain">
-	<div class="subtab">
-		<ul>
-			<li class="linow"><LABEL id="laHeadTitle">基本参数</LABEL></li>
-			<li class="laHelp" style="display:none;"></li> 
-		</ul>
-	</div>
 	<div class="maintab">
         <div id="div_set" class="div_set">
 			<ul id="show_Main">

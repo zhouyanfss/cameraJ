@@ -32,7 +32,7 @@ a{cursor:pointer;outline:none;text-decoration:none;}
 .ie6-in{ _position:relative;_float:left; _margin-left:-1002px;}
 .min-width{ min-width:1002px; _zoom:1;}
 
-#main{height:100%; width:100%; position:absolute; top:-10000px;left:0px; background-color:#A7A7A7;}
+#main{height:100%; width:100%;/position:absolute; top:-10000px;left:0px; background-color:#F9F6F6;}
 
 /*主菜单顶部样式*/	
 .header{ width:100%; min-width:1000px;background-color:#cfcece; height:56px;  border-bottom:#716F64 solid 1px; position:relative; }
@@ -239,9 +239,9 @@ a{cursor:pointer;outline:none;text-decoration:none;}
 
 /*参数设置样式*/
 .settingDiv{_width:1000px;min-width:1000px;height:100%; margin-left:0px;margin-right:0px;_margin-left:0px;_margin-right:0px;overflow:hidden; }
-.settingleft{float:left;width:162px;min-width:162px;height:100%; border:1px solid #555;margin-left:15px;_margin-left:7px;overflow-y:auto;overflow-x:hidden;}
-.settingright{float:left;height:100%;margin-left:0px;_margin-left:0px; }
-.settingsubtitle{width:100%;height:50px;float:left; text-align:center;}
+.settingleft{background-color:#c9c6c6;float:left;width:260px;min-width:260px;height:100%; border:1px solid #555;overflow:hidden;}
+.settingright{float:left;height:100%;margin-left:0px;_margin-left:0px;background-color:#F9F6F6; }
+.settingsubtitle{width:100%;height:30px;float:left; text-align:center;}
 
 .estopAll{position:absolute;top:0;left:0;background:#fff;opacity:0;}
 

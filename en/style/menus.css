@@ -1,15 +1,43 @@
 @charset "utf-8";
 body{padding:0; font-family: Arial, Helvetica, sans-serif,"宋体"; font-size:12px;color:#3c3c3c;margin:0; padding:0;}
-#set{text-align:left;width:162px;top:13px;left:11px;}
+#set{text-align:left;}
 #set a{cursor:pointer;}
-.set_1{ background: url(../image/sidebar1.png) no-repeat; display:block; width:162px; height:26px; line-height:26px; text-indent:26px; text-decoration:none; font-size:14px; font-weight:bold; color:#FAFAFA; overflow:hidden;}
-.set_2{ background: url(../image/sidebar2.png) no-repeat; display:block; width:162px; height:26px; line-height:26px; text-indent:26px; text-decoration:none; font-size:14px; font-weight:bold; color:#222; overflow:hidden; }
-.set_1:hover{color:#FAFAFA;}
-.set_2:hover{ background: url(../image/sidebar6.png) no-repeat; color:#FAFAFA;}
+.set_1{ 
+	height: 42px;   
+	line-height:42px; 
+	font-weight:bold; 
+	color:white; 
+	
+	list-style-type:none; 
+	/*background-image:url(../images/bar_0.gif); */
+	background-color:#555;
+	letter-spacing:4px; 
+	padding-left:60px; 
+	padding-top:0px; 
+	cursor:pointer;
+	border:1px solid #999;
+	display:block;
+	font-size:16px;
+}
+.set_2{
+	font-size:16px;
+	height: 42px;   
+	line-height:42px; 
+	font-weight:bold; 
+	color:#000000; 
+	background-color:#ccc;
+	letter-spacing:4px; 
+	padding-left:60px; 
+	padding-top:0px; 
+	cursor:pointer;
+	border:1px solid #999;
+	display:block;
+}
+/* .set_1:hover{color:#FAFAFA;} */
+/* .set_2:hover{ background: url(../image/sidebar6.png) no-repeat; color:#FAFAFA;} */
 #set li{width:162px; height:26px; line-height:26px; font-size:12px; background:url(../image/sidebar3.png) no-repeat;}
 #set li a{text-indent:40px; display:block; width:162px; height:26px; line-height:26px;  text-decoration:none; font-size:12px;color:#222; white-space:nowrap; }
 #set li a:hover{ background:url(../image/sidebar4.png) no-repeat; color:#FDFDFD;}
-#set .linow{ background:url(../image/sidebar5.png) no-repeat; color:#FDFDFD;}
 #set .newli{text-indent:40px; display:block; width:162px; height:26px; line-height:26px;  text-decoration:none; font-size:12px; white-space:nowrap;background:url(../image/sidebar4.png) no-repeat; color:#FDFDFD;}
 input.text {
 	BORDER-TOP: #37434C 1px solid; BORDER-RIGHT: #37434C 1px solid; BORDER-BOTTOM: #37434C 1px solid; BORDER-LEFT: #37434C 1px solid;
@@ -22,7 +50,8 @@ input.distext {background-color:#EEE;}
 #subbarset{ height:29px;background-color:#999; margin-left:1px;}
 #subbarset div{}
 #subbarset li a{
-	width: 90px;
+	width: 100px;
+	padding:0px 5px;
 	/* height: 28px; */
 	overflow:hidden;
 	margin: 0;
@@ -33,4 +62,6 @@ input.distext {background-color:#EEE;}
 	font-weight: bold;
 	font-size: 14px;
 	padding: 0;
+	color:#000;
 }
+#subbarset .linow{background-color:#e9e6e6;}
