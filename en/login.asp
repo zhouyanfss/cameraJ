@@ -190,7 +190,7 @@
 					<!--此处开始是聚焦缩放内容-->
 					<div id="focus_adjust" class="preview_rt clearfix"></div>
 					<!--到此处结束-->
-					<div id="ptz_control" class="preview_rt" style="display:none;"></div>
+					<div id="ptz_control" class="preview_rt"></div>
 				  </div><!--videoCon-->
 				</div>
 			</div><!---preview_ct--->

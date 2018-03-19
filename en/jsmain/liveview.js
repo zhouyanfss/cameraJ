@@ -232,7 +232,7 @@ function funImageCtrl(CTRL_OBJ, CTRL_CMD){
 		RIGHT_BAR_SHOW	= 1;
 		RIGHT_FOCUS_SHOW= 0;
 		RIGHT_PTZ_SHOW	= 0;
-		RIGHT_SIDE		= 165;
+		RIGHT_SIDE		= 250;
 		$("image_adjust").style.display="";		//亮色调节
 		$("focus_adjust").style.display="none";	//聚焦变倍
 		$("ptz_control").style.display="none";	//球机PTZ 聚焦变倍
@@ -270,7 +270,7 @@ function funPTZCtrl(CTRL_OBJ, CTRL_CMD){
 		RIGHT_BAR_SHOW	= 0;
 		RIGHT_FOCUS_SHOW= 0;
 		RIGHT_PTZ_SHOW	= 1;
-		RIGHT_SIDE		= 165;
+		RIGHT_SIDE		= 250;
 		$("image_adjust").style.display="none";	//亮色调节
 		$("focus_adjust").style.display="none";	//聚焦变倍
 		$("ptz_control").style.display="";		//球机PTZ 聚焦变倍
@@ -381,7 +381,7 @@ function initPTZCtrl(){
 	var CMDVALUE = parseInt($("devicetype").value);
 	if(typeof(ptzbc)!="object"){ptzbc=new Slider($("bcx"), $("bck"), {steps:100, wheel:!0, onChange:function(a){gca=a; $("bck").setProperty("title", gca); $("t_bcn").setProperty("text", gca); setCookies("nBCValue", gca, 1); }});}
 	var nbc = parseInt(getCookies("nBCValue"));if(isNaN(nbc)){nbc=50;} ptzbc.set(nbc);
-
+	//addEventPTZ(OBJ, ATTRTITLE, DOWNCMD, UPCMD, OUTCMD, CLICKCMD)
 	//addEventPTZ("yt1", "Left-Up", 	0, 0, 	0,  0);
 	addEventPTZ("yt2", "Up", 		1, 30, 	30, 0);
 	//addEventPTZ("yt3", "Right-Up", 	0, 0, 	0,  0);

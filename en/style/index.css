@@ -49,7 +49,7 @@ a{cursor:pointer;outline:none;text-decoration:none;}
 .nav .alarmtip{ position:relative; top:-27px; left:47px;background:url(../image/alert.gif) no-repeat; width:36px; height:26px;text-align:center; cursor:hand;}
 
 /*视频预览样式*/	
-.content{ position:relative; _zoom:1; width:100%; min-width:1000px; margin:0; padding:0; margin-top:5px;}
+.content{ position:relative; _zoom:1; width:100%; min-width:1000px; margin:0; padding:0; margin-top:5px; background-color:#c9c6c6;}
 /*预览原始大小添加样式*/
 .preview_ct{ clear:both; text-align:left;}
 .videoCon{width:100%;overflow:auto; float:left; *position:relative; text-align:center; overflow:hidden; margin-bottom:8px;}
@@ -59,7 +59,7 @@ a{cursor:pointer;outline:none;text-decoration:none;}
 #review_video{float:left; width:704px; min-width:704px; height:100%; overflow:hidden; margin:0px; padding:0px; background-color:#000;}
 .video2{ float:left;  height:500px; background:#000; overflow:hidden;}
 .alarm_con{ float:left;width:100%;height:100%;margin-left:15px;_margin-left:15px; overflow:hidden;}
-.preview_rt{ float:left; margin-left:10px; padding-top:5px; text-align:center; *position:relative; *float:none; *text-align:center; *margin:0; *right:0px;}
+.preview_rt{ float:left; margin-left:10px; padding-top:5px; width:250px; text-align:center; *position:relative; *float:none; *text-align:center; *margin:0; *right:0px;}
 #tx, #tj,#pev_top,#pev_cot{ margin:0;}
 
 /*视频预览中间样式-码流选择*/
@@ -177,34 +177,48 @@ a{cursor:pointer;outline:none;text-decoration:none;}
 .padT5X{ _height:20px; _padding-top:6px; _line-height:20px;}
 
 /*视频预览右侧样式三 PTZ 控制项*/
-#pev_top{ background:url(../image/tp1.png) no-repeat #777777; width:152px; height:10px;}
-#pev_cot{ width:152px;background:#777;overflow:hidden;}
+#pev_top{ 
+	display: block;
+	/*width: 260px; */
+	height:42px; 
+	line-height:42px;
+	text-align:center;
+	background-color:#b9b6b6;
+	overflow:hidden;
+	border-top:1px solid #999999;
+	border-bottom:1px solid #999999;
+	font-weight: bold;
+	letter-spacing:4px;
+	font-size:16px;
+	width:250px; 
+}
+#pev_cot{ width:250px;overflow:hidden;}
 #pev_btm { width:152px; height:13px;overflow:hidden;}
 .b_down{background:url(../image/xl.png) no-repeat;width:152px; height:13px; _height:10px; display:block;}
 .b_down:hover{ background-position:0 -13px}
 .b_up{background:url(../image/xl.png) 0 -26px no-repeat;width:152px; height:13px; display:block }
 .b_up:hover{ background-position:0 -39px}
-#yt{ width:111px; height:110px; padding-top:0px;}
+#yt{ width:156px; height:156px; padding-top:0px;}
 #yt a{ float:left;display:block; width:34px; margin:0 3px 3px 0px; height:34px; background:url(../image/yt1.png) no-repeat;}
-#yt #yt1{ background-image:none; cursor:default;}
-#yt #yt2{ background-position: 0px  -31px;}
-#yt #yt3{ background-image:none; cursor:default;}
-#yt #yt4{ background-position: 0px  -93px; }
+#yt #yt1{ background-position: 0px  0px; cursor:pointer;}
+#yt #yt2{ background-position: 0px  -31px;cursor:pointer;}
+#yt #yt3{ background-position: 0px  -62px; cursor:pointer;}
+#yt #yt4{ background-position: 0px  -93px; cursor:pointer;}
 #yt .yt5{ display:block; background:url(../image/yt2.png) no-repeat 0px 0px; float:left; }
 #yt .y51{ display:block; background:url(../image/yt2.png) no-repeat -34px 0px; float:left;}
 #yt .yt5:hover{background-position: -34px  0px;}
-#yt #yt6{ background-position: 0px  -124px;}
-#yt #yt7{ background-image:none; cursor:default;}
-#yt #yt8{ background-position: 0px  -186px;}
-#yt #yt9{ background-image:none; cursor:default;}
-#yt #yt1:hover{ background-image:none; cursor:default;}
+#yt #yt6{ background-position: 0px  -124px;cursor:pointer;}
+#yt #yt7{ background-position: 0px  -155px; cursor:pointer;}
+#yt #yt8{ background-position: 0px  -186px;cursor:pointer;}
+#yt #yt9{ background-position: 0px  -217px;cursor:pointer;}
+#yt #yt1:hover{ background-position: -34px 0px; cursor:default;}
 #yt #yt2:hover{ background-position: -34px  -31px;}
-#yt #yt3:hover{ background-image:none; cursor:default;}
+#yt #yt3:hover{ background-position: -34px -62px; cursor:default;}
 #yt #yt4:hover{ background-position: -34px -93px;}
 #yt #yt6:hover{ background-position: -34px -124px;}
-#yt #yt7:hover{ background-image:none; cursor:default;}
-#yt #yt8:hover{ background-position: -34px  -186px;}
-#yt #yt9:hover{ background-image:none; cursor:default;}
+#yt #yt7:hover{ background-position: -34px -155px; cursor:default;}
+#yt #yt8:hover{ background-position: -34px -186px;}
+#yt #yt9:hover{ background-position: -34px -217px; cursor:default;}
 #bc{ width:152px; color:#fff; font-size:12px;  text-align:left; text-indent:3px;}
 #gjz{ width:152px ;text-align:center;  color:#fff; font-size:12px; margin-bottom:4px;}
 #tiaojie{width:111px; height:100px; padding-top:0px; _width:120px; _padding-left:6px;}

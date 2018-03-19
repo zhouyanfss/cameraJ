@@ -219,7 +219,7 @@ function goPtzCtrl(a){
 	$("mb2").style.display="none";
 	$("mb").style.display="";
 	//$("set_fm").src="";
-	RIGHT_SIDE			= 165;
+	RIGHT_SIDE			= 250;
 	HEADER_MENUS_ITEM	= a;
 	manualResize();
 }
