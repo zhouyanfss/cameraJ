@@ -100,6 +100,7 @@ function funSnap(CTRL_OBJ){	//抓图
 	$("WebCMS").ChannelCapture(0, 0);
 }
 function funRecord(CTRL_OBJ){		//录像
+debugger;
 	var nWindows = $("nwindows").value;
 	if(!bRECORD[nWindows]){
 		var Recordstart = $("WebCMS").StartRecord();
@@ -265,8 +266,8 @@ function funPTZCtrl(CTRL_OBJ, CTRL_CMD){
 	if(bSCALE) funScale($("b_scale"), 1);
 	if(bORIGINAL || bSCALE) return false;
 	if(!RIGHT_PTZ_SHOW && !CTRL_CMD){
-		CTRL_OBJ.className	= "Rightbtn ptz1";
-		$("b_image").className	= "Rightbtn image";
+		if(CTRL_OBJ)CTRL_OBJ.className	= "Rightbtn ptz1";
+		if($("b_image"))$("b_image").className	= "Rightbtn image";
 		RIGHT_BAR_SHOW	= 0;
 		RIGHT_FOCUS_SHOW= 0;
 		RIGHT_PTZ_SHOW	= 1;
@@ -286,7 +287,7 @@ function funPTZCtrl(CTRL_OBJ, CTRL_CMD){
 			ApplyXmlLang("ptz.xml", m_szLanguage);
 		}
 	}else{
-		CTRL_OBJ.className = "Rightbtn ptz";
+		if(CTRL_OBJ)CTRL_OBJ.className = "Rightbtn ptz";
 		$("b_image").className = "Rightbtn image";
 		RIGHT_BAR_SHOW	= 0;
 		RIGHT_FOCUS_SHOW= 0;
@@ -564,12 +565,12 @@ function initState(CTRL_CMD){
 		}
 		bSCALE	= 0;
 		bORIGINAL	= 0;
-		$("b_record").className	= "leftbtn record";	//录像
-		$("b_talk").className	= "leftbtn talk";	//对讲
-		$("b_voice").className	= "leftbtn voice";	//监听
+		if($("b_record"))$("b_record").className	= "leftbtn record";	//录像
+		if($("b_talk"))$("b_talk").className	= "leftbtn talk";	//对讲
+		if($("b_voice"))$("b_voice").className	= "leftbtn voice";	//监听
 		if($("zoomin").value == "1"){$("WebCMS").ImageZoomIn(0); $("b_zoom").className = "leftbtn zoom"; $("zoomin").value = 0;}	//局部放大
-		$("b_scale").className	= "leftbtn scale";	//宽高比
-		$("b_original").className	= "leftbtn original";	//原始大小
+		if($("b_scale"))$("b_scale").className	= "leftbtn scale";	//宽高比
+		if($("b_original"))$("b_original").className	= "leftbtn original";	//原始大小
 	}else{
 	  try{
 		var nWindows= parseInt($("nwindows").value);

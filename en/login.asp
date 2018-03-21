@@ -178,18 +178,20 @@
 		<!-----mb 预览 & PTZ-------->
 		<div id="mb" class="content">
 			<div class="preview_ct">
-				<div id="mb_btn_bar" class="videotop"></div>
 				<div id="videoH" class="videoCon">
 				  <div id="videoCon"  class="vedioNew">
 					<div id="video1" class="video1"><!---实时视频区域--->
 						<!--<object name="WebCMS" ID="WebCMS" style="width:100%;" CLASSID="CLSID:8DA9A0A7-AC21-4EA9-BB7E-43AEF89688A6" codebase="/WebCMS.exe#Version=2,0,0,0"></object>-->
 						<object name="WebCMS" ID="WebCMS" style="width:100%;" CLASSID="CLSID:8DA9A0A7-AC21-4EA9-BB7E-43AEF89688A6" codebase="/WebCMS.exe#Version=2,0,0,0"></object>
+					
+						<div id="mb_btn_bar" class="videotop"></div>
 					</div>
 					<!--此处开始是 图像调节 内容-->
 					<div id="image_adjust" class="preview_rt"></div>
 					<!--此处开始是聚焦缩放内容-->
 					<div id="focus_adjust" class="preview_rt clearfix"></div>
 					<!--到此处结束-->
+					<div style="display:block;height:100%;width:7px; float:left; background-color:#999999;"><image style="position:absolute; top:47%;" src="../image/spread.gif"></image></div>
 					<div id="ptz_control" class="preview_rt"></div>
 				  </div><!--videoCon-->
 				</div>
@@ -238,6 +240,10 @@
 </div>
 <div id="estopAll" style="display:none;" class="estopAll" ></div>
 <iframe name="btnHit" id="btnHit" src="" align="btnHit" frameborder="0" scrolling="no" style="background-color:#000000;" height="0" width="0"></iframe>
-<%outLoginCMS();%>
+<!--
+< % 
+'outLoginCMS(); 
+% >
+-->
 </body>
 </html>

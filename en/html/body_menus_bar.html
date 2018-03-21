@@ -1,3 +1,4 @@
+<!--
 <div id="stream">
 	<a  id="b_Stream1" 	onclick="btnLiveCtrl(this, 61)" href="javascript:;" hidefocus="true" class="b_Stream1" >主码流</a>
 	<a  id="b_Stream2" 	onclick="btnLiveCtrl(this, 62)" href="javascript:;" hidefocus="true" class="b_Stream1" >辅码流</a>
@@ -20,3 +21,39 @@
 	<a id="b_image" 	onclick="btnLiveCtrl(this, 52)"	href="javascript:;" hidefocus="true" class="Rightbtn image">图像调节</a>
 	<a id="b_ptz" 		onclick="btnLiveCtrl(this, 51)"	href="javascript:;" hidefocus="true" class="Rightbtn ptz">云台控制</a>
 </div>	
+-->
+<div id="videoBottom" style="height:30px; display:block; margin:auto; position:relative;">
+	<div class="btnArea" style="background:url(../image/bfms.png) no-repeat 0px 5px;">
+		<div class="selectArea">
+			<select name="BitSelect" id="BitSelect" style="height:50px; width:80px;" onChange="vedioParaChange('BitSelect');" class="videoSet_select" multiple="multiple" size="3">
+				<option id="b_Stream1" value="0" _enlan="Main stream">主码流</option>
+				<option id="b_Stream2" value="1" _enlan="Sub stream">副码流</option>
+			</select>
+			<iframe id="iframe1" src="about:blank" frameBorder="0" marginHeight="0" marginWidth="0" style="position:absolute; visibility:inherit; top:0px;left:0px;width:80px; height:50px;z-index:-1; filter:alpha(opacity=0);"></iframe>
+
+		</div>
+	</div>
+	<div class="btnArea" style="background:url(../image/spdx.png) no-repeat 0px 5px; ">
+		<div class="selectArea">
+			<select name="videoSizeSelect" id="videoSizeSelect" style="height:90px; width:60px;"  class="videoSet_select" onChange="vedioParaChange('videoSizeSelect');" multiple="multiple" size="5">
+			  <option id="b_scale" value="8" selected="selected">宽高</option>
+			  <option id="b_full" value="7">全屏</option>
+			  <!--<option id="b_original" value="9">原始大小</option>-->
+			</select>
+			<iframe id="iframe1" src="about:blank" frameBorder="0" marginHeight="0" marginWidth="0" style="position:absolute; visibility:inherit; top:0px;left:0px;width:60px; height:90px;z-index:-1; filter:alpha(opacity=0);"></iframe>
+
+		</div>
+	</div>
+	
+	<!---->
+	
+	<div  class="bar" id="bar">
+	  <ul>
+		<li><a id="b_snap" 	 onclick="btnLiveCtrl(this, 1)" 	href="javascript:;" hidefocus="true" class="leftbtn snap"></a></li>
+		<li><a id="b_record" onclick="btnLiveCtrl(this, 2);" 	href="javascript:;" hidefocus="true" class="leftbtn record"></a></li>
+		<li><a id="b_voice"  onclick="btnLiveCtrl(this, 4)" 	href="javascript:;" hidefocus="true" class="leftbtn voice"></a></li>
+		<li><a id="b_talk" 	 onclick="btnLiveCtrl(this, 3)" 	href="javascript:;" hidefocus="true" class="leftbtn talk"></a></li>
+		<li><a id="b_zoom" 	 onclick="btnLiveCtrl(this, 6)" 	href="javascript:;" hidefocus="true" class="leftbtn zoom"></a></li>
+	  </ul>
+	</div>	
+</div>

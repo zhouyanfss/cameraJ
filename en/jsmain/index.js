@@ -121,6 +121,7 @@ function goMain(a){
 		}
 	}
 	
+	
 	switch(a){
 		case 0: goPreview(a); break;
 		case 1:	goPlayback(a); break;
@@ -150,12 +151,12 @@ function goPreview(a){
 			document.getElementById("mb_btn_bar").innerHTML = g_xmlhttp.responseText;
 		}
 		b_INIT_MENUS_LIVEVIEW=1;
-		$("b_image").className	= "Rightbtn image";
-		$("b_ptz").className	= "Rightbtn ptz";
+		if($("b_image"))$("b_image").className	= "Rightbtn image";
+		if($("b_ptz"))$("b_ptz").className	= "Rightbtn ptz";
 		RIGHT_FOCUS_SHOW=0;RIGHT_SIDE=0;
-		$("image_adjust").style.display="none";	//亮色调节
-		$("focus_adjust").style.display="none";	//聚焦变倍
-		$("ptz_control").style.display="none";	//球机PTZ 聚焦变倍
+		if($("image_adjust"))$("image_adjust").style.display="none";	//亮色调节
+		if($("focus_adjust"))$("focus_adjust").style.display="none";	//聚焦变倍
+		//$("ptz_control").style.display="none";	//球机PTZ 聚焦变倍
 		ApplyXmlLang("index.xml", m_szLanguage);
 	}
 	HEADER_MENUS_ITEM	= a;
@@ -168,6 +169,9 @@ function goPreview(a){
 		$("b_Stream1").className = "b_Stream2";
 		$("b_Stream2").className = "b_Stream1";
 	}
+	
+	
+	funPTZCtrl(null,0);
 	setTimeout("startPreview();", 300);
 }
 //录像回放
@@ -329,10 +333,10 @@ function resize(){
 			$("video1").setStyle("paddingTop", "0px");
 			$("mb").setStyle("min-width", a + "px");
 			$("mb").setStyle("width", a + "px");
-			$("mb").setStyle("height", (b-78) + "px");
+			$("mb").setStyle("height", (b-62) + "px");
 			$("videoH").setStyle("min-width", a + "px");
 			$("videoH").setStyle("width", a + "px");
-			$("videoH").setStyle("height", (b-110) + "px");
+			$("videoH").setStyle("height", (b-62) + "px");
 			$("videoCon").setStyle("width", "100%");
 			$("videoCon").setStyle("height", "100%");
 			if(RIGHT_SIDE){
@@ -341,12 +345,12 @@ function resize(){
 			$("video1").setStyle("width", (a-30) + "px");
 			$("video1").setStyle("height", "100%");
 			$("WebCMS").style.width	= "100%";
-			$("WebCMS").style.height= (b-110) + "px";
+			$("WebCMS").style.height= (b-91) + "px";
 		break;
 		case 1:	//录像回放
 			$("mb1").setStyle("min-width", a + "px");
 			$("mb1").setStyle("width", a + "px");
-			$("mb1").setStyle("height", (b-78) + "px");
+			$("mb1").setStyle("height", (b-62) + "px");
 			$("revideoH").setStyle("min-width", a + "px");
 			$("revideoH").setStyle("width", a + "px");
 			$("revideoH").setStyle("height", "100%");
@@ -362,27 +366,27 @@ function resize(){
 			if(myos.version==6){a = a - 17;b = b - 17;}
 			$("mb0").setStyle("min-width", a + "px");
 			$("mb0").setStyle("width", a + "px");
-			$("mb0").setStyle("height", (b-78) + "px");
+			$("mb0").setStyle("height", (b-62) + "px");
 			// $("divSetting").setStyle("width", (a-30) + "px");
 			// $("divSetting").setStyle("height", (b-78) + "px");
 			$("mb0_setting").setStyle("width", (a-208) + "px");
 			$("mb0_setting").setStyle("height", (b-78) + "px");
 			if(myos.version==6){
 				$("set_fm").setStyle("width", (a-208) + "px");
-				$("set_fm").setStyle("height", (b-78) + "px");
+				$("set_fm").setStyle("height", (b-62) + "px");
 			}
 		break;
 		case 4:	//报警
 			$("mb2").setStyle("min-width", a + "px");
 			$("mb2").setStyle("width", a + "px");
-			$("mb2").setStyle("height", (b-78) + "px");
+			$("mb2").setStyle("height", (b-62) + "px");
 			$("alarmH").setStyle("min-width", (a-20) + "px");
 			$("alarmH").setStyle("width", (a-20) + "px");
-			$("alarmH").setStyle("height", (b-78) + "px");
+			$("alarmH").setStyle("height", (b-62) + "px");
 			//$("alarm_body").setStyle("width", (a-230));	//200+30(左右空15px)
 			//$("alarm_body").setStyle("height", "100%");
 			$("alarm_fm").setStyle("width", (a-20) + "px");
-			$("alarm_fm").setStyle("height", (b-78) + "px");
+			$("alarm_fm").setStyle("height", (b-62) + "px");
 		break;
 		default:	//否则显示登录
 			$("main").style.display		= "none";
