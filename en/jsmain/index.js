@@ -2,7 +2,7 @@
 //window.addEvent("domready",function(){})
 window.onload=function(){initPage();return;}
 document.onkeypress=function(){$("lg_out").style.display==""&&event.keyCode==13&&login()}
-window.onresize=function(){resize();}
+window.onresize=function(){ resize();}
 var HEADER_MENUS_ITEM=110;
 var b_INIT_MENUS_LIVEVIEW=!1, b_INIT_MENUS_SETTING=!1, b_INIT_REPLAY_PAGE=!1, b_INIT_ONRESIZE=!1;
 var timeProcess_RESIZE, sNowURLName = "local";
@@ -318,11 +318,17 @@ function manualResize(){
 	resize();
 }
 function resize(){
-	if(onReTOS<3&&b_INIT_ONRESIZE){if(timeProcess_RESIZE)clearInterval(timeProcess_RESIZE);timeProcess_RESIZE=setTimeout("resize();", (3-onReTOS)*1000);return false};
+	//if (onReTOS < 3 && b_INIT_ONRESIZE) {
+	//	if (timeProcess_RESIZE) clearInterval(timeProcess_RESIZE);
+	//	timeProcess_RESIZE = setTimeout("resize();", (3 - onReTOS) * 1000);
+	//	return false
+	//};
 	var a, b;
 	var myos = appInfo();
 	a = document.documentElement.clientWidth;
 	b = document.documentElement.clientHeight;
+	//b = document.body.clientHeight;
+	
 	if(a < 1000) a = 1000;
 	if(b < 600) b = 600;
 	//alert("a. manualResize(); a=" + a +" b=" + b +" RIGHT_SIDE=" + RIGHT_SIDE +" videoH-width=" + $("videoH").getStyle("width") +" videoH-height=" + $("videoH").getStyle("height"));
@@ -332,17 +338,18 @@ function resize(){
 			if(bORIGINAL || bSCALE) return false;
 			$("video1").setStyle("paddingTop", "0px");
 			$("mb").setStyle("min-width", a + "px");
-			$("mb").setStyle("width", a + "px");
+			//$("mb").setStyle("width", a + "px");
+			//$("mb").setStyle("width", a + "px");
 			$("mb").setStyle("height", (b-62) + "px");
 			$("videoH").setStyle("min-width", a + "px");
-			$("videoH").setStyle("width", a + "px");
+			//$("videoH").setStyle("width", a + "px");
 			$("videoH").setStyle("height", (b-62) + "px");
 			$("videoCon").setStyle("width", "100%");
 			$("videoCon").setStyle("height", "100%");
 			if(RIGHT_SIDE){
 				a = a - RIGHT_SIDE;
 			}
-			$("video1").setStyle("width", (a-30) + "px");
+			$("video1").setStyle("width", (a-7) + "px");
 			$("video1").setStyle("height", "100%");
 			$("WebCMS").style.width	= "100%";
 			$("WebCMS").style.height= (b-91) + "px";
@@ -400,6 +407,30 @@ function resize(){
 	//timeProcess = setInterval('setTimeProcess(10)', 1000);
 	return  true;
 }
+
+function changeStreamSelect(selectId){
+
+	var selectVal = jQuery("#" + selectId).val()[0];
+	
+	switch(selectVal){
+		case "6":	//局部放大
+			funZoomIn(null);
+		break;
+		case "7":	//全屏
+			funFull(null);
+		break;
+		case "61"://主码流
+			changeStream(null, 61); initState(0);
+		break;
+		case "62"://辅码流
+			changeStream(null, 62); initState(0);
+		break;
+		default://其他
+		break;
+	}
+	
+}
+
 function btnLiveCtrl(CTRL_OBJ, CTRL_CMD){
 	switch(CTRL_CMD){
 		case 1:	//抓拍
@@ -440,6 +471,12 @@ function btnLiveCtrl(CTRL_OBJ, CTRL_CMD){
 		break;
 		case 62://辅码流
 			changeStream(CTRL_OBJ, CTRL_CMD); initState(0);
+		break;
+		case 101://码流控制层
+			changeStreamArea(CTRL_OBJ);
+		break;
+		case 102://尺寸控制层			
+			changeStreamArea(CTRL_OBJ);
 		break;
 		default://其他
 			

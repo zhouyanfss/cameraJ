@@ -77,17 +77,32 @@ return false;
 }
 function stopPreview(){if(bPreview)$("WebCMS").StopPreview(),bPreview=!1;}
 function stopViewLogout(){if(bPreview)$("WebCMS").StopPreview(),bPreview=!1;if(bLogin)$("WebCMS").Logout(),bLogin=!1;}
-function startPreview(){if(!bPreview)$("WebCMS").StartPreview(),bPreview=1;}
+function startPreview(){
+	if(!bPreview)$("WebCMS").StartPreview(),bPreview=1;
+	
+	jQuery(".btnArea").click(function(e){
+        e.stopPropagation();  
+		
+		var ele = jQuery(this).find(".selectArea");
+		if(ele.is(":visible")){
+			ele.hide();
+		}
+		else{
+			jQuery(".selectArea").hide();
+			ele.show();
+		}
+	});
+}
 function changeStream(CTRL_OBJ, CTRL_CMD){
 	if(CTRL_CMD	== 61){	//主码流
 		$("b_Stream2").className = "b_Stream1";
-		CTRL_OBJ.className = "b_Stream2";
+		if(CTRL_OBJ)CTRL_OBJ.className = "b_Stream2";
 		stopPreview();
 		$("WebCMS").SetStreamType(0);
 		startPreview();
 	}else{				//次码流
 		$("b_Stream1").className = "b_Stream1";
-		CTRL_OBJ.className = "b_Stream2";
+		if(CTRL_OBJ)CTRL_OBJ.className = "b_Stream2";
 		stopPreview();
 		$("WebCMS").SetStreamType(1);
 		startPreview();
@@ -95,6 +110,24 @@ function changeStream(CTRL_OBJ, CTRL_CMD){
 	if(bORIGINAL) funOriginal($("b_original"), 1);
 	if(bSCALE) funScale($("b_scale"), 1);
 }
+
+// function changeStreamArea(areaId){
+	
+	// var ele = jQuery("#" + areaId);
+	// if(ele.is(":visible")){
+		// ele.hide();
+	// }
+	// else{
+		// jQuery(".selectArea").hide();
+		// ele.show();
+	// }
+// }
+
+
+jQuery(document).click(function(){
+        jQuery(".selectArea").hide();
+		
+    });
 
 function funSnap(CTRL_OBJ){	//抓图
 	$("WebCMS").ChannelCapture(0, 0);
@@ -178,7 +211,7 @@ function funScale(CTRL_OBJ, CTRL_CMD){
 	if(!bSCALE && !CTRL_CMD){
 		if(bORIGINAL) funOriginal($("b_original"), 1);
 		if(RIGHT_BAR_SHOW || RIGHT_PTZ_SHOW) funImageCtrl($("b_image"), 1);
-		CTRL_OBJ.className	= "leftbtn scale1";
+		if(CTRL_OBJ)CTRL_OBJ.className	= "leftbtn scale1";
 		bSCALE	= 1;
 		var a, b, c_a, c_b;
 		var bStream	= $("WebCMS").GetStreamType();
@@ -193,7 +226,7 @@ function funScale(CTRL_OBJ, CTRL_CMD){
 		}
 		autoScaleWH(a, b, c_a, c_b);
 	}else{
-		CTRL_OBJ.className = "leftbtn scale";
+		if(CTRL_OBJ)CTRL_OBJ.className = "leftbtn scale";
 		bSCALE	= 0; manualResize();
 	}
 	//alert("bSCALE=" + bSCALE);
@@ -202,7 +235,7 @@ function funOriginal(CTRL_OBJ, CTRL_CMD){
 	if(!bORIGINAL && !CTRL_CMD){
 		if(bSCALE) funScale($("b_scale"), 1);
 		if(RIGHT_BAR_SHOW || RIGHT_PTZ_SHOW) funImageCtrl($("b_image"), 1);
-		CTRL_OBJ.className	= "leftbtn original1";
+		if(CTRL_OBJ)CTRL_OBJ.className	= "leftbtn original1";
 		bORIGINAL	= 1;
 		var a, b, c_a, c_b;
 		var bStream	= $("WebCMS").GetStreamType();
@@ -218,7 +251,7 @@ function funOriginal(CTRL_OBJ, CTRL_CMD){
 //alert("a=" + a + " b=" + b + " c_a=" + c_a + " c_b=" + c_b);
 		autoOriginalWH(a, b, c_a, c_b);
 	}else{
-		CTRL_OBJ.className = "leftbtn original";
+		if(CTRL_OBJ)CTRL_OBJ.className = "leftbtn original";
 		bORIGINAL = 0; manualResize();
 	}
 	//alert("bORIGINAL=" + bORIGINAL);
@@ -286,16 +319,20 @@ function funPTZCtrl(CTRL_OBJ, CTRL_CMD){
 			initPTZCtrl();b_INIT_PTZ=1;
 			ApplyXmlLang("ptz.xml", m_szLanguage);
 		}
+		
+		$("imgspread").src="../image/spread.gif";
 	}else{
 		if(CTRL_OBJ)CTRL_OBJ.className = "Rightbtn ptz";
-		$("b_image").className = "Rightbtn image";
+		if($("b_image"))$("b_image").className = "Rightbtn image";
 		RIGHT_BAR_SHOW	= 0;
 		RIGHT_FOCUS_SHOW= 0;
 		RIGHT_PTZ_SHOW	= 0;
 		RIGHT_SIDE		= 0;
 		$("image_adjust").style.display="none";	//亮色调节
 		$("focus_adjust").style.display="none";	//聚焦变倍
-		$("ptz_control").style.display="none";	//球机PTZ 聚焦变倍
+		//$("ptz_control").style.display="none";	//球机PTZ 聚焦变倍
+		
+		$("imgspread").src="../image/spread_left.gif";
 	}
 	manualResize();
 }
@@ -383,15 +420,15 @@ function initPTZCtrl(){
 	if(typeof(ptzbc)!="object"){ptzbc=new Slider($("bcx"), $("bck"), {steps:100, wheel:!0, onChange:function(a){gca=a; $("bck").setProperty("title", gca); $("t_bcn").setProperty("text", gca); setCookies("nBCValue", gca, 1); }});}
 	var nbc = parseInt(getCookies("nBCValue"));if(isNaN(nbc)){nbc=50;} ptzbc.set(nbc);
 	//addEventPTZ(OBJ, ATTRTITLE, DOWNCMD, UPCMD, OUTCMD, CLICKCMD)
-	//addEventPTZ("yt1", "Left-Up", 	0, 0, 	0,  0);
+	addEventPTZ("yt1", "Left-Up", 	1, 1, 	0,  0);
 	addEventPTZ("yt2", "Up", 		1, 30, 	30, 0);
-	//addEventPTZ("yt3", "Right-Up", 	0, 0, 	0,  0);
+	addEventPTZ("yt3", "Right-Up", 	1, 1, 	0,  0);
 	addEventPTZ("yt4", "left", 		3, 32,	32, 0);
 	addEventPTZ("yt5", "Auto", 		0, 0,	0,  11);
 	addEventPTZ("yt6", "Right", 	4, 33,	33, 0);
-	//addEventPTZ("yt7", "Left-Down", 0, 0, 	0,  0);
+	addEventPTZ("yt7", "Left-Down", 1, 1, 	0,  0);
 	addEventPTZ("yt8", "Down", 		2, 31, 	31, 0);
-	//addEventPTZ("yt9", "Right-Down",0, 0, 	0,  0);
+	addEventPTZ("yt9", "Right-Down",1, 1, 	0,  0);
 	
 	addEventPTZ("b_bb1", "Zoom +",	9,  38, 	38, 0);
 	addEventPTZ("b_bb2", "Zoom -",	10, 39, 	39, 0);
@@ -434,8 +471,8 @@ function initPTZCtrl(){
 	}	
 }
 function addEventPTZ(OBJ, ATTRTITLE, DOWNCMD, UPCMD, OUTCMD, CLICKCMD){
-	if(DOWNCMD) $(OBJ).addEvent("mousedown",function(a){preventM(a);funPTZSub(DOWNCMD);});
-	if(UPCMD) $(OBJ).addEvent("mouseup",function(a){preventM(a);funPTZSub(UPCMD);});
+	if(DOWNCMD) $(OBJ).addEvent("mousedown",function(a){preventM(a);funPTZSub(DOWNCMD); $("ptzimg").src="../image/ptz/"+ OBJ +".png";});
+	if(UPCMD) $(OBJ).addEvent("mouseup",function(a){preventM(a);funPTZSub(UPCMD);$("ptzimg").src="../image/ptz/p0.png";});
 	if(OUTCMD) $(OBJ).addEvent("mouseout",function(a){preventM(a);funPTZSub(OUTCMD);});
 	if(CLICKCMD) $(OBJ).addEvent("click",function(a){funPTZSub(CLICKCMD);});
 	

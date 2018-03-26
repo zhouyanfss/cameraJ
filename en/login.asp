@@ -3,6 +3,7 @@
 <head>
 <title>WEB SERVICE</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+<script type="text/javascript" src="script/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="script/m.js"></script>
 <script type="text/javascript" src="script/more.js"></script>
 <script type="text/javascript" src="script/common.js"></script>
@@ -182,8 +183,9 @@
 				  <div id="videoCon"  class="vedioNew">
 					<div id="video1" class="video1"><!---实时视频区域--->
 						<!--<object name="WebCMS" ID="WebCMS" style="width:100%;" CLASSID="CLSID:8DA9A0A7-AC21-4EA9-BB7E-43AEF89688A6" codebase="/WebCMS.exe#Version=2,0,0,0"></object>-->
+						<div style="z-index:-1; position:relative;">
 						<object name="WebCMS" ID="WebCMS" style="width:100%;" CLASSID="CLSID:8DA9A0A7-AC21-4EA9-BB7E-43AEF89688A6" codebase="/WebCMS.exe#Version=2,0,0,0"></object>
-					
+						</div>
 						<div id="mb_btn_bar" class="videotop"></div>
 					</div>
 					<!--此处开始是 图像调节 内容-->
@@ -191,7 +193,7 @@
 					<!--此处开始是聚焦缩放内容-->
 					<div id="focus_adjust" class="preview_rt clearfix"></div>
 					<!--到此处结束-->
-					<div style="display:block;height:100%;width:7px; float:left; background-color:#999999;"><image style="position:absolute; top:47%;" src="../image/spread.gif"></image></div>
+					<div style="display:block;height:100%;width:7px; float:left; background-color:#999999;"><image id="imgspread" style="position:absolute; top:47%; cursor:pointer; " onclick="btnLiveCtrl(null, 51)" src="../image/spread.gif"></image></div>
 					<div id="ptz_control" class="preview_rt"></div>
 				  </div><!--videoCon-->
 				</div>

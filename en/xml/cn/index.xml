@@ -8,12 +8,12 @@
 	<b_quit>退出</b_quit>
 	<b_Stream1>主码流</b_Stream1>
 	<b_Stream2>辅码流</b_Stream2>
-	<b_snap>抓拍</b_snap>
-	<b_record>录像</b_record>
-	<b_talk>对讲</b_talk>
-	<b_voice>监听</b_voice>
+	<!-- <b_snap>抓拍</b_snap> -->
+	<!-- <b_record>录像</b_record> -->
+	<!-- <b_talk>对讲</b_talk> -->
+	<!-- <b_voice>监听</b_voice> -->
 	<b_almout0>报警</b_almout0>
-	<b_zoom>放大</b_zoom>
+	<!-- <b_zoom>放大</b_zoom> -->
 	<b_full>全屏</b_full>
 	<b_scale>宽高</b_scale>
 	<b_original>原始大小</b_original>
