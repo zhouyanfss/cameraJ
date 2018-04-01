@@ -5,7 +5,7 @@
 	<b_ptzctrl>PTZ</b_ptzctrl>
 	<b_config>设置</b_config>
 	<b_alarm>报警</b_alarm>
-	<b_quit>退出</b_quit>
+	<b_quit>注销</b_quit>
 	<b_Stream1>主码流</b_Stream1>
 	<b_Stream2>辅码流</b_Stream2>
 	<!-- <b_snap>抓拍</b_snap> -->

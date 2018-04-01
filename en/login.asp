@@ -171,9 +171,9 @@
 			  <li id="b_c"> <a id="b_config" class="nav_btn" hidefocus="true" href="javascript:;">   设置   </a></li>
 			  <li id="b_d"> <a id="b_alarm" class="nav_btn" hidefocus="true" href="javascript:;">   报警   </a>
 			  	<div class="alarmtip" id="d_alarmtip" style="display:none;"></div></li>
-			  <li id="b_e"> <a id="b_quit" class="nav_btn" hidefocus="true" href="javascript:;">   退出   </a></li>	
 			</ul>
 		  </div>
+		  <div id="tuichu"> <a id="b_quit" class="nav_btn" hidefocus="true" href="javascript:;">注销</a></div>	
 		</div>
 		<!-----header end-------->
 		<!-----mb 预览 & PTZ-------->

@@ -48,6 +48,11 @@ a{cursor:pointer;outline:none;text-decoration:none;}
 .nav_btn1{color:white;background-color:#505050;}
 .nav .alarmtip{ position:relative; top:-27px; left:47px;background:url(../image/alert.gif) no-repeat; width:36px; height:26px;text-align:center; cursor:hand;}
 
+#tuichu{position:absolute; display:block; right:10px;bottom:5px; }
+#tuichu a{display:block; padding-left:31px; height:31px;width:100px;background:url(../image/tuichu.png) no-repeat 3px 3px; font-size:24px; font-weight:bold;font-family:黑体; line-height:35px;}
+
+
+
 /*视频预览样式*/	
 .content{ position:relative; _zoom:1; width:100%; min-width:1000px; margin:0; padding:0; margin-top:5px; background-color:#c9c6c6;}
 /*预览原始大小添加样式*/
