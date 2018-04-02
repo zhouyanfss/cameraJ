@@ -420,15 +420,15 @@ function initPTZCtrl(){
 	if(typeof(ptzbc)!="object"){ptzbc=new Slider($("bcx"), $("bck"), {steps:100, wheel:!0, onChange:function(a){gca=a; $("bck").setProperty("title", gca); $("t_bcn").setProperty("text", gca); setCookies("nBCValue", gca, 1); }});}
 	var nbc = parseInt(getCookies("nBCValue"));if(isNaN(nbc)){nbc=50;} ptzbc.set(nbc);
 	//addEventPTZ(OBJ, ATTRTITLE, DOWNCMD, UPCMD, OUTCMD, CLICKCMD)
-	addEventPTZ("yt1", "Left-Up", 	1, 1, 	0,  0);
+	addEventPTZ("yt1", "Left-Up", 	1031, 3230, 3230,  0);
 	addEventPTZ("yt2", "Up", 		1, 30, 	30, 0);
-	addEventPTZ("yt3", "Right-Up", 	1, 1, 	0,  0);
+	addEventPTZ("yt3", "Right-Up", 	1041, 3330, 3330,  0);
 	addEventPTZ("yt4", "left", 		3, 32,	32, 0);
-	addEventPTZ("yt5", "Auto", 		0, 0,	0,  11);
+	addEventPTZ("yt5", "Auto", 		1, 0,	0,  11);
 	addEventPTZ("yt6", "Right", 	4, 33,	33, 0);
-	addEventPTZ("yt7", "Left-Down", 1, 1, 	0,  0);
+	addEventPTZ("yt7", "Left-Down", 1032, 3231, 3231,  0);
 	addEventPTZ("yt8", "Down", 		2, 31, 	31, 0);
-	addEventPTZ("yt9", "Right-Down",1, 1, 	0,  0);
+	addEventPTZ("yt9", "Right-Down",1042, 3331, 3331,  0);
 	
 	addEventPTZ("b_bb1", "Zoom +",	9,  38, 	38, 0);
 	addEventPTZ("b_bb2", "Zoom -",	10, 39, 	39, 0);
@@ -471,10 +471,34 @@ function initPTZCtrl(){
 	}	
 }
 function addEventPTZ(OBJ, ATTRTITLE, DOWNCMD, UPCMD, OUTCMD, CLICKCMD){
-	if(DOWNCMD) $(OBJ).addEvent("mousedown",function(a){preventM(a);funPTZSub(DOWNCMD); $("ptzimg").src="../image/ptz/"+ OBJ +".png";});
-	if(UPCMD) $(OBJ).addEvent("mouseup",function(a){preventM(a);funPTZSub(UPCMD);$("ptzimg").src="../image/ptz/p0.png";});
+	if(DOWNCMD) $(OBJ).addEvent("mousedown",function(a){preventM(a);funPTZSub(DOWNCMD);xiaoguo(OBJ,1);});
+	if(UPCMD) $(OBJ).addEvent("mouseup",function(a){preventM(a);funPTZSub(UPCMD);xiaoguo(OBJ,2);});
 	if(OUTCMD) $(OBJ).addEvent("mouseout",function(a){preventM(a);funPTZSub(OUTCMD);});
 	if(CLICKCMD) $(OBJ).addEvent("click",function(a){funPTZSub(CLICKCMD);});
+	
+}
+
+function xiaoguo(OBJ,mouseType){
+
+	if("yt1|yt2|yt3|yt4|yt5|yt6|yt7|yt8|yt9".indexOf(OBJ) > -1) {
+			//mousedown
+		if(mouseType == 1){
+			$("ptzimg").src="../image/ptz/"+ OBJ +".png";
+		}
+		else{//mouseup
+			$("ptzimg").src="../image/ptz/p0.png";
+		}
+	}
+	else if("b_gq1|b_gq2|b_bj1|b_bj2|b_bb1|b_bb2".indexOf(OBJ)>-1)
+	{
+		//mousedown
+		if(mouseType == 1){
+			jQuery("#"+OBJ+" img").attr("src","../image/ptz/"+OBJ+"_.gif");
+		}
+		else{//mouseup
+			jQuery("#"+OBJ+" img").attr("src","../image/ptz/"+OBJ+".gif");
+		}
+	}
 	
 }
 function funPTZSub(CMDVALUE){
@@ -490,6 +514,13 @@ function funPTZSub(CMDVALUE){
 			NVSObj.PTZCtrl(wPTZCmd, wPTZData);
 			PTZStop	= 0; PTZAuto = 0;
 		break;
+		case 1031:case 1032:case 1041:case 1042:
+			var cmdA = (wPTZCmd-1000)%10;
+			var cmdB = parseInt((wPTZCmd-1000)/10);
+			NVSObj.PTZCtrl(cmdA, wPTZData);
+			NVSObj.PTZCtrl(cmdB, wPTZData);
+			PTZStop	= 0; PTZAuto = 0;
+		break;
 		case 11:case 12:	//云台控制 上下左右、自动开关
 			if(!PTZAuto){wPTZCmd = 11; PTZAuto = 1;
 			}else{wPTZCmd = 12; PTZAuto = 0;}
@@ -502,8 +533,20 @@ function funPTZSub(CMDVALUE){
 				NVSObj.PTZCtrl(wPTZCmd, wPTZData); PTZStop	= 1;
 			}
 		break;
-		case 19:			//预设
-			wPTZData = intData;
+		case 3230:case 3330:case 3231:case 3331:	// 上左上下左下右
+		//if(PTZStop==1||event.button==1){
+			if(!PTZStop){  
+
+				var cmdA = wPTZCmd%100;
+				var cmdB = parseInt(wPTZCmd/100);
+				NVSObj.PTZCtrl(cmdA, wPTZData);                                     
+				NVSObj.PTZCtrl(cmdB, wPTZData);                                     
+				PTZStop	= 1;                                                              
+
+			}                                                                             
+		break;                                                                            
+		case 19:			//预设                                                        
+			wPTZData = intData;                                                           
 			NVSObj.PTZCtrl(wPTZCmd, wPTZData);
 			window.status = ALERTPRESETSET;
 		break;

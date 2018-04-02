@@ -22,9 +22,9 @@ em{font-style:normal}
 .macBox{height:20px;line-height:20px;text-align:center;border:1px solid #222;background:#fff;padding:0;width:150px;float:left;}
 .macBox input{width:18px;border:0;margin:-2px 0 0;margin:0px\9\0; *margin:0;padding:0;text-align:center;clear:both; background:none;}
 
-.subtab{ width:100%; height:26px; background:#A7A7A7; position:relative;_position:relative;z-index:0;display:inline-block;}
-.subtab ul li{ width:147px; height:26px; float:left; margin-right:6px; line-height:26px; background:#bababa; font-size:14px; color:#373737; cursor:pointer; text-align:center; overflow:hidden;}
-.subtab ul .linow{ width:147px; height:26px; float:left; margin-right:6px; line-height:26px; background:#FFF; font-size:14px; color:#333; font-weight:bold; overflow:hidden; cursor:default;}
+.subtab{ width:100%; height:26px; background:#e9e6e6; position:relative;_position:relative;z-index:0;display:inline-block;}
+.subtab ul li{ width:147px; height:26px; float:left; margin-right:6px; line-height:26px;  font-size:14px; color:#373737; cursor:pointer; text-align:center; overflow:hidden;}
+.subtab ul .linow{ width:147px; height:26px; float:left; margin-right:6px; line-height:26px; font-size:14px; color:#333; font-weight:bold; overflow:hidden; cursor:default;}
 .subtab ul .lihelp{ float:right; width:22px; height:22px; display:none;}
 .subtab ul .lihelp a{display:block; width:22px; height:22px; background:url(../image/help.gif) 0 0 no-repeat;}
 .subtab ul .lihelp a:hover{background:url(../image/help.gif) 0 -22px; no-repeat;}

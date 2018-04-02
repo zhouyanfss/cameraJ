@@ -78,8 +78,8 @@ function login(username,password){
 	return  true;
 }
 function gotoLogin(){
-	initMainPage();	 initMenus(); //goMain(0);
-	//setTimeout("loginNVS();",  350);
+	initMainPage();	 initMenus(); goMain(0);
+	setTimeout("loginNVS();",  350);
 }
 function initMainPage(){
 	$("lg_out").style.display = "none";
@@ -418,6 +418,10 @@ function changeStreamSelect(selectId){
 		break;
 		case "7":	//全屏
 			funFull(null);
+		case "8":	//宽高比
+			funScale(null, 0);
+		case "9":	//原始大小
+			funOriginal(null, 0);
 		break;
 		case "61"://主码流
 			changeStream(null, 61); initState(0);
@@ -428,7 +432,6 @@ function changeStreamSelect(selectId){
 		default://其他
 		break;
 	}
-	
 }
 
 function btnLiveCtrl(CTRL_OBJ, CTRL_CMD){

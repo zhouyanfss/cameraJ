@@ -23,7 +23,7 @@
 </div>	
 -->
 <div id="videoBottom" style="height:30px; display:block; margin:auto; position:relative;">
-	<div class="btnArea" style="background:url(../image/bfms.png) no-repeat 0px 5px;">
+	<div class="btnArea"  title="视频类型" _title="Stream type" style="background:url(../image/bfms.png) no-repeat 0px 5px;">
 		<div class="selectArea"  id="bitSelectArea" style="display:none;">
 			<select name="BitSelect" id="BitSelect" onChange="changeStreamSelect('BitSelect')" style="height:50px; width:80px;z-index:2;" class="videoSet_select" multiple="multiple" size="3">
 				<option id="b_Stream1" value="61" _enlan="Main stream">主码流</option>
@@ -33,20 +33,20 @@
 
 		</div>
 		
-		<div id="BitSelected" style="padding-left:30px; width:45px; line-height:32px; text-align:left;">主码流</div>
+		<!-- <div id="BitSelected" style="padding-left:30px; width:45px; line-height:32px; text-align:left;">主码流</div> -->
 	</div>
-	<div class="btnArea" style="background:url(../image/spdx.png) no-repeat 0px 5px; ">
+	<div class="btnArea" title="播放模式" _title="Play mode" style="background:url(../image/spdx.png) no-repeat 0px 5px; ">
 		<div class="selectArea" id="videoSizeSelectArea" style="display:none;">
 			<select name="videoSizeSelect" id="videoSizeSelect" onChange="changeStreamSelect('videoSizeSelect')" style="height:90px; width:60px; z-index:2;"  class="videoSet_select" onChange="vedioParaChange('videoSizeSelect');" multiple="multiple" size="5">
-			  <option id="b_scale" value="8" selected="selected">宽高</option>
+			  <option id="b_scale" value="8">宽高</option>
 			  <option id="b_full" value="7">全屏</option>
-			  <!--<option id="b_original" value="9">原始大小</option>-->
+			  <option id="b_original" value="9">原始大小</option>
 			</select>
 			<iframe id="iframe1" src="about:blank" frameBorder="0" marginHeight="0" marginWidth="0" style="position:absolute; visibility:inherit; top:0px;left:0px;width:60px; height:90px;z-index:-1; filter:alpha(opacity=0);"></iframe>
 
 		</div>
 		
-		<div id="videoSizeSelected" style="padding-left:30px; width:45px; line-height:32px; text-align:left;">宽高</div>
+		<!-- <div id="videoSizeSelected" style="padding-left:30px; width:45px; line-height:32px; text-align:left;">宽高</div> -->
 	</div>
 	
 	<!---->
