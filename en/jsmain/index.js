@@ -59,7 +59,12 @@ function login(username,password){
 	sURL = sURL + "?username="+username;
 	sURL = sURL + "&password="+password;
 	sURL = sURL + "&UserID="+nRanstr+"";
+	
 	g_xmlhttp.open("get",  sURL,  false);
+	try{
+     g_xmlhttp.responseType = "msxml-document";
+    }catch(e){
+    }
 	SafeHttpSend(g_xmlhttp,  null);
 	//g_xmlhttp.onreadystatechange = function()
 	{
@@ -78,8 +83,8 @@ function login(username,password){
 	return  true;
 }
 function gotoLogin(){
-	initMainPage();	 initMenus(); goMain(0);
-	setTimeout("loginNVS();",  350);
+	initMainPage();	 initMenus(); //goMain(0);
+	//setTimeout("loginNVS();",  350);
 }
 function initMainPage(){
 	$("lg_out").style.display = "none";
@@ -144,7 +149,7 @@ function goPreview(a){
 	$("set_fm").src="";
 	changeNavStyle($("b_preview"));
 	if(!b_INIT_MENUS_LIVEVIEW){
-		g_xmlhttp.open("get", "html/body_menus_bar.html", false);
+		g_xmlhttp.open("get", "html/body_menus_bar.html?"+ (new Date()).valueOf(), false);
 		SafeHttpSend(g_xmlhttp, null);
 		{
 			if (g_xmlhttp.readyState != 4){return false;}
@@ -170,7 +175,7 @@ function goPreview(a){
 		$("b_Stream2").className = "b_Stream1";
 	}
 	
-	
+	RIGHT_PTZ_SHOW=0;
 	funPTZCtrl(null,0);
 	setTimeout("startPreview();", 300);
 }
@@ -340,10 +345,10 @@ function resize(){
 			$("mb").setStyle("min-width", a + "px");
 			//$("mb").setStyle("width", a + "px");
 			//$("mb").setStyle("width", a + "px");
-			$("mb").setStyle("height", (b-62) + "px");
+			$("mb").setStyle("height", (b-56) + "px");
 			$("videoH").setStyle("min-width", a + "px");
 			//$("videoH").setStyle("width", a + "px");
-			$("videoH").setStyle("height", (b-62) + "px");
+			$("videoH").setStyle("height", (b-56) + "px");
 			$("videoCon").setStyle("width", "100%");
 			$("videoCon").setStyle("height", "100%");
 			if(RIGHT_SIDE){
@@ -357,7 +362,7 @@ function resize(){
 		case 1:	//录像回放
 			$("mb1").setStyle("min-width", a + "px");
 			$("mb1").setStyle("width", a + "px");
-			$("mb1").setStyle("height", (b-62) + "px");
+			$("mb1").setStyle("height", (b-56) + "px");
 			$("revideoH").setStyle("min-width", a + "px");
 			$("revideoH").setStyle("width", a + "px");
 			$("revideoH").setStyle("height", "100%");
@@ -373,7 +378,7 @@ function resize(){
 			if(myos.version==6){a = a - 17;b = b - 17;}
 			$("mb0").setStyle("min-width", a + "px");
 			$("mb0").setStyle("width", a + "px");
-			$("mb0").setStyle("height", (b-62) + "px");
+			$("mb0").setStyle("height", (b-56) + "px");
 			// $("divSetting").setStyle("width", (a-30) + "px");
 			// $("divSetting").setStyle("height", (b-78) + "px");
 			$("mb0_setting").setStyle("width", (a-208) + "px");
@@ -386,14 +391,14 @@ function resize(){
 		case 4:	//报警
 			$("mb2").setStyle("min-width", a + "px");
 			$("mb2").setStyle("width", a + "px");
-			$("mb2").setStyle("height", (b-62) + "px");
+			$("mb2").setStyle("height", (b-56) + "px");
 			$("alarmH").setStyle("min-width", (a-20) + "px");
 			$("alarmH").setStyle("width", (a-20) + "px");
-			$("alarmH").setStyle("height", (b-62) + "px");
+			$("alarmH").setStyle("height", (b-56) + "px");
 			//$("alarm_body").setStyle("width", (a-230));	//200+30(左右空15px)
 			//$("alarm_body").setStyle("height", "100%");
 			$("alarm_fm").setStyle("width", (a-20) + "px");
-			$("alarm_fm").setStyle("height", (b-62) + "px");
+			$("alarm_fm").setStyle("height", (b-56) + "px");
 		break;
 		default:	//否则显示登录
 			$("main").style.display		= "none";
@@ -431,6 +436,17 @@ function changeStreamSelect(selectId){
 		break;
 		default://其他
 		break;
+	}
+}
+
+function btmShowChange(CTRL_OBJ){
+	var floatDiv = jQuery(CTRL_OBJ).children("div.selectArea");
+	if(floatDiv.is(":visible")){
+		floatDiv.hide();
+		alert(123)
+	}
+	else{
+		floatDiv.show();
 	}
 }
 

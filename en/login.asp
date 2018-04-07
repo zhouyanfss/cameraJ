@@ -3,6 +3,8 @@
 <head>
 <title>WEB SERVICE</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+<!-- Mimic Internet Explorer 8 -->
+<meta http-equiv="X-UA-Compatible" content="IE=10;IE=9; IE=8; IE=7;">  
 <script type="text/javascript" src="script/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="script/m.js"></script>
 <script type="text/javascript" src="script/more.js"></script>
@@ -178,6 +180,7 @@
 		<!-----header end-------->
 		<!-----mb 预览 & PTZ-------->
 		<div id="mb" class="content">
+			<div style="width:100%;height:5px; display:block;background-color:#999999;"></div>
 			<div class="preview_ct">
 				<div id="videoH" class="videoCon">
 				  <div id="videoCon"  class="vedioNew">
@@ -216,12 +219,12 @@
 		<!-----mb1 回放-------->
 		<div id="mb1" class="content" style="display:none;">
 			<div id="revideoH" class="videoCon">
-				<div id="review_ctrl">
-				</div>
 				<div id="review_video">
 					<div  class="rebar" id="div_replay_menus"></div>	
 					<div id="video2" class="video2">
 					</div>
+				</div>
+				<div id="review_ctrl">
 				</div>
 			</div>
 		</div>
@@ -242,10 +245,10 @@
 </div>
 <div id="estopAll" style="display:none;" class="estopAll" ></div>
 <iframe name="btnHit" id="btnHit" src="" align="btnHit" frameborder="0" scrolling="no" style="background-color:#000000;" height="0" width="0"></iframe>
-
-<% 
+<!--
+< % 
 outLoginCMS(); 
-%>
-
+% >
+-->
 </body>
 </html>

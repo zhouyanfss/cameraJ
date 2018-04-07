@@ -76,7 +76,8 @@ function FormatToXmlDOM(strXml){
    }   
    
    var Exc = function(){   
-       var XmlDoc = null;   
+       var XmlDoc = null;
+   
        if (isIE()){   
            XmlDoc = new ActiveXObject("Microsoft.XMLDOM");    
            XmlDoc.loadXML(strXml);   

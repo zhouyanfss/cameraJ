@@ -80,18 +80,18 @@ function stopViewLogout(){if(bPreview)$("WebCMS").StopPreview(),bPreview=!1;if(b
 function startPreview(){
 	if(!bPreview)$("WebCMS").StartPreview(),bPreview=1;
 	
-	jQuery(".btnArea").click(function(e){
-        e.stopPropagation();  
+	// jQuery(".btnArea").click(function(e){
+        // e.stopPropagation();  
 		
-		var ele = jQuery(this).find(".selectArea");
-		if(ele.is(":visible")){
-			ele.hide();
-		}
-		else{
-			jQuery(".selectArea").hide();
-			ele.show();
-		}
-	});
+		// var ele = jQuery(this).children(".selectArea");
+		// if(ele.is(":visible")){
+			// ele.hide();
+		// }
+		// else{
+			// jQuery(".selectArea").hide();
+			// ele.show();
+		// }
+	// });
 }
 function changeStream(CTRL_OBJ, CTRL_CMD){
 	if(CTRL_CMD	== 61){	//主码流
@@ -269,7 +269,7 @@ function funImageCtrl(CTRL_OBJ, CTRL_CMD){
 		RIGHT_SIDE		= 250;
 		$("image_adjust").style.display="";		//亮色调节
 		$("focus_adjust").style.display="none";	//聚焦变倍
-		$("ptz_control").style.display="none";	//球机PTZ 聚焦变倍
+		//$("ptz_control").style.display="none";	//球机PTZ 聚焦变倍
 		if(!b_INIT_Images){
 			g_xmlhttp.open("get", "html/body_images.html", false);
 			SafeHttpSend(g_xmlhttp, null);
@@ -290,7 +290,7 @@ function funImageCtrl(CTRL_OBJ, CTRL_CMD){
 		RIGHT_SIDE		= 0;
 		$("image_adjust").style.display="none";	//亮色调节
 		$("focus_adjust").style.display="none";	//聚焦变倍
-		$("ptz_control").style.display="none";	//球机PTZ 聚焦变倍
+		//$("ptz_control").style.display="none";	//球机PTZ 聚焦变倍
 	}
 	manualResize();	
 }
@@ -307,7 +307,7 @@ function funPTZCtrl(CTRL_OBJ, CTRL_CMD){
 		RIGHT_SIDE		= 250;
 		$("image_adjust").style.display="none";	//亮色调节
 		$("focus_adjust").style.display="none";	//聚焦变倍
-		$("ptz_control").style.display="";		//球机PTZ 聚焦变倍
+		//$("ptz_control").style.display="";		//球机PTZ 聚焦变倍
 		if(!b_INIT_PTZ){
 			g_xmlhttp.open("get", "html/body_ptz_control.html", false);
 			SafeHttpSend(g_xmlhttp, null);
