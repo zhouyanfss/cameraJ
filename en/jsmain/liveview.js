@@ -80,20 +80,35 @@ function stopViewLogout(){if(bPreview)$("WebCMS").StopPreview(),bPreview=!1;if(b
 function startPreview(){
 	if(!bPreview)$("WebCMS").StartPreview(),bPreview=1;
 	
-	// jQuery(".btnArea").click(function(e){
-        // e.stopPropagation();  
-		
-		// var ele = jQuery(this).children(".selectArea");
-		// if(ele.is(":visible")){
-			// ele.hide();
-		// }
-		// else{
-			// jQuery(".selectArea").hide();
-			// ele.show();
-		// }
-	// });
+
+	var objEvt = jQuery._data(jQuery(".btnArea")[0], 'events');
+	if (!(objEvt && objEvt['click'])) {
+		jQuery(".btnArea").click(function(e){
+			e.stopPropagation();  
+			
+			var ele = jQuery(this).children(".selectArea");
+			if(ele.is(":visible")){
+				ele.hide();
+			}
+			else{
+				jQuery(".selectArea").hide();
+				ele.show();
+			}
+		});
+	}
+	
+	objEvt = jQuery._data(jQuery(".selectArea select")[0], 'events');
+	if (!(objEvt && objEvt['change'])) {
+		jQuery(".selectArea select").change(function(e){
+			e.stopPropagation();  
+			var selVal = jQuery(this).children("option:selected").val();
+			changeStreamSelect(selVal);
+		});
+	}
+
 }
 function changeStream(CTRL_OBJ, CTRL_CMD){
+	stopEvent(); 
 	if(CTRL_CMD	== 61){	//主码流
 		$("b_Stream2").className = "b_Stream1";
 		if(CTRL_OBJ)CTRL_OBJ.className = "b_Stream2";
@@ -109,6 +124,18 @@ function changeStream(CTRL_OBJ, CTRL_CMD){
 	}
 	if(bORIGINAL) funOriginal($("b_original"), 1);
 	if(bSCALE) funScale($("b_scale"), 1);
+}
+
+function stopEvent(event){ //阻止冒泡事件
+ //取消事件冒泡
+ var e=arguments.callee.caller.arguments[0]||event; //若省略此句，下面的e改为event，IE运行可以，但是其他浏览器就不兼容
+ if (e && e.stopPropagation) {
+ // this code is for Mozilla and Opera
+ e.stopPropagation();
+ } else if (window.event) {
+ // this code is for IE
+  window.event.cancelBubble = true;
+ }
 }
 
 // function changeStreamArea(areaId){
@@ -261,7 +288,7 @@ function funImageCtrl(CTRL_OBJ, CTRL_CMD){
 	if(bSCALE) funScale($("b_scale"), 1);
 	if(bORIGINAL || bSCALE) return false;
 	if(!RIGHT_BAR_SHOW && !CTRL_CMD){
-		CTRL_OBJ.className	= "Rightbtn image1";
+		if(CTRL_OBJ)CTRL_OBJ.className	= "Rightbtn image1";
 		$("b_ptz").className	= "Rightbtn ptz";
 		RIGHT_BAR_SHOW	= 1;
 		RIGHT_FOCUS_SHOW= 0;
@@ -282,8 +309,8 @@ function funImageCtrl(CTRL_OBJ, CTRL_CMD){
 			ApplyXmlLang("images.xml", m_szLanguage);
 		}
 	}else{
-		CTRL_OBJ.className = "Rightbtn image";
-		$("b_ptz").className = "Rightbtn ptz";
+		if(CTRL_OBJ)CTRL_OBJ.className = "Rightbtn image";
+		if($("b_ptz"))$("b_ptz").className = "Rightbtn ptz";
 		RIGHT_BAR_SHOW	= 0;
 		RIGHT_FOCUS_SHOW= 0;
 		RIGHT_PTZ_SHOW	= 0;
@@ -354,7 +381,9 @@ function autoScaleWH(V_W, V_H, C_W, C_H){
 	 ImageWidth = parseInt(tmpWidth); ImageHeight = parseInt(tmpHeight);
 	if(ImageHeight < BodyHeight){$("video1").setStyle("paddingTop", ((BodyHeight-ImageHeight)/2) + "px");}
 	$("WebCMS").style.width	= ImageWidth + "px";
-	$("WebCMS").style.height	= ImageHeight + "px";
+	$("WebCMS").style.height	= (ImageHeight-32) + "px";
+	$("videoBottom").style.width = ImageWidth + "px";
+	
 }
 //自动适应原始大小(a, b, c_a, c_b);
 function autoOriginalWH(V_W, V_H, C_W, C_H){
@@ -389,6 +418,7 @@ function autoOriginalWH(V_W, V_H, C_W, C_H){
 	if(b < c_b){$("video1").setStyle("paddingTop", ((c_b-b)/2) + "px");}//$("video1").style.paddingTop	= (c_b-b)/2;
 	$("WebCMS").style.width	= a + "px";
 	$("WebCMS").style.height	= b + "px";
+	$("videoBottom").style.width = a + "px";
 }
 function setColor(pFlag, pCMD, pCTRL, pSTEP, PRES, oSlider, oText){
 	if(!b_INIT_Images)return false;

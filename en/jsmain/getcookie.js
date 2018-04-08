@@ -6,10 +6,11 @@ var m_szLanguage 	= 'en';	//en:English	cn:Chinese
 var bReboot=0;
 
 var Timeouts=0, onReTOS=0;
+var TimeoutProcessTimes=0;
 var timeProcess;	//setInterval 返回的句柄 函数：setTimeProcess 菜单切换延时
 var intervalProcess;//setInterval 返回的句柄 函数：setTimeoutProcess
 timeProcess 	= setInterval('setTimeProcess(10)', 1000);
-intervalProcess	= setInterval('setTimeoutProcess()', 512);
+intervalProcess	= setInterval('setTimeoutProcess(1)', 512);
 
 if(!isNaN(nlan)){lanset = nlan;
 }else{
@@ -55,11 +56,16 @@ function setTimeProcess(a){
 		clearInterval(timeProcess);
 }
 //执行超时处理
-function setTimeoutProcess(){
+function setTimeoutProcess(a){
+	TimeoutProcessTimes++;
 	var dDate=new Date(), nowTimes = dDate.getTime(), expireDays=7;
 	dDate.setTime(dDate.getTime()+expireDays*24*3600*1000);
 	document.cookie="setTimes=" + nowTimes + "; ";
 	delete dDate; dDate = null; CollectGarbage(); 
+	if(TimeoutProcessTimes > a)
+	{
+		clearInterval(intervalProcess);
+	}
 }
 
 function chgcountfun(countnum,strdiv,flags){

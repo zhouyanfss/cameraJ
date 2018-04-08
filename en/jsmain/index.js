@@ -72,13 +72,29 @@ function login(username,password){
 	}
     if (g_xmlDoc!=null){delete g_xmlDoc;g_xmlDoc=null;}
  
-    g_xmlDoc = FormatToXmlDOM(g_xmlhttp.responseText); 
-    g_xmlDoc.async = false; 
-	if(g_xmlDoc.selectSingleNode("html/body/level")){
-		var nlevel = g_xmlDoc.selectSingleNode("html/body/level").text;
+    // g_xmlDoc = FormatToXmlDOM(g_xmlhttp.responseText); 
+    // g_xmlDoc.async = false; 
+	// if(g_xmlDoc.selectSingleNode("html/body/level")){
+		// var nlevel = g_xmlDoc.selectSingleNode("html/body/level").text;
+		// if(isNaN(nlevel)||nlevel<0){alert(ALERTLOGIN);return false; }
+		// setCookies("nUserLevel", nlevel,  1);
+	// }else{alert(ALERTLOGINCON+"~");return false; }
+	
+	if(jQuery(g_xmlhttp.responseText))
+	{
+		var tmpObj = jQuery(jQuery.parseXML(g_xmlhttp.responseText)).find("html body level");
+		if(tmpObj && tmpObj.text())
+		{
+		var nlevel = tmpObj.text();
 		if(isNaN(nlevel)||nlevel<0){alert(ALERTLOGIN);return false; }
 		setCookies("nUserLevel", nlevel,  1);
-	}else{alert(ALERTLOGINCON+"~");return false; }
+		}
+		else{
+			alert(ALERTLOGINCON+"~");
+			return false; 
+		}
+	}
+	
 	gotoLogin(); 
 	return  true;
 }
@@ -358,6 +374,7 @@ function resize(){
 			$("video1").setStyle("height", "100%");
 			$("WebCMS").style.width	= "100%";
 			$("WebCMS").style.height= (b-91) + "px";
+			$("videoBottom").style.width = "100%";
 		break;
 		case 1:	//录像回放
 			$("mb1").setStyle("min-width", a + "px");
@@ -413,11 +430,10 @@ function resize(){
 	return  true;
 }
 
-function changeStreamSelect(selectId){
-
-	var selectVal = jQuery("#" + selectId).val()[0];
+function changeStreamSelect(selVal){
+	//var selVal = jQuery("#" + selectId).val()[0];
 	
-	switch(selectVal){
+	switch(selVal){
 		case "6":	//局部放大
 			funZoomIn(null);
 		break;
@@ -425,6 +441,7 @@ function changeStreamSelect(selectId){
 			funFull(null);
 		case "8":	//宽高比
 			funScale(null, 0);
+		break;
 		case "9":	//原始大小
 			funOriginal(null, 0);
 		break;
@@ -440,14 +457,14 @@ function changeStreamSelect(selectId){
 }
 
 function btmShowChange(CTRL_OBJ){
-	var floatDiv = jQuery(CTRL_OBJ).children("div.selectArea");
-	if(floatDiv.is(":visible")){
-		floatDiv.hide();
-		alert(123)
-	}
-	else{
-		floatDiv.show();
-	}
+	// e.stopPropagation();  
+	// var floatDiv = jQuery(CTRL_OBJ).children("div.selectArea");
+	// if(floatDiv.is(":visible")){
+		// floatDiv.hide();
+	// }
+	// else{
+		// floatDiv.show();
+	// }
 }
 
 function btnLiveCtrl(CTRL_OBJ, CTRL_CMD){

@@ -168,9 +168,9 @@
 		  <div  class="nav" id="nav">
 			<ul>
 			  <li id="b_a"> <a id="b_preview" class="nav_btn1" hidefocus="true" href="javascript:;">   预览   </a></li>
-			  <li id="b_ab"> <a id="b_playback" class="nav_btn" hidefocus="true" href="javascript:;">   录像回放   </a></li>
-			  <li id="b_b" style="display:none;"> <a id="b_ptzctrl" class="nav_btn" hidefocus="true" href="javascript:;"> PTZ </a></li>
 			  <li id="b_c"> <a id="b_config" class="nav_btn" hidefocus="true" href="javascript:;">   设置   </a></li>
+			  <li id="b_ab"> <a id="b_playback" class="nav_btn" hidefocus="true" href="javascript:;">   回放   </a></li>
+			  <li id="b_b" style="display:none;"> <a id="b_ptzctrl" class="nav_btn" hidefocus="true" href="javascript:;"> PTZ </a></li>
 			  <li id="b_d"> <a id="b_alarm" class="nav_btn" hidefocus="true" href="javascript:;">   报警   </a>
 			  	<div class="alarmtip" id="d_alarmtip" style="display:none;"></div></li>
 			</ul>
