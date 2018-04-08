@@ -1,5 +1,6 @@
 // JavaScript Document
 //window.addEvent("domready",function(){})
+var HEADER_HEIGHT=55;
 window.onload=function(){initPage();return;}
 document.onkeypress=function(){$("lg_out").style.display==""&&event.keyCode==13&&login()}
 window.onresize=function(){ resize();}
@@ -379,7 +380,7 @@ function resize(){
 		case 1:	//录像回放
 			$("mb1").setStyle("min-width", a + "px");
 			$("mb1").setStyle("width", a + "px");
-			$("mb1").setStyle("height", (b-56) + "px");
+			$("mb1").setStyle("height", (b-HEADER_HEIGHT-24) + "px");
 			$("revideoH").setStyle("min-width", a + "px");
 			$("revideoH").setStyle("width", a + "px");
 			$("revideoH").setStyle("height", "100%");
@@ -395,7 +396,7 @@ function resize(){
 			if(myos.version==6){a = a - 17;b = b - 17;}
 			$("mb0").setStyle("min-width", a + "px");
 			$("mb0").setStyle("width", a + "px");
-			$("mb0").setStyle("height", (b-56) + "px");
+			$("mb0").setStyle("height", (b-HEADER_HEIGHT) + "px");
 			// $("divSetting").setStyle("width", (a-30) + "px");
 			// $("divSetting").setStyle("height", (b-78) + "px");
 			$("mb0_setting").setStyle("width", (a-208) + "px");
@@ -414,7 +415,7 @@ function resize(){
 			$("alarmH").setStyle("height", (b-56) + "px");
 			//$("alarm_body").setStyle("width", (a-230));	//200+30(左右空15px)
 			//$("alarm_body").setStyle("height", "100%");
-			$("alarm_fm").setStyle("width", (a-20) + "px");
+			$("alarm_fm").setStyle("width", (a-19) + "px");
 			$("alarm_fm").setStyle("height", (b-56) + "px");
 		break;
 		default:	//否则显示登录

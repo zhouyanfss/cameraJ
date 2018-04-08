@@ -180,7 +180,6 @@
 		<!-----header end-------->
 		<!-----mb 预览 & PTZ-------->
 		<div id="mb" class="content">
-			<div style="width:100%;height:5px; display:block;background-color:#999999;"></div>
 			<div class="preview_ct">
 				<div id="videoH" class="videoCon">
 				  <div id="videoCon"  class="vedioNew">
@@ -220,9 +219,9 @@
 		<div id="mb1" class="content" style="display:none;">
 			<div id="revideoH" class="videoCon">
 				<div id="review_video">
-					<div  class="rebar" id="div_replay_menus"></div>	
 					<div id="video2" class="video2">
 					</div>
+					<div  class="rebar" id="div_replay_menus"></div>	
 				</div>
 				<div id="review_ctrl">
 				</div>
