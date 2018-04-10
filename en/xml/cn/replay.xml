@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?> 
 <items>
 	<laReplayTitle>录像回放</laReplayTitle>
-	<laAVShowTitle>分辨率:</laAVShowTitle>
+	<laAVShowTitle>显示模式:</laAVShowTitle>
 	<opAVWH>最合适</opAVWH>
 	<laStorageTitle>存储:</laStorageTitle>
 	<opStorage1>前端设备</opStorage1>

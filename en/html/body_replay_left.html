@@ -4,8 +4,8 @@
 </div>
 -->
 <div id="rev">
-	<ul>
-	<li><div class="revlt" id="laAVShowTitle">分辨率：</div>
+	<ul style="height:100%;">
+	<li><div class="revlt" id="laAVShowTitle">显示模式：</div>
 		<div class="revlv">
 		<select name="avshow" id="avshow" onChange="funChangeWindow(this)">
 			<option value="10" id="opAVWH" selected>最合适</option>
@@ -17,7 +17,7 @@
 	</li>
 	<form id="Frmsel" name="Frmsel" method="post" action="" style="padding:0px; margin:0px;">      
 	<li id="liStorage">
-		<div class="revlt" id="laStorageTitle">存储：</div>
+		<div class="revlt" id="laStorageTitle">存储设备：</div>
 		<div class="revlv">
 		<select name="storagetype" id="storagetype" onChange="changeStorage();">
 			<option id="opStorage1" value="0" selected>前端设备</option>
@@ -42,7 +42,7 @@
 		</div>
 	</li>
 	<li id="liType">
-		<div class="revlt" id="laTypeTitle">类型：</div>
+		<div class="revlt" id="laTypeTitle">录像类型：</div>
 		<div class="revlv">
 		<select name="seltype" id="seltype">
 			<option id="opType1" value="0">所有录像</option>
@@ -53,7 +53,7 @@
 		</div>
 	</li>
 	<li>
-		<div class="revlt" id="laDateTitle">日期：</div>
+		<div class="revlt" id="laDateTitle">录像日期：</div>
 		<div class="revlv">
     		<span class="timeBox"> 
 			<input type="text" id="bdt0" maxlength=4 name="textfield" class="intyear"/>- 
@@ -70,9 +70,9 @@
 	<li class="licenter"><a id="btnSearchRecord" hidefocus="true" href="javascript:;">搜索</a></li>
 	</form>
 	<form id="Frmlist" name="Frmlist" method="post" action="" style="margin:0px; padding:0px;">
-	<li class="licenter" id="laPlayListTitle" style="padding-top:12px;">文件列表</li>
-	<li class="licenter" id="lilist" style="padding:0px;">
-          <select name="sellist" size="15" class="text" id="sellist" style="width:180px;" onDblClick="funReplayFile(this.value);">
+	<li class="licenter" id="laPlayListTitle" style="padding-top:12px; display:none;">文件列表</li>
+	<li class="licenter" id="lilist" style="padding:12px 0 0 0;">
+          <select name="sellist" size="15" class="text" id="sellist" style="width:180px; background-color:#C9C6C6; border:1px solid #aaa;" onDblClick="funReplayFile(this.value);">
           </select>
 	</li>
 	</form>
