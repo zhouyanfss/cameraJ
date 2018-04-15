@@ -62,4 +62,8 @@
 	<la_accesscfg>Access Setting</la_accesscfg>
 	<la_smcfg>Access Setting</la_smcfg>
 	<la_gb28181>GB28181</la_gb28181>
+
+	<Intelligence>Intelligence</Intelligence>
+	<la_parameter>parameters</la_parameter>
+	<la_linkage>Coil setting</la_linkage>
 </items>

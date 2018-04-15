@@ -81,6 +81,10 @@ function initConfigPage(nCMD){
 	$("la_accesscfg").addEvent("click",function(){clkMenuStyle(this);goFrameURL("accesscfg")});
 	$("la_smcfg").addEvent("click",function(){clkMenuStyle(this);goFrameURL("smcfg")});
 	$("la_gb28181").addEvent("click",function(){clkMenuStyle(this);goFrameURL("gb28181")});
+	
+	
+	$("la_parameter").addEvent("click",function(){clkMenuStyle(this);goFrameURL("parameter")});
+	$("la_linkage").addEvent("click",function(){clkMenuStyle(this);goFrameURL("linkage")});
 	selectMenus();
 	selectModel();
 	selectPlatform();
@@ -102,6 +106,16 @@ function clkMenuStyle(a){
 function goFrameURL(a){
 	var nRanstr	= ranString(8);
 	$("set_fm").src=a+".asp?UserId="+nRanstr;
+	var pageversion= getCookies("pageversion");
+	if(pageversion==1 && despageversion!=2){
+		var base64 = new Base64();
+		var stringvc=$("WebCMS").WebEncryptString($("password").value);
+		var pswurl=base64.encode(stringvc);
+		$("set_fm").src=a+".asp?"+base64.encode("UserId=")+base64.encode(nRanstr)+base64.encode("&user=")+base64.encode($("uname").value)+base64.encode("&pwd=")+pswurl+"&pageversion="+pageversion;
+	}
+	else{
+		$("set_fm").src=a+".asp?UserId="+nRanstr;
+	}
 }
 function goDFPage(a, b){
 	$(a).style.display=="none";

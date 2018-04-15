@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>智能车牌.线圈设置</title>
+		  <laHeadTitle>智能车牌.线圈设置</laHeadTitle>
+		  <laSensitivity>安装距离</laSensitivity>
+		  <laFaceRegionSet>线圈设置</laFaceRegionSet>
+		  <laAll>默认</laAll>
+		  <laCls>清除</laCls>
+		  <zhix>直线</zhix>
+		  <sibx>四边形</sibx>
+		  <laZhix1>画图</laZhix1>
+		  <laZhix2>直线二</laZhix2>
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+
+
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Coil setting</title>
+		  <laHeadTitle>Coil setting</laHeadTitle>
+		  <laSensitivity>install distance</laSensitivity>
+		  <laFaceRegionSet>Coil setting</laFaceRegionSet>
+		  <laAll>default</laAll>
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

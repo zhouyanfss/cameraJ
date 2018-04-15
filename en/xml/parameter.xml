@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>智能车牌.参数设置</title>
+		  <laHeadTitle>智能车牌.参数设置</laHeadTitle>
+		  <laSwitch>车牌识别使能开关</laSwitch>
+		  <laSendpicture>FTP传送图片</laSendpicture>
+		  <laTriggermode>触发模式</laTriggermode>
+		  <DetectMode1>线圈触发</DetectMode1>
+		  <DetectMode2>区域触发</DetectMode2>
+		  <DetectMode3>地感触发</DetectMode3>
+		  <laEnvironment>安装环境</laEnvironment>
+		  <Environment1>入口</Environment1>
+		  <Environment2>出口</Environment2>
+		  <Environment3>卡口</Environment3>
+		  <laImageupload>图片上传</laImageupload>
+		  <Imageupload1>大图</Imageupload1>
+		  <Imageupload2>小图</Imageupload2>
+		  <Imageupload3>大图及小图</Imageupload3>
+		  <lagraphs>大图编码质量</lagraphs>
+		  <lagraphs1>小图编码质量</lagraphs1>
+		  <laMin>车牌最小像素</laMin>
+		  <laMax>车牌最大像素</laMax>
+		  <lainterval>相同车牌识别间隔</lainterval>
+		  <lam>秒</lam>
+		  <laOpen>开启</laOpen>
+		  <laClose>关闭</laClose>
+
+
+		  <laMinimum>最小车牌(60-120)</laMinimum>
+		  <laMaximum>最大车牌(120-300)</laMaximum>
+		  <laInterval>触发间隔(3-500)</laInterval>
+		  <laAngle>车牌角度(-30-30)</laAngle>
+		  <laDetection>检测模式</laDetection>
+		  <Detection1>车头模式</Detection1>
+		  <Detection2>车尾模式</Detection2>
+		  <opCity3>全国</opCity3>>
+		  <opCity4>北京</opCity4>
+		  <opCity5>上海</opCity5>
+		  <opCity6>天津</opCity6>
+		  <opCity7>重庆</opCity7>
+		  <opCity8>黑龙江</opCity8>
+		  <opCity9>吉林</opCity9>
+		  <opCity10>辽宁</opCity10>
+		  <opCity11>内蒙古</opCity11>
+		  <opCity12>河北</opCity12>
+		  <opCity13>山东</opCity13>
+		  <opCity14>山西</opCity14>
+		  <opCity15>安徽</opCity15>
+		  <opCity16>江苏</opCity16>
+		  <opCity17>浙江</opCity17>
+		  <opCity18>福建</opCity18>
+		  <opCity19>广东</opCity19>
+		  <opCity20>河南</opCity20>
+		  <opCity21>江西</opCity21>
+		  <opCity22>湖南</opCity22>
+		  <opCity23>湖北</opCity23>
+		  <opCity24>广西</opCity24>
+		  <opCity25>海南</opCity25>
+		  <opCity26>云南</opCity26>
+		  <opCity27>贵州</opCity27>
+		  <opCity28>四川</opCity28>
+		  <opCity29>陕西</opCity29>
+		  <opCity30>甘肃</opCity30>
+		  <opCity31>宁夏</opCity31>
+		  <opCity32>青海</opCity32>
+		  <opCity33>西藏</opCity33>
+		  <opCity34>新疆</opCity34>
+		  <laCity>优先城市</laCity>
+		  <laTrigger>触发模式</laTrigger>
+		  <Trigger1>线圈触发</Trigger1>
+		  <Trigger2>视频触发</Trigger2>
+		  <Trigger3>线圈视频混合触发</Trigger3>
+		  <laProperties>出入口属性</laProperties>
+		  <Properties1>入口安装</Properties1>
+		  <Properties2>出口安装</Properties2>
+		  <laKKType>支持车牌类型</laKKType>
+		  <laPolice>警车</laPolice>
+		  <laArmy>军车</laArmy>
+		  <laAPolice>武警车</laAPolice>
+		  <laCoach>教练车</laCoach>
+		  <laYellow>双层黄牌</laYellow>
+		  <laIndividuation>个性化车</laIndividuation>
+		  <laMotorcycle>摩托车</laMotorcycle>
+		  <laHKMacao>港澳车</laHKMacao>
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Algorithm parameters</title>
+		  <laHeadTitle>Algorithm parameters</laHeadTitle>
+		  <laSwitch>Switch</laSwitch>
+		  <laSendpicture>Sendpicture</laSendpicture>
+		  <laTriggermode>Triggermode</laTriggermode>
+		  <DetectMode1>Coil trigger</DetectMode1>
+		  <DetectMode2>Area Trigger</DetectMode2>
+		  <DetectMode3>Land sense trigger</DetectMode3>
+		  <laEnvironment>Installation environment</laEnvironment>
+		  <Environment1>entrance</Environment1>
+		  <Environment2>export</Environment2>
+		  <Environment3>bayonet</Environment3>
+		  <laImageupload>Image upload</laImageupload>
+		  <Imageupload1>General</Imageupload1>
+		  <Imageupload2>Small picture</Imageupload2>
+		  <Imageupload3>Large and small plans</Imageupload3>
+		  <lagraphs>Coding graphs </lagraphs>
+		  <lagraphs1>Small graphs</lagraphs1>
+		  <laMin>Minsize</laMin>
+		  <laMax>Maxsize</laMax>
+		  <lainterval> recognition interval</lainterval>
+		  <lam>S</lam>
+		  <laOpen>Open</laOpen>
+		  <laClose>Close</laClose>
+
+
+
+		  <laMinimum>minimum(60-120)</laMinimum>
+		  <laMaximum>Maximum(120-300)</laMaximum>
+		  <laInterval>Trigger interval(3-500)</laInterval>
+		  <laAngle>plate angle(-30-30)</laAngle>
+		  <laDetection>Detection mode</laDetection>
+		  <Detection1>Front Mode</Detection1>
+		  <Detection2>Tail mode</Detection2>
+
+
+		  <opCity3>nationwide</opCity3>>
+		  <opCity4>Beijing</opCity4>
+		  <opCity5>Shanghai</opCity5>
+		  <opCity6>Tianjin</opCity6>
+		  <opCity7>Chongqin</opCity7>
+		  <opCity8>Heilongjiang</opCity8>
+		  <opCity9>Jilin</opCity9>
+		  <opCity10>Liaoning</opCity10>
+		  <opCity11>Nei Monggol</opCity11>
+		  <opCity12>Hebei</opCity12>
+		  <opCity13>Shandong</opCity13>
+		  <opCity14>Shanxi</opCity14>
+		  <opCity15>Anhui</opCity15>
+		  <opCity16>Jiangsu</opCity16>
+		  <opCity17>Zhejiang</opCity17>
+		  <opCity18>Fujian</opCity18>
+		  <opCity19>Guangdong</opCity19>
+		  <opCity20>Henan</opCity20>
+		  <opCity21>Jiangxi</opCity21>
+		  <opCity22>Hunan</opCity22>
+		  <opCity23>Hubei</opCity23>
+		  <opCity24>Guangxi</opCity24>
+		  <opCity25>Hainan</opCity25>
+		  <opCity26>Yunnan</opCity26>
+		  <opCity27>Guizhou</opCity27>
+		  <opCity28>Sichuan</opCity28>
+		  <opCity29>Shaanxi</opCity29>
+		  <opCity30>Gansu</opCity30>
+		  <opCity31>Ningxia</opCity31>
+		  <opCity32>Qinghai</opCity32>
+		  <opCity33>Xizang</opCity33>
+		  <opCity34>Xinjiang</opCity34>
+		  <laCity>Priority cities</laCity>
+		  <Trigger1>Coil trigger</Trigger1>
+		  <Trigger2>Video trigger</Trigger2>
+		  <Trigger3>Coil video mixing trigger</Trigger3>
+		  <laTrigger>Trigger mode</laTrigger>
+		  <laProperties>Access Properties</laProperties>
+		  <Properties1>Entrance Installation</Properties1>
+		  <laPolice>patrol wagon</laPolice>
+		  <laArmy>Army</laArmy>
+		  <laAPolice>APolice</laAPolice>
+		  <laCoach>Coach</laCoach>
+		  <laYellow>Yellow</laYellow>
+		  <laIndividuation>Individuation</laIndividuation>
+		  <laMotorcycle>Motorcycle</laMotorcycle>
+		  <laHKMacao>HKMacao</laHKMacao>
+		  <laKKType>KKType</laKKType>
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+
+	  </Page>
+	</Resources>
+</html>

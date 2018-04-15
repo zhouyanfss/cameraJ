@@ -62,4 +62,8 @@
 	<la_accesscfg>中兴通信</la_accesscfg>
 	<la_smcfg>神州数码</la_smcfg>
 	<la_gb28181>GB28181</la_gb28181>
+	<Intelligence>智能车牌</Intelligence>
+	<!--<l_setting>智能车牌.参数设置</l_setting>-->
+	<la_parameter>智能车牌.参数设置</la_parameter>
+	<la_linkage>智能车牌.线圈设置</la_linkage>
 </items>
