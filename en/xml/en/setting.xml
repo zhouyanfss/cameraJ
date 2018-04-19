@@ -66,4 +66,13 @@
 	<Intelligence>Intelligence</Intelligence>
 	<la_parameter>parameters</la_parameter>
 	<la_linkage>Coil setting</la_linkage>
+	
+	<la_smartface>SA Parameter Setting</la_smartface>
+	<la_videomask2>SA Privacy Masking</la_videomask2>
+	<la_faceregion>SA Areas Recognition</la_faceregion>
+	<la_bawl>SA Black and White</la_bawl>
+	<la_facebwalarm>FA black and Alarm setting</la_facebwalarm>
+	<la_smartversion>SA Version Info</la_smartversion>
+	<faceRecognition>Smart Analytics</faceRecognition>
+	
 </items>

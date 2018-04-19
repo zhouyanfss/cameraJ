@@ -100,8 +100,8 @@ function login(username,password){
 	return  true;
 }
 function gotoLogin(){
-	initMainPage();	 initMenus(); //goMain(0);
-	//setTimeout("loginNVS();",  350);
+	initMainPage();	 initMenus(); goMain(0);
+	setTimeout("loginNVS();",  350);
 }
 function initMainPage(){
 	$("lg_out").style.display = "none";

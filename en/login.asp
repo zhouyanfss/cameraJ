@@ -244,10 +244,8 @@
 </div>
 <div id="estopAll" style="display:none;" class="estopAll" ></div>
 <iframe name="btnHit" id="btnHit" src="" align="btnHit" frameborder="0" scrolling="no" style="background-color:#000000;" height="0" width="0"></iframe>
-<!--
-< % 
+<% 
 outLoginCMS(); 
-% >
--->
+%>
 </body>
 </html>

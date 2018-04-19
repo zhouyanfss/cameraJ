@@ -66,4 +66,13 @@
 	<!--<l_setting>智能车牌.参数设置</l_setting>-->
 	<la_parameter>智能车牌.参数设置</la_parameter>
 	<la_linkage>智能车牌.线圈设置</la_linkage>
+	
+	<faceRecognition>智能分析</faceRecognition>
+	<la_smartface>人脸识别.参数设置</la_smartface>
+	<la_videomask2>人脸识别.区域屏蔽</la_videomask2>
+	<la_faceregion>人脸识别.区域识别</la_faceregion>
+	<la_smartversion>人脸识别.版本信息</la_smartversion>
+	<la_bawl>人脸识别.黑白名单</la_bawl>
+	<la_facebwalarm>人脸识别.报警设置</la_facebwalarm>
+	<la_fabwlistshow>人脸识别.名单列表</la_fabwlistshow>
 </items>
