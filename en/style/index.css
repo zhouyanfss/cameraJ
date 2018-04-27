@@ -263,7 +263,7 @@ a{cursor:pointer;outline:none;text-decoration:none;}
 /*参数设置样式*/
 .settingDiv{_width:1000px;min-width:1000px;height:100%; margin-left:0px;margin-right:0px;_margin-left:0px;_margin-right:0px;overflow:hidden; }
 .settingleft{background-color:#c9c6c6;float:left;width:260px;min-width:260px;height:100%; border:1px solid #555;overflow:hidden;}
-.settingright{float:left;height:100%;margin-left:0px;_margin-left:0px;background-color:#F9F6F6; }
+.settingright{float:left;height:100%;width:100%; margin-left:0px;_margin-left:0px;background-color:#F9F6F6; }
 .settingsubtitle{width:100%;height:30px;float:left; text-align:center;}
 
 .estopAll{position:absolute;top:0;left:0;background:#fff;opacity:0;}
@@ -316,4 +316,4 @@ a{cursor:pointer;outline:none;text-decoration:none;}
 .io83 {background-position:-189px -81px; cursor:default;}
 
 .btnArea{float:left;width:35px; height:25px; margin-right:10px;cursor:pointer;}
-.btnArea .selectArea{position:absolute;bottom:29px;}
+.btnArea .selectArea{position:absolute;bottom:29px;display:none;}

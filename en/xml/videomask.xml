@@ -3,7 +3,7 @@
 	<Resources lan='cn' name='中文'>
 	  <Page>
 		  <title>视频屏蔽</title>
-		  <laHeadTitle>视频屏蔽</laHeadTitle>
+		  <laHeadTitle>人脸识别.区域屏蔽</laHeadTitle>
 		  <laDateSubmitWaittin>数据提交中，请稍等......</laDateSubmitWaittin>
 		  <laChannel>通道:</laChannel>
 		  <laChannelSync>复制到所有通道</laChannelSync>
@@ -12,20 +12,219 @@
 		  <laAll>全部</laAll>
 		  <laCls>清除</laCls>
 		  <btnSaveSumbit>保存</btnSaveSumbit>
+		  
+		  <smartcodecttitle>智能编码</smartcodecttitle>
+		  <la_codecclose>关闭</la_codecclose>
+		  <la_codecauto>智能码流检测</la_codecauto>
+		  <la_coderoi>智能区域</la_coderoi>
+		  <autocodecvalue1>低</autocodecvalue1>
+		  <autocodecvalue2>中</autocodecvalue2>
+		  <autocodecvalue3>高</autocodecvalue3>
+		  <lasensity>检测灵敏度</lasensity>
+		  <laAreaSet>智能区域设置</laAreaSet>
+		  
+		  <smartdetecttitle>智能检测</smartdetecttitle>
+		  <la_mask>智能遮挡检测</la_mask>
+		  <la_mask1>智能遮挡开关</la_mask1>
+		  <la_mask2>屏幕输出</la_mask2>
+		  <la_mask3>关联移动报警</la_mask3>
+		  
+		  <la_focus>智能失焦检测</la_focus>
+		  <la_focus1>智能失焦开关</la_focus1>
+		  <la_focus2>屏幕输出</la_focus2>
+		  <la_focus3>关联移动报警</la_focus3>
+		  
+		  <smartcontrol>智能控制</smartcontrol>
+		  <lacontrolswith>智能控制开关</lacontrolswith>
+		  <lapreset1>预置位</lapreset1>
+		  <lapreset2>预置位</lapreset2>
+		  <lapreset3>预置位</lapreset3>
+		  
+		  <smartface>人脸识别.参数设置</smartface>
+		  <laFaceEnable>开关</laFaceEnable>
+		  <laSensitivity>灵敏度</laSensitivity>
+		  <laRecordTime1>布防时间段 1</laRecordTime1>
+		  <laRecordTime2>布防时间段 2</laRecordTime2>
+		  <renlanzx>人脸识别最小像素</renlanzx>
+		  <laRenlianBaoGuang>人脸曝光模式</laRenlianBaoGuang>
+		  <laRenlianBaoGuang1>普通模式</laRenlianBaoGuang1>
+		  <laRenlianBaoGuang2>低噪曝光</laRenlianBaoGuang2>
+		  <laRenlianBaoGuang3>白天曝光</laRenlianBaoGuang3>
+		  <laRenlianBaoGuang4>白天+低噪曝光</laRenlianBaoGuang4>
+		  <laBackB>人脸场景</laBackB>
+		  <laRenLianGenZong>人脸跟踪框</laRenLianGenZong>
+		   <laRenLianGenZong0>关闭</laRenLianGenZong0>
+		  <laRenLianGenZong1>开启</laRenLianGenZong1>
+		  <laRenLianGenZong2>非过滤跟踪</laRenLianGenZong2>
+		  <laFTPsc>FTP上传</laFTPsc>
+		  <laOLd09>默认设置</laOLd09>
+		  
+		  
+		  <laFaceRegion>人脸识别.区域识别</laFaceRegion>
+		  <laFaceRegionSwitch>识别区域开关</laFaceRegionSwitch>
+		  <laFaceRegionSet>识别区域设置</laFaceRegionSet>
+		  
+		  
+		  <laalarmopen>报警开启</laalarmopen>
+		  <laalarmclose>报警关闭</laalarmclose>
+		  <laclearfault>清除故障</laclearfault>
+		  <laNotice1>智能编码检测默认关闭；</laNotice1>
+		  <laNotice2>开启智能编码检测，视频静止时， 自动降低图像质量； 视频运动时， 自动提升图像质量。</laNotice2>
+		  <laNotice3>开启智能区域设置，最大支持4个ROI区域，提升区域图像质量；</laNotice3>
+		  <smartlowlightname>智能低照</smartlowlightname>
+		  <btnIris0_new>非自动光圈</btnIris0_new>
+  		  <btnIris1_new>DC自动光圈</btnIris1_new>
+  		  <btnIris2_new>自动光圈矫正</btnIris2_new>
+		  
+		  <opSensorType1>开启</opSensorType1>
+		  <opSensorType2>关闭</opSensorType2>
+		  <opSensorType111>大堂场景</opSensorType111>
+		  <opSensorType222>常规场景</opSensorType222>
+		  <opSensorType11>开启</opSensorType11>
+		  <opSensorType22>关闭</opSensorType22>
+		  <laSHTTPu>私有协议上传</laSHTTPu>
+		  <laImageType>图片上传格式</laImageType>
+		  <imagetype0>上传人脸</imagetype0>
+		  <imagetype1>上传原图</imagetype1>
+		  <imagetype2>上传人脸及原图</imagetype2>
+		  <laSHTTPu1>服务器地址</laSHTTPu1>
+		  <laSHTTPu2>服务器端口</laSHTTPu2>
+
+		  <laSnapmode>抓拍模式</laSnapmode>
+		  <Snapmode0>离开后抓拍</Snapmode0>
+		  <Snapmode1>快速抓拍</Snapmode1>
+		  <Snapmode2>间隔抓拍(以秒为单位)</Snapmode2>
+		  <Snapmode3>间隔抓拍(以帧为单位)</Snapmode3>
+		  <Snapmode4>单人模式</Snapmode4>
+		  <laTrackframe>实时抓拍跟踪帧数</laTrackframe>
+		  <laExpansioncoefficient>人脸周边区域扩展系数</laExpansioncoefficient>
+		  <EveryNthFrame>间隔帧数</EveryNthFrame>
+
+		  <laFaceImageNameType>人脸图片名</laFaceImageNameType>
+		  <imagenametype0>默认</imagenametype0>
+		  <imagenametype1>自定义前缀</imagenametype1>
+		  <laDefinedPrefix>自定义前缀</laDefinedPrefix>
+		  <laDefinedPrefixTip>（由字母和数字组成，1~15字符，区分大小写）</laDefinedPrefixTip>
+
+		  <BeatTimes>最大抓拍次数</BeatTimes>
+		  <FastCaptureFrames>快速抓拍帧数</FastCaptureFrames>
+		  <IntervalTime>间隔时间</IntervalTime>
+		  <FaceQuality>人脸图片质量</FaceQuality>
+		  <OriginalQuality>原图质量</OriginalQuality>
+
+		  <laHuman>人脸属性检测</laHuman>
 	  </Page>
 	</Resources>
 	<Resources lan='en' name='English'>
 	  <Page>
 		  <title>Privacy Mask</title>
-		  <laHeadTitle>Privacy Mask</laHeadTitle>
+		  <laHeadTitle>SA Privacy Masking</laHeadTitle>
 		  <laDateSubmitWaittin>Data processing, please wait … …</laDateSubmitWaittin>
 		  <laChannel>Chan:</laChannel>
 		  <laChannelSync>Copy to all channels</laChannelSync>
 		  <laVideoMask>Enable Mask</laVideoMask>
 		  <laSet>Mask area set</laSet>
 		  <laAll>All</laAll>
-		  <laCls>Cls</laCls>
+		  <laCls>Clear</laCls>
 		  <btnSaveSumbit>Save</btnSaveSumbit>
+		  <laFaceRegionSet>Area set</laFaceRegionSet>
+		  <laFaceRegionSwitch>Enable area recognition</laFaceRegionSwitch>
+		  <laBackB>Face scene</laBackB>
+		  
+		  <laRecordTime1>DetectTime 1</laRecordTime1>
+		  <laRecordTime2>DetectTime 2</laRecordTime2>
+		  <renlanzx>FaceMinPixel</renlanzx>
+		  <laRenlianBaoGuang>FaceExposureMode</laRenlianBaoGuang>
+		  <laRenlianBaoGuang1>NormalMode</laRenlianBaoGuang1>
+		  <laRenlianBaoGuang2>LowNoiseExposure</laRenlianBaoGuang2>
+		  <laRenlianBaoGuang3>DaytimeExposure</laRenlianBaoGuang3>
+		  <laRenlianBaoGuang4>DaytimeAndLowNoiseExp</laRenlianBaoGuang4>
+		  <laRenLianGenZong>FaceTrack</laRenLianGenZong>
+		  <laRenLianGenZong0>Close</laRenLianGenZong0>
+		  <laRenLianGenZong1>Filter Tracking</laRenLianGenZong1>
+		  <laRenLianGenZong2>non-filtered Tracking</laRenLianGenZong2>
+		   <laFTPsc>FTPUpload</laFTPsc>
+		   <laOLd09>Reply defaults</laOLd09>
+		  <smartcodecttitle>Smart Stream</smartcodecttitle>
+		  <la_codecclose>Close</la_codecclose>
+		  <la_codecauto>Auto</la_codecauto>
+		  <la_coderoi>ROI</la_coderoi>
+		  <autocodecvalue1>Low</autocodecvalue1>
+		  <autocodecvalue2>Normal</autocodecvalue2>
+		  <autocodecvalue3>High</autocodecvalue3>
+		  <lasensity>Sensity</lasensity>
+		  <laAreaSet>ROI Set</laAreaSet>
+		
+		<laFaceRegion>SA Areas Recognition</laFaceRegion>
+		  <smartdetecttitle>Smart Detect</smartdetecttitle>
+		  <la_mask>Smart Cover Detect</la_mask>
+		  <la_mask1>Cover Switch</la_mask1>
+		  <la_mask2>OSD Output</la_mask2>
+		  <la_mask3>linkage motion</la_mask3>
+		  
+		  <la_focus>Smart Foucs Detect</la_focus>
+		  <la_focus1>Focus Switch</la_focus1>
+		  <la_focus2>OSD Output</la_focus2>
+		  <la_focus3>linkage motion</la_focus3>
+		  
+		  <smartcontrol>Smart Control</smartcontrol>
+		  <lacontrolswith>Smart Control Swith</lacontrolswith>
+		  <lapreset1>Preset</lapreset1>
+		  <lapreset2>Preset</lapreset2>
+		  <lapreset3>Preset</lapreset3>
+		  
+		  <smartface>SA Parameter Setting</smartface>
+		  <laFaceEnable>Enable</laFaceEnable>
+		  <laSensitivity>Sensitivity</laSensitivity>
+		  
+		  <laalarmopen>Alarm Open</laalarmopen>
+		  <laalarmclose>Alarm Close</laalarmclose>
+		  <laclearfault>Clear Fault</laclearfault>
+		  <laNotice1>Intelligent code to detect the default off</laNotice1>
+		  <laNotice2>Open intelligent detection of encoding, video still is automatically reduced video quality; video motion, automatically prompts the video quality.</laNotice2>
+		  <laNotice3>Open intelligent regional settings, the maximum support 4 ROI region, promote regional image quality</laNotice3>
+		  <smartlowlightname>Smart Low Light</smartlowlightname>
+		  <btnIris0_new>Non-Auto</btnIris0_new>
+  		  <btnIris1_new>DC Auto</btnIris1_new>
+  		  <btnIris2_new>Auto Iris Shading</btnIris2_new>
+		  
+		  <opSensorType1>Open</opSensorType1>
+		  <opSensorType2>Close</opSensorType2>
+		  <opSensorType111>Lobby scene</opSensorType111>
+		  <opSensorType222>Conventional scene</opSensorType222>
+		  <opSensorType11>Open</opSensorType11>
+		  <opSensorType22>Close</opSensorType22>	  
+		  <laSHTTPu>Private protocol upload</laSHTTPu>
+		  <laImageType>Image Type</laImageType>
+		  <imagetype0>Face Picture</imagetype0>
+		  <imagetype1>Original Picture</imagetype1>
+		  <imagetype2>Face and Original Picture</imagetype2>
+		  <laSHTTPu1>Server URL</laSHTTPu1>
+		  <laSHTTPu2>Server Port</laSHTTPu2>
+		  		  
+		  <laSnapmode>Snapmode</laSnapmode>
+		  <Snapmode0>Snap after leaving</Snapmode0>
+		  <Snapmode1>Real-time snap</Snapmode1>
+		  <Snapmode2>real time and Snap after leaving(In seconds)</Snapmode2>
+		  <Snapmode3>real time and Snap after leaving(Frame as a unit)</Snapmode3>
+		  <Snapmode4>single mode</Snapmode4>
+		  <laTrackframe>Capture real-time tracking</laTrackframe>
+		  <laExpansioncoefficient>Expansioncoefficient</laExpansioncoefficient>
+		  <EveryNthFrame>EveryNthFrame</EveryNthFrame>
+
+		  <laFaceImageNameType>ImageNameType</laFaceImageNameType>
+		  <imagenametype0>Default</imagenametype0>
+		  <imagenametype1>Self-defined Prefix</imagenametype1>
+		  <laDefinedPrefix>Prefix</laDefinedPrefix>
+		  <laDefinedPrefixTip>(Composed of letters and Numbers, 1 ~ 15 characters, case sensitive)</laDefinedPrefixTip>
+
+		  <BeatTimes>BeatTimes</BeatTimes>
+		  <FastCaptureFrames>FastCaptureFrames</FastCaptureFrames>
+		  <IntervalTime>IntervalTime</IntervalTime>
+		  <FaceQuality>FaceQuality</FaceQuality>
+		  <OriginalQuality>OriginalQuality</OriginalQuality>
+
+		  <laHuman>Human</laHuman>
 	  </Page>
 	</Resources>
 </html>

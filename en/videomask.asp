@@ -12,7 +12,8 @@
 <script type="text/javascript" src="script/common.js"></script>
 <script language="javascript" type="text/javascript" src="./script/ajax.js"></script>
 <script language="javascript" type="text/javascript" src="./jsmain/send.js"></script>
-
+<script type="text/javascript" src="jsmain/base64.js"></script>
+<script type="text/javascript" src="jsmain/md5.js"></script>
 <script language="javascript" type="text/javascript" src="./jsmain/getcookie.js"></script>
 <script language="javascript" type="text/javascript" src="./js/language.js"></script>
 
@@ -57,7 +58,7 @@ bgColor=#ffffe7 border=1>
   </TBODY></TABLE></div>
 <form id="outcfg_frm" name="outcfg_frm" method="post" action="/webs/videoMaskCfgEx"  style="margin:0px; padding:0px;">
 <div id="divMain">
-	<div class="subtab">
+	<div class="subtab" style="display:none;">
 		<ul>
 			<li class="linow"><LABEL id="laHeadTitle">视频屏蔽</LABEL></li>
 			<li class="laHelp" style="display:none;"></li> 
@@ -112,7 +113,13 @@ bgColor=#ffffe7 border=1>
 				<input name="nLeft4" type="hidden" id="nLeft4" value="0" />
 				<input name="nTop4" type="hidden" id="nTop4" value="0" />
 				<input name="nWidth4" type="hidden" id="nWidth4" value="0" />
-				<input name="nHeight4" type="hidden" id="nHeight4" value="0" />				 </td>
+				<input name="nHeight4" type="hidden" id="nHeight4" value="0" />	
+				<input name="fanzhuan" type="hidden" id="fanzhuan" value="0" />	
+				<input name="jingxiang" type="hidden" id="jingxiang" value="0" />	
+				<input name="xuanzhuan" type="hidden" id="xuanzhuan" value="0" />	
+				<input name="nEncWidth" type="hidden" id="nEncWidth" value="0" />	
+				<input name="nEncHeight" type="hidden" id="nEncHeight" value="0" />	
+					</td>
                 </tr>
               <tr>
                  <td height="32" align="center" valign="middle">

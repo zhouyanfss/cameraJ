@@ -14,6 +14,8 @@
 		  <laInputVolume>输入音量</laInputVolume>
 		  <laOutputVolume>输出音量</laOutputVolume>
 		  <btnSaveSumbit>保存</btnSaveSumbit>
+		  <laFaceVersionSFs>算法版本:</laFaceVersionSFs>
+		  <laFaceVersionMBs>模型版本:</laFaceVersionMBs>
 	  </Page>
 	</Resources>
 	<Resources lan='en' name='English'>
@@ -30,6 +32,8 @@
 		  <laInputVolume>Input Volume</laInputVolume>
 		  <laOutputVolume>Output Volume</laOutputVolume>
 		  <btnSaveSumbit>Save</btnSaveSumbit>
+		  <laFaceVersionMBs>Model Version:</laFaceVersionMBs>
+		  <laFaceVersions>SA Version Info</laFaceVersions>
 	  </Page>
 	</Resources>
 </html>

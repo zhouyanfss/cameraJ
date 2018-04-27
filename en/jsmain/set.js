@@ -82,18 +82,19 @@ function initConfigPage(nCMD){
 	$("la_smcfg").addEvent("click",function(){clkMenuStyle(this);goFrameURL("smcfg")});
 	$("la_gb28181").addEvent("click",function(){clkMenuStyle(this);goFrameURL("gb28181")});
 	
+	$("la_parameter").addEvent("click",function(){clkMenuStyle(this);goFrameURL("parameter")});
+	$("la_linkage").addEvent("click",function(){clkMenuStyle(this);goFrameURL("linkage")});
+	
 	//新增人脸识别
 	$("la_smartface").addEvent("click",function(){clkMenuStyle(this);goFrameURL("smartface")});
 	$("la_videomask2").addEvent("click",function(){clkMenuStyle(this);goFrameURL("videomask")});
 	$("la_faceregion").addEvent("click",function(){clkMenuStyle(this);goFrameURL("facemask")});
-	$("la_bawl").addEvent("click",function(){clkMenuStyle(this);goFrameURL("bawl")});
-	$("la_fabwlistshow").addEvent("click",function(){clkMenuStyle(this);goFrameURL("fabwlistshow")});
-	$("la_facebwalarm").addEvent("click",function(){clkMenuStyle(this);goFrameURL("facebwalarm")});
+	//$("la_bawl").addEvent("click",function(){clkMenuStyle(this);goFrameURL("bawl")});
+	//$("la_fabwlistshow").addEvent("click",function(){clkMenuStyle(this);goFrameURL("fabwlistshow")});
+	//$("la_facebwalarm").addEvent("click",function(){clkMenuStyle(this);goFrameURL("facebwalarm")});
 	$("la_smartversion").addEvent("click",function(){clkMenuStyle(this);goFrameURL("smartversion")});
 	
 	
-	$("la_parameter").addEvent("click",function(){clkMenuStyle(this);goFrameURL("parameter")});
-	$("la_linkage").addEvent("click",function(){clkMenuStyle(this);goFrameURL("linkage")});
 	selectMenus();
 	selectModel();
 	selectPlatform();

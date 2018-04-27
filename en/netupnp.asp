@@ -45,7 +45,7 @@ function init(){
 <body onLoad="parentinit(0,0,0);init();">
 <form id="outcfg_frm" name="outcfg_frm" method="post" action="/webs/netUPNPCfgEx"  style="margin:0px; padding:0px;">
 <div id="divMain">
-	<div class="subtab">
+	<div class="subtab" style="display:none;">
 		<ul>
 			<li class="linow" style="width:230px;"><LABEL id="laHeadTitle">UPNP 设置(端口自动映射)</LABEL></li>
 			<li class="laHelp" style="display:none;"></li> 

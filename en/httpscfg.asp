@@ -253,7 +253,7 @@ function init(){
 <body onLoad="parentinit(0,0,0);init();">
 <form id="outcfg_frm" name="outcfg_frm" method="post" action="/webs/httpsCfgEx"  style="margin:0px; padding:0px;">
 <div id="divMain">
-	<div class="subtab">
+	<div class="subtab"  style="display:none;">
 		<ul>
 			<li class="linow"><LABEL id="laHeadTitle">HTTPS 设置</LABEL></li>
 			<li class="laHelp" style="display:none;"></li> 

@@ -144,7 +144,7 @@ function init(){
 
 <form id="outcfg_frm" name="outcfg_frm" method="post" action="/webs/fabwListShowCfgEx"  style="margin:0px; padding:0px;">
 <div id="divMain" style="padding-left:50px;">
-	<div class="subtab">
+	<div class="subtab" style="display:none;">
 		<ul>
 			<li class="linow"><LABEL id="laHeadTitle"></LABEL></li>
 			<li class="laHelp" style="display:none;"></li> 

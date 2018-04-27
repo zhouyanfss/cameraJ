@@ -19,9 +19,9 @@ function initPage(){
 		$("username").value=$("uname").value; $("password").value=$("passwd").value; $("b_e").style.display="none";
 		gotoLogin();
 	}else{
-		//showLogin();
+		showLogin();
 		//debug模式，直接登录
-		login("admin","admin");
+		//login("admin","admin");
 		$("b_login").addEvent("click",login);$("b_cancel_l").addEvent("click",function(){window.close();});
 		$("username").value	= "admin";$("password").focus();$("password").select();
 	}

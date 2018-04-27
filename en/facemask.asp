@@ -58,7 +58,7 @@ bgColor=#ffffe7 border=1>
   </TBODY></TABLE></div>
 <form id="outcfg_frm" name="outcfg_frm" method="post" action="/webs/FaceMaskCfgEx"  style="margin:0px; padding:0px;">
 <div id="divMain">
-	<div class="subtab">
+	<div class="subtab"  style="display:none;">
 		<ul>
 			<li class="linow"><LABEL id="laFaceRegion"></LABEL></li>
 			<li class="laHelp" style="display:none;"></li> 

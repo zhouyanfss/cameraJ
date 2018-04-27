@@ -111,7 +111,7 @@ function initdata(){
 <div style="width:100%; height:100%; overflow-y:scroll; overflow-x:hidden; margin:0px; padding:0px;">
 <form id="outcfg_frm" name="outcfg_frm" method="post" action="/webs/alarminfoCfgEx"  style="margin:0px; padding:0px;">
 <div id="divMain">
-	<div class="subtab">
+	<div class="subtab" style="display:none;">
 		<ul>
 			<li class="linow"><LABEL id="laHeadTitle2">报警查询</LABEL></li>
 			<li class="laHelp" style="display:none;"></li> 
