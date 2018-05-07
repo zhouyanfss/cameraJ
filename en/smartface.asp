@@ -235,8 +235,8 @@ function Checkfrm1(){
  			<!--灵敏度-->
 		<div style="height: 20px;width:700px;margin-left: 50px;">
 			<ul id="show_Sensitivity">
-				<div style="width: 80px;height: 40px;margin-left: 80px;"><LABEL  id="laSensitivity"></LABEL></div>
-				<div style="margin-top: -75px;margin-left:210px;width: 210px;"><li class="tb2"></li>
+				<div style="width: 80px;height: 20px;margin-left: 80px; display:block;float:left;line-height:20px;"><LABEL  id="laSensitivity"></LABEL></div>
+				<div style="width: 210px; display:block;float:left;"><li class="tb2"></li>
 				<li class="lefsx">
 					<div id='inam' class="sax">
 						<div id='inas' class="skx"></div>
@@ -249,9 +249,9 @@ function Checkfrm1(){
 		</div>
 
 				<!--抓拍模式-->
-		<div id="zhuapaiDIV" style="margin-left: 130px;margin-top: 10px">
-			<div style="width: 130px;" > <LABEL id="laSnapmode"></LABEL></div>
-			<div style="margin-top: -20px;margin-left: 137px;"  >
+		<div id="zhuapaiDIV" style="margin-left: 130px;margin-top: 10px;height:20px;">
+			<div style="width: 137px; display:block;float:left;" > <LABEL id="laSnapmode"></LABEL></div>
+			<div style="display:block;float:left;"  >
 				<select name="snapmode" id="snapmode"onclick="snapmodekz();" style="width:150px;border:solid 1px #000;">
 					<option id="Snapmode0" value="0" selected="selected"></option>
 					<option id="Snapmode1" value="1" ></option>

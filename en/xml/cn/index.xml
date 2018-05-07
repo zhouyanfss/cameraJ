@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?> 
 <items>
 	<b_preview>预览</b_preview>
-	<b_playback>录像回放</b_playback>
+	<b_playback>回放</b_playback>
 	<b_ptzctrl>PTZ</b_ptzctrl>
 	<b_config>设置</b_config>
 	<b_alarm>报警</b_alarm>

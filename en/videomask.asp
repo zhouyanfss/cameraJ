@@ -58,9 +58,9 @@ bgColor=#ffffe7 border=1>
   </TBODY></TABLE></div>
 <form id="outcfg_frm" name="outcfg_frm" method="post" action="/webs/videoMaskCfgEx"  style="margin:0px; padding:0px;">
 <div id="divMain">
-	<div class="subtab" style="display:none;">
+	<div class="subtab">
 		<ul>
-			<li class="linow"><LABEL id="laHeadTitle">视频屏蔽</LABEL></li>
+			<li class="linow"><LABEL id="laHeadTitle"></LABEL></li>
 			<li class="laHelp" style="display:none;"></li> 
 		</ul>
 	</div>
@@ -71,7 +71,7 @@ bgColor=#ffffe7 border=1>
 			  <table id="TableChan" border="0" width="520" cellspacing="0" cellpadding="0" style="margin-bottom:12px; display:none;">
                <tr>
                 <td height="32" valign="middle">
-				<div id="divChannelTitle"><LABEL id="laChannel">通道:</LABEL></div>
+				<div id="divChannelTitle"><LABEL id="laChannel">:</LABEL></div>
 				<div id="divChannelOption"><img src="./images/botton/1.jpg" alt="1" name="channel1" width="26" height="21" id="channel1" style="cursor:pointer;" onClick="ChangeChannel(1,'');">
 				<img src="./images/botton/2.jpg" alt="2" id="channel2" name="channel2" onClick="ChangeChannel(2,'');" style="cursor:pointer; display:none;">
 				<img src="./images/botton/3.jpg" alt="3" id="channel3" name="channel3" onClick="ChangeChannel(3,'');" style="cursor:pointer; display:none;">
@@ -82,7 +82,7 @@ bgColor=#ffffe7 border=1>
 				<img src="./images/botton/8.jpg" alt="8" id="channel8" name="channel8" onClick="ChangeChannel(8,'');" style="cursor:pointer; display:none;">
 				</div>
 				<div id="divChannelSync"><input name="copysync" type="checkbox" id="copysync" value="0" onClick="checkClick('audio_frm','copysync')"></div>
-				<div id="divChannelSyncTitle"><LABEL id="laChannelSync">复制到所有通道</LABEL></div>
+				<div id="divChannelSyncTitle"><LABEL id="laChannelSync"></LABEL></div>
 				</td>
                 </tr>
            </table>
@@ -97,7 +97,7 @@ bgColor=#ffffe7 border=1>
 				<object name="WebCMS" ID="WebCMS" width="420" height="288" CLASSID="CLSID:8DA9A0A7-AC21-4EA9-BB7E-43AEF89688A6" CODEBASE="/WebCMS.exe#Version=2,0,0,0"></object>				</td>
               </tr>
                 <tr>
-                 <td height="28" valign="middle"><div id="Divckmask" class="divvalue" style="margin-left:15px;"><input name="ckon" type="checkbox" id="ckon" onClick="checkClick('','ckon');" value="1" checked="CHECKED"  /></div><div id="Divckmaskt" style="width:230px; text-align:left;"><LABEL id="laVideoMask">视频屏蔽开关</LABEL></div>
+                 <td height="28" valign="middle"><div id="Divckmask" class="divvalue" style="margin-left:15px;"><input name="ckon" type="checkbox" id="ckon" onClick="checkClick('','ckon');" value="1" checked="CHECKED"  /></div><div id="Divckmaskt" style="width:230px; text-align:left;"><LABEL id="laVideoMask"></LABEL></div>
 				   <input name="nLeft1" type="hidden" id="nLeft1" value="0" />
 				<input name="nTop1" type="hidden" id="nTop1" value="0" />
 				<input name="nWidth1" type="hidden" id="nWidth1" value="0" />
@@ -123,9 +123,9 @@ bgColor=#ffffe7 border=1>
                 </tr>
               <tr>
                  <td height="32" align="center" valign="middle">
-<a hidefocus="true" class="btn104 act" href="javascript:;" onClick="closeinfo()" id="btnMaskAreaSet"><LABEL id="laSet">屏蔽区域设置</LABEL></a>
-<a hidefocus="true" class="btn77 link" href="javascript:;" onClick="sumbitselall()" id="btnMaskAll" disabled="disabled"><LABEL id="laAll">全部</LABEL></a>
-<a hidefocus="true" class="btn77 link" href="javascript:;" onClick="sumbitselclr()" id="btnMaskClear" disabled="disabled"><LABEL id="laCls">清除</LABEL></a>
+<a hidefocus="true" class="btn104 act" href="javascript:;" onClick="closeinfo()" id="btnMaskAreaSet"><LABEL id="laSet"></LABEL></a>
+<a hidefocus="true" class="btn77 link" href="javascript:;" onClick="sumbitselall()" id="btnMaskAll" disabled="disabled"><LABEL id="laAll"></LABEL></a>
+<a hidefocus="true" class="btn77 link" href="javascript:;" onClick="sumbitselclr()" id="btnMaskClear" disabled="disabled"><LABEL id="laCls"></LABEL></a>
 				<input name="MAnum" type="hidden" id="MAnum" value="0">
 				<input name="ismask" type="hidden" id="ismask" value="0">
 				<input name="islens" type="hidden" id="islens" value="1"></td>
@@ -141,7 +141,7 @@ bgColor=#ffffe7 border=1>
 		<div class="set_btn">
 			<a hidefocus="true" href="javascript:;" id="btnDelete" style="display:none;">恢复默认</a>
 			<a hidefocus="true" href="javascript:;" id="btnRefresh" style="display:none;">刷新</a>
-			<a hidefocus="true" href="javascript:;" id="btnSave"><LABEL id="btnSaveSumbit">确定</LABEL></a>
+			<a hidefocus="true" href="javascript:;" id="btnSave"><LABEL id="btnSaveSumbit"></LABEL></a>
 			<a hidefocus="true" href="javascript:;" id="btnCancel" style="display:none;">取消</a>
 		</div>
 		<div class="boxtap">

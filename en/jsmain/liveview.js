@@ -478,23 +478,23 @@ function initPTZCtrl(){
 //1:2路 4路DVS-0x01.2:单路DVS-0x02.3:960H-0x03.4:720P CCD-0x04.
 //16:WDR-0x10.17:低端-0x11.18:中端,低照-0x12.19:高端,超低照-0x13.
 //32:低照-0x20.33:低成本-0x21.49:500W-0x31.
-	case 1:	case 2:	case 3:case 4:case 16:	case 17:case 18:case 19:case 32:case 33:case 49:
+	case 1:	case 2:	case 3:case 4:case 16:	case 17:case 18:case 19:case 32:case 33:case 49:      case 34:case 80:case 81:case 82:
 		$("pev_xbtm").style.display = "";
 		$("pev_btm").style.display = "none";
 		$("yzw").style.display = "";
 		$("gjxx").style.display = "none";
 	break;
 //34:一体机芯-0x22.80:日立110-0x50.81:日立220-0x51.82:SONY 6300-0x52.
-	case 34:case 80:case 81:case 82:
-		$("pev_xbtm").style.display = "none";
-		$("pev_btm").style.display = "";
-		$("yzw").style.display = "none";
-		$("gjxx").style.display = "";
-		$("presetnum").length = 0;
-		for(i=1;i<256;i++){
-			$("presetnum").options[$("presetnum").length] = new Option(i,i);
-		}
-		$("presetnum").value = "1";	
+	// case 34:case 80:case 81:case 82:
+		// $("pev_xbtm").style.display = "none";
+		// $("pev_btm").style.display = "";
+		// $("yzw").style.display = "none";
+		// $("gjxx").style.display = "";
+		// $("presetnum").length = 0;
+		// for(i=1;i<256;i++){
+			// $("presetnum").options[$("presetnum").length] = new Option(i,i);
+		// }
+		// $("presetnum").value = "1";	
 	break;
 	default:	//其他
 	break;
