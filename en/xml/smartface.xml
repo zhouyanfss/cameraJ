@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <laRecordTime1>布防时间段 1</laRecordTime1>
+		  <laRecordTime2>布防时间段 2</laRecordTime2>
+		  <renlanzx>人脸最小像素</renlanzx>
+
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <laRecordTime1>Time 1</laRecordTime1>
+		  <laRecordTime2>Time 2</laRecordTime2>
+		  <renlanzx>The smallest pixel</renlanzx>
+	  </Page>
+	</Resources>
+</html>

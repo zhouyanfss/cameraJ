@@ -7,7 +7,7 @@
 		  <laSystemName>设备名称</laSystemName>
 		  <laSystemPal>VO环出制式</laSystemPal>
 		  <laSystemLanguage>设备语言</laSystemLanguage>
-		  <opLanguage1>英文</opLanguage1>
+		  <opLanguage1>English</opLanguage1>
 		  <opLanguage2>简体中文</opLanguage2>
 		  <laChannel>路  数</laChannel>
 		  <laDeviceID>设备编号</laDeviceID>
@@ -26,7 +26,7 @@
 		  <laSystemPal>VO Standard</laSystemPal>
 		  <laSystemLanguage>Language</laSystemLanguage>
 		  <opLanguage1>English</opLanguage1>
-		  <opLanguage2>Simplified Chinese</opLanguage2>
+		  <opLanguage2>简体中文</opLanguage2>
 		  <laChannel>Channel</laChannel>
 		  <laDeviceID>Device ID</laDeviceID>
 		  <laVersion>Version</laVersion>

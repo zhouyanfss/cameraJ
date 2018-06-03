@@ -6,11 +6,11 @@
 		  <laHeadTitle>EMail 设置</laHeadTitle>
 		  <laSMTPServer>SMTP 服务器</laSMTPServer>
 		  <laPOP3Server>POP3 服务器</laPOP3Server>
-		  <laMailFrom>邮件发送地址</laMailFrom>
-		  <laMailTo>邮件接收地址</laMailTo>
+		  <laMailFrom>发件人用户名</laMailFrom>
+		  <laMailTo>收件人地址</laMailTo>
 		  <laMailCC>邮件抄送地址</laMailCC>
 		  <laSMTPUserName>SMTP 用户名</laSMTPUserName>
-		  <laSMTPPassword>SMTP 密码</laSMTPPassword>
+		  <laSMTPPassword>密码</laSMTPPassword>
 		  <laPOP3UserName>POP3 用户名</laPOP3UserName>
 		  <laPOP3Password>POP3 密码</laPOP3Password>
 		  <laMailTitle>邮件标题</laMailTitle>
@@ -21,6 +21,8 @@
 		  <laPOP3SSL>POP3 SSL</laPOP3SSL>
 		  
 		  <btnSaveSumbit>保存</btnSaveSumbit>
+		  <other_smtp>其他</other_smtp>
+		  <Advanced>绑定邮箱</Advanced>
 	  </Page>
 	</Resources>
 	<Resources lan='en' name='English'>
@@ -33,7 +35,7 @@
 		  <laMailTo>To</laMailTo>
 		  <laMailCC>CC</laMailCC>
 		  <laSMTPUserName>SMTP UserName</laSMTPUserName>
-		  <laSMTPPassword>SMTP Password</laSMTPPassword>
+		  <laSMTPPassword>Password</laSMTPPassword>
 		  <laPOP3UserName>POP3 UserName</laPOP3UserName>
 		  <laPOP3Password>POP3 Password</laPOP3Password>
 		  <laMailTitle>MAIL Title</laMailTitle>
@@ -44,6 +46,8 @@
 		  <laPOP3SSL>POP3 SSL</laPOP3SSL>
 		  
 		  <btnSaveSumbit>Save</btnSaveSumbit>
+		  <other_smtp>Other</other_smtp>
+		  <Advanced>Binding email</Advanced>
 	  </Page>
 	</Resources>
 </html>

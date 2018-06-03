@@ -17,6 +17,10 @@
 		  <laInterval>重连间隔</laInterval>
 		  <laChannel>连接通道</laChannel>
 		  <btnSaveSumbit>保存</btnSaveSumbit>
+		  <laport_new>端口服务</laport_new>
+		  <lauuid_new>UUID</lauuid_new>
+		  <laserial_new>序列号</laserial_new>
+		  <lap2p>P2P服务</lap2p>
 	  </Page>
 	</Resources>
 	<Resources lan='en' name='English'>
@@ -36,6 +40,10 @@
 		  <laInterval>ReConnect</laInterval>
 		  <laChannel>Channel</laChannel>
 		  <btnSaveSumbit>Save</btnSaveSumbit>
+		  <laport_new>Port Server</laport_new>
+		  <lauuid_new>UUID</lauuid_new>
+		  <laserial_new>Serial</laserial_new>
+		  <lap2p>P2P Server</lap2p>
 	  </Page>
 	</Resources>
 </html>

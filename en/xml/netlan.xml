@@ -21,6 +21,7 @@
 		  <laMainDNS6>首选 DNS 地址</laMainDNS6>
 		  <laSubDNS6>备用 DNS 地址</laSubDNS6>
 		  <btnSaveSumbit>保存</btnSaveSumbit>
+		  <laSubDNS_as>DNS 地址</laSubDNS_as>
 	  </Page>
 	</Resources>
 	<Resources lan='en' name='English'>
@@ -44,6 +45,7 @@
 		  <laMainDNS6>Main DNS</laMainDNS6>
 		  <laSubDNS6>Sub DNS</laSubDNS6>
 		  <btnSaveSumbit>Save</btnSaveSumbit>
+		  <laSubDNS_as>DNS</laSubDNS_as>
 	  </Page>
 	</Resources>
 </html>

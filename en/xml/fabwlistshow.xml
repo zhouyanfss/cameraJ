@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>人脸识别.黑白名单</title>
+		  <laHeadTitle>人脸识别.黑白名单</laHeadTitle>
+		  <laImageName>图片命名:</laImageName>
+		  <laImageNo>图片编号:</laImageNo>
+		  <laDownload>下载</laDownload>
+		  <laDelete>删除</laDelete>
+		  <laLastPage>上一页</laLastPage>
+		  <laThisPage>跳到当前页</laThisPage>
+		  <laNextPage>下一页</laNextPage>
+		  <laBlacklist>黑名单</laBlacklist>
+		  <laWhitelist>白名单</laWhitelist>
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Face Recognition.Blacklist and whitelist</title>
+		  <laHeadTitle>Face Recognition.Blacklist and whitelist</laHeadTitle>
+		  <laImageName>Picture naming:</laImageName>
+		  <laImageNo>Picture code number:</laImageNo>
+		  <laDownload>Download</laDownload>
+		  <laDelete>Delete</laDelete>
+		  <laLastPage>Last page</laLastPage>
+		  <laThisPage>Skip to this page</laThisPage>
+		  <laNextPage>Next page</laNextPage>
+		  <laBlacklist>Blacklist</laBlacklist>
+		  <laWhitelist>Whitelist</laWhitelist>
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

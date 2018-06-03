@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		<menu_title_base>基础</menu_title_base>
+		<menu_title_learning>报警器学习</menu_title_learning>
+		<menu_title_advanced>高级</menu_title_advanced>
+		<la_switch>开关</la_switch>
+		<laTime1>布防时间段1</laTime1>
+		<laTime2>布防时间段2</laTime2>
+		<laEmail>发送E-mail</laEmail>
+		<laIOOutput>IO输出</laIOOutput>
+		<laOutputDuration>报警输出持续时间</laOutputDuration>
+		<laDurationUnit>秒</laDurationUnit>
+		<laSnapshot>联动抓拍</laSnapshot>
+		<laSnapshotUnit>张</laSnapshotUnit>
+		<laInterval>*抓拍间隔</laInterval>
+		<laIntervalUnit>秒</laIntervalUnit>
+		<laSnapEmail>发送E-mail</laSnapEmail>
+		<laSnapFtp>Ftp上传</laSnapFtp>
+		<laRecord>联动录像</laRecord>
+		<laRecordTime>*录像时间</laRecordTime>
+		<laRecordUnit>秒</laRecordUnit>
+		<laRecordEmail>发送E-mail</laRecordEmail>
+		<laRecordFtp>Ftp上传</laRecordFtp>
+		<lacopy>复制</lacopy>
+		<lacopyall>复制到所有</lacopyall>
+		<laprobe>探头</laprobe>
+		<laprobename>名称</laprobename>
+		<laTime>布防时间</laTime>
+		<latdname1>编号</latdname1>
+		<latdname2>名称</latdname2>
+		<latdname3> 地址</latdname3>
+		<latdname4>状态</latdname4>
+		<latdname5>操作</latdname5>
+		<lalearn1>未绑定</lalearn1>
+		<lalearn2>学习中</lalearn2>
+		<lalearn3>已绑定</lalearn3>
+		<lalearn>学习</lalearn>
+		<ladelete>删除</ladelete>
+		<la_switch_motion>关联移动侦测</la_switch_motion>
+		<lawifisetbutton>设置</lawifisetbutton>
+		<btnSaveSumbit>保存</btnSaveSumbit>
+		<lacancel>取消</lacancel>
+		<lacheck>检测</lacheck>
+		<menu_title_remote>遥控器学习</menu_title_remote>
+		<laRemote>遥控器学习</laRemote>
+		<lavadio>音频输出</lavadio>
+		<laHeadTitle>无线报警</laHeadTitle>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		<menu_title_base>Base</menu_title_base>
+		<menu_title_learning>Alarm</menu_title_learning>
+		<menu_title_advanced>Advanced</menu_title_advanced>
+		<la_switch>Enable</la_switch>
+		<laTime1>Time 1</laTime1>
+		<laTime2>Time 2</laTime2>
+		<laEmail>E-mail</laEmail>
+		<laIOOutput>IO Output</laIOOutput>
+		<laOutputDuration>Alarm output duration</laOutputDuration>
+		<laDurationUnit>S</laDurationUnit>
+		<laSnapshot>Snapshot</laSnapshot>
+		<laSnapshotUnit>.</laSnapshotUnit>
+		<laInterval>*Snap interval</laInterval>
+		<laIntervalUnit>S</laIntervalUnit>
+		<laSnapEmail>E-mail</laSnapEmail>
+		<laSnapFtp>Ftp</laSnapFtp>
+		<laRecord>Record</laRecord>
+		<laRecordTime>*Record Time</laRecordTime>
+		<laRecordUnit>S</laRecordUnit>
+		<laRecordEmail>E-mail</laRecordEmail>
+		<laRecordFtp>Ftp</laRecordFtp>
+		<lacopy>copy</lacopy>
+		<lacopyall>Copy All</lacopyall>
+		<laprobe>Probe</laprobe>
+		<laprobename>Name</laprobename>
+		<laTime>Time</laTime>
+		<latdname1>Number</latdname1>
+		<latdname2>Name</latdname2>
+		<latdname3>Address</latdname3>
+		<latdname4>Status</latdname4>
+		<latdname5>Operate</latdname5>
+		<lalearn1>Not bind</lalearn1>
+		<lalearn2>learing</lalearn2>
+		<lalearn3>Already</lalearn3>
+		<lalearn>Learn</lalearn>
+		<ladelete>Delete</ladelete>
+		<la_switch_motion>The joint motion</la_switch_motion>
+		
+		<lawifisetbutton>site</lawifisetbutton>
+		<btnSaveSumbit>Save</btnSaveSumbit>
+		<lacancel>Cancel</lacancel>
+		<lacheck>Check</lacheck>
+		<menu_title_remote>Control</menu_title_remote>
+		<laRemote>Control Learn</laRemote>
+		<lavadio>Audio Out</lavadio>
+		<laHeadTitle>Wireless Detection</laHeadTitle>
+	  </Page>
+	</Resources>
+</html>

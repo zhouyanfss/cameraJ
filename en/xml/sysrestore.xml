@@ -12,6 +12,8 @@
 		  <laOther>其他参数</laOther>
 		  <laPassword>密码：</laPassword>
 		  <btnSubmit>确认</btnSubmit>
+		  <laUserName>用户名密码</laUserName>
+		  <laUser></laUser>
 	  </Page>
 	</Resources>
 	<Resources lan='en' name='English'>
@@ -20,12 +22,14 @@
 		  <laHeadTitle>Restore</laHeadTitle>
 		  <laAlert> Click this button will make the Device to recover all set the default state.</laAlert>
 		  <btnSaveSumbit>Restore factory settings</btnSaveSumbit>
-		  <laPasswordTitle>Please enter your password!</laPasswordTitle>
+		  <laPasswordTitle>Enter password!</laPasswordTitle>
 		  <laRestore>Restore：</laRestore>
 		  <laNetwork>Network</laNetwork>
 		  <laOther>Other</laOther>
 		  <laPassword>Password：</laPassword>
 		  <btnSubmit>Submit</btnSubmit>
+		  <laUserName>UserName</laUserName>
+		  <laUser>UserName and Password</laUser>
 	  </Page>
 	</Resources>
 </html>

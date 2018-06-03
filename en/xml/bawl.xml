@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>人脸识别.黑白名单</title>
+		  <laHeadTitle>人脸识别.黑白名单</laHeadTitle>
+		  <laImageType>图片类型</laImageType>
+		  <image_type1>抓拍</image_type1> 
+		  <image_type2>导入</image_type2>
+		  <laImageFile>上传图片</laImageFile> 
+		  <laUploadImage>上传</laUploadImage>
+		  <laReview>浏览</laReview>
+		  <laImageName>图片命名</laImageName> 
+		  <laImageNo>图片编号</laImageNo>
+		  <laImageNoTip>(字母数字组合)</laImageNoTip> 
+		  <laBlacklist>添加黑名单</laBlacklist>
+		  <laWhitelist>添加白名单</laWhitelist>
+		  <laNotice1>图片命名不能为空,由字母和数字组成.</laNotice1>
+		  <laNotice2>图片编号不能为空,由字母和数字组成.</laNotice2>
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Face recognition black and white list</title>
+		  <laHeadTitle>FA black and white list</laHeadTitle>
+		  <laImageType>Picture Stype</laImageType>
+		  <image_type1>Snap</image_type1>
+		  <image_type2>Import</image_type2>
+		  <laImageFile>Upload Picture</laImageFile>
+		  <laUploadImage>Upload</laUploadImage>
+		  <laReview>Review</laReview>
+		  <laImageName>Picture Naming</laImageName>
+		  <laImageNo>Picture Code No.</laImageNo>
+		  <laImageNoTip>(Character with number)</laImageNoTip>
+		  <laBlacklist>Add Blacklist</laBlacklist>
+		  <laWhitelist>Add Whitelist</laWhitelist>
+		  <laNotice1>Picture Naming can't be blank and should be consist of character and number</laNotice1>
+		  <laNotice2>Picture code number can't be blank and should be consit of character and number.</laNotice2>
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

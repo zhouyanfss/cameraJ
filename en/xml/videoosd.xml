@@ -8,12 +8,20 @@
 		  <laChannelSync>复制到所有通道</laChannelSync>
 		  <laTitle> 标题</laTitle>
 		  <laOSDTitle>标题</laOSDTitle>
+		  <laOSDTitle1>标题1</laOSDTitle1>
+		  <laOSDTitle2>标题2</laOSDTitle2>
+		  <laOSDTitle3>标题3</laOSDTitle3>
+		  <laOSDTitle4>标题4</laOSDTitle4>
 		  <laOSDColor>颜色</laOSDColor>
 		  <opOSDColor1>白色</opOSDColor1>
 		  <opOSDColor2>黑色</opOSDColor2>
 		  <opOSDColor3>黄色</opOSDColor3>
 		  <opOSDColor4>红色</opOSDColor4>
 		  <opOSDColor5>蓝色</opOSDColor5>
+		  <laOSDSize>大小</laOSDSize>
+		  <opOSDSize1>大</opOSDSize1>
+		  <opOSDSize2>中</opOSDSize2>
+		  <opOSDSize3>小</opOSDSize3>
 		  <laOSDPosition>字符叠加</laOSDPosition>
 		  <laPosition>位置</laPosition>
 		  <laPositionTitle>标题</laPositionTitle>
@@ -49,12 +57,20 @@
 		  <laChannelSync>Copy to all channels</laChannelSync>
 		  <laTitle> Title</laTitle>
 		  <laOSDTitle>Title</laOSDTitle>
+		  <laOSDTitle1>Title1</laOSDTitle1>
+		  <laOSDTitle2>Title2</laOSDTitle2>
+		  <laOSDTitle3>Title3</laOSDTitle3>
+		  <laOSDTitle4>Title4</laOSDTitle4>
 		  <laOSDColor>Color</laOSDColor>
 		  <opOSDColor1>White</opOSDColor1>
 		  <opOSDColor2>Black</opOSDColor2>
 		  <opOSDColor3>Yellow</opOSDColor3>
 		  <opOSDColor4>Red</opOSDColor4>
 		  <opOSDColor5>Blue</opOSDColor5>
+		  <laOSDSize>Size</laOSDSize>
+		  <opOSDSize1>Large</opOSDSize1>
+		  <opOSDSize2>Middle</opOSDSize2>
+		  <opOSDSize3>Small</opOSDSize3>
 		  <laOSDPosition>OSD</laOSDPosition>
 		  <laPosition>Position</laPosition>
 		  <laPositionTitle>Title</laPositionTitle>

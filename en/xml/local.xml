@@ -34,7 +34,7 @@
 		  <laBlank>Reset Mosaic</laBlank>
 		  <laPCStorage>PC Storage parameter</laPCStorage>
 		  <laRecordPackTime>Record file packing time</laRecordPackTime>
-		  <laRecordPackTimeUnit>M</laRecordPackTimeUnit>
+		  <laRecordPackTimeUnit>Mins</laRecordPackTimeUnit>
 		  <laRecordPackPath>Record File Path</laRecordPackPath>
 		  <laRecordPackPathAlert> </laRecordPackPathAlert>
 		  <btnSaveSumbit>Save</btnSaveSumbit>

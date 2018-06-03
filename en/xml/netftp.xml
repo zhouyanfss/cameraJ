@@ -18,6 +18,8 @@
 		  <laAutoCreateName>自动生成图片名称</laAutoCreateName>
 		  
 		  <btnSaveSumbit>保存</btnSaveSumbit>
+		  <btnTestSumbit>测试</btnTestSumbit>
+		  <TestMsg>测试中...</TestMsg>
 	  </Page>
 	</Resources>
 	<Resources lan='en' name='English'>
@@ -38,6 +40,8 @@
 		  <laAutoCreateName>Auto Create Name</laAutoCreateName>
 		  
 		  <btnSaveSumbit>Save</btnSaveSumbit>
+		  <btnTestSumbit>Test</btnTestSumbit>
+		  <TestMsg>Testing...</TestMsg>
 	  </Page>
 	</Resources>
 </html>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>服务器参数</title>
+		  <laHeadTitle>服务器参数</laHeadTitle>
+		  <lackEnable>启用</lackEnable>
+		  <laOEMid>服务器地址</laOEMid>
+		  <laOEMname>服务器端口</laOEMname>
+		  <laipcSN>重传次数</laipcSN>
+		  <laipcType>上传路径</laipcType>
+		  <laimgckEnable>上传图片</laimgckEnable>
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Server parameters</title>
+		  <laHeadTitle>Server parameters</laHeadTitle>
+		  <lackEnable>Enable</lackEnable>
+		  <laOEMid>Server address</laOEMid>
+		  <laOEMname>Server port</laOEMname>
+		  <laipcSN>Recalculations</laipcSN>
+		  <laipcType>Upload path</laipcType>
+		  <laimgckEnable>Upload photos</laimgckEnable>
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

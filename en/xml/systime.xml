@@ -12,6 +12,8 @@
 		  <laUpdateNtp>通过时间服务器更新</laUpdateNtp>
 		  <laNtpHost>服务器:</laNtpHost>
 		  <laNtpPort>端口:</laNtpPort>
+		  <lainterval>间隔:</lainterval>
+		  <laMinutes>分钟</laMinutes>
 		  <laUpdatePC>与本地电脑同步</laUpdatePC>
 		  <laUpdateManual>手动设置</laUpdateManual>
 		  <laUpdateMode>保存当前时间日期</laUpdateMode>
@@ -23,7 +25,7 @@
 		<opTimeZone5>(GMT-07:00)亚利桑那州, 山脉标准时间 (美国 &amp; 加拿大)</opTimeZone5>
 		<opTimeZone6>(GMT-06:00)中元标准时间 (美国 &amp;加拿大),墨西哥,德古斯加巴(洪都拉斯首都)</opTimeZone6>
 		<opTimeZone7>(GMT-05:00)波哥大, 利玛(秘鲁首都),基多(厄瓜多尔首都)</opTimeZone7>
-		<opTimeZone8>(GMT-05:00)东方标准时间(美国 &amp;加拿大), 印第安纳州 (东边)</opTimeZone8>
+		<opTimeZone8>(GMT-04:30)东方标准时间(美国 &amp;加拿大), 印第安纳州 (东边)</opTimeZone8>
 		<opTimeZone9>(GMT-04:00)大西洋标准时间(美国 &amp;加拿大), 卡拉卡斯(委内瑞拉首都), 拉巴斯</opTimeZone9>
 		<opTimeZone10>(GMT-03:30)纽芬兰</opTimeZone10>
 		<opTimeZone11>(GMT-03:00)布宜诺斯艾利斯(阿根廷首都), 乔治城, 巴西利亚</opTimeZone11>
@@ -42,7 +44,9 @@
 		<opTimeZone24>(GMT+04:30)喀布尔</opTimeZone24>
 		<opTimeZone25>(GMT+05:00)凯撒琳镇, 伊斯兰马巴德, 克拉啻港市, 塔什干</opTimeZone25>
 		<opTimeZone26>(GMT+05:30)新德里</opTimeZone26>
+		<opTimeZone35>(GMT+05:45)加德满都</opTimeZone35>
 		<opTimeZone27>(GMT+06:00)亚斯塔蒂, 阿曼蒂, 可伦波, 狄哈卡</opTimeZone27>
+		<opTimeZone36>(GMT+06:30)仰光</opTimeZone36>	
 		<opTimeZone28>(GMT+07:00)曼谷, 河内, 雅加达</opTimeZone28>
 		<opTimeZone29>(GMT+08:00)北京, 香港, 新加坡, 台北</opTimeZone29>
 		<opTimeZone30>(GMT+09:00)汉城, 东京, 亚库次客</opTimeZone30>
@@ -50,7 +54,8 @@
 		<opTimeZone32>(GMT+10:00)坎培拉, 关岛, 摩尔斯比港, 海蔘威</opTimeZone32>
 		<opTimeZone33>(GMT+11:00)麦哲伦, 所罗门岛</opTimeZone33>
 		<opTimeZone34>(GMT+12:00)斐济, 勘查加半岛, 马绍尔群岛, 威尔尼顿</opTimeZone34>		  
-			  
+	  	<opTimeZone37>(GMT+13:00)努库阿洛法 </opTimeZone37>
+		<latimechange>时区转换类型</latimechange>		    
 		  <btnSaveSumbit>保存</btnSaveSumbit>
 	  </Page>
 	</Resources>
@@ -66,6 +71,8 @@
 		  <laUpdateNtp>NTP Server</laUpdateNtp>
 		  <laNtpHost>URL:</laNtpHost>
 		  <laNtpPort>Port:</laNtpPort>
+		  <lainterval>interval</lainterval>
+		  <laMinutes>Minutes</laMinutes>
 		  <laUpdatePC>Synchronize with Local Computer</laUpdatePC>
 		  <laUpdateManual>Set the Time Manually</laUpdateManual>
 		  <laUpdateMode>Keep Current Date and Time</laUpdateMode>
@@ -77,7 +84,7 @@
 		<opTimeZone5>(GMT-07:00) Arizona, MST (America &amp; Canada)</opTimeZone5>
 		<opTimeZone6>(GMT-06:00) CST (America &amp;Canada), Mexico,Tegucigalpa(Capital of Honduras)</opTimeZone6>
 		<opTimeZone7>(GMT-05:00) Bogota,Lima(Capital of Peru),Quito(Capital of Ecuador)</opTimeZone7>
-		<opTimeZone8>(GMT-05:00) EST(America &amp;Canada), Indiana (East)</opTimeZone8>
+		<opTimeZone8>(GMT-04:30) EST(America &amp;Canada), Indiana (East)</opTimeZone8>
 		<opTimeZone9>(GMT-04:00) AST(America &amp;Canada), Caracas(Capital of Venezuela), La Paz</opTimeZone9>
 		<opTimeZone10>(GMT-03:30) Newfoundland</opTimeZone10>
 		<opTimeZone11>(GMT-03:00) Buenos Aires(Capital of Argentina),Georgetown, Brasilia</opTimeZone11>
@@ -96,7 +103,9 @@
 		<opTimeZone24>(GMT+04:30) Kabul</opTimeZone24>
 		<opTimeZone25>(GMT+05:00) St. Katharinen Town, Islamabad, Karachi, Tashkent</opTimeZone25>
 		<opTimeZone26>(GMT+05:30) New Delhi</opTimeZone26>
+		<opTimeZone35>(GMT+05:45) Kathmandu</opTimeZone35>			
 		<opTimeZone27>(GMT+06:00) Astarte, Diamantina, Columbus, Dhaka</opTimeZone27>
+		<opTimeZone36>(GMT+06:30) Yangon</opTimeZone36>	
 		<opTimeZone28>(GMT+07:00) Bangkok, Hanoi, Jakarta</opTimeZone28>
 		<opTimeZone29>(GMT+08:00) Beijing, Hongkong, Singapore, Taipei</opTimeZone29>
 		<opTimeZone30>(GMT+09:00) Seoul, Tokyo, Yakutsk</opTimeZone30>
@@ -104,7 +113,8 @@
 		<opTimeZone32>(GMT+10:00) Canberra, Guam, Port Moresby, Vladivostok </opTimeZone32>
 		<opTimeZone33>(GMT+11:00) Magellan, Solomon Islands</opTimeZone33>
 		<opTimeZone34>(GMT+12:00) Fiji, Kamchatka Peninsula, Marshall Islands, Wellington</opTimeZone34>		  
-
+		<opTimeZone37>(GMT+13:00) Nukualofa</opTimeZone37>
+		<latimechange>Time zone conversion</latimechange>	
 		  <btnSaveSumbit>Save</btnSaveSumbit>
 	  </Page>
 	</Resources>

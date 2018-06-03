@@ -2,8 +2,8 @@
 <html>
 	<Resources lan='cn' name='中文'>
 	  <Page>
-		  <title>移动侦测设置</title>
-		  <laHeadTitle>移动侦测设置</laHeadTitle>
+		  <title>遗留物品侦测设置</title>
+		  <laHeadTitle>遗留物品侦测设置</laHeadTitle>
 		  <laDateSubmitWaittin>数据提交中，请稍等......</laDateSubmitWaittin>
 		  <laChannel>通道:</laChannel>
 		  <laChannelSync>复制到所有通道</laChannelSync>
@@ -12,8 +12,12 @@
 		  <laAll>全部</laAll>
 		  <laCls>清除</laCls>
 		  <laDetection>侦测设置</laDetection>
-		  <laMotion>移动侦测</laMotion>
-		  <laShelter>遮挡侦测</laShelter>
+		  <laRemnants>遗留物品侦测</laRemnants>
+		  <laRemnantsTime>遗留时间</laRemnantsTime>
+		  <laRemnantsWay>侦测方式</laRemnantsWay>
+		  <remnantsway1>遗留</remnantsway1>
+		  <remnantsway2>拾取</remnantsway2>
+		  
 		  <laSensitivity>灵敏度</laSensitivity>
 		  <laDeploymentTime>布防时间</laDeploymentTime>
 		  <laTime1>布防时间段1</laTime1>
@@ -51,8 +55,8 @@
 	</Resources>
 	<Resources lan='en' name='English'>
 	  <Page>
-		  <title>Motion Detection Setting</title>
-		  <laHeadTitle>Motion Detection Setting</laHeadTitle>
+		  <title>Left-behind Items Detection Setting</title>
+		  <laHeadTitle>Left-behind Items Detection Setting</laHeadTitle>
 		  <laDateSubmitWaittin>Data processing, please wait … …</laDateSubmitWaittin>
 		  <laChannel>Chan:</laChannel>
 		  <laChannelSync>Copy to all channels</laChannelSync>
@@ -61,8 +65,12 @@
 		  <laAll>All</laAll>
 		  <laCls>Clear</laCls>
 		  <laDetection>Detection Setting</laDetection>
-		  <laMotion>Enable</laMotion>
-		  <laShelter>Shelter Detection</laShelter>
+		  <laRemnants>Left-behind Items Detection</laRemnants>
+		  <laRemnantsTime>Left-behind Items Time</laRemnantsTime>
+		  <laRemnantsWay>Detection Way</laRemnantsWay>
+		  <remnantsway1>left-behind</remnantsway1>
+		  <remnantsway2>pick up</remnantsway2> 
+		 
 		  <laSensitivity>Sensitivity</laSensitivity>
 		  <laDeploymentTime>Deployment Time</laDeploymentTime>
 		  <laTime1>Time 1</laTime1>

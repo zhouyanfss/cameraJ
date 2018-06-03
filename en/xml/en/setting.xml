@@ -15,7 +15,7 @@
 	<la_netlan>LAN</la_netlan>
 	<la_netwifi>Wireless</la_netwifi>
 	<la_netpppoe>PPPOE</la_netpppoe>
-	<la_3gcfg>3G Setting</la_3gcfg>
+	<la_3gcfg>4G Setting</la_3gcfg>
 	<la_netupnp>UPNP</la_netupnp>
 	<la_netemail>EMail</la_netemail>
 	<la_netftp>FTP</la_netftp>
@@ -31,6 +31,8 @@
 	<la_gpscfg>GPS</la_gpscfg>
 	<la_netsnmp>SNMP</la_netsnmp>
 	<la_httpscfg>HTTPS</la_httpscfg>
+	<la_ulkplatform>Platform parameters</la_ulkplatform>
+	<la_jxserver>Server parameters</la_jxserver>
 	<storage>Storage Settings</storage>
 	<la_storage>Device Setting</la_storage>
 	<la_record>Record Setting</la_record>
@@ -40,6 +42,8 @@
 	<la_sensor>Sensor Detection</la_sensor>
 	<la_failure>Network Detection</la_failure>
 	<la_wireless>Wireless Setting</la_wireless>
+	<la_PIRalarm>PIR Detection</la_PIRalarm>
+	<la_wifialarm>Wireless Detection</la_wifialarm>
 	<la_videolose>Video Lose</la_videolose>
 	<terminal>COM Setting</terminal>
 	<la_terminal>COM Setting</la_terminal>
@@ -53,7 +57,7 @@
 	<la_sysupgrade>Upgrade</la_sysupgrade>
 	<la_ptzupgrade>PTZ Upgrade</la_ptzupgrade>
 	<la_sysrestore>Restore</la_sysrestore>
-	<la_sysreboot>Reboot</la_sysreboot>
+	<la_sysreboot>Restart</la_sysreboot>
 	<la_syslog>System Log</la_syslog>
 	<extensions>Expansion Settings</extensions>
 	<la_zxlwcfg>Access Setting</la_zxlwcfg>
@@ -62,17 +66,40 @@
 	<la_accesscfg>Access Setting</la_accesscfg>
 	<la_smcfg>Access Setting</la_smcfg>
 	<la_gb28181>GB28181</la_gb28181>
-
+	<la_netemail_old>EMail</la_netemail_old>
 	<Intelligence>Intelligence</Intelligence>
 	<la_parameter>parameters</la_parameter>
 	<la_linkage>Coil setting</la_linkage>
+	
+	<!--<la_faceregion>Face recognition.region recognition</la_faceregion>
+	<la_videomask2>Face recognition. masking area</la_videomask2>
+	<la_smartface>Human face recognition. parameter setting</la_smartface>-->
 	
 	<la_smartface>SA Parameter Setting</la_smartface>
 	<la_videomask2>SA Privacy Masking</la_videomask2>
 	<la_faceregion>SA Areas Recognition</la_faceregion>
 	<la_bawl>SA Black and White</la_bawl>
+		<la_color>Color Abnormal</la_color>
+	<la_voice>Sound Abnormal</la_voice>
+	<la_brightness>Brightness Abnormal</la_brightness>	
+	<la_shade>Video Shade</la_shade>	
+	<la_LineInvasion>Cross-corder Detection</la_LineInvasion>
+	<la_RegionalInvasion>Regional Invasion</la_RegionalInvasion>
+	<la_remnants>Left-behind Items</la_remnants>
+	
+	
+	<la_xmservercfg>Center Connecting</la_xmservercfg>
+	
+	<la_smartcodec>Smart Stream</la_smartcodec>
+	<la_smartdetect>Smart Detect</la_smartdetect>
+	<la_smartcontrol>Smart Control</la_smartcontrol>
+	<la_smartface>Smart Face</la_smartface>
+	<la_sysupload>Parameter Backup</la_sysupload>
+	
+	<faceRecognition>Smart Analytics</faceRecognition>
+	<la_videomask2>Video Mask</la_videomask2>
+	<la_faceregion>Face Region</la_faceregion>
 	<la_facebwalarm>FA black and Alarm setting</la_facebwalarm>
 	<la_smartversion>SA Version Info</la_smartversion>
-	<faceRecognition>Smart Analytics</faceRecognition>
-	
+	<faceRecognition>Smart Analytics</faceRecognition>	
 </items>

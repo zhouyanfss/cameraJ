@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>参数备份</title>
+		   <laHeadTitle>参数备份</laHeadTitle>
+		   <btnSaveSumbit>参数导入</btnSaveSumbit>
+		   <exportParam>参数导出</exportParam>
+		   <laimportParam>配置文件</laimportParam>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+	  <title>Parameter Backup</title>
+	  <laHeadTitle>Parameter Backup</laHeadTitle>
+	  <btnSaveSumbit>Import Parameters</btnSaveSumbit>
+	  <exportParam>Export Parameters</exportParam>
+	  <laimportParam>Config</laimportParam>
+	  
+	  </Page>
+	</Resources>
+</html>

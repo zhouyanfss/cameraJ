@@ -2,8 +2,8 @@
 <html>
 	<Resources lan='cn' name='中文'>
 	  <Page>
-		  <title>移动侦测设置</title>
-		  <laHeadTitle>移动侦测设置</laHeadTitle>
+		  <title>越界侦测设置</title>
+		  <laHeadTitle>越界侦测设置</laHeadTitle>
 		  <laDateSubmitWaittin>数据提交中，请稍等......</laDateSubmitWaittin>
 		  <laChannel>通道:</laChannel>
 		  <laChannelSync>复制到所有通道</laChannelSync>
@@ -12,8 +12,12 @@
 		  <laAll>全部</laAll>
 		  <laCls>清除</laCls>
 		  <laDetection>侦测设置</laDetection>
-		  <laMotion>移动侦测</laMotion>
-		  <laShelter>遮挡侦测</laShelter>
+		  <laLine>越界侦测</laLine>
+		  <laLineDirection>越界方向</laLineDirection>
+		  <linedirection1>从左到右</linedirection1>
+		  <linedirection2>从右到左</linedirection2>  
+		  <linedirection3>双向</linedirection3>  
+		  
 		  <laSensitivity>灵敏度</laSensitivity>
 		  <laDeploymentTime>布防时间</laDeploymentTime>
 		  <laTime1>布防时间段1</laTime1>
@@ -42,7 +46,7 @@
 		  <opSensorType1>常开</opSensorType1>
 		  <opSensorType2>常闭</opSensorType2>
 		  <btnSensorType02>IO输出类型</btnSensorType02>
-		  <laAlert1>移动报警检测灵敏度取值范围为1~5,值越大灵敏度越高.</laAlert1>
+		  <laAlert1>越界侦测和区域入侵不能同时开启，打开越界侦测时默认关闭区域入侵.</laAlert1>
 		  <laAlert2>抓拍时间间隔可以为小数,如:0.5秒,1.5秒等等.</laAlert2>
 		  <laAlert3>当设备上有挂存储器(硬盘、SD卡、U盘)时，联动抓拍、联动录像文件首先存储到存储器，同时根据文件存储方式再做相应的处理。否则会暂存在内存中，然后根据文件存储方式再做相应的处理.</laAlert3>
 		  <btnSaveSumbit>保存</btnSaveSumbit>
@@ -51,8 +55,8 @@
 	</Resources>
 	<Resources lan='en' name='English'>
 	  <Page>
-		  <title>Motion Detection Setting</title>
-		  <laHeadTitle>Motion Detection Setting</laHeadTitle>
+		  <title>Cross-border Detection Setting</title>
+		  <laHeadTitle>Cross-border Detection Setting</laHeadTitle>
 		  <laDateSubmitWaittin>Data processing, please wait … …</laDateSubmitWaittin>
 		  <laChannel>Chan:</laChannel>
 		  <laChannelSync>Copy to all channels</laChannelSync>
@@ -61,8 +65,12 @@
 		  <laAll>All</laAll>
 		  <laCls>Clear</laCls>
 		  <laDetection>Detection Setting</laDetection>
-		  <laMotion>Enable</laMotion>
-		  <laShelter>Shelter Detection</laShelter>
+		  <laLine>Cross-border Detection </laLine>
+		  <laLineDirection>Cross-border Direction</laLineDirection>
+		  <linedirection1>left to right</linedirection1>
+		  <linedirection2>right to left</linedirection2>  
+		  <linedirection3>two-way</linedirection3>  	
+		  
 		  <laSensitivity>Sensitivity</laSensitivity>
 		  <laDeploymentTime>Deployment Time</laDeploymentTime>
 		  <laTime1>Time 1</laTime1>
@@ -91,7 +99,7 @@
 		   <btnSensorType02>Type</btnSensorType02>
 		   <opSensorType1>NO</opSensorType1>
 		  <opSensorType2>NC</opSensorType2>
-		  <laAlert1>The value is 1 - 5,more sensitive when higher.</laAlert1>
+		  <laAlert1>Cross-border detection and regional Invasion can't avaible at same time，when cross-border detection open,regional Invasion default close.</laAlert1>
 		  <laAlert2>The number of snap interval can be a decimal, such as: 0.5 seconds, 1.5 seconds, etc.</laAlert2>
 		  <laAlert3>If the device has an external storage (hard disk, SD card, USB disk), the linkage Snap and linkage Record document will be saved to the external storage first and processed based on file storage mode. Or it will be saved to memory temporarily and then processed based on file storage mode.</laAlert3>
 		  <btnSaveSumbit>Save</btnSaveSumbit>

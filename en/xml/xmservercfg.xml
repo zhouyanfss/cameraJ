@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>中心连接</title>
+		  <laHeadTitle>中心连接</laHeadTitle>
+		  <laEnable>开关</laEnable>
+		  <laServerURL>服务器地址</laServerURL>
+		  <laServerPort>服务器端口</laServerPort>
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+
+		  <szXMDeviceIDText>设备序列号</szXMDeviceIDText>
+		  <username_name>用户名</username_name>
+		  <password_pass>密码</password_pass>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Connect Setting</title>
+		  <laHeadTitle>Connect Setting</laHeadTitle>
+		  <laEnable>Enable</laEnable>
+		  <laServerURL>Server URL</laServerURL>
+		  <laServerPort>Server Port</laServerPort>
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+
+		  <password_pass>password</password_pass>
+		  <username_name>The user name</username_name>
+		  <szXMDeviceIDText>Equipment serial number</szXMDeviceIDText>
+	  </Page>
+	</Resources>
+</html>

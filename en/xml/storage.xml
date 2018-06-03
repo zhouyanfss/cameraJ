@@ -25,6 +25,9 @@
 		  <laAutoDelete>存储设备满时,自动覆盖旧文件</laAutoDelete>
 		  
 		  <btnSaveSumbit>保存</btnSaveSumbit>
+		  <cForamtting>正在格式化</cForamtting>
+		  <cForamtted>已经格式化</cForamtted>
+		  <cNotForamt>未格式化</cNotForamt>
 	  </Page>
 	</Resources>
 	<Resources lan='en' name='English'>
@@ -47,12 +50,15 @@
 		  <opBitrate1>Main Stream</opBitrate1>
 		  <opBitrate2>Sub Stream</opBitrate2>
 		  <laPacketTime>Record file packing time</laPacketTime>
-		  <laPacketTimeUnit>M</laPacketTimeUnit>
+		  <laPacketTimeUnit>Mins</laPacketTimeUnit>
 		  <laOther>Other</laOther>
 		  <laAutoDelete>Overwrite old files when disk is full</laAutoDelete>
 
 		  
 		  <btnSaveSumbit>Save</btnSaveSumbit>
+		  <cForamtting>formatting</cForamtting>
+		  <cForamtted>formatted</cForamtted>
+		  <cNotForamt>not ext2 format</cNotForamt>
 	  </Page>
 	</Resources>
 </html>

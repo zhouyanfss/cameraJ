@@ -24,6 +24,23 @@
 		  <btnScan>扫描</btnScan>
 		  <btnSelect>选择</btnSelect>
 		  <btnSaveSumbit>保存</btnSaveSumbit>
+		  <Advanced>高级</Advanced>
+		  <btnScan_new>扫描</btnScan_new>
+		  <lawifistate>WIFI状态</lawifistate>
+		  <laopen>开启无线</laopen>
+		  <laclose>关闭无线</laclose>
+		  <lasave>保存</lasave>
+		  <lagoback>返回</lagoback>
+		  <mssage_inpassword>请输入密码！</mssage_inpassword>
+		  <lascanning>扫描中</lascanning>
+		  <rtmode>网卡模式</rtmode>
+		  <apmode>热点模式</apmode>
+		  <laapssid>热点SSID</laapssid>
+		  <lartssid>路由器SSID</lartssid>
+		  <latblyq>链接路由器</latblyq>
+		  <buttonSave3>保存</buttonSave3>
+		  <laCancel>取消</laCancel>
+		  <laRestart>设备重启中，稍等 ... </laRestart>
 	  </Page>
 	</Resources>
 	<Resources lan='en' name='English'>
@@ -51,6 +68,23 @@
 		  <btnScan>Scan</btnScan>
 		  <btnSelect>Select</btnSelect>
 		  <btnSaveSumbit>Save</btnSaveSumbit>
+		  <Advanced>Advanced</Advanced>
+		  <btnScan_new>Scan</btnScan_new>
+		  <lawifistate>WIFI State</lawifistate>
+		  <laopen>Open</laopen>
+		  <laclose>Close</laclose>
+		  <lasave>Save</lasave>
+		  <lagoback>Back</lagoback>
+		  <mssage_inpassword>Enter password!</mssage_inpassword>
+		  <lascanning>Scanning..</lascanning>
+		  <rtmode>WLAN Mode</rtmode>
+		  <apmode>AP Mode</apmode>
+		  <laapssid>AP SSID</laapssid>
+		  <lartssid>Router SSID</lartssid>
+		  <latblyq>Connect Router</latblyq>
+		  <buttonSave3>Svae</buttonSave3>
+		  <laCancel>Cancel</laCancel>
+		  <laRestart>restarting ... </laRestart>
 	  </Page>
 	</Resources>
 </html>

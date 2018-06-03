@@ -20,6 +20,7 @@
 		  <laMulticastMainAudioPort>主码流多播音频端口</laMulticastMainAudioPort>
 		  <laMulticastSubVideoPort>次码流多播视频端口</laMulticastSubVideoPort>
 		  <laMulticastSubAudioPort>次码流多播音频端口</laMulticastSubAudioPort>
+		  <laonvifpassword>Onvif密码验证</laonvifpassword>
 		  
 		  <btnSaveSumbit>保存</btnSaveSumbit>
 	  </Page>
@@ -46,6 +47,7 @@
 		  <laMulticastSubAudioPort>Sub Stream Multicast Audio Port</laMulticastSubAudioPort>
 		  
 		  <btnSaveSumbit>Save</btnSaveSumbit>
+		  <laonvifpassword>Onvif PassWord Enable</laonvifpassword>
 	  </Page>
 	</Resources>
 </html>

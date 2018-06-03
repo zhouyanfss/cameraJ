@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name=''>
+	  <Page>
+		 <labHeadTitle>GB28181 设置</labHeadTitle>
+		 <labServerID>服务器 ID</labServerID>
+		 <labURL>服务器地址</labURL>
+		 <labPort>服务器端口</labPort>
+		 <labSN>设备 ID</labSN>
+		 <labDevicePort>设备端口</labDevicePort>
+		 <labUserName>用 户 名</labUserName>
+		 <labPassword>密    码</labPassword>
+		 <labChanID>媒体通道 ID</labChanID>
+		 <labAlarmID>报警通道 ID</labAlarmID>
+		 <labDeviceBelong>设备归属</labDeviceBelong>
+		 <labManufacturer>制 造 商</labManufacturer>
+		 <labAdministrativeRegion>行政区域</labAdministrativeRegion>
+		 <labPoliceRegion>警    区</labPoliceRegion>
+		 <labInstallation>保密属性</labInstallation>
+		 <labLongitude>经    度</labLongitude>
+		 <labLatitude>纬    度</labLatitude>
+		 <labTime>注册有效时间</labTime>
+		 <labAction>心跳时间</labAction>
+		 <labManualRegister>手动注册</labManualRegister>
+		 <lablogout>注  销</lablogout>
+		 <labConfidential>保密属性</labConfidential>
+		 <btnSaveSumbit>保存</btnSaveSumbit>
+		 <laReflash>刷新</laReflash>
+		 <laSuccessed>已注册</laSuccessed>
+		 <laFailure>未注册</laFailure>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		   <labHeadTitle>GB28181 Config</labHeadTitle>
+		 <labServerID>Server ID</labServerID>
+		 <labURL>Server address</labURL>
+		 <labPort>Server Port</labPort>
+		 <labSN>Device ID</labSN>
+		 <labDevicePort>Device Port</labDevicePort>
+		 <labUserName>User name</labUserName>
+		 <labPassword>Password</labPassword>
+		 <labChanID>Media channel ID</labChanID>
+		 <labAlarmID>Alarming channel ID</labAlarmID>
+		 <labDeviceBelong>Device belonging</labDeviceBelong>
+		 <labManufacturer>Manufactory</labManufacturer>
+		 <labAdministrativeRegion>Administrative region</labAdministrativeRegion>
+		 <labPoliceRegion>Constablewick</labPoliceRegion>
+		 <labInstallation>Installation address</labInstallation>
+		 <labLongitude>Longitude</labLongitude>
+		 <labLatitude>Latitude</labLatitude>
+		 <labTime>Registration valid time</labTime>
+		 <labAction>Heartbeating time</labAction>
+		 <labManualRegister>Register</labManualRegister>
+		 <lablogout>Log out</lablogout>
+		 <labConfidential>Confidentiality properties</labConfidential>
+		 <btnSaveSumbit>Save</btnSaveSumbit>
+		 <laReflash>Reflash</laReflash>
+		 <laSuccessed>Register Success</laSuccessed>
+		 <laFailure>Register Failure</laFailure>
+
+	  </Page>
+	</Resources>
+</html>

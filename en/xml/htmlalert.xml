@@ -2,6 +2,9 @@
 <html>
 	<Resources lan='cn' name='中文'>
 	  <Js>
+
+			<AbwSimilarity>比对相似度值不对！</AbwSimilarity>
+			
 		  <ALERTLOGINNAMECANNOTEMPTY>用户名不能为空!</ALERTLOGINNAMECANNOTEMPTY>
 		  <ALERTLOGINSUBMIT>登录</ALERTLOGINSUBMIT>
 		  <ALERTLOGINCANCEL>取消</ALERTLOGINCANCEL>
@@ -53,6 +56,8 @@
 		  <ALERTPRESETNUM>预置位只能为1~255的正数.</ALERTPRESETNUM>
 		  <ALERTPRESETSET>设置成功</ALERTPRESETSET>
 		  <ALERTPRESETCALL>调用成功</ALERTPRESETCALL>
+
+
 
 <!--var JSTIMEWEEKS		= new Array('日','一','二','三','四','五','六');//-->
 		  <JSTIMESELECT>日期</JSTIMESELECT>
@@ -120,6 +125,7 @@
 		  <ALERTPASSWORDERROR>密码错误!</ALERTPASSWORDERROR>
 		  
 		  <ALERTFILENULL>请选择升级文件!</ALERTFILENULL>
+		  
 		  <ALERTFILEERROR>请选择正确的文件升级包!</ALERTFILEERROR>
 		  <ALERTLOGINERROR>登录设备失败</ALERTLOGINERROR>
 		  <ALERTDOWNLOAD>文件下载中,请等待...</ALERTDOWNLOAD>
@@ -127,8 +133,11 @@
 		  
 		  <ALERTNAMENULL>用户名不能为空!</ALERTNAMENULL>
 		  <ALERTNAMEERROR>输入的用户名含有非法字符!</ALERTNAMEERROR>
+		  
+		   <ALERTNAMEERROR1>输入的用户名含有非法字符!</ALERTNAMEERROR1>
+		   
 		  <ALERTPASSWORDNULL>用户密码不能为空!</ALERTPASSWORDNULL>
-		  <ALERTPASSWORDERROR>输入的用户密码错误!</ALERTPASSWORDERROR>
+		  <ALERTPASSWORDERROR>输入的用户密码格式错误!</ALERTPASSWORDERROR>
 		  <ALERTPASSWORDCONFIRM>密码确认失败!</ALERTPASSWORDCONFIRM>
 		  <ALERTPARAMETERERROR>参数错误</ALERTPARAMETERERROR>
 		  
@@ -257,10 +266,44 @@
 		  <ALERTLOGINCON>登录请求失败!</ALERTLOGINCON>
 		  <ALERTLOGIN>登录失败!</ALERTLOGIN>
 		  <ALERTREBOOTCFM>修改参数，设备将重启，是否继续？</ALERTREBOOTCFM>
-		    
+		  <ALERLOGINERR>账号被锁定，请30分钟后重试</ALERLOGINERR>
+		  <ALERTFILEPARAMNULL>导入文件不能为空!</ALERTFILEPARAMNULL>
+		  <ALERTFILEPARAMERROR>请选择正确的文件升级包,后缀名只能是.uot的文件!</ALERTFILEPARAMERROR>
 		  <exit>aaaaaaaaaaa</exit>
-
+ 		  <ALERTLOGINif>提示：第一次登录，请下载安装控!</ALERTLOGINif>
 		  <szTips>开始时间不能大于结束时间！</szTips>
+		  <ALERTWIFICHANGE>此操作将修改无线IP，是否继续？</ALERTWIFICHANGE>
+		   <ALERTNAMEERR1>密码强度太弱!</ALERTNAMEERR1>
+		   
+	
+		  <ALERTBLADD>黑名单添加中（抓拍请移动人脸到画面中央）...</ALERTBLADD>
+		  <ALERTWLADD>白名单添加中（抓拍请移动人脸到画面中央）...</ALERTWLADD>
+		  <ALERTBLADD2>黑名单添加中...</ALERTBLADD2>
+		  <ALERTWLADD2>白名单添加中...</ALERTWLADD2>
+		  <ALERTBWADDOK>添加成功!</ALERTBWADDOK>
+		  <ALERTBWADDERROR1>提取特征值错误，添加失败!</ALERTBWADDERROR1>
+		  <ALERTBWADDERROR2>图片太大，添加失败!</ALERTBWADDERROR2> 
+		  <ALERTBWADDERROR3>识别人脸失败!</ALERTBWADDERROR3> 
+		  <ALERTBWADDERROR4>人脸库已满，添加失败!</ALERTBWADDERROR4> 
+		  <ALERTBWADDERROR5>文件格式不支持!</ALERTBWADDERROR5> 
+		  <ALERTBWADDERROR6>未知错误，添加失败!</ALERTBWADDERROR6>
+		  <ALERTBWADDERROR7>名字和编号重复，添加失败</ALERTBWADDERROR7>
+		  <ALERTBWADDERROR8>参数错误，添加失败</ALERTBWADDERROR8>
+ 		  <ALERTBWADDERROR9>数据库已损坏，添加失败</ALERTBWADDERROR9>
+		  <ALERTBWADDERROR10>没有数据库，请更新数据库</ALERTBWADDERROR10>
+
+		  <ALERTIMAGENULL>上传图片不能为空!</ALERTIMAGENULL>
+		  <ALERTIMAGEERROR>请选择正确图片文件,只能是.jpg的文件!</ALERTIMAGEERROR>
+		  <ALERTIMAGETOOBIG>图片宽高不能超过960!</ALERTIMAGETOOBIG>
+		  <ALERTIMAGENAMENULL>图片命名不能为空!</ALERTIMAGENAMENULL>
+		  <ALERTIMAGENONULL>图片编号不能为空!</ALERTIMAGENONULL>
+		  <ALERTIMAGENOERROR>图片命名/编号只能是数字和字母组合!</ALERTIMAGENOERROR>
+		  <ALERTIMAGEUPLOAD>图片上传中,请等待...</ALERTIMAGEUPLOAD>
+
+		  <ALUPLOAD>正在保存,请等待...</ALUPLOAD>
+
+		  <number>服务器端口不能为空,必须是数字!</number>
+		  <number1>重传次数不能为空,必须是数字!</number1>
 	  </Js>
 	  <Array>
 		  <JSTIMEWEEKS>new Array('日','一','二','三','四','五','六')</JSTIMEWEEKS>
@@ -364,6 +407,8 @@
 		  <ATTRTITLEFULLREPLAY>Full Screen</ATTRTITLEFULLREPLAY>
 		  <ATTRTITLEAUDIO>Audio</ATTRTITLEAUDIO>
 		  
+		  <AbwSimilarity>Comparison of similarity values</AbwSimilarity>
+
 		  <ALERTOPENFILEERROR1>Operation failure</ALERTOPENFILEERROR1>
 		  <ALERTOPENFILEERROR2>Request refused</ALERTOPENFILEERROR2>
 		  <ALERTOPENFILEERROR3>Login busy</ALERTOPENFILEERROR3>
@@ -505,7 +550,16 @@
 		  <ALERTPRESETLIMITS>Preset number must be an integer between 1 and 255.</ALERTPRESETLIMITS>
 		  <ALERTPRESETTITLENULL>The title cannot be empty.</ALERTPRESETTITLENULL>
 		  <ALERTPRESETTITLEERROR>The title cannot contain character '||'.</ALERTPRESETTITLEERROR>
-		  
+
+ 		  <ALERTBWADDERROR7>Name and number repeat, add failure</ALERTBWADDERROR7>
+		  <ALERTBWADDERROR8>Parameter error, add failure </ALERTBWADDERROR8>
+ 		  <ALERTBWADDERROR9>Database has been damaged, add failure</ALERTBWADDERROR9>
+		  <ALERTBWADDERROR10>No database, please update the database</ALERTBWADDERROR10>
+
+
+		  <number>Server port can not be empty, must be digital!</number>
+		  <number1>The number of retransmission can not be empty, must be a number!</number1>
+
 		  <HscamAWBMODE1>Normal mode</HscamAWBMODE1>
 		  <HscamAWBMODE2>Outdoor mode</HscamAWBMODE2>
 		  <HscamAWBMODE3>Sodium Lamp mode</HscamAWBMODE3>
@@ -523,11 +577,36 @@
 		  <ALERTALARMOUTPUT>Output</ALERTALARMOUTPUT>
 		  <ALERTLOGINCON>Login connection failed!</ALERTLOGINCON>
 		  <ALERTLOGIN>Login failed!</ALERTLOGIN>
+		  <ALERTLOGINif> please download and install the ActiveX.!</ALERTLOGINif>
+		  <ALERTFILEPARAMNULL>Import file cannot be empty! </ALERTFILEPARAMNULL>
+		  <ALERLOGINERR>Account is locked. Please try again in 30 minutes. </ALERLOGINERR>
 		  <ALERTREBOOTCFM>Modify parameters, equipment to restart, whether to continue?</ALERTREBOOTCFM>
-		  	  
+		   <ALERTFILEPARAMERROR>Please select the correct file upgrade package, extension can only be ".uot"</ALERTFILEPARAMERROR>
 		  <exit>aaaaaaaaaaa</exit>
 
 		  <szTips>The start time should be earlier than the end time.</szTips>
+		  <ALERTWIFICHANGE>This action will modify the wireless IP, whether to continue?</ALERTWIFICHANGE>
+
+		  <ALERTBLADD>Blacklist is adding（Please move the face to the center of the screen when capturing）...</ALERTBLADD>
+		  <ALERTWLADD>Whitelist is adding（Please move the face to the center of the screen when capturing）...</ALERTWLADD>
+		  <ALERTBLADD2>Blacklist is adding...</ALERTBLADD2>
+		  <ALERTWLADD2>Whitelist is adding...</ALERTWLADD2>
+		  <ALERTBWADDOK>Added successfully!</ALERTBWADDOK>
+		  <ALERTBWADDERROR1>Added failed!</ALERTBWADDERROR1>
+		  <ALERTBWADDERROR2>Picture is too big, added failed!</ALERTBWADDERROR2>
+		  <ALERTBWADDERROR3>Failed to recognize face!</ALERTBWADDERROR3>
+		  <ALERTBWADDERROR4>Face database is full, added failed!</ALERTBWADDERROR4>
+		  <ALERTBWADDERROR5>File format is not supported!</ALERTBWADDERROR5>
+		  <ALERTBWADDERROR6>Unknown error, added failed!</ALERTBWADDERROR6>
+		   
+		  <ALERTIMAGENULL>Upload picture cannot be empty!</ALERTIMAGENULL>
+		  <ALERTIMAGEERROR>Please select the correct picture file, only the .jpg file!</ALERTIMAGEERROR>
+		  <ALERTIMAGETOOBIG>The height and the width of the picture cannot exceed 960!</ALERTIMAGETOOBIG>
+		  <ALERTIMAGENAMENULL>Picture naming cannot be empty!</ALERTIMAGENAMENULL>
+		  <ALERTIMAGENONULL>Picture code number cannot be empty!</ALERTIMAGENONULL>
+		  <ALERTIMAGENOERROR>Picture naming/code number can only be a combination of numbers and letters!</ALERTIMAGENOERROR>
+		  <ALERTIMAGEUPLOAD>Picture uploading, please wait...</ALERTIMAGEUPLOAD>
+		  
 	  </Js>
 	  <Array>
 		  <JSTIMEWEEKS>new Array('Sun','Mon','Tue','Wed','Thu','Fri','Sat')</JSTIMEWEEKS>

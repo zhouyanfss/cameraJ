@@ -20,10 +20,14 @@
 		  <laRecordTime>*录像时间</laRecordTime>
 		  <laRecordUnit>秒</laRecordUnit>
 		  <laRecordDevice>设备存储</laRecordDevice>
+		  <opSensorType1>常开</opSensorType1>
+		  <opSensorType2>常闭</opSensorType2>
 		  <laRecordPC>PC端录像</laRecordPC>
+		  <btnSensorType03>IO输出类型</btnSensorType03>
 		  <laAlert1>抓拍时间间隔可以为小数,如:0.5秒,1.5秒等等.</laAlert1>
 		  <laAlert2>当设备上有挂存储器(硬盘、SD卡、U盘)时，联动抓拍、联动录像文件首先存储到存储器，同时根据文件存储方式再做相应的处理。否则会暂存在内存中，然后根据文件存储方式再做相应的处理.</laAlert2>
 		  <btnSaveSumbit>保存</btnSaveSumbit>
+		  <lavadio>音频输出</lavadio>
 	  </Page>
 	</Resources>
 	<Resources lan='en' name='English'>
@@ -47,9 +51,14 @@
 		  <laRecordUnit>S</laRecordUnit>
 		  <laRecordDevice>Device</laRecordDevice>
 		  <laRecordPC>Local Record</laRecordPC>
+		  <btnSensorType03>Type</btnSensorType03>
+		  <opSensorType1>NO</opSensorType1>
+		  <opSensorType2>NC</opSensorType2>
 		  <laAlert1>The number of snap interval can be a decimal, such as: 0.5 seconds, 1.5 seconds, etc.</laAlert1>
 		  <laAlert2>If the device has an external storage (hard disk, SD card, USB disk), the linkage Snap and linkage Record document will be saved to the external storage first and processed based on file storage mode. Or it will be saved to memory temporarily and then processed based on file storage mode.</laAlert2>
 		  <btnSaveSumbit>Save</btnSaveSumbit>
+		  <lavadio>Audio Out</lavadio>
+
 	  </Page>
 	</Resources>
 </html>

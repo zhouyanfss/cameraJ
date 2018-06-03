@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>平台参数</title>
+		  <laHeadTitle>平台参数</laHeadTitle>
+		  <lackEnable>启用</lackEnable>
+		  <laOEMid>OEMID</laOEMid>
+		  <laOEMname>OEM名称</laOEMname>
+		  <laipcSN>设备序列号</laipcSN>
+		  <laipcType>设备型号</laipcType>
+		  <laipcFactory>厂商名称</laipcFactory>
+		  <laloginserverurl>负载服务器地址</laloginserverurl>
+		  <laloginserverport>负载服务器端口</laloginserverport>
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Platform parameters </title>
+		  <laHeadTitle>Platform parameters </laHeadTitle>
+		  <lackEnable>Enable</lackEnable>
+		  <laOEMid>OEMID</laOEMid>
+		  <laOEMname>OEM name </laOEMname>
+		  <laipcSN>Equipment sequence number </laipcSN>
+		  <laipcType>Equipment model </laipcType>
+		  <laipcFactory>Vendor name</laipcFactory>
+		  <laloginserverurl>Load server address</laloginserverurl>
+		  <laloginserverport>Load server port</laloginserverport>
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+	  </Page>
+	</Resources>
+</html>

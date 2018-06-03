@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		<b_yt1></b_yt1>
+		<b_yt2>上</b_yt2>
+		<b_yt3></b_yt3>
+		<b_yt4>左</b_yt4>
+		<b_yt5>自动</b_yt5>
+		<b_yt6>右</b_yt6>
+		<b_yt7></b_yt7>
+		<b_yt8>下</b_yt8>
+		<b_yt9></b_yt9>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		<b_yt1></b_yt1>
+		<b_yt2>Up</b_yt2>
+		<b_yt3></b_yt3>
+		<b_yt4>Left</b_yt4>
+		<b_yt5>Auto</b_yt5>
+		<b_yt6>Right</b_yt6>
+		<b_yt7></b_yt7>
+		<b_yt8>Down</b_yt8>
+		<b_yt9></b_yt9>
+	  </Page>
+	</Resources>
+</html>

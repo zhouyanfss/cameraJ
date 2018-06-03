@@ -41,7 +41,8 @@
 		  <imgSceneDefault>场景默认</imgSceneDefault>
 		  <laScene>场景</laScene>
 		  <laSceneDefault>场景默认</laSceneDefault>
-		  <laWBTitle>白平衡</laWBTitle>
+		  <laWBTitle>高级设置</laWBTitle>
+		  <btnAWB_name>白平衡</btnAWB_name>
 		  <btnAWB>自动白平衡</btnAWB>
 		  <laWBRed>白平衡 红</laWBRed>
 		  <laWBGreen>白平衡 绿</laWBGreen>
@@ -84,14 +85,22 @@
   		  <laToNight>转夜晚</laToNight>
   		  <laIRLinkage>光敏联动</laIRLinkage>
   		  <laShutterValue>快门值:</laShutterValue>
-  		  <laOtherTitle>其他</laOtherTitle>
+  		  <laOtherTitle>基本设置</laOtherTitle>
+  		  <btnMirror_name>镜像</btnMirror_name>
   		  <btnMirror>镜像</btnMirror>
+  		  <btnFlip_name>翻转</btnFlip_name>
   		  <btnFlip>翻转</btnFlip>
+		  <btnPwdFreq_name>视频制式</btnPwdFreq_name>
   		  <btnAutoFlip>自动翻转</btnAutoFlip>
   		  <btnPwdFreq4>户外</btnPwdFreq4>
+  		  <btnCTB_name>彩转黑</btnCTB_name>
+  		  <btnWDR_name>宽动态</btnWDR_name>
   		  <btnCTB>彩转黑</btnCTB>
   		  <btnWDR>宽动态</btnWDR>
-  		  <laWDRValue>宽动态调节</laWDRValue>
+  		  <laWDRValue>宽动态强度</laWDRValue>
+  		  <btnWDR1_new>低</btnWDR1_new>
+  		  <btnWDR2_new>中</btnWDR2_new>
+  		  <btnWDR3_new>高</btnWDR3_new>
   		  <btnWDR1>宽动态-低</btnWDR1>
   		  <btnWDR2>宽动态-中</btnWDR2>
   		  <btnWDR3>宽动态-高</btnWDR3>
@@ -101,26 +110,37 @@
 		  <opAutoFocusMode3>低照度点光源AF优化开启</opAutoFocusMode3>
   		  <btnImageMode0>图像模式 1</btnImageMode0>
   		  <btnImageMode1>图像模式 2</btnImageMode1>
+  		  <btnLSC_name>镜头矫正</btnLSC_name>
   		  <btnLSC>镜头矫正</btnLSC>
   		  <btn2DNR>2D降噪</btn2DNR>
+  		  <btn3DNR_name>3D降噪</btn3DNR_name>
   		  <btn3DNR>3D降噪</btn3DNR>
+  		  <btn3DNR1_new>低</btn3DNR1_new>
   		  <btn3DNR1>低</btn3DNR1>
+  		  <btn3DNR2_new>中</btn3DNR2_new>
   		  <btn3DNR2>中</btn3DNR2>
+  		  <btn3DNR3_new>高</btn3DNR3_new>
   		  <btn3DNR3>高</btn3DNR3>
   		  <btnSmartNR>智能降噪</btnSmartNR>
   		  <laSmartNRValue>阀值调节</laSmartNRValue>
+  		  <btnAntiFogging_name>去雾</btnAntiFogging_name>
   		  <btnAntiFogging>去雾</btnAntiFogging>
   		  <laAntiFalseColor>去伪彩</laAntiFalseColor>
   		  <laAntiFalseColorValue>阀值调节</laAntiFalseColorValue>
+  		  <btnAntiTrembling_name>数字防抖</btnAntiTrembling_name>
   		  <btnAntiTrembling>数字防抖</btnAntiTrembling>
-  		  <laRotationTitle>旋转控制(修改此设置，设备立即自动重启)</laRotationTitle>
+  		  <laRotationTitle>旋转控制</laRotationTitle>
   		  <opRotation1>不旋转</opRotation1>
   		  <opRotation2>90度旋转</opRotation2>
   		  <opRotation3>270度旋转</opRotation3>
   		  <laIrisTitle>光圈镜头</laIrisTitle>
+		  <btnIris_new>光圈</btnIris_new>
   		  <btnIris0>非自动光圈</btnIris0>
+  		  <btnIris0_new>非自动光圈</btnIris0_new>
   		  <btnIris1>DC自动光圈</btnIris1>
+  		  <btnIris1_new>DC自动光圈</btnIris1_new>
   		  <laIrisValue>光圈电平</laIrisValue>
+  		  <btnIris2_new>自动光圈矫正</btnIris2_new>
   		  <btnIris2>自动光圈矫正</btnIris2>
   		  <btnLensShading>镜头矫正</btnLensShading>
   		  <laFocusTitle>聚焦</laFocusTitle>
@@ -136,9 +156,10 @@
   		  <laAutoMaxTimeTitle>自动曝光最大曝光时间</laAutoMaxTimeTitle>
   		  <laAutoGCTitle>自动增益限制</laAutoGCTitle>
   		  <btnAutoAGC>开关</btnAutoAGC>
-  		  <laAutoAGCValue>调节值</laAutoAGCValue>
+  		  <laAutoAGCValue>模拟增益</laAutoAGCValue>
+		  <laAutoDgainValue>数字增益</laAutoDgainValue>
 		  <laNotice>点击对应的图标或标题,设置默认值.</laNotice>
-  		  <laIRDetectionModeTitle>红外检测模式</laIRDetectionModeTitle>
+  		  <laIRDetectionModeTitle>红外设置</laIRDetectionModeTitle>
   		  <opIRDetectionMode0>视频检测</opIRDetectionMode0>
   		  <opIRDetectionMode1>时间控制</opIRDetectionMode1>
   		  <opIRDetectionMode2>光敏电阻检测</opIRDetectionMode2>
@@ -159,11 +180,50 @@
   		  <laIRToNight>转夜晚</laIRToNight>
   		  <btnPwdFreq2>室内</btnPwdFreq2>
   		  <btnPwdFreq3>室外</btnPwdFreq3>
-  		  <t_irdetime>转换时间</t_irdetime>
+  		  <t_irdetime>黑转彩时间</t_irdetime>
   		  <t_irdetimeuint>秒</t_irdetimeuint>
+		  <t_irdetimeuint2>秒</t_irdetimeuint2>
   		  <t_Iris>光圈电平</t_Iris>
+		  <List_2>图像模式</List_2>
+		  <List_4>通透模式</List_4>
+		  <List_6>真彩模式</List_6>
+		  <List_Smart>ISO</List_Smart>
+		  <t_othertime>彩转黑时间</t_othertime>
 		  
 		  <btnSaveSumbit>保存</btnSaveSumbit>
+		  
+		  <opSensorType1>开启</opSensorType1>
+		  <opSensorType2>关闭</opSensorType2>
+		  
+		  <opSensorType3>手动</opSensorType3>
+		  <opSensorType4>自动</opSensorType4>
+		  
+		  <selIRDetectionMode_name>红外模式</selIRDetectionMode_name>
+		  <selAEMaxTime_name>曝光时间</selAEMaxTime_name>
+		  <selScene>场景</selScene>
+		  <selindoor>室内1</selindoor>
+		  <selindoor2>室内2</selindoor2>
+		  <seloutdoor>室外</seloutdoor>
+		   <lairauto>黑转彩</lairauto>
+		   <lairauto2>彩转黑</lairauto2>
+		   <btnCTB_newtype1>彩色</btnCTB_newtype1>
+		   <btnCTB_newtype2>黑白</btnCTB_newtype2>
+		   <btnCTB_newtype3>自动</btnCTB_newtype3>
+		   <smartlowlightname>智能低照</smartlowlightname>
+		   
+		   <laLight>红外灯方向</laLight>
+		   <opLight0>自动</opLight0>
+		   <opLight1>开</opLight1>
+		   <opLight2>关</opLight2>
+		   <la_HLC>强光抑制</la_HLC>
+		   <la_WDRreset>重置</la_WDRreset>
+		   
+		   <autoagc1>自动</autoagc1>
+		   <autoagc2>手动</autoagc2>
+		   <autoagcd1>自动</autoagcd1>
+		   <autoagcd2>手动</autoagcd2>
+		   <autoputime1>自动</autoputime1>
+		   <autoputime2>手动</autoputime2>
 	  </Page>
 	</Resources>
 	<Resources lan='en' name='English'>
@@ -172,7 +232,7 @@
 		  <laHeadTitle>Video Parameter</laHeadTitle>
 		  <laChannel>Chan:</laChannel>
 		  <laChannelSync>Copy to all channels</laChannelSync>
-		  <laColorSet>Images Color</laColorSet>
+		  <laColorSet>Images</laColorSet>
 		  <btnStandardDefault>Standard </btnStandardDefault>
 		  <laStandard>Standard</laStandard>
 		  <btnColorfulDefault>Colorful Default</btnColorfulDefault>
@@ -190,8 +250,8 @@
 		  <laSaturation>Sat.</laSaturation>
 		  <laSaturationDefault>Saturation Default</laSaturationDefault>
 		  <imgAcutanceDefault>Acutance Default</imgAcutanceDefault>
-		  <laAcutance>Acu.</laAcutance>
-		  <laAcutanceDefault>Acutance Default</laAcutanceDefault>
+		  <laAcutance>Sharpness</laAcutance>
+		  <laAcutanceDefault>Sharpness Default</laAcutanceDefault>
 		  <imgRedDefault>Red Default</imgRedDefault>
 		  <laRed>Red</laRed>
 		  <laRedDefault>Red Default</laRedDefault>
@@ -207,7 +267,8 @@
 		  <imgSceneDefault>Scene Default</imgSceneDefault>
 		  <laScene>Scene</laScene>
 		  <laSceneDefault>Scene Default</laSceneDefault>
-		  <laWBTitle>WB</laWBTitle>
+		  <laWBTitle>Advanced</laWBTitle>
+		  <btnAWB_name>WB</btnAWB_name>
 		  <btnAWB>Auto WB</btnAWB>
 		  <laWBRed>WB Red</laWBRed>
 		  <laWBGreen>WB Green</laWBGreen>
@@ -250,16 +311,24 @@
   		  <laToNight>To Night</laToNight>
   		  <laIRLinkage>IR Linkage</laIRLinkage>
   		  <laShutterValue>Shutter Value:</laShutterValue>
-  		  <laOtherTitle>Other</laOtherTitle>
+  		  <laOtherTitle>Basic</laOtherTitle>
+  		  <btnMirror_name>Mirror</btnMirror_name>
   		  <btnMirror>Mirror</btnMirror>
+  		  <btnFlip_name>Flip</btnFlip_name>
   		  <btnFlip>Flip</btnFlip>
+		  <btnPwdFreq_name>Video Standard</btnPwdFreq_name>
   		  <btnAutoFlip>Auto Flip</btnAutoFlip>
   		  <btnPwdFreq4>Out Door</btnPwdFreq4>
+  		  <btnCTB_name>CTB</btnCTB_name>
   		  <btnCTB>CTB</btnCTB>
+  		  <btnWDR_name>WDR</btnWDR_name>
   		  <btnWDR>WDR</btnWDR>
-  		  <laWDRValue>WDR Value</laWDRValue>
+  		  <laWDRValue>WDRStrength</laWDRValue>
+  		  <btnWDR1_new>Low</btnWDR1_new>
   		  <btnWDR1>WDR-Low</btnWDR1>
+  		  <btnWDR2_new>Normal</btnWDR2_new>
   		  <btnWDR2>WDR-Normal</btnWDR2>
+  		  <btnWDR3_new>High</btnWDR3_new>
   		  <btnWDR3>WDR-High</btnWDR3>
   		  <laAutoFocusMode>Under Point Low Lighting Sources Auto Zooming</laAutoFocusMode>
 		  <opAutoFocusMode1>Default AF</opAutoFocusMode1>
@@ -267,27 +336,37 @@
 		  <opAutoFocusMode3>Under point low lighting sources zooming</opAutoFocusMode3>
   		  <btnImageMode0>Image Mode 1</btnImageMode0>
   		  <btnImageMode1>Image Mode 2</btnImageMode1>
+  		  <btnLSC_name>LSC</btnLSC_name>
   		  <btnLSC>LSC</btnLSC>
   		  <btn2DNR>2D-DNR</btn2DNR>
+  		  <btn3DNR_name>3D-DNR</btn3DNR_name>
   		  <btn3DNR>3D-DNR</btn3DNR>
+  		  <btn3DNR1_new>Low</btn3DNR1_new>
   		  <btn3DNR1>Low</btn3DNR1>
+  		  <btn3DNR2_new>Normal</btn3DNR2_new>
   		  <btn3DNR2>Normal</btn3DNR2>
+  		  <btn3DNR3_new>High</btn3DNR3_new>
   		  <btn3DNR3>High</btn3DNR3>
   		  <btnSmartNR>Smart DNR</btnSmartNR>
   		  <laSmartNRValue>Value</laSmartNRValue>
+  		  <btnAntiFogging_name>AntiFogging</btnAntiFogging_name>
   		  <btnAntiFogging>AntiFogging</btnAntiFogging>
   		  <laAntiFalseColor>AntiFalseColor</laAntiFalseColor>
   		  <laAntiFalseColorValue>Value</laAntiFalseColorValue>
+  		  <btnAntiTrembling_name>Image Stabilizer</btnAntiTrembling_name>
   		  <btnAntiTrembling>AntiTrembling</btnAntiTrembling>
-  		  <laRotationTitle>Rotation(Modify the Setting,restart immediately)</laRotationTitle>
+  		  <laRotationTitle>Rotation</laRotationTitle>
   		  <opRotation1>Non-Rotation</opRotation1>
   		  <opRotation2>90 Rotation</opRotation2>
   		  <opRotation3>270 Rotation</opRotation3>
   		  <laIrisTitle>Iris</laIrisTitle>
+		   <btnIris_new>Iris Mode</btnIris_new>
   		  <btnIris0>Non-Auto Iris</btnIris0>
+  		  <btnIris0_new>Non-Auto</btnIris0_new>
   		  <btnIris1>DC Auto Iris</btnIris1>
+  		  <btnIris1_new>DC Auto</btnIris1_new>
   		  <laIrisValue>Iris Value</laIrisValue>
-  		  <btnIris2>Auto Iris Shading</btnIris2>
+  		  <btnIris2_new>Auto Iris Shading</btnIris2_new>
   		  <btnLensShading>Lens Shading</btnLensShading>
   		  <laFocusTitle>Focus</laFocusTitle>
   		  <btnFocus>Auto Focus</btnFocus>
@@ -302,9 +381,10 @@
   		  <laAutoMaxTimeTitle>AE Max Time</laAutoMaxTimeTitle>
   		  <laAutoGCTitle>Maximum AGC</laAutoGCTitle>
   		  <btnAutoAGC>Enable</btnAutoAGC>
-  		  <laAutoAGCValue>Value</laAutoAGCValue>
+  		  <laAutoAGCValue>AGain</laAutoAGCValue>
+		  <laAutoDgainValue>DGain</laAutoDgainValue>
 		  <laNotice>Click the corresponding icon or title, set the default value.</laNotice>
-  		  <laIRDetectionModeTitle>IR Detection Mode</laIRDetectionModeTitle>
+  		  <laIRDetectionModeTitle>IR</laIRDetectionModeTitle>
   		  <opIRDetectionMode0>Video Detection</opIRDetectionMode0>
   		  <opIRDetectionMode1>Time Detection</opIRDetectionMode1>
   		  <opIRDetectionMode2>IR Detection</opIRDetectionMode2>
@@ -325,11 +405,49 @@
   		  <laIRToNight>To Night</laIRToNight>
   		  <btnPwdFreq2>In Door</btnPwdFreq2>
   		  <btnPwdFreq3>Out Door</btnPwdFreq3>
-  		  <t_irdetime>Switching</t_irdetime>
+  		  <t_irdetime>Black-Color</t_irdetime>
   		  <t_irdetimeuint>S</t_irdetimeuint>
+		  <t_irdetimeuint2>S</t_irdetimeuint2>
   		  <t_Iris>Level</t_Iris>
+		  <List_2>Image</List_2>
+		  <List_4>Transparent</List_4>
+		  <List_6>True Color</List_6>
+		  <List_Smart>ISO</List_Smart>
+		  <t_othertime>Color-Black</t_othertime>
 		  
 		  <btnSaveSumbit>Save</btnSaveSumbit>
+		  
+		  <opSensorType1>Open</opSensorType1>
+		  <opSensorType2>Close</opSensorType2>
+		  
+		  <opSensorType3>Manually</opSensorType3>
+		  <opSensorType4>Auto</opSensorType4>
+		  
+		  <selIRDetectionMode_name>IR mode</selIRDetectionMode_name>
+		  <selAEMaxTime_name>Exposure Time</selAEMaxTime_name>
+		  <selScene>Scene</selScene>
+		  <selindoor>Indoor1</selindoor>
+		  <selindoor2>Indoor2</selindoor2>
+		  <seloutdoor>Outdoor</seloutdoor>
+		  <lairauto>Black->Color</lairauto>
+		  <lairauto2>Color->Black</lairauto2>
+		  <btnCTB_newtype1>Color</btnCTB_newtype1>
+		  <btnCTB_newtype2>B and W</btnCTB_newtype2>
+	  	  <btnCTB_newtype3>Auto</btnCTB_newtype3>
+		  <smartlowlightname>Smart Low Light</smartlowlightname>
+		  <laLight>IR Direction</laLight>
+		  <opLight0>Auto</opLight0>
+		  <opLight1>Open</opLight1>
+		  <opLight2>Close</opLight2>
+		  <la_HLC>HLC</la_HLC>
+		  <la_WDRreset>Reset</la_WDRreset>
+		     
+		   <autoagc1>Auto</autoagc1>
+		   <autoagc2>Manually</autoagc2>
+		   <autoagcd1>Auto</autoagcd1>
+		   <autoagcd2>Manually</autoagcd2>
+		   <autoputime1>Auto</autoputime1>
+		   <autoputime2>Manually</autoputime2>
 	  </Page>
 	</Resources>
 </html>

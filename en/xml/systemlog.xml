@@ -24,6 +24,53 @@
 		  <laInfoExplain>说明</laInfoExplain>
 		  <btnSaveSumbit> 保 存 </btnSaveSumbit>
 		  <laPopUpload>数据在处理中，请稍候……</laPopUpload>
+		  <alarmtype1>探头报警</alarmtype1>
+		  <alarmtype2>探头报警消失</alarmtype2>
+		  <alarmtype3>视频移动报警</alarmtype3>
+		  <alarmtype4>视频移动报警消失</alarmtype4>
+		  <alarmtype5>视频遮挡报警</alarmtype5>
+		  <alarmtype6>视频遮挡报警消失</alarmtype6>
+		  <alarmtype7>视频丢失报警</alarmtype7>
+		  <alarmtype8>视频丢失报警消失</alarmtype8>
+		  <alarmtype9>无线探头报警</alarmtype9>
+		  <alarmtype10>无线探头报警消失</alarmtype10>
+		  <alarmtype11>网络故障报警</alarmtype11>
+		  <alarmtype12>网络故障报警消失</alarmtype12>
+		  <alarmtype13>设备启动</alarmtype13>
+		  <alarmtype14>软件复位设备</alarmtype14>
+		  <alarmtype15>运行中硬件复位设备</alarmtype15>
+		  <alarmtype16>运行中通过云台硬件复位设备</alarmtype16>
+		  <alarmtype17>上电硬件复位设</alarmtype17>
+		  <alarmtype18>参数文件异常复位设备</alarmtype18>
+		  <alarmtype19>设备关机</alarmtype19>
+		  <alarmtype20>Venc 编码错误</alarmtype20>
+		  <alarmtype21>PIR报警</alarmtype21>
+		  <alarmtype22>PIR报警消失</alarmtype22>
+		  
+		  <alarmtype23>undefined</alarmtype23>
+		  <alarmtype24>undefined</alarmtype24>
+		  <alarmtype25>undefined</alarmtype25>
+		  <alarmtype26>undefined</alarmtype26>
+		  <alarmtype27>undefined</alarmtype27>
+		  <alarmtype28>undefined</alarmtype28>
+		  <alarmtype29>undefined</alarmtype29>
+		  <alarmtype30>undefined</alarmtype30>
+		  
+		  <alarmtype31>亮度异常报警</alarmtype31>
+		  <alarmtype32>亮度异常报警消失</alarmtype32>
+		  <alarmtype33>视频异常报警</alarmtype33>
+		  <alarmtype34>视频异常报警消失</alarmtype34>
+		  <alarmtype35>越界报警</alarmtype35>
+		  <alarmtype36>越界报警消失</alarmtype36>
+		  <alarmtype37>区域入侵报警</alarmtype37>
+		  <alarmtype38>区域入侵报警消失</alarmtype38>
+		  <alarmtype39>颜色异常报警</alarmtype39>
+		  <alarmtype40>颜色异常报警消失</alarmtype40>
+		  <alarmtype41>声音异常报警</alarmtype41>
+		  <alarmtype42>声音异常报警消失</alarmtype42>
+		  <alarmtype43>遗留物体报警</alarmtype43>
+		  <alarmtype44>遗留物体报警消失</alarmtype44>
+		  
 	  </Page>
 	</Resources>
 	<Resources lan='en' name='English'>
@@ -50,6 +97,53 @@
 		  <laInfoExplain>Explain</laInfoExplain>
 		  <btnSaveSumbit> Save </btnSaveSumbit>
 		  <laPopUpload>In the data processing, please wait……</laPopUpload>
+		  <alarmtype1>Sensor Alarm</alarmtype1>
+		  <alarmtype2>Sensor Alarm Finish</alarmtype2>
+		  <alarmtype3>Motion Alarm</alarmtype3>
+		  <alarmtype4>Motion Alarm Finish</alarmtype4>
+		  <alarmtype5>Shelter Alarm</alarmtype5>
+		  <alarmtype6>Shelter Alarm Finish</alarmtype6>
+		  <alarmtype7>Video Lose Alarm</alarmtype7>
+		  <alarmtype8>Video Lose Alarm Finish</alarmtype8>
+		  <alarmtype9>RF Sensor Alarm</alarmtype9>
+		  <alarmtype10>RF Sensor Alarm Finish</alarmtype10>
+		  <alarmtype11>Net Err Alarm</alarmtype11>
+		  <alarmtype12>Net Err Alarm Finish</alarmtype12>
+		  <alarmtype13>Power On</alarmtype13>
+		  <alarmtype14>Reset Camera By Software</alarmtype14>
+		  <alarmtype15>Reset Camera By HardWare</alarmtype15>
+		  <alarmtype16>Reset Camera By PTZ HardWare</alarmtype16>
+		  <alarmtype17>Reset Camera When PowerOn</alarmtype17>
+		  <alarmtype18>Parameter File Error Auto Reset</alarmtype18>
+		  <alarmtype19>Power off</alarmtype19>
+		  <alarmtype20>Venc Error</alarmtype20>
+		  <alarmtype21>PIR Alarm</alarmtype21>
+		  <alarmtype22>PIR Alarm Finish</alarmtype22>
+		  
+		  <alarmtype23>undefined</alarmtype23>
+		  <alarmtype24>undefined</alarmtype24>
+		  <alarmtype25>undefined</alarmtype25>
+		  <alarmtype26>undefined</alarmtype26>
+		  <alarmtype27>undefined</alarmtype27>
+		  <alarmtype28>undefined</alarmtype28>
+		  <alarmtype29>undefined</alarmtype29>
+		  <alarmtype30>undefined</alarmtype30>
+		  
+		  <alarmtype31>Luma Abnormal Alarm</alarmtype31>
+		  <alarmtype32>Luma Abnormal Alarm Finish</alarmtype32>
+		  <alarmtype33>Video Abnormal Alarm</alarmtype33>
+		  <alarmtype34>Video Abnormal Alarm Finish</alarmtype34>
+		  <alarmtype35>CrossLine Alarm</alarmtype35>
+		  <alarmtype36>CrossLine Alarm Finish</alarmtype36>
+		  <alarmtype37>CrossArea Alarm</alarmtype37>
+		  <alarmtype38>CrossArea Alarm Finish</alarmtype38>
+		  <alarmtype39>Color Abnormal Alarm</alarmtype39>
+		  <alarmtype40>Color Abnormal Alarm Finish</alarmtype40>
+		  <alarmtype41>Sound Abnormal Alarm</alarmtype41>
+		  <alarmtype42>Sound Abnormal Alarm Finish</alarmtype42>
+		  <alarmtype43>LoseObj Alarm</alarmtype43>
+		  <alarmtype44>LoseObj Alarm Finish</alarmtype44>
+		  
 	  </Page>
 	</Resources>
 </html>

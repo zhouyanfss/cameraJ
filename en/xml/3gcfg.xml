@@ -2,8 +2,8 @@
 <html>
 	<Resources lan='cn' name='中文'>
 	  <Page>
-		  <title>3G 设置</title>
-		  <laHeadTitle>3G 设置</laHeadTitle>
+		  <title>4G 设置</title>
+		  <laHeadTitle>4G 设置</laHeadTitle>
 		  <laEnable>开关</laEnable>
 		  <laSignalIntensity>信号强度</laSignalIntensity>
 		  <opSignal1>未知</opSignal1>
@@ -14,9 +14,9 @@
 		  <opSignal6>较强</opSignal6>
 		  <btnRefresh>刷新</btnRefresh>
 		  <btnATCommand>AT 命令</btnATCommand>
-		  <la3GType>3G类型</la3GType>
+		  <la3GType>4G类型</la3GType>
 		  <laPIN>PIN码</laPIN>
-		  <la3GStatus>3G状态</la3GStatus>
+		  <la3GStatus>4G状态</la3GStatus>
 		  <laSIMCardStatus>sim卡状态</laSIMCardStatus>
 		  <laServiceStatus>服务状态</laServiceStatus>
 		  <laNetworkMode>网络模式</laNetworkMode>
@@ -55,8 +55,8 @@
 	</Resources>
 	<Resources lan='en' name='English'>
 	  <Page>
-		  <title>3G Setting</title>
-		  <laHeadTitle>3G Setting</laHeadTitle>
+		  <title>4G Setting</title>
+		  <laHeadTitle>4G Setting</laHeadTitle>
 		  <laEnable>Enable</laEnable>
 		  <laSignalIntensity>Signal Intensity</laSignalIntensity>
 		  <opSignal1>unknown</opSignal1>
@@ -67,9 +67,9 @@
 		  <opSignal6>stronger</opSignal6>
 		  <btnRefresh>Refresh</btnRefresh>
 		  <btnATCommand>AT CMD</btnATCommand>
-		  <la3GType>3G Type</la3GType>
+		  <la3GType>4G Type</la3GType>
 		  <laPIN>PIN</laPIN>
-		  <la3GStatus>3G Status</la3GStatus>
+		  <la3GStatus>4G Status</la3GStatus>
 		  <laSIMCardStatus>SIM Card Status</laSIMCardStatus>
 		  <laServiceStatus>Service Status</laServiceStatus>
 		  <laNetworkMode>Network Mode</laNetworkMode>

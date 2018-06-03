@@ -4,22 +4,52 @@
 	  <Page>
 		  <title>重启设备</title>
 		  <laHeadTitle>重启设备</laHeadTitle>
-		  <laAlert> 单击此按钮将使设备重新启动。</laAlert>
+		  <laAlert> 手动重启系统</laAlert>
 		  <btnSaveSumbit>重启设备</btnSaveSumbit>
 		  <laPasswordTitle>请输入你的登录密码</laPasswordTitle>
 		  <laPassword>密码：</laPassword>
 		  <btnSubmit>确认</btnSubmit>
+		  <lareboot>自动重启</lareboot>
+		  <larebootday>日</larebootday>
+		  <larebootweek>周</larebootweek>
+		  <larebootbypeople>手动</larebootbypeople>
+		  <laRebootalert>自动重启系统</laRebootalert>
+		  <laRebootalert2>在</laRebootalert2>
+		  <weekType0>从不</weekType0>
+		  <weekType1>每日</weekType1>
+		  <weekType2>每周一</weekType2>
+	 	  <weekType3>每周二</weekType3>
+		  <weekType4>每周三</weekType4>
+		  <weekType5>每周四</weekType5>
+	      <weekType6>每周五</weekType6>
+		  <weekType7>每周六</weekType7>
+		  <weekType8>每周日</weekType8>
 	  </Page>
 	</Resources>
 	<Resources lan='en' name='English'>
 	  <Page>
 		  <title>Reboot</title>
 		  <laHeadTitle>Reboot</laHeadTitle>
-		  <laAlert> Click this button will make the Device to restart.</laAlert>
+		  <laAlert> Restart The System Manually </laAlert>
 		  <btnSaveSumbit>Reboot</btnSaveSumbit>
-		  <laPasswordTitle>Please enter your password!</laPasswordTitle>
+		  <laPasswordTitle>Enter password!</laPasswordTitle>
 		  <laPassword>Password：</laPassword>
 		  <btnSubmit>Submit</btnSubmit>
+		  <lareboot>Automatic restart</lareboot>
+		  <larebootday>Day</larebootday>
+		  <larebootweek>Week</larebootweek>
+		  <larebootbypeople>Manual</larebootbypeople>
+		  <laRebootalert> Restart The System Automatically</laRebootalert>
+		  <laRebootalert2>At</laRebootalert2>
+		  <weekType0>Never</weekType0>
+		  <weekType1>Daily</weekType1>
+		  <weekType2>Monday</weekType2>
+	 	  <weekType3>Tuesday</weekType3>
+		  <weekType4>Wednesday</weekType4>
+		  <weekType5>Thursday</weekType5>
+	      <weekType6>Friday</weekType6>
+		  <weekType7>Saturday</weekType7>
+		  <weekType8>Sunday</weekType8>
 	  </Page>
 	</Resources>
 </html>

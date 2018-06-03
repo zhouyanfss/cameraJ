@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<html>
+	<Resources lan='cn' name='中文'>
+	  <Page>
+		  <title>人脸识别.报警设置</title>
+		  <laHeadTitle>人脸识别.报警设置</laHeadTitle>
+		  <laLinkageAlarm>报警设置</laLinkageAlarm>
+		  <laAlarmswitch>报警开关</laAlarmswitch>
+		  <laBlacklistalarm>黑名单报警</laBlacklistalarm>
+		  <laWhitelistalarm>白名单报警</laWhitelistalarm>
+		  <Comparisonsimilarity>比对相似度</Comparisonsimilarity>
+		  <laIOOutput>IO输出</laIOOutput>
+		  <laOutputDuration>报警输出持续时间</laOutputDuration>
+		  <laRecognitionMode>识别模式</laRecognitionMode>
+		  <recognition>一直识别</recognition>
+		  <recognition1>次数识别</recognition1>
+		  <laTime1>布防时间段1</laTime1>
+		  <laTime2>布防时间段2</laTime2>
+		  <laDurationUnit>秒</laDurationUnit>
+		  <opSensorType1>常开</opSensorType1>
+		  <opSensorType2>常闭</opSensorType2>
+		  <btnSensorType02>IO输出类型</btnSensorType02>
+		  <btnSaveSumbit>保存</btnSaveSumbit>
+		  <laOLd09>默认设置</laOLd09>
+	  </Page>
+	</Resources>
+	<Resources lan='en' name='English'>
+	  <Page>
+		  <title>Face recognition black and Alarm setting </title>
+		  <laHeadTitle>FA black and Alarm setting</laHeadTitle>
+		  <laIOOutput>IO Output</laIOOutput>
+		  <laBlacklistalarm>Blacklist alarm</laBlacklistalarm>
+		  <laWhitelistalarm>White list alarm </laWhitelistalarm>
+		  <Comparisonsimilarity>Comparisonsimilarity</Comparisonsimilarity>
+		  <laOutputDuration>Alarm output duration</laOutputDuration>
+		  <laDurationUnit>S</laDurationUnit>
+		  <laRecognitionMode>RecognitionMode</laRecognitionMode>
+		  <recognition>Always identify.</recognition>
+		  <recognition1>Number recognition</recognition1>
+		  <opSensorType1>Normal open</opSensorType1>
+		  <opSensorType2>Normal close</opSensorType2>
+		  <btnSensorType02>IO Output type</btnSensorType02>
+		  <btnSaveSumbit>Save</btnSaveSumbit>
+		  <laOLd09>Reply defaults</laOLd09>
+	  </Page>
+	</Resources>
+</html>
