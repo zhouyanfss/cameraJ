@@ -43,31 +43,66 @@ function initLanguage(){
 }
 function showLogin(){$("lg_out").style.top="0px";$("lg_out").style.display="";$("main").style.display="none";}
 
-function login(username,password){
-	if(!username)
-	{
-		username = $("username").value;
+function login(){
+/*
+	if(document.all.WebCMS.object ==null ) { 
+		        alert(ALERTLOGINif);
+	}
+*/	
+	var pageversion= $("pageversion").value
+	setCookies("pageversion",pageversion,7);
+	var despageversion= $("despageversion").value
+	setCookies("despageversion",despageversion,7);
+	
+	
+	if(pageversion!=1 || despageversion == 2){
+		setCookies("pagerPWD",$("password").value,7);
 	}
 	
-	if(!password)
-	{
-		password = $("password").value;
-	}
 	//登录交互
-	var sURL = "/webs/loginCMS"; 
-	var nRanstr=ranString(8);
-	sURL = "./xml/loginxml.xml"; 
-	sURL = sURL + "?username="+username;
-	sURL = sURL + "&password="+password;
-	sURL = sURL + "&UserID="+nRanstr+"";
+	var sURL = "/webs/loginCMS";
+	var nRanstr	= ranString(8);
+	//sURL = "./xml/loginxml.xml";
+	sURL = sURL + "?username=" + $("username").value;
 	
-	g_xmlhttp.open("get",  sURL,  false);
-	try{
-     g_xmlhttp.responseType = "msxml-document";
-    }catch(e){
-    }
-	SafeHttpSend(g_xmlhttp,  null);
-	//g_xmlhttp.onreadystatechange = function()
+
+	if(despageversion==2){
+		
+		//var pswurl=hex_md5($("password").value); 
+		//var stringvc=$("WebCMS").WebEncryptString($("password").value);
+		
+		//DES加密
+		var deskey = "qXSdHWfbSZaaLeHBRhLgxBiG"; 
+		var stringbe = $("password").value;
+		var pswurl = DES3.encrypt(deskey,stringbe);
+		//-----------------
+	
+		//setCookies("SESSION",stringvc,7);
+		//setCookies("stringmvc",hex_md5(stringvc),7);
+		//setCookies("SESSION",pswurl,7);
+		setCookies("stringmvc",pswurl,7);
+		
+		sURL = sURL + "&password=" + pswurl;//$("password").value;
+	}
+	else if(pageversion==1){
+		var pswurl=hex_md5($("password").value); 
+		var stringvc=$("WebCMS").WebEncryptString($("password").value);
+
+		setCookies("SESSION",stringvc,7);
+		setCookies("stringmvc",hex_md5(stringvc),7);
+		sURL = sURL + "&password=" + pswurl;
+	}else{
+		sURL = sURL + "&password=" + $("password").value;
+	}
+	
+	sURL = sURL + "&pageversion="+pageversion;
+	sURL = sURL + "&UserID="+ nRanstr +"";
+	sURL = sURL + "&ftppassword=YWRtaW4";
+	sURL = sURL + "&despageversion="+despageversion;
+	//alert(sURL);
+	g_xmlhttp.open("get", sURL, false);
+	SafeHttpSend(g_xmlhttp, null);
+	//     g_xmlhttp.onreadystatechange = function()
 	{
 		if (g_xmlhttp.readyState != 4){return false;}
 	}

@@ -28,21 +28,43 @@ var timemode;
 function chgmode(){
 	var i;
 	for(i=0; i<3; i++){
-		if(document.outcfg_frm.updatemode[i].checked == true){timemode = i;}
+		if(document.outcfg_frm.updatemode[i].checked == true){
+			timemode = i;
+		}
+	}
+	if( timemode != "2")
+	{	
+		$("sdt0").disabled="disabled";
+		$("sdt1").disabled="disabled";
+		$("sdt2").disabled="disabled";
+		$("stm0").disabled="disabled";
+		$("stm1").disabled="disabled";
+		$("stm2").disabled="disabled";
+	}else{
+		$("sdt0").disabled="";
+		$("sdt1").disabled="";
+		$("sdt2").disabled="";
+		$("stm0").disabled="";
+		$("stm1").disabled="";
+		$("stm2").disabled="";
 	}
 	switch(timemode){
 	case 0:	
 		$("DivHostTitle").style.display	= "";
 		$("DivHost").style.display		= "";
 		$("DivPortTitle").style.display	= "";
+		$("Divinterval").style.display	= "";
 		$("DivPort").style.display		= "";
+		$("DivintervalText").style.display		= "";
 		$("Trtimezone").style.display	= "";
 	break;
 	case 1:	
 		$("DivHostTitle").style.display	= "none";
 		$("DivHost").style.display		= "none";
 		$("DivPortTitle").style.display	= "none";
+		$("Divinterval").style.display	= "none";
 		$("DivPort").style.display		= "none";
+		$("DivintervalText").style.display		= "none";
 		$("Trtimezone").style.display	= "none";
 		timeC=!1;timeSC=1;
 		putsystime();
@@ -51,7 +73,9 @@ function chgmode(){
 		$("DivHostTitle").style.display	= "none";
 		$("DivHost").style.display		= "none";
 		$("DivPortTitle").style.display	= "none";
+		$("Divinterval").style.display	= "none";
 		$("DivPort").style.display		= "none";
+		$("DivintervalText").style.display		= "none";
 		$("Trtimezone").style.display	= "none";
 		timeC=!1;timeSC=!1;stimer&&clearTimeout(stimer);
 	break;
@@ -59,14 +83,18 @@ function chgmode(){
 		$("DivHostTitle").style.display	= "none";
 		$("DivHost").style.display		= "none";
 		$("DivPortTitle").style.display	= "none";
+		$("Divinterval").style.display	= "none";
 		$("DivPort").style.display		= "none";
+		$("DivintervalText").style.display		= "none";
 		$("Trtimezone").style.display	= "none";
 	break;
 	default:
 		$("DivHostTitle").style.display	= "none";
 		$("DivHost").style.display		= "none";
 		$("DivPortTitle").style.display	= "none";
+		$("Divinterval").style.display	= "none";
 		$("DivPort").style.display		= "none";
+		$("DivintervalText").style.display		= "none";
 		$("Trtimezone").style.display	= "none";
 	break;
 	}
@@ -88,9 +116,9 @@ function init(){
 <body onLoad="parentinit(0,0,0);init()">
 <form id="outcfg_frm" name="outcfg_frm" method="post" action="/webs/sysTimeCfgEx"  style="margin:0px; padding:0px;">
 <div id="divMain">
-	<div class="subtab" style="display:none;">
+	<div class="subtab">
 		<ul>
-			<li class="linow"><LABEL id="laHeadTitle">系统时间</LABEL></li>
+			<li class="linow"><LABEL id="laHeadTitle"></LABEL></li>
 			<li class="laHelp" style="display:none;"></li> 
 		</ul>
 	</div>
@@ -103,24 +131,24 @@ function init(){
 <input name="systemtime" id="systemtime" type="hidden" value="21:36:40">
 				<table width="520" cellpadding="5" cellspacing="1">
                     <tr>
-                    <td width="80" height="30" align="right" id="Tddata"><LABEL id="laDate">系统时间</LABEL></td>
+                    <td width="80" height="30" align="right" id="Tddata"><LABEL id="laDate"></LABEL></td>
                     <td>
 			<span class="timeBox"> 
-			<input type="text" id="sdt0" maxlength=4 name="textfield" class="intyear"/>- 
-			<input type="text" id="sdt1" maxlength=2 name="textfield" class="intime"/>- 
-			<input type="text" id="sdt2" maxlength=2 name="textfield" class="intime"/>
+			<input type="text" id="sdt0" maxlength=4 name="textfield" disabled="disabled" class="intyear"/>- 
+			<input type="text" id="sdt1" maxlength=2 name="textfield" disabled="disabled" class="intime"/>- 
+			<input type="text" id="sdt2" maxlength=2 name="textfield" disabled="disabled" class="intime"/>
 			</span>
 			<span class="timeBox" style="margin-left:8px;">
-				<input type="text" id="stm0" maxlength=2 name="textfield" class="intime" onMouseDown="pasteSetTime()" onKeyDown="pasteSetTime()"/>:
-				<input type="text" id="stm1" maxlength=2 name="textfield" class="intime" onMouseDown="pasteSetTime()" onKeyDown="pasteSetTime()"/>:
-				<input type="text" id="stm2" maxlength=2 name="textfield" class="intime" onMouseDown="pasteSetTime()" onKeyDown="pasteSetTime()"/>
+				<input type="text" id="stm0" maxlength=2 name="textfield" disabled="disabled" class="intime" onMouseDown="pasteSetTime()" onKeyDown="pasteSetTime()"/>:
+				<input type="text" id="stm1" maxlength=2 name="textfield" disabled="disabled" class="intime" onMouseDown="pasteSetTime()" onKeyDown="pasteSetTime()"/>:
+				<input type="text" id="stm2" maxlength=2 name="textfield" disabled="disabled" class="intime" onMouseDown="pasteSetTime()" onKeyDown="pasteSetTime()"/>
 			</span> 
                     </td>
                     </tr>
                 </table>
-				<table width="520" cellpadding="5" cellspacing="1" style="margin-top:12px; margin-left:32px;">
+				<table width="620" cellpadding="5" cellspacing="1" style="margin-top:12px; margin-left:32px;">
 			  <tr  id="Trtimezone">
-				<td width="76" height="30" align="right" id="Tdtimezone"><LABEL id="laTimeZone">时区</LABEL></td>
+				<td width="76" height="30" align="right" id="Tdtimezone"><LABEL id="laTimeZone"></LABEL></td>
 				<td colspan="2" id="Tddata">
 				  <select name="dwTimeZone" size="1" id="dwTimeZone" style="font-size:12; width:450px;">
 				  <option id="opTimeZone0"  value="0">(GMT-12:00) Eniwetok, Kwajalein</option>
@@ -131,8 +159,8 @@ function init(){
 				  <option id="opTimeZone5"  value="5">(GMT-07:00) Arizona, MST (America &amp; Canada)</option>
 				  <option id="opTimeZone6"  value="6">(GMT-06:00) CST (America &amp;Canada), Mexico,Tegucigalpa(Capital of Honduras)</option>
 				  <option id="opTimeZone7"  value="7">(GMT-05:00) Bogota,Lima(Capital of Peru),Quito(Capital of Ecuador)</option>
-				  <option id="opTimeZone8"  value="8">(GMT-05:00) EST(America &amp;Canada), Indiana (East)</option>
-				  <option id="opTimeZone9" value="9">(GMT-04:00) AST(America &amp;Canada), Caracas(Capital of Venezuela), La Paz</option>
+				  <option id="opTimeZone8"  value="8">(GMT-04:30) EST(America &amp;Canada), Indiana (East)</option>
+				  <option id="opTimeZone9"  value="9">(GMT-04:00) AST(America &amp;Canada), Caracas(Capital of Venezuela), La Paz</option>
 				  <option id="opTimeZone10" value="10">(GMT-03:30) Newfoundland</option>
 				  <option id="opTimeZone11" value="11">(GMT-03:00) Buenos Aires(Capital of Argentina),Georgetown, Brasilia</option>
 				  <option id="opTimeZone12" value="12">(GMT-02:00) Mid-Argentina</option>
@@ -150,38 +178,57 @@ function init(){
 				  <option id="opTimeZone24" value="24">(GMT+04:30) Kabul</option>
 				  <option id="opTimeZone25" value="25">(GMT+05:00) St. Katharinen Town, Islamabad, Karachi, Tashkent</option>
 				  <option id="opTimeZone26" value="26">(GMT+05:30) New Delhi</option>
-				  <option id="opTimeZone27" value="27">(GMT+06:00) Astarte, Diamantina, Columbus, Dhaka</option>
-				  <option id="opTimeZone28" value="28">(GMT+07:00) Bangkok, Hanoi, Jakarta</option>
-				  <option id="opTimeZone29" value="29">(GMT+08:00) Beijing, Hongkong, Singapore, Taipei</option>
-				  <option id="opTimeZone30" value="30">(GMT+09:00) Seoul, Tokyo, Yakutsk</option>
-				  <option id="opTimeZone31" value="31">(GMT+09:30) Adelaide, Darwin</option>
-				  <option id="opTimeZone32" value="32">(GMT+10:00) Canberra, Guam, Port Moresby, Vladivostok</option>
-				  <option id="opTimeZone33" value="33">(GMT+11:00) Magellan, Solomon Islands</option>
-				  <option id="opTimeZone34" value="34">(GMT+12:00) Fiji, Kamchatka Peninsula, Marshall Islands, Wellington</option>
+				  <option id="opTimeZone35" value="27">(GMT+05:45) Kathmandu</option>
+				  <option id="opTimeZone27" value="28">(GMT+06:00) Astarte, Diamantina, Columbus, Dhaka</option>
+				  <option id="opTimeZone36" value="29">(GMT+06:30) Yangon</option>
+				  <option id="opTimeZone28" value="30">(GMT+07:00) Bangkok, Hanoi, Jakarta</option>
+				  <option id="opTimeZone29" value="31">(GMT+08:00) Beijing, Hongkong, Singapore, Taipei</option>
+				  <option id="opTimeZone30" value="32">(GMT+09:00) Seoul, Tokyo, Yakutsk</option>
+				  <option id="opTimeZone31" value="33">(GMT+09:30) Adelaide, Darwin</option>
+				  <option id="opTimeZone32" value="34">(GMT+10:00) Canberra, Guam, Port Moresby, Vladivostok</option>
+				  <option id="opTimeZone33" value="35">(GMT+11:00) Magellan, Solomon Islands</option>
+				  <option id="opTimeZone34" value="36">(GMT+12:00) Fiji, Kamchatka Peninsula, Marshall Islands, Wellington</option>
+				  <option id="opTimeZone37" value="37">(GMT+13:00) Nukualofa</option>
 				</select></td>
 			  </tr>
 			  <tr>
 				<td height="30" align="right" id="Tdtimezone"><input name="updatemode" type="radio" onClick="chgmode()" value="0"></td>
-				<td width="136" id="Tdntpt"><LABEL id="laUpdateNtp">通过时间服务器更新</LABEL></td>
-				<td width="314" id="Tdntpt">
-				<div id="DivHostTitle" style="display:none; float:left; width:52px; overflow:hidden; text-align:right;"><LABEL id="laNtpHost">服务器:</LABEL></div>
+				<td width="145" id="Tdntpt"><LABEL id="laUpdateNtp"></LABEL></td>
+				<td style="" width="510" id="Tdntpt">
+				<div id="DivHostTitle" style="display:none; float:left; width:52px; overflow:hidden; text-align:right;"><LABEL id="laNtpHost">:</LABEL></div>
 				<div id="DivHost" style="display:none; float:left; width:150px; overflow:hidden;"><input name="ntpHost" type="text" class="text" id="ntpHost" maxlength="128" /></div>
-				<div id="DivPortTitle" style="display:none; float:left; width:50px; overflow:hidden; text-align:right;"><LABEL id="laNtpPort">端口:</LABEL></div>
+				<div id="DivPortTitle" style="display:none; float:left; width:50px; overflow:hidden; text-align:right;"><LABEL id="laNtpPort">:</LABEL></div>
 				<div id="DivPort" style="display:none; float:left; width:40px; overflow:hidden;"><input name="ntpPort" type="text" class="text" id="ntpPort" maxlength="8" style="width:36px;" />
 				</div>
+				<div id="DivintervalText" style="display:none; float:left; width:50px; overflow:hidden; text-align:right;"><LABEL id="lainterval"></LABEL></div>
+                <div id="Divinterval" style="display:none; float:left; width:65px; overflow:hidden;"><input  type="text" id="laTimeinterval" name="laTimeinterval" style="width:36px;float: left"><label style="float: left" id="laMinutes"></label></div>
 			    </td>
 			  </tr>
 			  <tr>
 				<td height="30" align="right" id="Tdsyncpct"><input name="updatemode" type="radio" onClick="chgmode()" value="1"></td>
-				<td colspan="2" id="Tdsyncpc"><LABEL id="laUpdatePC">与本地电脑同步</LABEL></td>
+				<td colspan="2" id="Tdsyncpc"><LABEL id="laUpdatePC"></LABEL></td>
 			  </tr>
 			  <tr>
 				<td height="30" align="right" id="Tdmanualt"><input name="updatemode" type="radio" onClick="chgmode()" value="2"></td>
-				<td colspan="2" id="Tdmanual"><LABEL id="laUpdateManual">手动设置</LABEL></td>
+				<td colspan="2" id="Tdmanual"><LABEL id="laUpdateManual"></LABEL></td>
 			  </tr>
 			  <tr style="display:none;">
 				<td height="30" align="right" id="Tdsavetimet"><input name="updatemode" type="radio" onClick="chgmode()" value="3" checked></td>
-				<td colspan="2" id="Tdsavetime"><LABEL id="laUpdateMode">保存当前时间日期</LABEL></td>
+				<td colspan="2" id="Tdsavetime"><LABEL id="laUpdateMode"></LABEL></td>
+			  </tr>
+			  
+			  
+			</table>
+			<table>
+			  <tr>
+				<td height="30" align="right" style="width:120px;"><LABEL id="latimechange"></LABEL></td>
+				<td colspan="2">
+					<select name="timezonecon" size="1" id="timezonecon" style="font-size:12; width:40px;">
+						 <option id="timezonecon1" value="0">1</option>
+						 <option id="timezonecon2" value="1">2</option>
+					</select>
+				
+				</td>
 			  </tr>
 			</table>
 				</li>
@@ -194,7 +241,7 @@ function init(){
 		<div class="set_btn" style="padding-left:50px;">
 			<a hidefocus="true" href="javascript:;" id="btnDelete" style="display:none;">恢复默认</a>
 			<a hidefocus="true" href="javascript:;" id="btnRefresh" style="display:none;">刷新</a>
-			<a hidefocus="true" href="javascript:;" id="btnSave"><LABEL id="btnSaveSumbit">确定</LABEL></a>
+			<a hidefocus="true" href="javascript:;" id="btnSave"><LABEL id="btnSaveSumbit"></LABEL></a>
 			<a hidefocus="true" href="javascript:;" id="btnCancel" style="display:none;">取消</a>
 		</div>
 		<div class="boxtap">

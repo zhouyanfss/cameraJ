@@ -13,6 +13,9 @@
 <script type="text/javascript" src="script/language.js"></script>
 <script type="text/javascript" src="script/ajax.js"></script>
 <script type="text/javascript" src="script/flush_string.js"></script>
+<script type="text/javascript" src="jsmain/base64.js"></script>
+<script type="text/javascript" src="jsmain/md5.js"></script>
+<script type="text/javascript" src="jsmain/DES3.js"></script>
 
 <script type="text/javascript" src="jsmain/getcookie.js"></script>
 <script type="text/javascript" src="jsmain/index.js"></script>
@@ -157,6 +160,23 @@
 	<input type="hidden" value="0" 	id="accesscfg"  name="accesscfg" >
 	<input type="hidden" value="0" 	id="smcfg"  	name="smcfg" >
 	<input type="hidden" value="0" 	id="gb28181"  	name="gb28181" >
+	
+	<input type="hidden" value="1" 	id="iswifialarm"  	name="iswifialarm" >
+	<input type="hidden" id="smartface"      name="smartface">
+	<input type="hidden" id="isnetpppoe"     name="isnetpppoe">
+	<input type="hidden" id="isPIR"          name="isPIR">
+	<input type="hidden" id="passwordinit"   name="passwordinit">
+	<input type="hidden" id="pageversion"    name="pageversion">
+	<input type="hidden" id="despageversion" name="despageversion">
+	<input type="hidden" id="ipversion"      name="ipversion">
+	<input type="hidden" id="jingxiang"      name="jingxiang">
+	<input type="hidden" id="fanzhuan"       name="fanzhuan">
+	<input type="hidden" id="xuanzhuan"      name="xuanzhuan">
+	<input type="hidden" id="nEncWidth"      name="nEncWidth">
+	<input type="hidden" id="nEncHeight"     name="nEncHeight">
+	<input type="hidden" id="Smartba"        name="Smartba">
+	
+	<div id="divType"></div>
 </form>
 </div>
 <div class="ie6-out">
@@ -244,8 +264,6 @@
 </div>
 <div id="estopAll" style="display:none;" class="estopAll" ></div>
 <iframe name="btnHit" id="btnHit" src="" align="btnHit" frameborder="0" scrolling="no" style="background-color:#000000;" height="0" width="0"></iframe>
-<% 
-outLoginCMS(); 
-%>
+<%outLoginCMS();%>
 </body>
 </html>
